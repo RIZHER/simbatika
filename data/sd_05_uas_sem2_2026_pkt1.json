@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah gambar silsilah keluarga yang menunjukkan kakek di paling atas, lalu ayah di bawahnya, dan anak paling bawah adalah contoh struktur data...",
+    "o": ["Tumpukan", "Pohon (Tree)", "Antrean", "Kotak"],
+    "a": 1,
+    "e": "Struktur pohon (tree) membantu menggambarkan hubungan bertingkat dari atas (orang tua) ke bawah (anak)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Urutan cara membuat segelas susu coklat: 1) Masukkan susu, 2) Tuang air hangat, 3) Aduk rata. Urutan langkah kegiatan ini dinamakan...",
+    "o": ["Algoritma", "Baterai", "Internet", "Kabel"],
+    "a": 0,
+    "e": "Algoritma adalah urutan langkah kegiatan yang disusun secara berurutan untuk menyelesaikan tugas."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Teknik 'Dekomposisi' dalam memecahkan masalah artinya...",
+    "o": ["Meminta bantuan teman", "Memecah masalah besar menjadi bagian-bagian kecil yang lebih mudah dikerjakan", "Melupakan masalah yang sulit", "Membuat gambar baru"],
+    "a": 1,
+    "e": "Dekomposisi membagi masalah besar (misal: merapikan kamar) menjadi bagian kecil (merapikan kasur, menyapu lantai)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Saat melihat beberapa jenis kucing, kita tahu semuanya kucing karena sama-sama berbulu dan mengeong. Kegiatan mengamati kesamaan ini disebut...",
+    "o": ["Abstraksi", "Pengenalan Pola (Pattern Recognition)", "Pengurangan", "Biner"],
+    "a": 1,
+    "e": "Pengenalan pola melatih kita mencari kesamaan ciri agar lebih cepat memahami sesuatu."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Langkah 'Abstraksi' dalam menggambar rambu lalu lintas tanda larangan masuk parkir adalah...",
+    "o": ["Menggambar jalan raya secara lengkap", "Cukup menggambar huruf 'P' besar yang dicoret merah agar semua orang langsung paham", "Mewarnai semua kertas", "Menggambar mobil mainan"],
+    "a": 1,
+    "e": "Abstraksi adalah mengambil bagian terpenting saja dan membuang hal yang tidak penting agar pesan jelas."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika seekor kelinci ingin mencapai wortel dan ada batu di depannya, ia harus memutar arah. Proses memilih jalan lain ini dinamakan...",
+    "o": ["Percabangan / Pilihan Keputusan", "Perulangan", "Menyerah", "Mundur"],
+    "a": 0,
+    "e": "Dalam logika komputasi, saat bertemu halangan kita melakukan pilihan keputusan (IF-ELSE) untuk mencari jalan alternatif."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah susunan mainan donat lingkaran dari ukuran terbesar di bawah sampai terkecil di atas menerapkan konsep...",
+    "o": ["Antrean (Queue)", "Tumpukan (Stack)", "Jejaring", "Bebas"],
+    "a": 1,
+    "e": "Tumpukan (Stack) menyusun benda ke atas, di mana yang ditaruh paling akhir akan berada di posisi paling atas."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Bilangan yang hanya terdiri dari dua angka saja, yaitu 0 dan 1, yang menjadi bahasa asli komputer disebut...",
+    "o": ["Bilangan Cacah", "Bilangan Biner", "Bilangan Romawi", "Bilangan Desimal"],
+    "a": 1,
+    "e": "Komputer bekerja menggunakan listrik aktif (1) dan mati (0), yang disebut dengan sistem biner."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam barisan anak yang mengantre membeli es krim, siapakah yang akan dilayani terlebih dahulu?",
+    "o": ["Anak paling belakang", "Anak paling depan yang datang pertama kali", "Anak yang berteriak", "Semua anak sekaligus"],
+    "a": 1,
+    "e": "Konsep antrean (First In First Out) mendahulukan orang yang datang pertama kali untuk dilayani."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Komputer menyimpan file tugas sekolah di dalam folder, dan di dalam folder tersebut bisa ada folder lagi. Struktur penyusunan folder ini berbentuk...",
+    "o": ["Lingkaran", "Piramida", "Pohon (Tree Folder)", "Garis lurus"],
+    "a": 2,
+    "e": "Sistem berkas komputer menggunakan struktur pohon untuk mengelompokkan file ke dalam cabang-cabang subfolder."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Bagaimana urutan langkah yang benar untuk menyalakan laptop?",
+    "o": ["1) Buka layar laptop, 2) Tekan tombol Power, 3) Tunggu proses menyala", "1) Tekan Power, 2) Tutup layar, 3) Cabut kabel", "1) Langsung mengetik di keyboard", "1) Menghapus data"],
+    "a": 0,
+    "e": "Algoritma menyalakan laptop harus urut agar perangkat siap digunakan secara aman."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Ketika mengerjakan puzzle gambar yang berantakan, langkah pertama mengumpulkan kepingan pinggiran puzzle yang lurus adalah teknik...",
+    "o": ["Mengabaikan masalah", "Pengelompokan pola (Pattern Recognition)", "Menghapus puzzle", "Membeli puzzle baru"],
+    "a": 1,
+    "e": "Mengelompokkan bagian pinggir puzzle mempermudah perakitan karena mencari ciri pola garis lurus yang sama."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Simbol panah dalam sebuah diagram alur petunjuk arah jalan berfungsi untuk...",
+    "o": ["Menghias gambar", "Menunjukkan alur urutan jalannya kegiatan", "Sebagai penghapus", "Penunjuk warna"],
+    "a": 1,
+    "e": "Panah alur (Flow line) memandu pembaca memahami urutan logis langkah berikutnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Manakah kegiatan di bawah ini yang termasuk berpikir komputasional dalam kehidupan sehari-hari?",
+    "o": ["Makan permen", "Membagi jadwal harian belajar dan bermain agar semuanya beres", "Tidur siang terus-menerus", "Menonton kartun melulu"],
+    "a": 1,
+    "e": "Menyusun jadwal harian melatih kemampuan membuat algoritma dan manajemen tugas secara logis."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam logika komputer, kebalikan dari kondisi 'BENAR' adalah...",
+    "o": ["BETUL", "SALAH", "MUNGKIN", "TIDAK TAHU"],
+    "a": 1,
+    "e": "Komputer mengenal logika biner Boolean: True (Benar) atau False (Salah)."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Perangkat lunak di komputer yang kita gunakan untuk menulis dokumen cerita, makalah, atau tugas karangan adalah...",
+    "o": ["Microsoft Excel", "Microsoft Word", "Windows Media Player", "Paint"],
+    "a": 1,
+    "e": "Microsoft Word dirancang khusus untuk mengetik teks dan mengatur format dokumen kertas tulis."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk menebalkan huruf sebuah kata di Microsoft Word agar terlihat mencolok, kita menekan ikon berlambang huruf...",
+    "o": ["I (Italic)", "U (Underline)", "B (Bold)", "A (Color)"],
+    "a": 2,
+    "e": "Ikon 'B' tebal (Bold) berfungsi membuat teks terpilih menjadi lebih hitam dan tebal."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Ikon bergambar 'Garis Bawah' berlambang huruf 'U' di aplikasi pengetikan berfungsi untuk...",
+    "o": ["Miringkan tulisan", "Memberi garis bawah pada tulisan (Underline)", "Menghapus tulisan", "Mewarnai tulisan"],
+    "a": 1,
+    "e": "'U' singkatan dari Underline, digunakan untuk memberi tanda garis horizontal di bawah teks."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Layanan surat-menyurat secara digital menggunakan internet yang bisa mengirim pesan teks dan file dalam hitungan detik disebut...",
+    "o": ["SMS", "Kantor Pos", "E-mail (Surat Elektronik)", "Telegram"],
+    "a": 2,
+    "e": "E-mail memudahkan kita mengirim surat formal maupun file tugas sekolah secara online dan instan."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Aplikasi gratis dari Google yang bisa kita pakai di browser untuk mencari informasi tugas sekolah adalah...",
+    "o": ["Google Search Engine", "Google Play Store", "Google Maps", "Google Camera"],
+    "a": 0,
+    "e": "Google Search Engine adalah mesin pencari terpopuler untuk menemukan situs web pengetahuan di internet."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Kombinasi tombol keyboard cepat (Shortcut) yang digunakan untuk MENYIMPAN (Save) dokumen kerja agar tidak hilang adalah...",
+    "o": ["Ctrl + C", "Ctrl + V", "Ctrl + S", "Ctrl + Z"],
+    "a": 2,
+    "e": "Ctrl + S singkatan dari Save, sangat penting ditekan berkala agar ketikan kita aman tersimpan di memori."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk menyisipkan gambar ilustrasi pemandangan ke dalam ketikan di Microsoft Word, menu apa yang harus kita klik?",
+    "o": ["Home", "File", "Insert (Sisipkan)", "Layout"],
+    "a": 2,
+    "e": "Menu Insert menyediakan alat untuk menyisipkan Gambar (Pictures), Tabel, Bentuk, dan Grafik ke dokumen."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Ikon bergambar keranjang sampah di desktop komputer tempat menampung berkas-berkas yang baru saja dihapus dinamakan...",
+    "o": ["My Documents", "Google Chrome", "Recycle Bin", "Control Panel"],
+    "a": 2,
+    "e": "Recycle Bin berfungsi sebagai penampungan sementara file terhapus agar masih bisa dipulihkan kembali jika salah hapus."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Bagian di keyboard yang paling panjang di bagian bawah dan berfungsi memberi jarak kosong antar kata saat mengetik disebut tombol...",
+    "o": ["Enter", "Backspace", "Spacebar (Spasi)", "Shift"],
+    "a": 2,
+    "e": "Tombol Spacebar memisahkan satu kata dengan kata berikutnya dengan jarak spasi kosong."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Tombol pada keyboard yang berfungsi untuk memindahkan kursor ke baris baru di bawahnya saat mengetik adalah...",
+    "o": ["Esc", "Enter", "Tab", "Alt"],
+    "a": 1,
+    "e": "Tombol Enter ibarat 'pindah baris baru' agar tulisan kita berlanjut ke paragraf berikutnya."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Ikon gambar kertas dobel atau perintah cepat 'Ctrl + C' digunakan untuk...",
+    "o": ["Menghapus kata", "Menyalin (Copy) teks atau gambar", "Menempel tulisan", "Mencetak dokumen"],
+    "a": 1,
+    "e": "Ctrl + C (Copy) menduplikasi teks terpilih ke memori sementara komputer tanpa menghilangkan aslinya."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Perintah kelanjutan dari Copy, yaitu menaruh atau menempelkan kembali hasil salinan teks ke posisi baru menggunakan shortcut...",
+    "o": ["Ctrl + S", "Ctrl + V (Paste)", "Ctrl + P", "Ctrl + N"],
+    "a": 1,
+    "e": "Ctrl + V (Paste) melengkapi proses penduplikasian dengan menempelkan objek hasil salinan."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk menghapus karakter satu huruf yang terletak di sebelah KIRI kursor ketikan, kita menggunakan tombol...",
+    "o": ["Delete", "Backspace", "Space", "Insert"],
+    "a": 1,
+    "e": "Backspace menghapus mundur ke kiri kursor, sedangkan Delete menghapus karakter di sebelah kanan kursor."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Berikut ini adalah contoh penulisan alamat surel (email) yang benar secara penulisan adalah...",
+    "o": ["andi.gmail.com", "andi@gmail.com", "www.andi.com", "andi spasi gmail"],
+    "a": 1,
+    "e": "Alamat email wajib memuat simbol at '@' yang memisahkan nama pengguna dengan nama penyedia layanan domain."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Nama jenis model gaya huruf tulisan di komputer, misalnya Arial, Times New Roman, atau Calibri dinamakan...",
+    "o": ["Font", "Size", "Style", "Color"],
+    "a": 0,
+    "e": "Font adalah desain bentuk karakter huruf teks yang bisa kita ganti sesuai keinginan."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Bagian komputer yang berbentuk fisik, keras, bisa disentuh, dan bisa dipegang langsung dinamakan...",
+    "o": ["Software", "Hardware (Perangkat Keras)", "Brainware", "Malware"],
+    "a": 1,
+    "e": "Hardware adalah wujud fisik komputer seperti monitor, keyboard, dan mouse."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat masukan komputer yang kita gerakkan menggunakan telapak tangan untuk mengarahkan kursor panah di layar adalah...",
+    "o": ["Keyboard", "Mouse (Tetikus)", "Printer", "Speaker"],
+    "a": 1,
+    "e": "Mouse mendeteksi gerakan tangan dan memiliki tombol klik kiri/kanan untuk memilih perintah di monitor."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Layar televisi komputer yang menampilkan gambar, teks, dan video hasil kerja komputer disebut...",
+    "o": ["Monitor", "CPU", "Scanner", "Proyektor"],
+    "a": 0,
+    "e": "Monitor adalah perangkat keluaran utama untuk menyajikan informasi visual kepada pengguna."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Kotak besar komputer yang memuat 'otak' komputer dan mesin pemroses data dinamakan...",
+    "o": ["Monitor", "CPU / Casing Komputer", "Keyboard", "Printer"],
+    "a": 1,
+    "e": "Casing CPU berisi komponen inti pemrosesan data seperti prosesor, RAM, dan penyimpanan internal."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat untuk mencetak ketikan dari komputer ke media lembar kertas fisik dinamakan...",
+    "o": ["Scanner", "Printer (Pencetak)", "Fotokopi", "Plotter"],
+    "a": 1,
+    "e": "Printer mentransfer teks atau gambar digital dari layar monitor menjadi cetakan tinta di kertas."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat lunak (program) yang tidak berwujud fisik namun bertugas menjalankan perintah komputer disebut...",
+    "o": ["Hardware", "Software", "Keyboard", "Mouse"],
+    "a": 1,
+    "e": "Software berisi kode instruksi sistem digital yang menghidupkan fungsi hardware."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat penyimpanan eksternal berukuran kecil yang mudah dibawa ke mana-mana dan dimasukkan ke kantong untuk menyimpan file sekolah dinamakan...",
+    "o": ["Kabel USB", "Flashdisk", "Kamera", "Handphone"],
+    "a": 1,
+    "e": "Flashdisk adalah memori eksternal portable terpopuler berkapasitas besar yang sangat praktis dibawa."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Sistem operasi berlogo bendera warna-warni yang paling banyak digunakan pada komputer sekolah dan perkantoran saat ini adalah...",
+    "o": ["Android", "Apple iOS", "Windows", "Linux"],
+    "a": 2,
+    "e": "Microsoft Windows mendominasi pasar komputer dunia dengan antarmuka yang sangat ramah pemakai."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah dari benda berikut yang BUKAN merupakan perangkat keras komputer?",
+    "o": ["Monitor", "Game Roblox", "Keyboard", "Mouse"],
+    "a": 1,
+    "e": "Game Roblox adalah Software (aplikasi permainan), bukan benda keras fisik komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat keluaran komputer yang memproduksi suara musik atau penjelasan guru agar terdengar kencang oleh telinga dinamakan...",
+    "o": ["Mikrofon", "Kamera", "Speaker (Pengeras Suara)", "Scanner"],
+    "a": 2,
+    "e": "Speaker memproses sinyal elektrik suara komputer menjadi gelombang suara yang bisa kita dengar."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sebuah sistem kabel yang menghubungkan banyak komputer di seluruh dunia agar bisa saling bertukar data dan mengobrol dinamakan...",
+    "o": ["Listrik", "Bluetooth", "Internet", "Flashdisk"],
+    "a": 2,
+    "e": "Internet adalah jaringan raksasa global yang menghubungkan milyaran komputer dari berbagai belahan bumi."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Layanan internet tanpa kabel yang memancarkan sinyal di sekolah atau cafe agar kita bisa internetan gratis dinamakan...",
+    "o": ["Radio", "Televisi", "Wi-Fi", "Kabel UTP"],
+    "a": 2,
+    "e": "Wi-Fi memancarkan sinyal internet nirkabel gelombang radio sehingga gadget tidak perlu disambung kabel."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tanda di browser berupa 'www' di awal nama alamat situs web merupakan singkatan dari...",
+    "o": ["World Wide Web", "Web Window Wide", "Wide Web World", "Win Web Wide"],
+    "a": 0,
+    "e": "World Wide Web adalah kumpulan sumber daya informasi halaman web yang terhubung global secara luas."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tindakan mengambil atau mendownload gambar lucu dari internet untuk disimpan ke galeri HP dinamakan...",
+    "o": ["Upload", "Download", "Chatting", "Streaming"],
+    "a": 1,
+    "e": "Download mentransfer atau mengunduh berkas dari jaringan internet menuju perangkat penyimpanan lokal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tindakan kita mengirim atau mengunggah foto tugas sekolah ke Google Classroom atau email guru dinamakan...",
+    "o": ["Browsing", "Downloading", "Uploading (Unggah)", "Instalasi"],
+    "a": 2,
+    "e": "Uploading memindahkan berkas dari HP/Laptop kita naik ke peladen internet (Cloud)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Istilah berselancar membuka banyak halaman berita dan ilmu pengetahuan berbeda di internet dinamakan...",
+    "o": ["Streaming", "Browsing", "Gaming", "Typing"],
+    "a": 1,
+    "e": "Browsing adalah petualangan maya membaca isi konten ragam situs web menggunakan browser."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Bahaya terbesar jika kita sering sembarangan mengklik iklan berhadiah palsu saat membuka internet adalah...",
+    "o": ["HP menjadi semakin baru", "Laptop bisa kemasukan virus jahat dan data bisa dicuri", "Mendapatkan uang banyak", "Kuota internet menjadi gratis"],
+    "a": 1,
+    "e": "Iklan palsu sering kali menyembunyikan program jahat (malware) yang merusak sistem gadget kita."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Aplikasi yang kita buka di HP/Laptop untuk bisa berselancar internet, seperti Google Chrome atau Safari, disebut...",
+    "o": ["Web Browser (Peramban Web)", "Web Design", "Website", "Web Server"],
+    "a": 0,
+    "e": "Web Browser adalah gerbang software penterjemah dokumen internet menjadi tayangan ramah mata pembaca."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Layanan menonton video hiburan edukasi secara online langsung tanpa harus mendownload file videonya sampai penuh disebut...",
+    "o": ["Downloading", "Streaming", "Uploading", "Typing"],
+    "a": 1,
+    "e": "Streaming mengalirkan data audio-visual berkelanjutan saat itu juga (seperti YouTube atau Spotify)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Apakah hal pertama yang wajib kita lakukan agar laptop kita bisa membuka YouTube di area sekolah?",
+    "o": ["Mematikan laptop", "Menghubungkan koneksi internet laptop ke jaringan Wi-Fi sekolah", "Membeli mouse baru", "Mengetik nama di Word"],
+    "a": 1,
+    "e": "Koneksi internet Wi-Fi aktif adalah syarat mutlak laptop bisa terhubung ke pintu gerbang dunia maya."
+  }
+]

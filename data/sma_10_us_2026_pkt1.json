@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Metode pengurutan data yang membandingkan dua elemen yang berdekatan dan menukarnya jika tidak berurutan, terus berulang hingga tidak ada lagi pertukaran, disebut...",
+    "o": ["Selection Sort", "Insertion Sort", "Bubble Sort", "Quick Sort"],
+    "a": 2,
+    "e": "Bubble Sort adalah algoritma pengurutan klasik yang bekerja dengan membandingkan data bersebelahan secara bertahap seperti gelembung."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam proses pencarian, metode yang membagi data menjadi dua bagian secara terus menerus untuk menemukan kunci pencarian (data harus terurut) disebut...",
+    "o": ["Linear Search", "Binary Search", "Sequential Search", "Hashing Search"],
+    "a": 1,
+    "e": "Binary Search (Pencarian Biner) sangat efisien (O(log n)) karena selalu mengeliminasi setengah ruang pencarian pada setiap langkah."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah tumpukan koin menerapkan prinsip 'elemen yang terakhir diletakkan akan menjadi yang pertama diambil'. Konsep ini dinamakan...",
+    "o": ["FIFO (First In First Out)", "LIFO (Last In First Out)", "LILO (Last In Last Out)", "FILO (First In Last Out)"],
+    "a": 1,
+    "e": "Stack (Tumpukan) menggunakan aturan LIFO, mirip tumpukan piring di kafetaria atau mekanisme tombol 'Undo' pada editor."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data nonlinear yang terdiri dari kumpulan node yang saling terhubung tanpa membentuk jalur melingkar (siklik) dan memiliki akar tunggal disebut...",
+    "o": ["Graph", "Array", "Tree", "Queue"],
+    "a": 2,
+    "e": "Tree (Pohon) adalah hirarki nonlinear di mana ada satu root node dan tidak memiliki sirkuit tertutup."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Teknik dekomposisi dalam Computational Thinking membantu pemecah masalah dengan cara...",
+    "o": ["Mengabaikan detail masalah yang tidak penting", "Memecah masalah kompleks menjadi bagian-bagian kecil yang lebih sederhana", "Menyusun instruksi berurutan demi solusi otomatis", "Menyamarkan pola masalah agar terlihat generik"],
+    "a": 1,
+    "e": "Dekomposisi adalah fondasi pemecahan masalah dengan memecah komponen kompleks agar mudah dipecahkan secara bertahap."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Proses menyembunyikan detail implementasi yang rumit dan hanya menampilkan karakteristik penting dari suatu sistem disebut...",
+    "o": ["Algoritma", "Pengenalan Pola", "Abstraksi", "Kompilasi"],
+    "a": 2,
+    "e": "Abstraksi menghilangkan kompleksitas teknis yang tidak relevan, membiarkan perancang fokus pada inti permasalahan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Algoritma pencarian sekuensial (Linear Search) memiliki kompleksitas waktu terburuk (Worst-case) sebesar...",
+    "o": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "a": 2,
+    "e": "Linear search memeriksa satu per satu dari awal ke akhir. Kasus terburuk jika data ada di posisi terakhir (n kali cek)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam struktur data antrean (Queue), proses untuk mengeluarkan atau menghapus elemen pertama dari depan antrean disebut...",
+    "o": ["Enqueue", "Pop", "Push", "Dequeue"],
+    "a": 3,
+    "e": "Enqueue menambah data ke belakang antrean, sedangkan Dequeue mengeluarkan data paling depan (FIFO)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Manakah dari urutan berikut yang merupakan contoh algoritma pengurutan dengan teknik Divide and Conquer?",
+    "o": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+    "a": 2,
+    "e": "Merge Sort memecah array menjadi dua bagian, memanggil dirinya sendiri rekursif, lalu menggabungkan kembali secara terurut."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Himpunan A = {A, B, C, D} dan B = {C, D, E, F}. Operasi komplemen relatif A \u2013 B menghasilkan...",
+    "o": ["{A, B}", "{E, F}", "{A, B, E, F}", "{C, D}"],
+    "a": 0,
+    "e": "Selisih A-B membuang semua anggota A yang juga merupakan anggota B. Tersisa {A, B}."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah Graph yang setiap sisinya (edge) memiliki arah dari satu node ke node lainnya disebut...",
+    "o": ["Undirected Graph", "Directed Graph (Digraph)", "Weighted Graph", "Sub Graph"],
+    "a": 1,
+    "e": "Directed graph merepresentasikan hubungan satu arah (seperti 'follow' di sosial media)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika kita melakukan konversi bilangan desimal 25 ke bilangan biner, hasil yang benar adalah...",
+    "o": ["11001", "10011", "11100", "11010"],
+    "a": 0,
+    "e": "25 = 16 + 8 + 1. Di biner posisinya adalah 16 (2^4), 8 (2^3), dan 1 (2^0). Menjadi 11001."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Representasi bilangan heksadesimal '2A' jika diubah ke dalam sistem bilangan desimal bernilai...",
+    "o": ["32", "42", "26", "44"],
+    "a": 1,
+    "e": "Hex 2A = (2 * 16^1) + (A * 16^0) = 32 + 10 = 42."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Langkah-langkah logis penyelesaian masalah yang ditulis menggunakan gabungan kode dan bahasa manusia sehari-hari disebut...",
+    "o": ["Sintaks", "Flowchart", "Pseudocode", "Biner"],
+    "a": 2,
+    "e": "Pseudocode dirancang agar mudah dibaca manusia sebelum diimplementasikan penuh ke kode pemrograman asli."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Bagaimana urutan langkah Bubble Sort untuk mengurutkan array [3, 1, 2] dari kecil ke besar pada putaran pertama?",
+    "o": ["[1, 2, 3]", "[1, 3, 2]", "[3, 2, 1]", "[2, 1, 3]"],
+    "a": 1,
+    "e": "Langkah awal bandingkan 3 dan 1 -> tukar ([1, 3, 2]). Bandingkan 3 dan 2 -> tukar ([1, 2, 3]). Maka setelah operasional awal [1, 3, 2]."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Teknik menyalin objek grafis dari Excel, kemudian menempelkannya ke Microsoft Word dengan opsi 'Link Data' bertujuan agar...",
+    "o": ["Ukuran berkas Microsoft Word mengecil", "Grafik di Word otomatis terupdate saat nilai tabel di Excel diubah", "Grafik di Word berubah permanen menjadi gambar JPEG", "Data Excel terhapus secara otomatis demi privasi"],
+    "a": 1,
+    "e": "Metode linking membuat referensi dinamis, mempertahankan integritas perubahan data di file sumber asal."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Fitur pada aplikasi perkantoran untuk menggabungkan daftar penerima surat massal dengan naskah surat induk disebut...",
+    "o": ["Hyperlink", "Embed Object", "Mail Merge", "Track Changes"],
+    "a": 2,
+    "e": "Mail Merge sangat krusial untuk pembuatan surat, label undangan, atau sertifikat massal berformat otomatis."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Aplikasi pengolah presentasi memungkinkan kita mengatur transisi slide otomatis. Menu pengaturan durasi jeda slide disebut...",
+    "o": ["Slide Layout", "Timing / Rehearse Timings", "Design Variant", "Slide Sorter"],
+    "a": 1,
+    "e": "Timing menetapkan berapa detik suatu slide tampil di layar sebelum berganti ke slide selanjutnya tanpa intervensi klik mouse."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Format penyimpanan portabel yang diakui secara global untuk mendistribusikan dokumen teks agar tata letaknya tidak berubah saat dibuka di perangkat berbeda adalah...",
+    "o": [".docx", ".txt", ".pdf (Portable Document Format)", ".rtf"],
+    "a": 2,
+    "e": "PDF mengunci elemen visual dan font dokumen agar konsisten dibuka di sistem operasi manapun."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Mesin pencari Google menggunakan simbol tanda kutip ganda (\"kata\") saat melakukan searching untuk maksud...",
+    "o": ["Mengecualikan kata tersebut dari pencarian", "Mencari dokumen berbentuk berkas gambar saja", "Mencari frasa yang sama persis dengan urutan yang ditulis", "Menemukan arti kata di kamus"],
+    "a": 2,
+    "e": "Tanda kutip ganda mengaktifkan 'exact match searching', memaksa mesin pencari menemukan urutan kata yang absolut sama."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Integrasi konten aplikasi perkantoran dapat dilakukan melalui Object Linking and Embedding (OLE). Apakah kelemahan utama dari metode Linking?",
+    "o": ["File sumber memakan memori dua kali lipat", "Jika lokasi berkas sumber dipindah atau dihapus, tautan pada berkas tujuan akan rusak/rusak", "Format teks tidak bisa dirubah", "File dokumen tidak bisa diprint"],
+    "a": 1,
+    "e": "Metode linking bergantung penuh pada lokasi path path absolut file referensi. Jika direktori diubah, link akan error."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Di Microsoft Word, menu yang digunakan untuk membuat Daftar Isi secara otomatis berdasarkan penamaan gaya (Heading) dinamakan...",
+    "o": ["Insert -> Table", "References -> Table of Contents", "Layout -> Margins", "Review -> Tracking"],
+    "a": 1,
+    "e": "Table of Contents otomatis menghemat waktu penyusunan karya ilmiah dengan mengekstrak struktur Heading Level."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Fitur kolaborasi cloud pada Google Workspace yang mengizinkan beberapa pengguna mengedit spreadsheet yang sama secara online dinamakan...",
+    "o": ["Offline Sync", "Co-Authoring / Real-time Collaboration", "Cloud Print", "Data Extraction"],
+    "a": 1,
+    "e": "Fitur ini memfasilitasi kerja sama tim dalam waktu bersamaan dengan indikator kursor warna masing-masing editor."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Dalam MS Excel, ikon bergambar sapu kecil bernama 'Format Painter' memiliki kegunaan untuk...",
+    "o": ["Menghapus data permanen", "Mengecat warna tulisan", "Menyalin gaya format sel (bukan isinya) ke sel lain", "Memperbaiki rumus yang rusak"],
+    "a": 2,
+    "e": "Format Painter membantu standarisasi visual dokumen dengan menyalin format warna, border, font, dan ukuran sel secara kilat."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Operator pencarian Boolean yang digunakan untuk mencari dokumen yang mengandung salah satu dari dua kata kunci pilihan adalah...",
+    "o": ["AND", "OR", "NOT", "NAND"],
+    "a": 1,
+    "e": "Operator OR memperluas hasil pencarian dengan mengembalikan laman yang berisi minimal salah satu kriteria."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Komponen komputer yang sering disebut sebagai 'otak' dari sistem komputer adalah...",
+    "o": ["Hard disk", "RAM", "CPU (Central Processing Unit)", "Power Supply"],
+    "a": 2,
+    "e": "CPU bertanggung jawab atas semua pemrosesan instruksi kalkulasi dasar maupun kompleks komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Jenis memori penyimpanan data komputer yang bersifat volatile (sementara), yang berarti isinya hilang saat komputer dimatikan adalah...",
+    "o": ["Hard disk Drive (HDD)", "Random Access Memory (RAM)", "Read Only Memory (ROM)", "Solid State Drive (SSD)"],
+    "a": 1,
+    "e": "RAM hanya berfungsi menampung data aktif sementara untuk mempercepat akses pengerjaan CPU."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat lunak jembatan yang menghubungkan perangkat keras (hardware) komputer dengan perangkat lunak aplikasi disebut...",
+    "o": ["User Application", "Utility Tools", "Operating System (Sistem Operasi)", "Web Browser"],
+    "a": 2,
+    "e": "OS (seperti Windows, Linux, macOS) bertugas memanajemen seluruh sumber daya fisik hardware agar dikenali aplikasi."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Penerjemahan instruksi program biner di CPU sebelum instruksi tersebut benar-benar dijalankan terjadi pada fase siklus...",
+    "o": ["Fetch", "Decode", "Execute", "Store"],
+    "a": 1,
+    "e": "Fase Decode menerjemahkan kode operasi biner (Opcode) ke sinyal kontrol yang dipahami oleh logika internal CPU."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perbedaan fundamental antara HDD (Hard Disk Drive) dengan SSD (Solid State Drive) terletak pada...",
+    "o": ["Bentuk ukurannya saja", "SSD menggunakan keping piringan cakram magnetik berputar", "SSD menggunakan teknologi chip flash memory sirkuit terpadu tanpa ada bagian bergerak mekanik", "HDD lebih mahal harganya"],
+    "a": 2,
+    "e": "Ketiadaan komponen fisik bergerak membuat SSD memiliki kecepatan baca/tulis data jauh lebih tinggi dan tahan benturan."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Sistem bilangan yang hanya mengenal simbol angka 0 sampai 7 disebut sistem bilangan...",
+    "o": ["Biner", "Oktal", "Desimal", "Heksadesimal"],
+    "a": 1,
+    "e": "Sistem Oktal menggunakan radiks/basis 8, dengan nilai representasi simbol 0, 1, 2, 3, 4, 5, 6, dan 7."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Unit aritmatika dan logika (ALU) pada prosesor melakukan operasi aritmatika dan perbandingan. Manakah yang termasuk operasi perbandingan?",
+    "o": ["Penjumlahan", "Perkalian", "Sama Dengan / Lebih Besar Dari", "Pengurangan"],
+    "a": 2,
+    "e": "Operasi perbandingan menentukan relasi logika antaroperand (kurang dari, lebih dari, sama dengan)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Program firmware paling awal yang dijalankan komputer saat tombol power ditekan untuk memeriksa kesiapan hardware dinamakan...",
+    "o": ["Windows Explorer", "Microsoft Office", "BIOS / UEFI", "Google Chrome"],
+    "a": 2,
+    "e": "BIOS melakukan proses POST (Power On Self Test) sebelum menyerahkan kendali bootloader ke Sistem Operasi."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah gerbang logika yang keluarannya akan bernilai 0 jika seluruh masukannya bernilai 1?",
+    "o": ["AND", "OR", "NAND", "NOR"],
+    "a": 2,
+    "e": "Gerbang NAND adalah NOT AND, membalikkan hasil logika AND. (1 AND 1) = 1, dinagasi menjadi 0."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Gerbang logika NOR menghasilkan keluaran bernilai 1 HANYA JIKA...",
+    "o": ["Kedua masukannya bernilai 1", "Salah satu masukannya bernilai 1", "Kedua masukannya bernilai 0", "Semua masukan bernilai berbeda"],
+    "a": 2,
+    "e": "NOR (Not OR) hanya mengeluarkan logika benar saat tidak ada satupun inputan yang bernilai benar (semua 0)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Interaksi antar muka berbasis grafis di mana pengguna berinteraksi dengan elemen visual (ikon, tombol, menu dropdown) disebut...",
+    "o": ["CLI", "GUI", "API", "FTP"],
+    "a": 1,
+    "e": "Graphical User Interface (GUI) didesain ramah pengguna awam tanpa perlu mengetik perintah kode teks."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Fungsi utama sistem operasi dalam manajemen memori adalah...",
+    "o": ["Menulis email", "Mengatur alokasi ruang RAM untuk proses aplikasi yang sedang berjalan agar tidak tumpang tindih", "Mempercepat koneksi internet", "Mencetak dokumen ke printer"],
+    "a": 1,
+    "e": "Memory Management melacak tiap byte RAM, menentukan kapan memori diisi atau dibebaskan untuk proses CPU."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Kombinasi unit masukan (input device) komputer di bawah ini yang BENAR adalah...",
+    "o": ["Monitor, Printer, Speaker", "Keyboard, Mouse, Scanner", "RAM, Processor, HDD", "VGA, Soundcard, Motherboard"],
+    "a": 1,
+    "e": "Keyboard, mouse, dan scanner bertugas mengirim instruksi data mentah masuk dari dunia nyata menuju komputer."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jaringan komputer dengan cakupan wilayah geografis terluas di seluruh penjuru dunia yang saling terhubung secara global adalah...",
+    "o": ["LAN (Local Area Network)", "MAN (Metropolitan Area Network)", "WAN (Wide Area Network)", "Internet"],
+    "a": 3,
+    "e": "Internet adalah super-jaringan yang menyatukan LAN, MAN, dan WAN di seluruh benua secara terbuka."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Perangkat jaringan komputer yang bertugas menghubungkan beberapa komputer dalam LAN tunggal dan menyalurkan data tepat sasaran berdasarkan alamat MAC address disebut...",
+    "o": ["Router", "Switch", "Hub", "Repeater"],
+    "a": 1,
+    "e": "Switch bekerja di Data Link Layer (OSI Layer 2) dan lebih cerdas dibanding Hub karena menyalurkan paket data spesifik ke port tujuan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Protokol standar internet yang bertugas mentransmisikan konten halaman web hiperteks yang telah dienkripsi aman oleh sertifikat TLS dinamakan...",
+    "o": ["FTP", "HTTP", "HTTPS", "SMTP"],
+    "a": 2,
+    "e": "HTTPS (Hypertext Transfer Protocol Secure) menyandikan lalu lintas data browser-server agar terlindung dari penyadapan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Metode enkripsi asimetris menggunakan pasangan kunci yang unik untuk proses penyandian data, yaitu...",
+    "o": ["Kunci Rahasia dan Kunci Tersembunyi", "Kunci Publik dan Kunci Privat", "Kunci Pertama dan Kunci Kedua", "Kunci Manual dan Kunci Digital"],
+    "a": 1,
+    "e": "Kunci Publik dibagikan untuk proses mengenkripsi, sedangkan Kunci Privat disimpan rahasia oleh penerima untuk mendekripsi data."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sistem penamaan unik yang menerjemahkan alamat numerik IP address (seperti 142.250.190.46) menjadi nama domain teks (seperti google.com) disebut...",
+    "o": ["DHCP", "DNS (Domain Name System)", "TCP", "UDP"],
+    "a": 1,
+    "e": "DNS ibarat buku telepon internet yang memudahkan pengguna mengingat kata daripada deretan angka IP rumit."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jenis topologi jaringan di mana seluruh komputer klien terhubung langsung secara terpusat ke sebuah node hub/switch utama membentuk pola bintang dinamakan...",
+    "o": ["Topologi Bus", "Topologi Ring", "Topologi Star", "Topologi Mesh"],
+    "a": 2,
+    "e": "Topologi Star sangat populer di sekolah/kantor karena jika satu kabel klien putus, jaringan komputer lainnya tetap jalan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sebuah ancaman kejahatan siber di mana peretas menyelipkan dirinya di tengah-tengah percakapan jaringan korban untuk memonitor lalu lintas data diam-diam dinamakan...",
+    "o": ["Distributed Denial of Service (DDoS)", "Man-in-the-Middle Attack (MitM)", "SQL Injection", "Brute Force Attack"],
+    "a": 1,
+    "e": "MitM mencegat pertukaran kunci data, sering kali terjadi pada router Wi-Fi publik yang tidak diproteksi password."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Manakah media transmisi jaringan berkabel yang menggunakan pulsa cahaya untuk mentransfer data dalam kecepatan sangat tinggi?",
+    "o": ["Kabel Coaxial", "Kabel Twisted Pair UTP", "Kabel Fiber Optik", "Gelombang Mikro"],
+    "a": 2,
+    "e": "Fiber Optik memiliki bandwidth raksasa dan tahan interferensi elektromagnetik karena menggunakan cahaya di dalam silika murni."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Rentang nilai alamat IPv4 standar dituliskan dalam empat buah bilangan desimal (oktet) yang dipisahkan oleh tanda titik. Batasan nilai maksimum per oktet adalah...",
+    "o": ["128", "255", "256", "1024"],
+    "a": 1,
+    "e": "IPv4 terdiri dari 32 bit (4 byte). 1 byte = 8 bit. Nilai maksimum biner 8 bit (11111111) = 255 desimal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Konsep enkripsi kriptografi paling dasar, yaitu Caesar Cipher, merupakan salah satu contoh kategori algoritma enkripsi tipe...",
+    "o": ["Enkripsi Asimetris", "Enkripsi Simetris (Symmetric Key)", "Hashing Tanpa Kunci", "Block Cipher Modern"],
+    "a": 1,
+    "e": "Enkripsi simetris menggunakan kunci rahasia tunggal yang sama persis baik untuk proses mengenkripsi maupun mendekripsi."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Salah satu fitur sistem keamanan pada router atau komputer yang bertugas memeriksa dan menyaring paket data yang masuk atau keluar jaringan sesuai aturan kebijakan dinamakan...",
+    "o": ["Antivirus", "Firewall", "Spam Filter", "Adware Blocker"],
+    "a": 1,
+    "e": "Firewall berperan seperti benteng penjaga gerbang pelindung sistem internal dari ancaman luar internet."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jaringan lokal tanpa kabel (Wireless LAN) umumnya memancarkan sinyal data internet menggunakan teknologi gelombang radio berstandar IEEE 802.11, yang populer dengan nama...",
+    "o": ["Bluetooth", "NFC", "Wi-Fi", "Inframerah"],
+    "a": 2,
+    "e": "Wi-Fi adalah lisensi dagang terpopuler untuk implementasi konektivitas jaringan area lokal nirkabel."
+  }
+]

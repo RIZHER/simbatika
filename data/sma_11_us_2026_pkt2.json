@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Model referensi teoretis yang membagi tahapan komunikasi jaringan komputer menjadi 7 lapisan logis mandiri dinamakan...",
+    "o": ["TCP/IP Model", "OSI Model (Open Systems Interconnection)", "Harvard Model", "IEEE Standard"],
+    "a": 1,
+    "e": "Model OSI membantu standardisasi protokol komunikasi komputer internasional ke dalam 7 layer diskrit (Physical s/d Application)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Lapisan (Layer) pada model OSI yang bertanggung jawab untuk merutekan (routing) paket data melintasi jaringan berbeda berdasarkan alamat logika IP adalah...",
+    "o": ["Data Link Layer", "Transport Layer", "Network Layer", "Session Layer"],
+    "a": 2,
+    "e": "Network Layer (Layer 3) menangani pengalamatan logika IP Address dan pemilihan jalur routing transmisi data global."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Perangkat switch dan bridge bekerja di lapisan model OSI yang bernama...",
+    "o": ["Physical Layer", "Data Link Layer", "Network Layer", "Transport Layer"],
+    "a": 1,
+    "e": "Data Link Layer (Layer 2) memproses frame data fisik berbasis MAC Address mesin lokal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Protokol Transport Layer yang berorientasi koneksi (connection-oriented), andal, dan memastikan seluruh paket data sampai secara utuh dan berurutan dinamakan...",
+    "o": ["UDP (User Datagram Protocol)", "TCP (Transmission Control Protocol)", "IP (Internet Protocol)", "ICMP"],
+    "a": 1,
+    "e": "TCP menjamin keandalan pengiriman data dengan mekanisme jabat tangan (three-way handshake) dan pengiriman ulang jika ada paket hilang."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Protokol jaringan kriptografi yang sangat aman untuk mengoperasikan layanan desktop jarak jauh (remote login) via CLI yang terenkripsi penuh adalah...",
+    "o": ["Telnet", "FTP", "SSH (Secure Shell)", "HTTP"],
+    "a": 2,
+    "e": "SSH menggantikan Telnet yang tidak aman, karena seluruh data teks sandi dan perintah transit dikodekan secara kriptografis."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Skema pengamanan jaringan nirkabel Wi-Fi tercanggih saat ini yang menggunakan enkripsi AES 192-bit dan sistem jabat tangan SAE dinamakan...",
+    "o": ["WEP", "WPA", "WPA2", "WPA3"],
+    "a": 3,
+    "e": "WPA3 menghadirkan peningkatan ketahanan signifikan terhadap serangan tebakan offline kata kunci wifi (Brute Force Dictionary Attack)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sebuah metode serangan siber yang membanjiri server dengan lalu lintas data palsu dari ribuan komputer terinfeksi (Botnet) agar server kelebihan beban dinamakan...",
+    "o": ["Phishing Attack", "Man-in-the-Middle Attack", "DDoS (Distributed Denial of Service)", "SQL Injection"],
+    "a": 2,
+    "e": "DDoS melumpuhkan ketersediaan layanan target dengan membombardir bandwidth dan CPU server hingga tumbang."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Protokol dinamis yang bertugas meminjamkan konfigurasi alamat IP, Netmask, dan DNS secara otomatis kepada komputer klien baru dinamakan...",
+    "o": ["DNS", "DHCP (Dynamic Host Configuration Protocol)", "NAT", "FTP"],
+    "a": 1,
+    "e": "DHCP menghemat waktu administrator dengan mengotomatisasi distribusi alamat IP di seluruh jaringan lokal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Alat jaringan perangkat lunak/keras yang mengubah alamat IP privat lokal di LAN menjadi alamat IP publik yang valid untuk internet dinamakan...",
+    "o": ["Proxy Server", "NAT (Network Address Translation)", "VLAN", "Gateway"],
+    "a": 1,
+    "e": "NAT memungkinkan ratusan komputer lab sekolah berbagi satu IP Publik langganan ISP yang sama demi efisiensi alokasi IP."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Lapisan model OSI yang menjamin data yang diterima oleh komputer tujuan disajikan dalam format yang dapat dibaca dan dipahami (enkripsi, kompresi, ASCII) adalah...",
+    "o": ["Application Layer", "Presentation Layer", "Session Layer", "Transport Layer"],
+    "a": 1,
+    "e": "Presentation Layer (Layer 6) bertindak sebagai penerjemah format representasi data agar kompatibel antar-sistem."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sertifikat keamanan digital yang digunakan situs web untuk membuktikan identitas kepemilikan asli sekaligus mengaktifkan enkripsi HTTPS adalah...",
+    "o": ["HTML Certificate", "SSL / TLS Certificate", "MAC Signature", "IP Token"],
+    "a": 1,
+    "e": "Sertifikat TLS (Transport Layer Security) dikeluarkan oleh Otoritas Sertifikat (CA) untuk meyakinkan pengguna bahwa situs aman."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jenis topologi jaringan di mana setiap komputer saling terhubung langsung (point-to-point) dengan semua komputer lainnya sehingga toleransi kesalahannya tertinggi disebut...",
+    "o": ["Ring", "Bus", "Mesh (Penuh/Full Mesh)", "Star"],
+    "a": 2,
+    "e": "Topologi Mesh menawarkan keandalan maksimum karena jika satu jalur kabel putus, masih ada ratusan jalur alternatif langsung lainnya."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Istilah siber untuk perangkat lunak berbahaya yang mengunci enkripsi semua data hard disk korban dan menuntut pembayaran uang tebusan cryptocurrency (Bitcoin) dinamakan...",
+    "o": ["Trojan Horse", "Adware", "Ransomware", "Spyware"],
+    "a": 2,
+    "e": "Ransomware melumpuhkan sistem rumah sakit atau korporasi dengan menyandera data bisnis demi pemerasan uang."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Dalam pengalamatan IPv4, fungsi dari subnet mask '255.255.255.0' adalah...",
+    "o": ["Mempercepat kecepatan Wi-Fi", "Menentukan porsi Network ID dan Host ID dari suatu alamat IP", "Menyembunyikan riwayat browser", "Mencegah virus masuk"],
+    "a": 1,
+    "e": "Subnet mask digunakan router untuk memisahkan identitas jaringan (network) dan identitas fisik alat (host)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Kategori enkripsi modern di mana enkripsi dan dekripsi data dilakukan menggunakan kunci rahasia yang sama persis dinamakan enkripsi...",
+    "o": ["Asimetris", "Simetris", "Hashing", "Digital Signature"],
+    "a": 1,
+    "e": "Enkripsi simetris (seperti AES) sangat cepat prosesnya, namun memiliki kelemahan distribusi pertukaran kunci aman."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Proses mengekstrak, menganalisis, dan menemukan pola-pola tersembunyi yang berharga dari kumpulan data berukuran sangat besar disebut...",
+    "o": ["Data Entry", "Data Mining", "Data Encryption", "Data Typing"],
+    "a": 1,
+    "e": "Data mining menggunakan algoritma statistika dan kecerdasan buatan untuk meramalkan perilaku atau mengklasifikasikan tren masa depan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Kategori pembelajaran mesin (Machine Learning) di mana komputer dilatih menggunakan data latih yang telah diberi label jawaban yang benar dinamakan...",
+    "o": ["Unsupervised Learning", "Supervised Learning (Pembelajaran Terarah)", "Reinforcement Learning", "Semi-supervised Learning"],
+    "a": 1,
+    "e": "Supervised learning melatih model dengan pasangan masukan-keluaran (misal gambar kucing berlabel 'kucing') agar model pintar menebak data baru."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Contoh algoritma klasik unsupervised learning yang digunakan untuk mengelompokkan data tanpa label menjadi kelompok-kelompok (clusters) kemiripan tertentu adalah...",
+    "o": ["Linear Regression", "Decision Tree", "K-Means Clustering", "Naïve Bayes"],
+    "a": 2,
+    "e": "K-Means mempartisi data tak berlabel ke dalam K kelompok terdekat berdasarkan rata-rata pusat (centroid) klaster data."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Cabang ilmu kecerdasan buatan (AI) yang dirancang untuk meniru arsitektur jaringan saraf biologis otak manusia dinamakan...",
+    "o": ["Expert Systems", "Fuzzy Logic", "Artificial Neural Networks (Jaringan Saraf Tiruan)", "Genetic Algorithms"],
+    "a": 2,
+    "e": "Jaringan saraf tiruan melandasi teknologi canggih Deep Learning untuk pengenalan suara, gambar, dan kemudi mobil otonom."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Nilai pencilan atau ekstrim yang posisinya menyimpang sangat jauh dari kumpulan titik data lainnya dalam analisis statistik dinamakan...",
+    "o": ["Mean", "Outlier", "Variance", "Deviation"],
+    "a": 1,
+    "e": "Outlier (Pencilan) wajib dianalisis hati-hati karena berpotensi mendistorsi nilai rata-rata atau menandakan adanya anomali transaksi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam evaluasi klasifikasi, rasio jumlah tebakan prediksi positif yang benar terhadap keseluruhan total data yang sebenarnya positif dinamakan...",
+    "o": ["Accuracy", "Precision", "Recall (Sensitivity)", "F1-Score"],
+    "a": 2,
+    "e": "Recall mengukur seberapa andal model menemukan kembali seluruh kasus positif yang ada di dunia nyata."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Proses mengubah variabel data kategorikal non-angka (seperti 'Laki-laki' / 'Perempuan') menjadi representasi nilai biner angka (1/0) agar bisa diproses algoritma dinamakan...",
+    "o": ["Data Aggregation", "Feature Encoding (One-Hot Encoding)", "Data Splitting", "Normalisasi"],
+    "a": 1,
+    "e": "Algoritma komputasi hanya memahami bahasa angka, sehingga konversi string ke representasi biner angka mutlak diperlukan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Algoritma statistika sederhana yang memprediksi nilai kontinu (angka) berdasarkan hubungan garis lurus linear variabel bebas dinamakan...",
+    "o": ["Logistic Regression", "Linear Regression", "K-Nearest Neighbors", "Random Forest"],
+    "a": 1,
+    "e": "Regresi Linear memprediksi target angka (seperti harga rumah) berdasarkan variabel penentunya (luas tanah)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Kondisi di mana model Machine Learning sangat akurat mengenali data latih namun gagal total/tidak akurat saat diuji pada data baru dinamakan...",
+    "o": ["Underfitting", "Overfitting", "Tuning", "Cross Validation"],
+    "a": 1,
+    "e": "Overfitting terjadi karena model terlalu 'menghafal' detail kebisingan noise data latih secara kaku sehingga kehilangan nalar generalisasi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Tahap pemrosesan awal pada text mining (pemrosesan bahasa alami) yang membuang kata sandang atau sambung umum tak bernakna (seperti: yang, di, ke, dari) disebut...",
+    "o": ["Tokenization", "Stemming", "Stopwords Removal", "Lemmatization"],
+    "a": 2,
+    "e": "Menghapus stopwords mereduksi dimensi data tekstual agar fokus hanya pada kata bermakna inti utama."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Untuk menghindari bias pengujian model, data yang kita miliki biasanya dipisah secara acak menjadi dua porsi porsi utama, yaitu...",
+    "o": ["Data Kualitatif & Kuantitatif", "Data Utama & Data Cadangan", "Data Training & Data Testing", "Data Primer & Sekunder"],
+    "a": 2,
+    "e": "Data Training untuk mengajar model, sedangkan Data Testing bertindak sebagai 'lembar ujian' untuk mengevaluasi performa murninya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Struktur pohon keputusan hierarkis yang membagi data berdasarkan keputusan pengujian atribut fitur dinamakan algoritma...",
+    "o": ["Artificial Neural Network", "Decision Tree", "Support Vector Machine", "A Priori"],
+    "a": 1,
+    "e": "Decision Tree meniru alur pemikiran manusia (Jika X maka Y) yang divisualkan menyerupai pohon keputusan bercabang."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Pola anomali belanja di mana 'pembeli popok cenderung juga membeli susu formula' ditemukan di data transaksi pasar swalayan menggunakan analisis...",
+    "o": ["Regression Analysis", "Association Rule Mining", "Image Classification", "Time Series forecasting"],
+    "a": 1,
+    "e": "Aturan Asosiasi (seperti algoritma Apriori) mengekstrak keterkaitan barang yang sering dibeli bersamaan (Market Basket Analysis)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Proses mereduksi skala rentang nilai variabel angka yang beragam (misal usia 1-80 dan gaji jutaan) agar memiliki rentang seragam (0 sampai 1) dinamakan...",
+    "o": ["Data Binning", "Normalisasi Data (Scaling)", "Data Imputation", "Data Warehousing"],
+    "a": 1,
+    "e": "Normalisasi menyeimbangkan bobot kontribusi variabel agar fitur bergaji tinggi tidak mendominasi perhitungan jarak algoritma."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Alat atau Dashboard intelijen bisnis yang sangat populer milik Google untuk membuat laporan visualisasi data dinamis interaktif interaktif secara cloud gratis gratis adalah...",
+    "o": ["Microsoft Word", "Google Looker Studio (Data Studio)", "Adobe Illustrator", "Notepad++"],
+    "a": 1,
+    "e": "Looker Studio mempermudah penciptaan representasi bagan dinamis tersinkronisasi sumber data spreadsheet."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Transformasi revolusi industri era teknologi siber-fisik yang memadukan sistem digital, otomasi mesin robotik cerdas, dan Big Data dikenal dengan era...",
+    "o": ["Industri 1.0", "Industri 2.0", "Industri 3.0", "Industri 4.0"],
+    "a": 3,
+    "e": "Industri 4.0 ditandai oleh konvergensi teknologi IoT, AI, Cloud, dan Data Analytics di sektor manufaktur global."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Ancaman pemalsuan konten video/audio wajah seseorang yang sangat realistis menggunakan algoritma Deep Learning untuk tujuan hoaks atau fitnah siber dinamakan...",
+    "o": ["Phishing", "Spamming", "Deepfake", "Clickbait"],
+    "a": 2,
+    "e": "Deepfake memanipulasi ekspresi digital wajah yang sangat sulit dideteksi mata telanjang, berpotensi bahaya hoaks politik."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Isu etika kecerdasan buatan di mana keputusan AI merugikan golongan masyarakat tertentu akibat data latih masa lalunya berat sebelah (tidak adil) dinamakan...",
+    "o": ["AI Overheating", "Algorithmic Bias (Bias Algoritma)", "AI Efficiency", "AI Encryption"],
+    "a": 1,
+    "e": "Bias algoritma mencerminkan prasangka diskriminasi manusia yang secara tidak sadar terkandung dalam data sejarah pelatihan mesin."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sebuah tren pekerjaan baru yang memadukan ilmu statistika, pemrograman Python, dan bisnis untuk menemukan wawasan bernilai perusahaan dinamakan...",
+    "o": ["Hardware Engineer", "Graphic Designer", "Data Scientist", "System Administrator"],
+    "a": 2,
+    "e": "Data Scientist dinobatkan sebagai karir terseksi di abad 21 karena peran krusialnya di era berbasis data pengambilan keputusan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Regulasi internasional perlindungan data privasi digital terketat asal Uni Eropa yang menjadi acuan undang-undang data pribadi dunia adalah...",
+    "o": ["UU ITE", "GDPR (General Data Protection Regulation)", "DMCA Act", "ISO 9001"],
+    "a": 1,
+    "e": "GDPR memaksa seluruh penyedia teknologi dunia menghormati hak data pribadi pengguna internet, termasuk hak untuk dilupakan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dampak negatif otomasi kecerdasan buatan di sektor industri terhadap angkatan kerja manusia lokal adalah...",
+    "o": ["Meningkatnya kebutuhan tenaga buruh kasar", "Disrupsi pekerjaan di mana tugas repetitif administratif digantikan robot cerdas AI", "Semua orang wajib jadi programmer", "Kompuer makin murah"],
+    "a": 1,
+    "e": "Disrupsi pekerjaan menuntut adaptasi peningkatan keahlian SDM baru ke ranah analitis dan kreatif yang tidak bisa ditiru mesin."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Istilah etika digital untuk menghormati hak cipta kode sumber terbuka dengan cara tidak menghapus kredit nama pemrogram aslinya disebut...",
+    "o": ["Enkripsi", "Atribusi (Attribution)", "Kompilasi", "Duplikasi"],
+    "a": 1,
+    "e": "Atribusi adalah pilar moralitas Open Source untuk tetap memberikan apresiasi kehormatan kepada pembuat karya asli."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan kejahatan siber finansial dengan cara merekam magnetik kartu di mesin ATM menggunakan alat selundupan dinamakan...",
+    "o": ["Phishing", "Skimming", "Spamming", "Cracking"],
+    "a": 1,
+    "e": "Skimming menduplikasi data strip magnetik kartu perbankan untuk dikloning demi menguras saldo korban ilegal."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Hak digital milik pengguna internet untuk meminta penghapusan seluruh data histori pribadinya dari database mesin pencari secara permanen dinamakan...",
+    "o": ["Right to Freedom", "Right to be Forgotten (Hak Dilupakan)", "Right to Access", "Right to Privacy"],
+    "a": 1,
+    "e": "Right to be forgotten melindungi martabat reputasi individu di masa depan dari jejak data usang masa lalunya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Regulasi nasional perlindungan data pribadi terbaru Indonesia yang disahkan tahun 2022 dinamakan...",
+    "o": ["UU ITE", "UU Ketenagakerjaan", "UU PDP (Perlindungan Data Pribadi)", "UU Telekomunikasi"],
+    "a": 2,
+    "e": "UU PDP menjamin hak kedaulatan warga negara atas perlindungan kerahasiaan identitas digitalnya."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Metodologi pengembangan perangkat lunak klasik yang berurutan linier menyerupai anak tangga dari tahap desain hingga rilis akhir dinamakan...",
+    "o": ["Agile Methodology", "Waterfall Model", "Scrum Framework", "DevOps"],
+    "a": 1,
+    "e": "Model Waterfall bersifat kaku dan linier, cocok untuk proyek berskala tetap yang persyaratannya sudah sangat jelas di awal."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Pendekatan manajemen proyek rekayasa perangkat lunak modern yang lincah, adaptif, mengutamakan iterasi singkat, dan kolaborasi tim dinamakan...",
+    "o": ["Monolithic Design", "Waterfall Development", "Agile / Scrum", "Structural Coding"],
+    "a": 2,
+    "e": "Agile melahirkan kerangka kerja Scrum yang fleksibel terhadap perubahan kebutuhan mendadak dari klien di tengah pengerjaan."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Sistem manajemen kontrol versi kode sumber terpopuler di dunia untuk kolaborasi tim programmer tanpa tumpang tindih file adalah...",
+    "o": ["FTP Server", "Google Drive", "Git", "Samba Share"],
+    "a": 2,
+    "e": "Git mencatat histori mutasi baris kode kode di setiap detik, memungkinkan tim bekerja bercabang (branching) dengan aman."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Platform awan global terpopuler berbasis web untuk meng-host repositori kode Git dan sarana sosial bagi programmer dunia berkontribusi kode adalah...",
+    "o": ["Stack Overflow", "GitHub", "LinkedIn", "Facebook"],
+    "a": 1,
+    "e": "GitHub memfasilitasi kerja kolaboratif lintas negara dengan fitur Pull Request, Issue tracking, dan hosting Open Source."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Perintah dasar Git yang digunakan untuk menyimpan perubahan berkas kode saat ini ke dalam catatan sejarah repositori lokal lengkap dengan pesan konfirmasinya adalah...",
+    "o": ["git push", "git pull", "git commit -m \"pesan\"", "git init"],
+    "a": 2,
+    "e": "git commit bertindak seperti merekam titik simpan checkpoint (save point) permanen bagi kemajuan pengerjaan kode."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Proses pengujian unit perangkat lunak mandiri yang dilakukan programmer untuk memverifikasi kebenaran logika fungsi terkecil kode disebut...",
+    "o": ["Integration Testing", "System Testing", "Unit Testing", "User Acceptance Testing"],
+    "a": 2,
+    "e": "Unit testing memastikan modul fungsi fundamental bebas bug logika dasar sebelum dirakit ke dalam sistem utuh besar."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Dalam metodologi Scrum, pertemuan singkat harian berdurasi 15 menit untuk menyelaraskan kemajuan tugas tim dinamakan...",
+    "o": ["Sprint Planning", "Retrospective", "Daily Standup Meeting", "Sprint Review"],
+    "a": 2,
+    "e": "Daily standup menjaga transparansi hambatan teknis agar tim pengembang tetap sinkron bergerak menyelesaikan tugas."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Prototipe kasar sistem antarmuka aplikasi berupa coretan gambar kotak garis hitam putih tanpa warna yang melambangkan tata letak komponen dinamakan...",
+    "o": ["Mockup", "Wireframe", "Storyboard", "High-Fidelity Prototype"],
+    "a": 1,
+    "e": "Wireframe memprioritaskan arsitektur informasi navigasi tata letak tanpa terdistraksi oleh estetika pewarnaan visual visual."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Karakter fiksi yang mewakili segmen target profil pengguna akhir produk dalam riset pengalaman pengguna (UX) dinamakan...",
+    "o": ["Client Profile", "User Persona", "Product Owner", "Actor"],
+    "a": 1,
+    "e": "User Persona memanusiakan data target audiens agar tim pengembang bisa berempati terhadap kebutuhan spesifik pengguna asli."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Perintah Git yang digunakan untuk mengunduh salinan utuh repositori kode dari server awan luar (GitHub) menuju folder komputer lokal dinamakan...",
+    "o": ["git push", "git clone", "git merge", "git add"],
+    "a": 1,
+    "e": "git clone mengkloning/menyalin 100% porsi proyek GitHub eksternal ke komputer kita agar siap dikembangkan luring."
+  }
+]

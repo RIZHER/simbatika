@@ -20,6 +20,86 @@
     "description": "Paket latihan kedua untuk memperdalam materi US Informatika dengan tingkat kesulitan setara ujian nasional."
   },
   {
+    "id": "sma-11-us-2026-pkt1",
+    "title": "Persiapan PAT / US Semester Genap - Paket 1",
+    "level": "SMA",
+    "class": "11 SMA",
+    "subject": "Informatika",
+    "file": "data/sma_11_us_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Latihan Asesmen Akhir SMA Kelas 11 mencakup Algoritma Greedy, Dynamic Programming, Struktur Graf & Pohon, Pemrograman OOP Python, dan Arsitektur RISC/CISC."
+  },
+  {
+    "id": "sma-11-us-2026-pkt2",
+    "title": "Persiapan PAT / US Semester Genap - Paket 2",
+    "level": "SMA",
+    "class": "11 SMA",
+    "subject": "Informatika",
+    "file": "data/sma_11_us_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Paket simulasi lanjutan SMA Kelas 11 mematangkan pemahaman IP Routing, Data Mining K-Means, Kecerdasan Buatan (AI), Industri 4.0, dan Sistem Kontrol Versi Git."
+  },
+  {
+    "id": "sma-10-us-2026-pkt1",
+    "title": "Persiapan PAT / US Semester Genap - Paket 1",
+    "level": "SMA",
+    "class": "10 SMA",
+    "subject": "Informatika",
+    "file": "data/sma_10_us_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Simulasi Asesmen Akhir SMA Kelas 10 mencakup Logika Pencarian/Pengurutan (Sorting), Integrasi Lanjut Ms. Office, Gerbang Logika Dasar, Kriptografi Caesar Cipher, dan Topologi Jaringan."
+  },
+  {
+    "id": "sma-10-us-2026-pkt2",
+    "title": "Persiapan PAT / US Semester Genap - Paket 2",
+    "level": "SMA",
+    "class": "10 SMA",
+    "subject": "Informatika",
+    "file": "data/sma_10_us_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Latihan Paket 2 SMA Kelas 10 mencakup Analisis Pivot Table, Dasar Bahasa Pemrograman Python (Loop & Kondisi), Aspek Legal Informatika, dan Cyber Security Awareness."
+  },
+  {
+    "id": "smp-09-uas-sem2-2026-pkt1",
+    "title": "Simulasi ASAS Semester Genap - Paket 1",
+    "level": "SMP",
+    "class": "9 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_09_uas_sem2_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Uji kompetensi lulusan SMP Kelas 9 mencakup Struktur Data Stack/Queue LIFO, Konversi Bilangan Biner/Desimal, Gerbang OR/AND Kompleks, Serat Optik, dan Topologi LAN."
+  },
+  {
+    "id": "smp-09-uas-sem2-2026-pkt2",
+    "title": "Simulasi ASAS Semester Genap - Paket 2",
+    "level": "SMP",
+    "class": "9 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_09_uas_sem2_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Latihan Pengayaan SMP Kelas 9 menguji pemahaman Rumus Spreadsheet Lanjut (IF, VLOOKUP, COUNTIF), Pemrograman Lanjut Scratch (Clone, Custom Block), UU ITE, dan Kolaborasi Digital."
+  },
+  {
+    "id": "smp-08-uas-sem1-2026-pkt1",
+    "title": "Simulasi ASAS Semester Ganjil - Paket 1",
+    "level": "SMP",
+    "class": "8 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_08_uas_sem1_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Latihan Asesmen Sumatif Akhir Semester Ganjil Kelas 8 mencakup Berpikir Komputasional, TIK, SK, dan Jaringan Komputer."
+  },
+  {
+    "id": "smp-08-uas-sem2-2026-pkt1",
+    "title": "Simulasi ASAS Semester Genap - Paket 1",
+    "level": "SMP",
+    "class": "8 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_08_uas_sem2_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Latihan Asesmen Sumatif Akhir Semester Genap Kelas 8 mencakup Analisis Data Spreadsheet, AP Scratch Kompleks, dan Dampak Sosial Informatika."
+  },
+  {
     "id": "smp-07-uas-sem2-2026-pkt1",
     "title": "Persiapan UAS / ASAS Semester Genap - Paket 1",
     "level": "SMP",
@@ -38,6 +118,65 @@
     "file": "data/smp_07_uas_sem2_2026_pkt2.json",
     "questionCount": 50,
     "description": "Paket simulasi pengayaan kedua kelas 7 SMP untuk mematangkan logika pemrograman visual Scratch dan literasi digital."
+  },
+  {
+    "id": "sd-06-uas-sem2-2026-pkt1",
+    "title": "Latihan Ujian Semester Genap - Paket 1",
+    "level": "SD",
+    "class": "6 SD",
+    "subject": "Informatika",
+    "file": "data/sd_06_uas_sem2_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Uji kompetensi akhir jenjang SD Kelas 6 mencakup pengenalan Sistem Biner Lampu, Pembuatan Slide Presentasi PowerPoint, Unit Kapasitas Memori (GB/MB), dan Keselamatan Berinternet (Cyber Safety)."
+  },
+  {
+    "id": "sd-06-uas-sem2-2026-pkt2",
+    "title": "Latihan Ujian Semester Genap - Paket 2",
+    "level": "SD",
+    "class": "6 SD",
+    "subject": "Informatika",
+    "file": "data/sd_06_uas_sem2_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Latihan pemantapan SD Kelas 6 mencakup referensi sel Absolut ($), Logika Percabangan Scratch If-Else & Koordinat X-Y, Aspek Hak Cipta Pembajakan, dan Penyusunan Portofolio Digital Akhir."
+  },
+  {
+    "id": "sd-05-uas-sem2-2026-pkt1",
+    "title": "Latihan Ujian Semester Genap - Paket 1",
+    "level": "SD",
+    "class": "5 SD",
+    "subject": "Informatika",
+    "file": "data/sd_05_uas_sem2_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Latihan persiapan Semester Genap SD Kelas 5 interaktif mencakup Silsilah Pohon, Struktur Antrean Kios Es Krim, Mengetik Rapi di Ms Word (Shortcut Ctrl C/V), serta Mengenal Web Browser."
+  },
+  {
+    "id": "sd-05-uas-sem2-2026-pkt2",
+    "title": "Latihan Ujian Semester Genap - Paket 2",
+    "level": "SD",
+    "class": "5 SD",
+    "subject": "Informatika",
+    "file": "data/sd_05_uas_sem2_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Latihan visual SD Kelas 5 mencakup data grafik batang hobi, pengenalan komponen Scratch (Green flag, Sprite, Backdrop, Motion), Etika Chat Netiket, dan Kolaborasi Digital Canva."
+  },
+  {
+    "id": "sd-04-uas-sem2-2026-pkt1",
+    "title": "Latihan Ujian Semester Genap - Paket 1",
+    "level": "SD",
+    "class": "4 SD",
+    "subject": "Informatika",
+    "file": "data/sd_04_uas_sem2_2026_pkt1.json",
+    "questionCount": 50,
+    "description": "Pondasi dasar Informatika SD Kelas 4 mencakup pengenalan Urutan Kegiatan (Algoritma), Pola Gambar, Tombol Keyboard, Bagian Fisik Laptop, Mengenal Mouse, dan Menghubungkan WiFi Publik."
+  },
+  {
+    "id": "sd-04-uas-sem2-2026-pkt2",
+    "title": "Latihan Ujian Semester Genap - Paket 2",
+    "level": "SD",
+    "class": "4 SD",
+    "subject": "Informatika",
+    "file": "data/sd_04_uas_sem2_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Latihan pengenalan menyenangkan SD Kelas 4 mematangkan pemahaman Data Piktogram Buah, Perintah Aksi Scratch 'Move/Turn', Netiket Ramah Anak, dan Kebiasaan Merawat Komputer Lab."
   }
 ]
-

@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Urutan langkah-langkah kegiatan yang logis untuk merawat tanaman: 1) Ambil air di ember, 2) Siram tanaman secukupnya. Urutan kerja ini dinamakan...",
+    "o": ["Algoritma", "Baterai", "Kabel", "Monitor"],
+    "a": 0,
+    "e": "Algoritma adalah panduan langkah demi langkah untuk menyelesaikan sebuah tugas harian."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Teknik Computational Thinking 'Dekomposisi' saat membantu ibu mencuci piring kotor artinya...",
+    "o": ["Membeli piring baru", "Memisahkan piring, menyabuni satu per satu, lalu membilasnya secara bertahap", "Membiarkan piring tetap kotor", "Menangis karena piringnya banyak"],
+    "a": 1,
+    "e": "Dekomposisi membagi pekerjaan cuci piring yang terlihat berat menjadi beberapa tugas kecil agar cepat selesai."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Beni melihat deretan bentuk gambar: Segitiga - Lingkaran - Segitiga - Lingkaran - Segitiga. Gambar kelanjutan berikutnya yang paling logis adalah...",
+    "o": ["Segitiga", "Lingkaran", "Kotak", "Bintang"],
+    "a": 1,
+    "e": "Pengenalan Pola (Pattern) membantu kita memprediksi bentuk berikutnya berdasarkan keteraturan yang berulang."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Abstraksi dalam menggambar sebuah pohon rindang adalah...",
+    "o": ["Menggambar ribuan lembar daun satu per satu", "Cukup menggambar satu bentuk awan besar sebagai daun dan batang pohon di bawahnya", "Menggambar rumput saja", "Mewarnai semua kertas hitam"],
+    "a": 1,
+    "e": "Abstraksi membuang detail rumit (daun satu-satu) dan menyisakan bentuk pokok yang mudah dikenali mata."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Susunan pakaian di lemari dari yang dicuci paling awal (di bawah) sampai pakaian yang paling baru disetrika (di paling atas) menerapkan sistem...",
+    "o": ["Antrean (Queue)", "Tumpukan (Stack)", "Garis Lurus", "Lingkaran"],
+    "a": 1,
+    "e": "Tumpukan (Stack) meletakkan benda baru di posisi teratas, dan benda teratas tersebut wajib diambil terlebih dahulu."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Di sebuah loket karcis bioskop, siapakah orang yang berhak membeli tiket paling pertama?",
+    "o": ["Orang yang datang paling terakhir", "Orang yang paling depan yang datang pertama kali", "Orang yang berteriak kencang", "Semua orang berebutan"],
+    "a": 1,
+    "e": "Konsep antrean (Queue) mengajarkan budaya tertib melayani yang datang pertama kali (FIFO)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sinyal bahasa yang dimengerti mesin komputer yang hanya terdiri dari dua angka saja, 0 dan 1, dinamakan...",
+    "o": ["Bahasa Jawa", "Sistem Biner", "Bilangan Romawi", "Bahasa Inggris"],
+    "a": 1,
+    "e": "Sistem biner bertindak sebagai saklar On/Off yang mengalirkan listrik logika komputer."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Contoh pengenalan pola dalam kehidupan sekolah sehari-hari adalah...",
+    "o": ["Tidur di kelas", "Hafal jadwal mata pelajaran hari Senin selalu diawali Upacara Bendera", "Lupa membawa buku", "Makan bekal teman"],
+    "a": 1,
+    "e": "Mengenali jadwal berulang membantu siswa bersiap-siap membawa buku yang tepat."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Simbol panah petunjuk dalam permainan video yang menuntun tokoh berjalan ke kanan merupakan lambang dari...",
+    "o": ["Alur Langkah / Arah Algoritma", "Gambar Bunga", "Penghapus", "Monitor"],
+    "a": 0,
+    "e": "Panah memberikan petunjuk logis arah instruksi gerak berikutnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Saat melihat lima anak ayam yang warnanya berbeda, kita tetap tahu semuanya anak ayam karena sama-sama berparuh dan memiliki ciri bulu halus sama. Ini adalah contoh...",
+    "o": ["Dekomposisi", "Pengenalan Pola", "Abstraksi", "Menulis"],
+    "a": 1,
+    "e": "Ciri fisik dasar yang serupa membantu otak mengelompokkan hewan ke dalam jenis yang sama."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Urutan logis mencuci tangan yang benar adalah...",
+    "o": ["1) Basahi air, 2) Usap sabun, 3) Bilas air sampai bersih", "1) Bilas air, 2) Langsung lap handuk", "1) Usap sabun di tangan kering", "1) Langsung makan"],
+    "a": 0,
+    "e": "Algoritma menjaga kebersihan tangan harus berurutan agar kuman hilang sepenuhnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Simbol keputusan 'YA' atau 'TIDAK' di dalam alur logika komputasi berfungsi untuk...",
+    "o": ["Mengulang langkah selamanya", "Memilih salah satu tindakan berdasarkan kondisi", "Menghapus semua kode", "Menghentikan listrik"],
+    "a": 1,
+    "e": "Percabangan logika membantu komputer memilih jalur aksi berbeda tergantung situasi."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika kita ingin menggambar rute jalan dari gerbang sekolah sampai ke ruangan kelas kita, jenis representasi yang kita gunakan adalah...",
+    "o": ["Peta / Diagram Alur Sederhana", "Lukisan Pemandangan", "Surat Cinta", "Tabel Nilai"],
+    "a": 0,
+    "e": "Diagram alur arah jalan mempermudah navigasi orang asing menemukan lokasi ruangan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Tindakan mengabaikan ornamen renda pinggiran meja makan dan hanya menggambar bentuk 'Persegi Panjang' melambangkan teknik...",
+    "o": ["Dekomposisi", "Abstraksi", "Biner", "Tumpukan"],
+    "a": 1,
+    "e": "Abstraksi menyederhanakan benda nyata menjadi bentuk geometri dasar agar fokus pada fungsi luasnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Pernyataan Boolean dalam logika berpikir komputasional hanya memiliki dua kemungkinan nilai, yaitu...",
+    "o": ["Tinggi dan Rendah", "Benar (True) dan Salah (False)", "Banyak dan Sedikit", "Merah dan Biru"],
+    "a": 1,
+    "e": "Logika dasar mesin hanya mengenal kebenaran mutlak (Ya/Tidak) untuk memproses kalkulasi."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Alat di keyboard berbentuk kotak-kotak kecil yang kita tekan dengan jari-jemari untuk menulis huruf nama kita di layar monitor dinamakan...",
+    "o": ["Tombol / Tombol Key", "Lampu", "Mouse", "Kabel"],
+    "a": 0,
+    "e": "Tombol-tombol keyboard menampung simbol alfabet, angka, dan tanda baca."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Bagian fisik komputer yang kita gerakkan menggunakan tangan kanan untuk mengarahkan tanda panah putih (kursor) di monitor adalah...",
+    "o": ["Keyboard", "Mouse (Tetikus)", "Printer", "CPU"],
+    "a": 1,
+    "e": "Mouse membantu interaksi menunjuk dan memilih perintah gambar pada antarmuka layar."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Layar besar berbentuk kotak mirip televisi yang menampilkan hasil ketikan dan gambar dari komputer dinamakan...",
+    "o": ["Mouse", "Monitor", "Keyboard", "Speaker"],
+    "a": 1,
+    "e": "Monitor menyajikan suguhan visual hasil pengolahan grafis sistem kepada mata pemakai."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Ikon di komputer yang bergambar 'Kertas Putih dengan huruf W berwarna Biru' adalah aplikasi pengetikan bernama...",
+    "o": ["Microsoft Excel", "Microsoft Word", "Microsoft Paint", "Google Chrome"],
+    "a": 1,
+    "e": "Microsoft Word adalah program pemroses kata standar yang paling umum digunakan sekolah dasar."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Tombol di keyboard yang paling lebar dan terletak di paling bawah, berguna untuk memberi jarak spasi kosong antar kata adalah...",
+    "o": ["Enter", "Shift", "Spacebar (Tombol Spasi)", "Backspace"],
+    "a": 2,
+    "e": "Spacebar merenggangkan teks agar tulisan tidak menempel menyatu dan gampang dibaca."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Tombol keyboard yang kita tekan jika ingin menghapus satu huruf yang salah di sebelah kiri penunjuk kursor adalah...",
+    "o": ["Enter", "Backspace (Hapus Mundur)", "Delete", "Shift"],
+    "a": 1,
+    "e": "Backspace berfungsi menghapus mundur untuk mengoreksi saltik ketikan."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Aplikasi menggambar dasar di komputer Windows yang sering kita gunakan mewarnai memakai kaleng cat digital adalah...",
+    "o": ["Microsoft Word", "Paint", "Calculator", "Notepad"],
+    "a": 1,
+    "e": "Paint menyediakan kanvas digital lukis ramah anak untuk melatih kemampuan motorik mouse."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Ikon berbentuk huruf 'I' miring (Italic) di baris atas aplikasi Microsoft Word berfungsi untuk...",
+    "o": ["Menebalkan tulisan", "Memiringkan gaya huruf tulisan", "Memberi garis bawah", "Mewarnai tulisan merah"],
+    "a": 1,
+    "e": "'I' miring (Italic) digunakan untuk menandai istilah asing atau kutipan khusus."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Kegiatan menekan tombol mouse sebelah kiri sebanyak dua kali secara super cepat dinamakan...",
+    "o": ["Klik Kanan", "Double Click (Klik Ganda)", "Scroll", "Drag"],
+    "a": 1,
+    "e": "Klik ganda biasanya digunakan untuk meluncurkan/membuka ikon program di halaman desktop."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Roda kecil bergulir di bagian tengah badan mouse komputer berfungsi untuk...",
+    "o": ["Mematikan laptop", "Menggulung layar ke atas atau ke bawah (Scroll)", "Mengetik huruf", "Mewarnai gambar"],
+    "a": 1,
+    "e": "Scroll wheel mempermudah pembacaan artikel website panjang tanpa harus menarik batang sisi."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Menu bertuliskan 'Font Size' yang berisi angka-angka (seperti 12, 14, 16) digunakan untuk mengatur...",
+    "o": ["Warna kertas", "Ukuran besar atau kecilnya huruf tulisan", "Gaya tulisan", "Ketebalan kertas"],
+    "a": 1,
+    "e": "Semakin tinggi nominal angka Font Size, maka teks ketikan akan terlihat semakin raksasa."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk menyimpan berkas gambar buatanmu di komputer agar besok bisa dibuka lagi, menu yang ditekan adalah...",
+    "o": ["Delete", "Save (Simpan)", "Exit", "Undo"],
+    "a": 1,
+    "e": "Save merekam hasil kerja digital kita ke dalam piringan memori internal penyimpanan."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Shortcut cepat di keyboard untuk membatalkan kesalahan ketikan terakhir kita (kembali ke kondisi sebelumnya) adalah...",
+    "o": ["Ctrl + C", "Ctrl + Z (Undo)", "Ctrl + S", "Ctrl + P"],
+    "a": 1,
+    "e": "Ctrl + Z (Undo) memulihkan langkah mundur jika kita tidak sengaja menghapus teks penting."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Alat bantu mencetak gambar mewarnai dari komputer menjadi lembar kertas cetakan nyata dinamakan...",
+    "o": ["Scanner", "Printer (Mesin Cetak)", "Speaker", "CPU"],
+    "a": 1,
+    "e": "Printer menyemburkan tinta sesuai pola digital file ke media kertas fisik."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Kombinasi shortcut keyboard yang ditekan bersamaan untuk menduplikasi atau menyalin (Copy) teks adalah...",
+    "o": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + A"],
+    "a": 1,
+    "e": "Ctrl + C menyalin objek tanpa menghilangkan teks aslinya di layar."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Semua bagian fisik mesin komputer yang keras, kokoh, dan bisa diraba dengan tangan dinamakan...",
+    "o": ["Software", "Hardware (Perangkat Keras)", "Brainware", "Malware"],
+    "a": 1,
+    "e": "Hardware mencakup mouse, keyboard, printer, dan monitor."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat keras komputer yang berfungsi mengetikkan deretan huruf alfabet dan angka adalah...",
+    "o": ["Monitor", "Keyboard (Papan Ketik)", "Mouse", "Speaker"],
+    "a": 1,
+    "e": "Keyboard bertindak sebagai unit masukan data tekstual primer utama komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Di mana lokasi semua kabel mouse, monitor, dan keyboard terhubung memusat pada komputer meja (PC)?",
+    "o": ["Di meja belajar", "Di kotak CPU (Casing Mesin)", "Di speaker saja", "Di colokan listrik langsung"],
+    "a": 1,
+    "e": "Kotak casing PC berisi papan induk pusat interkoneksi lalu lintas data seluruh hardware."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat lunak (program) berwujud digital yang tidak bisa dipegang fisik namun menghidupkan sistem komputer disebut...",
+    "o": ["Hardware", "Software (Perangkat Lunak)", "Kabel", "Besi"],
+    "a": 1,
+    "e": "Software memberi nyawa instruksi agar besi fisik komputer tahu apa yang harus dikerjakan."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat keluaran komputer yang memproduksi suara bising lagu-lagu seru terdengar di seluruh ruangan kelas adalah...",
+    "o": ["Mikrofon", "Speaker (Pengeras Suara)", "Scanner", "Monitor"],
+    "a": 1,
+    "e": "Speaker menerjemahkan pulsa audio digital menjadi getaran gelombang suara keras."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat penyimpan berkas buatanmu berbentuk lonjong kecil bertutup yang bisa dikantongi dan dicolok ke laptop teman bernama...",
+    "o": ["Harddisk Internal", "Flashdisk USB", "RAM", "CD Rom"],
+    "a": 1,
+    "e": "Flashdisk didesain praktis berukuran jempol tangan demi kemudahan pemindahan file sekolah."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat lunak sistem operasi terpopuler bergambar jendela kaca berwarna biru yang dipasang di komputer lab sekolah adalah...",
+    "o": ["Google Chrome", "Microsoft Windows", "Instagram", "Roblox"],
+    "a": 1,
+    "e": "Windows menjabat pengelola sumber daya dasar interface operasional komputer sekolah."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah barang di bawah ini yang BUKAN merupakan perangkat keras komputer?",
+    "o": ["Monitor", "Aplikasi Mewarnai Paint", "Mouse", "Keyboard"],
+    "a": 1,
+    "e": "Aplikasi Paint termasuk kategori Software (Perangkat Lunak), bukan mesin fisik."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Apakah fungsi utama kabel daya listrik yang terhubung di bagian belakang komputer?",
+    "o": ["Mendinginkan mesin", "Mengalirkan arus energi listrik agar komputer bisa menyala", "Menghapus virus", "Mencetak kertas"],
+    "a": 1,
+    "e": "Tanpa suplai energi listrik konstan, mesin elektronik komputer tidak akan aktif hidup."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Komputer portabel lipat yang sudah menyatukan layar, keyboard, baterai, dan mouse menjadi satu benda praktis dinamakan...",
+    "o": ["Televisi", "Laptop / Notebook", "Mesin Tik", "Kamera digital"],
+    "a": 1,
+    "e": "Laptop menawarkan mobilitas tinggi untuk belajar kelompok di mana saja karena terintegrasi penuh."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sistem super jaringan raksasa yang menyambungkan seluruh komputer sedunia agar bisa bertukar informasi dinamakan...",
+    "o": ["Listrik", "Internet", "Bluetooth", "Kabel TV"],
+    "a": 1,
+    "e": "Internet singkatan Interconnected Network, persatuan global komunikasi data maya."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Layanan internet nirkabel di sekolah yang memancarkan sinyal agar kita bisa online gratis dinamakan...",
+    "o": ["Radio", "Wi-Fi", "Kabel LAN", "Televisi"],
+    "a": 1,
+    "e": "Wi-Fi memancarkan gelombang radio jarak dekat sebagai jembatan jalan raya internet nirkabel."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Istilah berselancar jalan-jalan membuka satu halaman ke halaman lain di internet dinamakan...",
+    "o": ["Browsing", "Downloading", "Streaming", "Gaming"],
+    "a": 0,
+    "e": "Browsing membuka jendela eksplorasi situs pengetahuan ragam website."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Aplikasi khusus penjelajah web di laptop, seperti Google Chrome, dinamakan...",
+    "o": ["Word Processor", "Web Browser (Peramban Web)", "Game Engine", "Spreadsheet"],
+    "a": 1,
+    "e": "Web Browser menerjemahkan file kode internet server menjadi laman gambar teks yang indah."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tindakan mengunduh salinan foto kucing lucu dari internet masuk ke dalam memori penyimpanan HP dinamakan...",
+    "o": ["Upload", "Download", "Chatting", "Install"],
+    "a": 1,
+    "e": "Download memindahkan file turun dari server internet menuju penyimpanan lokal gawai kita."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tindakan mengirim atau mengunggah foto tugas menggambarmu naik ke server portal sekolah dinamakan...",
+    "o": ["Uploading (Unggah)", "Downloading", "Browsing", "Searching"],
+    "a": 0,
+    "e": "Upload mendorong file lokal kita dari internal gadget naik menuju server internet publik."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Alamat pencarian unik mesin pencari paling sakti milik perusahaan Google di internet adalah...",
+    "o": ["www.google.com", "www.word.com", "www.roblox.com", "www.game.com"],
+    "a": 0,
+    "e": "Google.com adalah gerbang utama pencarian indeks kata kunci website sejagat raya."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Menonton video kartun edukasi secara langsung tanpa mendownload file videonya sampai habis dinamakan...",
+    "o": ["Streaming", "Searching", "Typing", "Printing"],
+    "a": 0,
+    "e": "Streaming mengalirkan data video secara berkelanjutan berkat internet berkecepatan stabil."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Simbol gambar sinyal Wi-Fi di pojok layar laptop biasanya digambarkan berbentuk...",
+    "o": ["Garis petir", "Lengkungan garis pancaran gelombang yang menyebar ke atas", "Gambar kunci", "Kotak palang merah"],
+    "a": 1,
+    "e": "Lengkungan sinyal merepresentasikan kekuatan daya pancar gelombang udara radio Wi-Fi."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Mengapa kita tidak boleh menyebarkan 'Nama Lengkap' dan 'Alamat Rumah' asli kita secara sembarangan di kolom obrolan internet?",
+    "o": ["Biar terkenal", "Demi keamanan diri agar tidak disalahgunakan orang tidak dikenal", "Supaya dapat banyak teman", "Tidak masalah disebar"],
+    "a": 1,
+    "e": "Privasi digital wajib dilindungi sejak dini untuk menghindari ancaman kejahatan siber dunia nyata."
+  }
+]

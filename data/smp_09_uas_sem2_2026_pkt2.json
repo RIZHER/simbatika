@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Fitur pada pengolah spreadsheet yang sangat cepat digunakan untuk menyaring data agar hanya memunculkan baris yang memenuhi kriteria tertentu (misal: hanya memunculkan data Nilai > 75) disebut...",
+    "o": ["Sort", "Filter", "Pivot Table", "Merge Cells"],
+    "a": 1,
+    "e": "Fitur Filter menyembunyikan sementara data yang tidak sesuai kriteria tanpa menghapusnya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam MS Excel, penulisan rentang data sel yang benar dari kolom A baris 1 sampai kolom C baris 10 menggunakan simbol...",
+    "o": ["A1-C10", "A1 to C10", "A1:C10", "A1;C10"],
+    "a": 2,
+    "e": "Simbol titik dua (:) merepresentasikan 'range' atau rentang cakupan sel di program pengolah angka."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Manakah rumus Excel di bawah ini yang digunakan untuk menghitung nilai Rata-Rata dari sekumpulan sel data?",
+    "o": ["=SUM()", "=MAX()", "=AVERAGE()", "=MIN()"],
+    "a": 2,
+    "e": "Fungsi =AVERAGE() mengkalkulasi nilai rerata aritmetika dari deretan argumen angka."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fungsi logika pada spreadsheet yang menghasilkan output kata 'LULUS' jika nilai sel A1 lebih besar dari 70, dan 'REMEDIAL' jika sebaliknya adalah...",
+    "o": ["=IF(A1>70; \"LULUS\"; \"REMEDIAL\")", "=AND(A1>70; \"LULUS\")", "=COUNTIF(A1>70)", "=SUM(A1; 70)"],
+    "a": 0,
+    "e": "Fungsi IF mengevaluasi uji logika lalu mengembalikan satu nilai jika syarat terpenuhi (Benar) dan nilai lain jika salah."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jika kita ingin memvisualisasikan persentase pembagian hobi dari 40 siswa di dalam kelas ke dalam grafik berbentuk irisan kue bundar, grafik yang paling tepat digunakan adalah...",
+    "o": ["Grafik Batang (Bar Chart)", "Grafik Lingkaran (Pie Chart)", "Grafik Garis (Line Chart)", "Diagram Titik"],
+    "a": 1,
+    "e": "Pie Chart sangat superior memetakan proporsi persentase bagian terhadap nilai total keseluruhan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fungsi spreadsheet yang bertugas khusus menghitung BANYAKNYA JUMLAH SEL (bukan menjumlahkan angkanya) yang berisi data numerik adalah...",
+    "o": ["=SUM()", "=AVERAGE()", "=COUNT()", "=MAX()"],
+    "a": 2,
+    "e": "COUNT menghitung cacah sel yang terisi angka, sedangkan SUM menjumlahkan total akumulasi nilainya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Data yang dikumpulkan secara langsung oleh peneliti di lapangan melalui wawancara atau kuesioner mandiri dinamakan data...",
+    "o": ["Data Sekunder", "Data Tersier", "Data Primer", "Data Digital"],
+    "a": 2,
+    "e": "Data primer didapatkan dari sumber asal utama (first-hand information) tanpa melalui perantara."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam dunia pengolahan data komputer, istilah kotor untuk kondisi data yang tidak konsisten, duplikat, atau banyak sel kosong dinamakan...",
+    "o": ["Missing Value", "Outlier", "Data Kotor (Dirty Data)", "Format Data"],
+    "a": 2,
+    "e": "Data kotor harus melalui proses 'Data Cleaning' (pembersihan) agar tidak menyesatkan analisis keputusan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Format pertukaran berkas data teks paling universal dan ringan di mana isinya dipisahkan dengan tanda baca koma dinamakan...",
+    "o": [".docx", ".xlsx", ".csv (Comma Separated Values)", ".pptx"],
+    "a": 2,
+    "e": "CSV adalah format raw data teks mentah yang sangat ringan dan dapat dibuka di notepad maupun Excel."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Tujuan utama melakukan visualisasi data tabel angka menjadi grafik bergambar berwarna-warni adalah...",
+    "o": ["Membingungkan pembaca data", "Memperindah dokumen agar dipuji", "Mempermudah manusia memahami pola dan tren data secara instan", "Memperbesar ukuran file"],
+    "a": 2,
+    "e": "Visualisasi menerjemahkan susunan angka yang kaku menjadi representasi visual yang cepat diinterpretasi otak."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Untuk menyortir daftar nama siswa secara urut dari abjad A sampai Z di tabel, kita menggunakan menu pengurutan...",
+    "o": ["Ascending Sorting", "Descending Sorting", "Custom Formatting", "Group Row"],
+    "a": 0,
+    "e": "Ascending artinya mengurutkan dari nilai terkecil ke terbesar (A-Z atau 1-9)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fungsi pada spreadsheet yang dapat mencari nilai di suatu tabel referensi secara tegak lurus (vertikal) berdasarkan kata kunci pencocokan kunci dinamakan...",
+    "o": ["HLOOKUP", "VLOOKUP", "LOOKUP", "INDEX"],
+    "a": 1,
+    "e": "VLOOKUP (Vertical Lookup) mencari kecocokan data kolom pertama referensi lalu mengembalikan data kolom di sebelahnya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah kumpulan data raksasa yang volumenya triliunan byte, bertambah super cepat setiap detik, dan formatnya sangat beragam dinamakan...",
+    "o": ["Small Data", "Static Data", "Big Data", "Hard Data"],
+    "a": 2,
+    "e": "Big Data mencakup data media sosial global, log server pencarian, dan transaksi GPS waktu nyata."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Istilah 'Outlier' dalam data statistik merujuk pada...",
+    "o": ["Data yang nilainya paling banyak muncul", "Data yang nilainya sangat ekstrim tinggi atau sangat rendah menyimpang dari mayoritas data", "Rata-rata nilai data", "Data yang terhapus"],
+    "a": 1,
+    "e": "Outlier (pencilan) adalah anomali nilai ekstrem yang wajib diteliti penyebab biasnya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Tanda pengunci dolar ($) yang dipasang di depan huruf kolom dan angka baris (seperti $B$4) bertujuan untuk membuat referensi sel tersebut bersifat...",
+    "o": ["Relatif", "Ganda", "Absolut (Tetap)", "Bebas"],
+    "a": 2,
+    "e": "Referensi Absolut mengunci alamat sel agar tidak bergeser saat rumus disalin (copy) ke baris lain."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Pada aplikasi pemrograman visual Scratch, area di mana instruksi blok kode disusun secara berurutan melambangkan logika algoritma dinamakan...",
+    "o": ["Script Area (Area Skrip)", "Stage (Panggung)", "Sprite Pane", "Backdrop List"],
+    "a": 0,
+    "e": "Script Area adalah kanvas pengerjaan tempat blok-blok kode ditarik dan disusun secara modular."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Scratch, blok berwarna Jingga/Oranye bernama 'Control' yang berfungsi menjalankan kode di dalamnya berulang kali tanpa pernah berhenti dinamakan...",
+    "o": ["Repeat 10", "Forever (Selamanya)", "Wait 1 seconds", "Stop all"],
+    "a": 1,
+    "e": "Blok Forever menciptakan 'Infinite Loop' atau perulangan tak berujung yang berguna untuk deteksi konstan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Manakah kategori blok Scratch (warna Oranye Gelap) yang berfungsi untuk menampung data skor permainan agar bisa bertambah dan berkurang?",
+    "o": ["Looks", "Variables (Variabel)", "Sensing", "Operators"],
+    "a": 1,
+    "e": "Variabel bertindak sebagai laci memori penyimpan angka/teks dinamis yang nilainya bisa dimutasi."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Scratch, perintah 'Broadcast message1' berfungsi untuk...",
+    "o": ["Menghapus semua sprite", "Mengirimkan sinyal pesan tersembunyi antar sprite agar saling memicu kejadian serempak", "Memutar musik keras-keras", "Menutup aplikasi Scratch"],
+    "a": 1,
+    "e": "Broadcast memfasilitasi komunikasi antar objek sprite untuk menyinkronkan alur cerita atau aksi permainan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Sebuah blok pemicu yang diletakkan paling atas agar game Scratch berjalan saat bendera hijau diklik termasuk kategori...",
+    "o": ["Control Block", "Events Block (Kejadian)", "Sensing Block", "Motion Block"],
+    "a": 1,
+    "e": "Blok Events (Kuning) mendeteksi trigger aksi user (klik, tekan tombol) untuk mengawali jalannya script."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Fitur di Scratch yang menduplikat sprite secara otomatis secara dinamis saat game sedang berjalan dinamakan...",
+    "o": ["Costume Change", "Cloning (Membuat Klon)", "Broadcast", "Backdrop Switch"],
+    "a": 1,
+    "e": "Fitur Clone ('Create clone of myself') sangat berguna membuat salinan banyak musuh atau peluru game."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok logika segi enam berwarna Hijau Muda yang membandingkan apakah 'skor > 100' atau menggabungkan logika AND/OR termasuk kategori...",
+    "o": ["Sensing", "Motion", "Operators (Operator)", "Looks"],
+    "a": 2,
+    "e": "Kategori Operators menangani operasi matematika, perbandingan angka, dan manipulasi string teks."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Fitur di Scratch yang mengizinkan kita membuat balok instruksi baru kustom buatan sendiri sesuai kebutuhan dinamakan...",
+    "o": ["Extension", "My Blocks (Blok Saya / Custom Functions)", "Sensing", "Looks"],
+    "a": 1,
+    "e": "My Blocks mendukung konsep dekomposisi modular, menyederhanakan rangkaian blok panjang menjadi satu blok kustom tunggal."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok 'touching [Mouse-pointer] ?' pada Scratch berada di kategori warna Biru Muda, yaitu kategori...",
+    "o": ["Motion", "Looks", "Sensing (Sensor)", "Sound"],
+    "a": 2,
+    "e": "Sensing memungkinkan Sprite mendeteksi tabrakan antar sprite, menyentuh warna, atau tekanan tombol keyboard."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Pada diagram alir (Flowchart), simbol bangun datar 'Belah Ketupat' melambangkan aktivitas...",
+    "o": ["Input / Output data", "Proses perhitungan", "Keputusan / Percabangan (Decision)", "Mulai / Selesai"],
+    "a": 2,
+    "e": "Belah Ketupat mengevaluasi kondisi bersyarat (Ya / Tidak) untuk membagi arah panah alur logika selanjutnya."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kumpulan aturan tata bahasa baku yang menentukan bagaimana instruksi kode harus ditulis agar dimengerti komputer dinamakan...",
+    "o": ["Logika", "Algoritma", "Sintaks (Syntax)", "Kompilasi"],
+    "a": 2,
+    "e": "Sintaks adalah grammar kode program. Kesalahan satu huruf atau tanda baca akan memicu 'Syntax Error'."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Proses menerjemahkan langkah-langkah algoritma bahasa manusia ke dalam kode bahasa pemrograman komputer dinamakan...",
+    "o": ["Debugging", "Coding (Pemrograman)", "Testing", "Publishing"],
+    "a": 1,
+    "e": "Coding adalah aktivitas mengetikkan/merangkai sintaks bahasa pemrograman agar dieksekusi prosesor."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Bahasa markup paling dasar yang digunakan untuk menstrukturkan konten, teks, dan gambar di halaman situs web adalah...",
+    "o": ["Python", "HTML (Hypertext Markup Language)", "Java", "C++"],
+    "a": 1,
+    "e": "HTML bukan bahasa pemrograman, melainkan bahasa penandaan (markup) kerangka dasar pembangunan web."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di dalam kode HTML, pasangan tag pembuka dan penutup yang digunakan untuk menebalkan huruf sebuah kata adalah...",
+    "o": ["<i> ... </i>", "<u> ... </u>", "<b> ... </b>", "<p> ... </p>"],
+    "a": 2,
+    "e": "Tag <b> (Bold) atau <strong> memberi gaya penekanan tebal pada teks HTML di peramban web."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Tindakan melacak, mengisolasi, dan memperbaiki kutu/eror kesalahan logika pada sebuah program komputer dinamakan...",
+    "o": ["Coding", "Scanning", "Debugging", "Installing"],
+    "a": 2,
+    "e": "Bug adalah istilah kerusakan program, dan Debugging adalah seni penyembuhan program dari eror logis tersebut."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan sengaja yang dilakukan berulang-ulang untuk mengejek, meneror, atau menyakiti perasaan orang lain melalui internet dinamakan...",
+    "o": ["Cyberbullying (Perundungan Siber)", "Phishing", "Spamming", "Copyright Infringement"],
+    "a": 0,
+    "e": "Cyberbullying adalah kejahatan sosial yang menyerang kesehatan mental psikis korban secara maya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kecakapan masyarakat untuk kritis menyaring berita hoaks, menggunakan gadget secara seimbang, serta menjaga sopan santun digital dinamakan...",
+    "o": ["Literasi Membaca", "Literasi Numerasi", "Literasi Digital", "Keahlian Coding"],
+    "a": 2,
+    "e": "Literasi digital adalah payung kompetensi hidup bijaksana di era arus informasi dunia digital yang masif."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dokumen Undang-Undang di Indonesia yang secara sah mengatur ancaman hukuman bagi pelaku penyebaran hoaks, judi online, dan pencemaran nama baik di internet adalah...",
+    "o": ["Undang-Undang KPK", "Undang-Undang Hak Cipta", "Undang-Undang ITE", "Undang-Undang Lalu Lintas"],
+    "a": 2,
+    "e": "UU ITE (Informasi dan Transaksi Elektronik) menjadi payung hukum sanksi kejahatan siber di NKRI."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Semua riwayat pencarian Google, postingan foto Facebook, hingga cuitan komentar Twitter kita yang tersimpan permanen di server disebut...",
+    "o": ["Digital Wallet", "Cookies", "Jejak Digital (Digital Footprint)", "File Sampah"],
+    "a": 2,
+    "e": "Jejak digital sulit dihapus dan berpotensi dicari kembali di masa depan untuk rekam jejak reputasi karir seseorang."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kejahatan penipuan berkedok pengiriman email/pesan yang memuat lampiran file kurir belanja palsu format '.apk' untuk menguras saldo bank disebut...",
+    "o": ["Hacking", "Phishing / Social Engineering", "DDoS", "Adware"],
+    "a": 1,
+    "e": "Phishing memancing emosi rasa penasaran korban untuk memasang aplikasi penyadap SMS OTP."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Karir profesional bidang teknologi informasi yang bertugas melindungi data server perusahaan agar kebal dari upaya peretasan hacker dinamakan...",
+    "o": ["Graphic Designer", "Data Scientist", "Cyber Security Analyst (Analis Keamanan Siber)", "UI/UX Designer"],
+    "a": 2,
+    "e": "Spesialis Keamanan Siber bertanggung jawab membangun benteng pertahanan digital infrastruktur penting."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Menghargai jerih payah pembuat lagu, film, atau perangkat lunak dengan cara membeli lisensi resminya dan menolak bajakan adalah bentuk kepatuhan terhadap...",
+    "o": ["Hak Asasi Manusia", "Hak Cipta (Copyright)", "Hak Merek Dagang", "Hak Paten"],
+    "a": 1,
+    "e": "Hak cipta melidungi karya intelektual orisinil secara otomatis agar penciptanya mendapat hak moral dan ekonomi."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dampak positif terbesar yang dirasakan pelajar Indonesia akibat tersedianya teknologi pembelajaran daring (E-Learning) adalah...",
+    "o": ["Mata menjadi lebih lelah", "Kemudahan mengakses materi belajar bermutu secara gratis kapan saja dari seluruh penjuru negeri", "Boros kuota internet", "Kurang bersosialisasi langsung"],
+    "a": 1,
+    "e": "Pendidikan demokratis terwujud karena batas geografis dipangkas oleh akses portal kelas digital terbuka."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Salah satu gejala kejiwaan kecanduan gadget di mana seseorang terus-menerus merasa takut dan cemas tertinggal informasi atau tren seru di media sosial dinamakan...",
+    "o": ["Depresi", "FOMO (Fear of Missing Out)", "Insomnia", "Euphoria"],
+    "a": 1,
+    "e": "FOMO memicu dorongan impulsif untuk terus-menerus menyalakan notifikasi layar layar demi tidak tertinggal gosip/update terbaru."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Etika sopan santun dan tata krama dalam menjalin obrolan komunikasi sehat di forum-forum internet atau grup pesan grup obrolan maya dinamakan...",
+    "o": ["Protokol Jaringan", "Algoritma Digital", "Netiket (Netiquette)", "Enkripsi Pesan"],
+    "a": 2,
+    "e": "Netiket (Network Etiquette) mengajarkan asas memperlakukan orang maya dengan rasa hormat kesantunan layaknya tatap muka fisik."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Dalam proyek kelompok membuat presentasi, media penyimpanan awan yang memungkinkan beberapa orang mengetik satu dokumen slide yang sama bersamaan secara live adalah...",
+    "o": ["Flashdisk Lokal", "Microsoft PowerPoint 2007", "Google Slides Cloud", "Email attachment"],
+    "a": 2,
+    "e": "Google Slides memfasilitasi kolaborasi 'real-time' di mana beberapa orang mengedit file yang sama via internet."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Di bawah ini yang BUKAN merupakan ciri kerja sama tim (kolaborasi) proyek informatika yang sehat dan efektif adalah...",
+    "o": ["Berbagi tugas secara adil", "Menghormati pendapat sesama anggota tim", "Mengerjakan seluruh tugas sendirian dan tidak mendengarkan rekan lain", "Aktif mengomunikasikan progres tugas"],
+    "a": 2,
+    "e": "Bekerja tertutup individualistik merusak keselarasan visi dan mempersempit keragaman ide kolaboratif tim."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Tindakan menyontek mentah-mentah tulisan atau tugas presentasi milik orang lain dari internet lalu mengumpulkan dan mengakuinya sebagai buatan sendiri dinamakan...",
+    "o": ["Referensi", "Kutipan", "Plagiarisme (Plagiasi)", "Modifikasi"],
+    "a": 2,
+    "e": "Plagiarisme adalah tindakan kriminal etika pencurian gagasan tulisan akademis yang sangat memalukan."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Alat penyimpanan data komputer portable paling praktis berukuran mini yang ditancapkan ke slot persegi di laptop/PC dinamakan...",
+    "o": ["RAM", "Harddisk Internal", "USB Flashdrive (Flashdisk)", "Disket"],
+    "a": 2,
+    "e": "Flashdisk mentransfer dan memindahkan data dengan cepat, ringkas, dan kompatibel ke semua PC modern."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Platform global berbagi konten video kreasi portofolio hasil karya cipta visual anak muda terpopuler saat ini adalah...",
+    "o": ["WhatsApp", "YouTube", "Google Drive", "Notepad"],
+    "a": 1,
+    "e": "YouTube memberikan wadah publisitas portofolio video karya anak muda menjangkau audiens seluruh dunia."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Struktur dokumen yang kita kumpulkan untuk menjelaskan cara kerja program, panduan pemakaian, dan proses pembangunannya disebut berkas...",
+    "o": ["Storyboard", "Dokumentasi Proyek", "Peta Konsep", "Daftar Pustaka"],
+    "a": 1,
+    "e": "Dokumentasi proyek memudahkan orang lain memahami, merawat, dan mengembangkan ulang karya cipta di masa mendatang."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Proses mempresentasikan demonstrasi langsung hasil karya game buatan kita di depan kelas untuk mendapatkan evaluasi umpan balik (feedback) dinamakan...",
+    "o": ["Publishing", "Showcase / Presentasi Produk", "Coding", "Analisis"],
+    "a": 1,
+    "e": "Showcase melatih kecakapan komunikasi menyampaikan kelebihan nilai jual produk kepada audiens umum."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Sebuah situs jurnal pribadi berisi artikel bertopik yang dikelola perorangan di internet secara rutin diperbarui dinamakan...",
+    "o": ["E-Commerce", "Search Engine", "Blog (Web Log)", "Operating System"],
+    "a": 2,
+    "e": "Blog adalah singkatan Web Log, sarana publikasi tulisan hobi maupun profesional yang interaktif bagi kolumnis maya."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Dalam sebuah presentasi yang premium, penggunaan teks di slide presentasi PowerPoint idealnya adalah...",
+    "o": ["Penuh tulisan kecil memenuhi layar", "Cukup butir poin-poin kata kunci (bullet points) didukung visual gambar yang kuat", "Kosong tanpa teks sama sekali", "Berisi kutipan utuh dari buku pelajaran"],
+    "a": 1,
+    "e": "Teks yang padat merusak perhatian audiens. Gunakan poin penjelas minimalis yang dibantu penuturan verbal kita."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Langkah memecah aplikasi game Scratch yang rumit menjadi perancangan menu, perancangan musuh, dan sistem skor mencerminkan teknik...",
+    "o": ["Abstraksi", "Dekomposisi", "Algoritma", "Pengenalan Pola"],
+    "a": 1,
+    "e": "Dekomposisi memotong-motong target proyek raksasa menjadi subtugas sepele yang mudah didistribusikan pengerjaannya."
+  }
+]

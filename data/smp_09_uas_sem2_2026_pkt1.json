@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Prinsip antrean di loket tiket di mana orang yang pertama datang akan dilayani pertama kali mencerminkan konsep struktur data...",
+    "o": ["Stack (Tumpukan)", "Queue (Antrean)", "Graph (Graf)", "Tree (Pohon)"],
+    "a": 1,
+    "e": "Antrean loket menerapkan prinsip FIFO (First In First Out) di mana entri pertama keluar lebih dahulu."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Ketika kita menekan tombol 'Undo' pada Microsoft Word, tindakan terakhir kita dibatalkan terlebih dahulu. Struktur data apa yang melandasi mekanisme ini?",
+    "o": ["Queue", "Stack", "List", "Array"],
+    "a": 1,
+    "e": "Undo menggunakan Stack dengan prinsip LIFO (Last In First Out). Aksi paling akhir dimasukkan ke tumpukan, dan dikeluarkan pertama kali saat dibatalkan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam struktur data tumpukan (Stack), istilah untuk proses menambahkan atau memasukkan data baru ke tumpukan paling atas dinamakan...",
+    "o": ["Pop", "Push", "Enqueue", "Dequeue"],
+    "a": 1,
+    "e": "Push memasukkan data baru ke puncak stack. Kebalikannya adalah Pop, yaitu mengeluarkan data teratas."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data yang menggambarkan hubungan hirarki bertingkat seperti silsilah keluarga atau struktur organisasi perusahaan disebut...",
+    "o": ["Queue", "Stack", "Tree (Pohon)", "Array"],
+    "a": 2,
+    "e": "Tree memodelkan data hirarkis satu arah dari satu akar (root) ke cabang-cabang anak daun."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah peta rute penerbangan pesawat antar kota divisualisasikan dengan titik-titik kota yang dihubungkan oleh garis rute. Bentuk struktur data ini dinamakan...",
+    "o": ["Stack", "Queue", "Tree", "Graph (Graf)"],
+    "a": 3,
+    "e": "Graph merepresentasikan kumpulan simpul (nodes) yang terhubung secara acak non-hirarki oleh sisi (edges)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Berapakah hasil konversi bilangan biner '1110' ke dalam bilangan desimal?",
+    "o": ["10", "12", "14", "16"],
+    "a": 2,
+    "e": "1110 = (1 * 8) + (1 * 4) + (1 * 2) + (0 * 1) = 8 + 4 + 2 + 0 = 14."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika sebuah teka-teki meminta kita mencari jalan keluar dari labirin terpendek, metode Computational Thinking apa yang paling banyak kita gunakan?",
+    "o": ["Dekomposisi", "Abstraksi", "Pengenalan Pola", "Algoritma / Optimasi Jalur"],
+    "a": 3,
+    "e": "Algoritma merumuskan panduan langkah-langkah logis paling efisien untuk menyelesaikan rute labirin."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam pengenalan pola (Pattern Recognition), kemampuan yang diasah adalah...",
+    "o": ["Menghitung biner super cepat", "Menemukan kesamaan karakteristik atau keteraturan di antara masalah yang berbeda", "Mengabaikan detail yang tidak penting", "Membagi program menjadi modul"],
+    "a": 1,
+    "e": "Mengenali pola mempermudah pemecahan masalah karena kita bisa menerapkan solusi yang sudah pernah berhasil sebelumnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Bilangan desimal 20 jika diubah menjadi bilangan biner adalah...",
+    "o": ["10100", "10010", "11000", "10101"],
+    "a": 0,
+    "e": "20 = 16 + 4. Posisinya di bit adalah 16 (2^4) dan 4 (2^2). Hasilnya '10100'."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Pada struktur data Graph, titik simpul pertemuan dinamakan 'Vertex', sedangkan garis penghubung antar simpul disebut...",
+    "o": ["Root", "Leaf", "Edge (Sisi)", "Child"],
+    "a": 2,
+    "e": "Edge adalah garis relasi yang menghubungkan satu Vertex dengan Vertex lainnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Langkah abstraksi pada perancangan ikon digital menu makanan cepat saji bertujuan untuk...",
+    "o": ["Menggambar makanan semirip mungkin seperti foto", "Menghilangkan detail rumit dan hanya mengambil bentuk garis inti agar mudah dikenali dalam ukuran kecil", "Memperbesar resolusi gambar", "Menghapus gambar"],
+    "a": 1,
+    "e": "Abstraksi menyaring kompleksitas grafis berlebih, menyisakan representasi visual esensial."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data di mana elemen terakhir menunjuk kembali ke elemen pertama membentuk lingkaran dinamakan...",
+    "o": ["Linear Queue", "Circular Queue / Linked List Lingkar", "Array Dua Dimensi", "Double Stack"],
+    "a": 1,
+    "e": "Struktur sirkular memungkinkan pemanfaatan memori berputar kontinu tanpa henti di ujung baris."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah pohon keputusan (Decision Tree) yang setiap cabangnya hanya memiliki maksimal dua anak dinamakan...",
+    "o": ["Binary Tree (Pohon Biner)", "Multi Tree", "Red Tree", "Flat Tree"],
+    "a": 0,
+    "e": "Binary Tree membatasi percabangan derajat struktur maksimal dua arah (Kiri dan Kanan)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Simbol heksadesimal 'F' dalam sistem bilangan desimal bernilai...",
+    "o": ["10", "13", "15", "16"],
+    "a": 2,
+    "e": "Heksadesimal 0-9 dilanjutkan A=10, B=11, C=12, D=13, E=14, F=15."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika diketahui A = Benar dan B = Salah. Berapakah hasil ekspresi logika: A AND (NOT B)?",
+    "o": ["Benar", "Salah", "Tidak dapat ditentukan", "Eror"],
+    "a": 0,
+    "e": "NOT B = Benar. Maka A AND (NOT B) adalah Benar AND Benar = Benar."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Bagian prosesor komputer yang bertugas mengatur lalu lintas data dan mengatur urutan instruksi di dalam CPU dinamakan...",
+    "o": ["ALU (Arithmetic Logic Unit)", "CU (Control Unit)", "RAM", "Harddisk"],
+    "a": 1,
+    "e": "Control Unit (Unit Kendali) bertindak sebagai kondektur yang mengatur sinkronisasi siklus kerja CPU."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Sistem operasi komputer melakukan 'Multitasking'. Apakah pengertian dari multitasking tersebut?",
+    "o": ["Komputer bisa dipakai banyak orang sekaligus", "Komputer dapat menjalankan beberapa program aplikasi secara bersamaan dalam satu waktu", "Komputer memiliki banyak layar", "Komputer tahan air"],
+    "a": 1,
+    "e": "Multitasking membagi waktu CPU (time-slicing) dengan sangat cepat ke banyak aplikasi sehingga terasa berjalan serentak."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat keras penyimpan daya listrik cadangan darurat yang otomatis menyala saat listrik PLN padam mendadak agar komputer tidak langsung mati adalah...",
+    "o": ["Adaptor", "Stabilizer", "UPS (Uninterruptible Power Supply)", "Power Supply"],
+    "a": 2,
+    "e": "UPS memiliki baterai internal yang memberi jeda waktu menyelamatkan data saat mati lampu."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat lunak bawaan pabrik pembuat perangkat keras yang tertanam langsung di memori ROM chip dinamakan...",
+    "o": ["Firmware", "Shareware", "Adware", "Malware"],
+    "a": 0,
+    "e": "Firmware adalah kode instruksi tetap penunjang hardware fundamental (misal BIOS pada motherboard)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Gerbang logika dasar yang akan mengeluarkan nilai 1 (Benar) jika SALAH SATU atau KEDUA masukannya bernilai 1 adalah...",
+    "o": ["Gerbang AND", "Gerbang OR", "Gerbang NOT", "Gerbang NAND"],
+    "a": 1,
+    "e": "Gerbang OR (Logika ATAU) hanya akan bernilai 0 jika seluruh masukannya bernilai 0."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah di bawah ini yang BUKAN merupakan bagian dari sistem operasi (Operating System)?",
+    "o": ["Windows", "Linux", "Android", "Microsoft Excel"],
+    "a": 3,
+    "e": "Microsoft Excel adalah aplikasi pengguna akhir (Application Software), bukan sistem operasi pengelola mesin."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Di dalam memori komputer, 1 Byte data tersusun dari kombinasi sebanyak...",
+    "o": ["4 Bit", "8 Bit", "16 Bit", "1024 Bit"],
+    "a": 1,
+    "e": "Standardisasi internasional menyepakati 1 Byte merupakan blok terkecil ukuran 8 Bit biner."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Jenis port kabel video komputer modern berbentuk trapesium pipih yang mentransfer video resolusi tinggi sekaligus audio dalam satu kabel adalah...",
+    "o": ["Port VGA", "Port HDMI", "Port USB", "Port RJ-45"],
+    "a": 1,
+    "e": "HDMI (High-Definition Multimedia Interface) adalah standar modern multimedia audio-visual terpadu."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Komponen utama sirkuit komputer generasi pertama pada tahun 1940-an yang ukurannya sangat besar dan memancarkan panas berlebih dinamakan...",
+    "o": ["Transistor", "Tabung Vakum (Vacuum Tube)", "Integrated Circuit (IC)", "Mikroprosesor"],
+    "a": 1,
+    "e": "Komputer purba seperti ENIAC memakai belasan ribu tabung vakum kaca yang boros listrik."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Rangkaian elektronik terpadu mini yang memuat jutaan transistor di atas kepingan silikon kecil dinamakan...",
+    "o": ["Resistor", "Integrated Circuit (IC) / Chip", "Kapasitor", "Motherboard"],
+    "a": 1,
+    "e": "Ditemukannya IC pada tahun 1958 merevolusi penyusutan fisik komputer menjadi seukuran genggaman tangan."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat penyimpan data permanen berkecepatan sangat tinggi yang tidak menggunakan piringan cakram melainkan keping memori flash sirkuit elektrik adalah...",
+    "o": ["HDD (Harddisk)", "Floppy Disk", "SSD (Solid State Drive)", "CD-ROM"],
+    "a": 2,
+    "e": "SSD menghapus hambatan gesekan mekanik cakram, menghasilkan kinerja booting hitungan detik."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Fungsi utama dari Driver perangkat keras yang diinstal pada komputer adalah...",
+    "o": ["Membersihkan debu komputer", "Menerjemahkan perintah Sistem Operasi agar dimengerti fisik perangkat keras bersangkutan", "Mempercepat game online", "Menghapus malware"],
+    "a": 1,
+    "e": "Driver menjembatani komunikasi bahasa sinyal hardware khusus agar dikenal ramah oleh OS Windows/Linux."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Di manakah konfigurasi tanggal dan waktu sistem jam komputer tetap hidup tersimpan meski komputer sudah dimatikan total?",
+    "o": ["Di dalam Harddisk", "Di dalam chip BIOS yang ditenagai Baterai CMOS", "Di server Microsoft", "Di memori RAM"],
+    "a": 1,
+    "e": "Baterai bulat CMOS menjaga arus listrik mini konstan pada memori RAM non-volatile BIOS agar jam jam tidak riset."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Proses booting komputer di mana komputer dinyalakan dari kondisi mati total (tombol ditekan) dinamakan...",
+    "o": ["Warm Booting", "Cold Booting", "Reboot", "Safe Mode"],
+    "a": 1,
+    "e": "Cold Booting adalah inisialisasi kelistrikan nol hardware dari titik mati murni menuju menyala."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah yang BUKAN termasuk perangkat keluaran (Output Device)?",
+    "o": ["Monitor", "Printer", "Scanner", "Speaker"],
+    "a": 2,
+    "e": "Scanner memindai dokumen fisik menjadi berkas digital digital, yang bertindak sebagai alat masukan (Input)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sekelompok komputer di dalam satu ruangan lab komputer sekolah yang saling terhubung memakai kabel UTP membentuk jaringan...",
+    "o": ["LAN (Local Area Network)", "MAN (Metropolitan Area Network)", "WAN (Wide Area Network)", "PAN"],
+    "a": 0,
+    "e": "LAN melingkupi jaringan jarak pendek lingkup lokal tertutup (gedung, sekolah, rumah)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Alat jaringan yang berfungsi untuk menghubungkan dua jaringan yang berbeda segmen atau mendistribusikan paket data internet dari ISP ke jaringan LAN dinamakan...",
+    "o": ["Hub", "Switch", "Router", "Repeater"],
+    "a": 2,
+    "e": "Router memiliki kecerdasan merutekan paket data antar-segmen alamat IP jaringan yang berbeda."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Kabel jaringan internet yang ditanam di bawah dasar laut antar pulau dan mentransmisikan data memakai kilatan cahaya di serat kaca dinamakan...",
+    "o": ["Kabel Coaxial", "Kabel UTP", "Kabel Fiber Optik (Serat Optik)", "Kabel Tembaga"],
+    "a": 2,
+    "e": "Fiber Optik adalah tulang punggung internet global berkat bandwidth raksasa dan kecepatan transmisi cahaya."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jenis jaringan nirkabel (wireless) dengan jangkauan sangat pendek (sekitar 10 meter) yang sering dipakai menghubungkan HP dengan speaker nirkabel adalah...",
+    "o": ["Wi-Fi", "Bluetooth", "Satelit", "GPRS"],
+    "a": 1,
+    "e": "Bluetooth beroperasi pada pita frekuensi ISM 2.4 GHz untuk jaringan area pribadi (PAN) konsumsi daya rendah."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Aplikasi peramban (Web Browser) yang digunakan untuk berselancar membuka dan membaca konten situs web di internet adalah...",
+    "o": ["WhatsApp", "Google Chrome", "Gmail", "Google Play Store"],
+    "a": 1,
+    "e": "Google Chrome menerjemahkan file HTML/CSS situs server menjadi suguhan visual interaktif bagi peselancar web."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Alamat unik numerik komputer yang terhubung di internet, misalnya 192.168.1.1, dinamakan...",
+    "o": ["MAC Address", "IP Address", "E-mail Address", "URL"],
+    "a": 1,
+    "e": "IP Address (Internet Protocol Address) menjamin tiap identitas perangkat bisa saling kirim-terima paket data."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sistem penerjemah nama situs web (misal: google.com) ke deretan angka alamat IP (misal: 8.8.8.8) dinamakan...",
+    "o": ["DHCP", "HTTP", "DNS (Domain Name System)", "FTP"],
+    "a": 2,
+    "e": "DNS ibarat buku alamat internet, mengkonversi teks ramah manusia ke angka alamat server tujuan asli."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Koneksi internet kabel telpon rumah model lama yang mewajibkan menaruh nomor dial-up khusus dan memblokir sambungan telpon suara dinamakan...",
+    "o": ["Dial-Up Connection", "Broadband ADSL", "Mobile 4G LTE", "WiFi Connection"],
+    "a": 0,
+    "e": "Dial-up memakai modem analog berkecepatan rendah (maksimal 56 kbps) yang memonopoli saluran kabel tembaga telepon."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Pengaturan berbagi koneksi paket data internet dari smartphone menuju laptop teman di sekitar secara nirkabel dinamakan...",
+    "o": ["Browsing", "Tethering / Personal Hotspot", "Downloading", "Uploading"],
+    "a": 1,
+    "e": "Tethering mengubah ponsel menjadi gerbang pemancar nirkabel mini lokal untuk berbagi kuota data seluler."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Satuan kecepatan akses bandwidth koneksi internet yang sering tertulis pada brosur penjualan layanan ISP adalah...",
+    "o": ["Mbps (Megabits per second)", "MB (Megabytes)", "MHz (Megahertz)", "GHz (Gigahertz)"],
+    "a": 0,
+    "e": "Kuantitas data transmisi dinilai dari kecepatan bit-per-second, berbeda dari ukuran penyimpanan byte (MB)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tindakan mengunduh atau mengambil salinan berkas gambar/lagu dari internet ke dalam komputer lokal kita dinamakan...",
+    "o": ["Upload", "Download", "Streaming", "Browsing"],
+    "a": 1,
+    "e": "Download mentransfer data dari server awan turun ke penyimpanan perangkat kita sendiri."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tanda ikon gembok terkunci di sebelah kiri alamat web pada browser menandakan bahwa situs tersebut menggunakan enkripsi...",
+    "o": ["HTTP", "HTTPS (Secure)", "FTP", "SMTP"],
+    "a": 1,
+    "e": "HTTPS mengenkripsi saluran pertukaran data kredensial password agar tidak bisa disadap oleh pihak tengah."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Domain web kependekan dari '.sch.id' dikhususkan penggunaannya secara resmi di Indonesia untuk situs...",
+    "o": ["Pemerintahan", "Perusahaan Komersial", "Sekolah", "Militer"],
+    "a": 2,
+    "e": ".sch singkatan dari 'School', diperuntukkan bagi lembaga sekolah jenjang SD hingga SMA/SMK."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sistem pertukaran pesan elektronik surat-menyurat menggunakan koneksi internet global dinamakan...",
+    "o": ["E-Learning", "E-Commerce", "E-Mail", "E-Banking"],
+    "a": 2,
+    "e": "Electronic Mail memungkinkan pengiriman berkas dokumen dan teks resmi secara sekejap lintas negara."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Manakah yang merupakan ancaman kejahatan digital berupa email palsu yang berpura-pura dari pihak bank untuk mencuri data login korban?",
+    "o": ["DDoS", "Phishing", "Spam", "Adware"],
+    "a": 1,
+    "e": "Phishing memancing korban memasukkan kata sandi pada form buatan palsu yang menyerupai laman resmi."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Perangkat keras jaringan sederhana yang memperkuat jangkauan sinyal Wi-Fi lemah dari router utama agar menjangkau area terpencil dinamakan...",
+    "o": ["Switch", "Repeater / Extender", "Hub", "Client"],
+    "a": 1,
+    "e": "Repeater menangkap sinyal pancaran lalu memancarkannya kembali dengan daya utuh ke zona terpencil."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Topologi jaringan di mana semua komputer terhubung pada satu jalur kabel utama yang lurus dinamakan...",
+    "o": ["Topologi Bus", "Topologi Star", "Topologi Ring", "Topologi Mesh"],
+    "a": 0,
+    "e": "Bus menggunakan kabel tunggal linear di mana kedua ujungnya dihentikan oleh terminator hambatan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Perangkat penyaring yang bertugas mencegah masuknya akses jahat atau peretas dari luar internet menuju jaringan lokal komputer kita disebut...",
+    "o": ["Antivirus", "Firewall", "Browsing Data", "Gateway"],
+    "a": 1,
+    "e": "Firewall memfilter paket data mencurigakan sesuai parameter gerbang akses pengamanan jaringan internal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Standar pengamanan kata sandi hotspot Wi-Fi yang paling sering digunakan saat ini karena keamanannya cukup baik adalah...",
+    "o": ["WEP", "WPA2 / WPA3", "Open System", "MAC Filter"],
+    "a": 1,
+    "e": "WPA2/3 menerapkan enkripsi AES kuat untuk memblokir penembusan password Wi-Fi oleh pihak asing."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jaringan global raksasa yang menghubungkan ribuan jaringan lokal kecil di seluruh belahan bumi tanpa batas dinamakan...",
+    "o": ["Intranet", "Extranet", "Internet", "Bluetooth Net"],
+    "a": 2,
+    "e": "Internet singkatan dari Interconnection Networking, persemakmuran jaringan komputer global sejagat raya."
+  }
+]

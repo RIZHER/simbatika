@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Ibu Guru meminta Andi mencatat daftar buah kesukaan setiap teman di kelas. Kegiatan mencatat informasi mentah ini dinamakan...",
+    "o": ["Menggambar Data", "Mengumpulkan Data (Data Collection)", "Menghapus Data", "Mencetak Data"],
+    "a": 1,
+    "e": "Mengumpulkan data adalah langkah awal mendapatkan informasi fakta sebelum kita menyusun tabel kesimpulan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Kumpulan angka-angka hasil ulangan matematika murid kelas 5 jika disusun rapi dalam bentuk baris mendatar dan kolom tegak disebut...",
+    "o": ["Surat", "Lagu", "Tabel Data", "Gambar Lukisan"],
+    "a": 2,
+    "e": "Tabel mempermudah pembaca mengamati sebaran data secara urut dan terorganisir."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Visualisasi atau gambaran data tabel yang diubah menjadi bentuk balok atau kotak-kotak tinggi berwarna-warni dinamakan...",
+    "o": ["Grafik Garis", "Grafik Batang (Bar Chart)", "Grafik Donat", "Grafik Bintang"],
+    "a": 1,
+    "e": "Grafik batang sangat mudah dibaca anak-anak karena perbandingan jumlah terlihat dari tinggi rendahnya balok balok."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Beni melihat grafik batang berat badan siswa. Kotak paling tinggi melambangkan data berat badan yang jumlah siswanya...",
+    "o": ["Paling sedikit", "Paling banyak / Paling sering muncul", "Kosong", "Hilang"],
+    "a": 1,
+    "e": "Tinggi batang grafik berbanding lurus dengan jumlah frekuensi data yang diwakilinya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Aplikasi pengolah angka berlogo huruf 'X' hijau yang sangat hebat untuk membuat tabel nilai otomatis di komputer adalah...",
+    "o": ["Microsoft PowerPoint", "Microsoft Paint", "Microsoft Excel", "Microsoft Word"],
+    "a": 2,
+    "e": "Excel adalah program spreadsheet unggulan untuk melakukan perhitungan matematika dan menyusun diagram."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam menyusun daftar nama teman sekelas dari abjad 'A' paling atas sampai abjad 'Z' paling bawah dinamakan proses...",
+    "o": ["Menyalin", "Mengurutkan Data (Sorting)", "Mewarnai", "Menghapus"],
+    "a": 1,
+    "e": "Sorting membantu merapikan urutan data alfabetis agar nama teman lebih cepat dicari matanya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Alat tulis digital dalam Ms. Excel yang berbentuk kotak tunggal tempat kita mengetikkan angka dinamakan...",
+    "o": ["Baris", "Kolom", "Sel (Cell)", "Kertas"],
+    "a": 2,
+    "e": "Sel adalah titik potong antara Baris (angka) dan Kolom (huruf) yang menampung data ketikan kita."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jika sebuah tabel hobi mencatat: Membaca (10 anak), Main Sepak Bola (15 anak), Berenang (5 anak). Hobi apakah yang paling tidak diminati?",
+    "o": ["Membaca", "Berenang", "Main Sepak Bola", "Semua sama"],
+    "a": 1,
+    "e": "Berenang hanya dipilih 5 anak, yang merupakan jumlah pemilih terkecil (nilai minimum)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fungsi matematika sederhana untuk 'Menjumlahkan total' seluruh angka di dalam kolom tabel secara cepat di Excel adalah...",
+    "o": ["=MIN()", "=SUM()", "=MAX()", "=AVERAGE()"],
+    "a": 1,
+    "e": "=SUM() secara otomatis menambahkan semua deretan angka terpilih tanpa perlu kita hitung satu per satu jari."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Di Microsoft Excel, untuk menghitung nilai RATA-RATA ulangan sekelas, rumus yang diketikkan adalah...",
+    "o": ["=AVERAGE()", "=SUM()", "=COUNT()", "=MAX()"],
+    "a": 0,
+    "e": "AVERAGE berfungsi menghitung jumlah total dibagi banyaknya data untuk mengetahui rata-rata nilai."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Ketika kita menemukan data ganda (nama teman tercatat dua kali di tabel), tindakan perbaikan data yang harus dilakukan adalah...",
+    "o": ["Menulisnya tiga kali", "Menghapus salah satu data duplikat agar tabel bersih jujur", "Mengabaikannya saja", "Menutup layar"],
+    "a": 1,
+    "e": "Membersihkan data duplikat (Data Cleaning) menjamin keakuratan hasil perhitungan final agar tidak salah hitung."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Manakah bentuk grafik yang paling seru digunakan untuk menunjukkan perubahan tinggi badan kamu dari umur 7 tahun sampai 11 tahun?",
+    "o": ["Grafik Kue Lingkaran", "Grafik Garis (Line Chart)", "Grafik Bintang", "Grafik Balok Acak"],
+    "a": 1,
+    "e": "Grafik garis menghubungkan titik data waktu ke waktu sehingga pola pertumbuhan naik terlihat jelas jalurnya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebelum membuat grafik di komputer, langkah wajib paling awal yang harus disiapkan datanya adalah...",
+    "o": ["Membeli printer mahal", "Menyusun data mentah ke dalam tabel sel yang rapi", "Menggambar di kertas gambar", "Mematikan listrik"],
+    "a": 1,
+    "e": "Komputer hanya bisa menggambar grafik otomatis jika data angkanya sudah diketikkan di sel tabel spreadsheet."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Apa nama sebutan baris kotak mendatar ke samping kiri-kanan yang ditandai dengan angka (1, 2, 3) di Excel?",
+    "o": ["Column (Kolom)", "Row (Baris)", "Sheet (Lembar)", "Cell (Sel)"],
+    "a": 1,
+    "e": "Row adalah barisan horizontal (mendatar), sedangkan Column adalah jalur vertikal (tegak) berhuruf A, B, C."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Simbol matematika yang wajib dituliskan pertama kali di awal kotak sel sebelum mengetikkan rumus hitungan Excel adalah...",
+    "o": ["Tanda Tambah (+)", "Tanda Tanya (?)", "Tanda Sama Dengan (=)", "Tanda Kali (*)"],
+    "a": 2,
+    "e": "Excel menganggap ketikan sebagai rumus hitungan HANYA JIKA diawali tanda '=' (sama dengan)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Bahasa pemrograman visual berbentuk blok puzzle berwarna-warni yang seru untuk membuat animasi dan game sendiri bernama...",
+    "o": ["Java", "C++", "Scratch", "HTML"],
+    "a": 2,
+    "e": "Scratch dirancang khusus oleh universitas MIT agar anak-anak bisa belajar logika programming tanpa mengetik kata sulit."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Karakter gambar lucu (seperti kucing oranye, anjing, atau bola) yang kita gerakkan di aplikasi Scratch dinamakan...",
+    "o": ["Sprite", "Stage", "Kostum", "Backdrop"],
+    "a": 0,
+    "e": "Sprite adalah sebutan untuk semua objek gambar/aktor yang diberi instruksi kode di dalam Scratch."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Latar belakang pemandangan panggung tempat para sprite beraksi (misal: gambar pantai, luar angkasa) dinamakan...",
+    "o": ["Sprite", "Backdrop (Latar Belakang)", "Blok Kode", "Sound"],
+    "a": 1,
+    "e": "Backdrop menghias panggung belakang (Stage) agar permainan terlihat indah dan memiliki tema tema berbeda."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Tombol bergambar bendera apa yang harus kita klik di pojok kanan panggung untuk MEMULAI jalannya animasi Scratch?",
+    "o": ["Bendera Merah", "Bendera Kuning", "Bendera Hijau (Green Flag)", "Bendera Biru"],
+    "a": 2,
+    "e": "Bendera hijau melambangkan tombol 'GO' atau start awal untuk memicu skrip yang dimulai dengan blok kejadian."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kategori blok warna BIRU TUA bernama 'Motion' digunakan untuk memberi perintah sprite agar...",
+    "o": ["Mengubah warna kulit", "Mengeluarkan bunyi mengeong", "Bergerak atau berpindah tempat (Move)", "Berbicara teks"],
+    "a": 2,
+    "e": "Motion berisi blok perintah gerak seperti berjalan maju, berputar, atau meluncur ke posisi koordinat tertentu."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok kode Scratch: 'move 10 steps' berfungsi untuk membuat sprite berjalan maju sebanyak...",
+    "o": ["1 Langkah saja", "10 Langkah (Piksel)", "100 Langkah", "Mundur ke belakang"],
+    "a": 1,
+    "e": "Angka di dalam lubang putih bisa kita ganti. Secara bawaan, ia memerintahkan gerak maju 10 piksel jarak."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Scratch, kategori blok warna UNGU bernama 'Looks' digunakan untuk mengatur...",
+    "o": ["Kecepatan jalan", "Tampilan sprite, balon teks obrolan, dan ukuran tubuh", "Suara latar musik", "Warna garis"],
+    "a": 1,
+    "e": "Looks mengatur visual seperti berkata 'Halo!', berganti kostum baju, atau memperbesar tubuh sprite."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok kode 'say Hello! for 2 seconds' jika dijalankan akan mengakibatkan...",
+    "o": ["Sprite mengeluarkan suara asli berbicara Halo", "Muncul balon teks komik tulisan 'Hello!' selama dua detik di kepala sprite", "Sprite menghilang dua detik", "Komputer bernyanyi"],
+    "a": 1,
+    "e": "Blok ini memunculkan balon teks grafis pembicaraan bertempo untuk dialog percakapan antar tokoh."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Cara menggabungkan kode-kode blok di Scratch agar bisa berjalan bersamaan secara berurutan adalah...",
+    "o": ["Memasukkannya ke keranjang sampah", "Menempelkan (menumpuk) blok dari atas ke bawah sampai berbunyi klik magnet", "Menulis kode dengan pensil", "Memisahkan blok jauh-jauh"],
+    "a": 1,
+    "e": "Sifat blok Scratch mirip puzzle lego yang saling mengunci dari atas (kejadian pertama) ke bawah (kejadian berikutnya)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Untuk menghentikan paksa seluruh permainan Scratch yang sedang berjalan, kita menekan tombol bergambar...",
+    "o": ["Ikon Bintang", "Bulatan Warna Merah (Stop Sign)", "Ikon Gembok", "Ikon Silang Kuning"],
+    "a": 1,
+    "e": "Bulatan merah di sebelah bendera hijau berfungsi sebagai tombol darurat menyetop semua aktivitas kode kode."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kategori blok berwarna KUNING bernama 'Events' sangat penting karena bertugas sebagai...",
+    "o": ["Pemicu dimulainya perintah (Kejadian awal)", "Tempat mewarnai", "Suara hewan", "Penyimpan skor"],
+    "a": 0,
+    "e": "Events (seperti: 'When green flag clicked') diletakkan paling puncak untuk mendeteksi kapan kode harus jalan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok 'turn right 15 degrees' berfungsi menggerakkan sprite agar berputar ke arah...",
+    "o": ["Maju lurus", "Mundur", "Berputar searah jarum jam (Kanan)", "Melompat ke atas"],
+    "a": 2,
+    "e": "Perintah rotasi derajat memutar orientasi hadap wajah sprite searah busur derajat."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dalam Scratch, fitur 'Costumes' (Kostum) memungkinkan satu gambar sprite memiliki...",
+    "o": ["Nama yang berbeda", "Banyak gaya pose gambar berbeda agar terlihat bisa bergerak animasi", "Banyak jenis file audio", "Dua warna panggung"],
+    "a": 1,
+    "e": "Berganti-ganti kostum dengan cepat menciptakan animasi sprite seperti sedang berjalan melangkahkan kaki."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok Control berwarna oranye yang bertugas menunggu jeda waktu sebelum melakukan gerakan berikutnya dinamakan...",
+    "o": ["wait 1 seconds", "forever", "if then", "repeat"],
+    "a": 0,
+    "e": "Wait memberi napas jeda (delay) agar aksi sprite tidak berjalan terlalu cepat di mata kita."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Bagaimana bunyi logika perulangan 'Repeat 4' saat membungkus perintah 'move 10 steps'?",
+    "o": ["Sprite berjalan 10 langkah sekali saja", "Sprite berjalan 10 langkah diulang-ulang terus selamanya", "Sprite berjalan 10 langkah sebanyak 4 kali berturut-turut", "Sprite diam saja"],
+    "a": 2,
+    "e": "Repeat melalukan looping pengulangan sebanyak angka putaran yang tertulis di kolom angka."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Apa itu 'Jejak Digital' yang tertinggal saat kita bermain game online atau berkomentar di internet?",
+    "o": ["Bekas sidik jari kotor di layar HP", "Semua catatan kegiatan, komentar, dan foto yang kita posting di internet yang tersimpan kekal", "Kotoran debu di mouse", "Kabel yang berantakan"],
+    "a": 1,
+    "e": "Jejak digital sulit dihapus. Oleh karena itu, kita wajib memposting hal yang baik dan sopan saja."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Berapa batasan waktu menatap layar gawai (screen time) untuk bermain game yang sehat agar mata tidak lelah menurut ahli?",
+    "o": ["24 jam sehari tanpa tidur", "Cukup 1 - 2 jam saja sehari dibarengi istirahat fisik", "10 jam bermain terus-menerus", "Tidak boleh berkedip sama sekali"],
+    "a": 1,
+    "e": "Membatasi durasi main game melindungi mata dari rabun jauh dan menjaga tubuh tetap bugar aktif bergerak."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sikap yang paling sopan dan aman saat mengirimkan chat obrolan grup belajar WhatsApp kelas adalah...",
+    "o": ["Menggunakan kata-kata kasar", "Berteriak menggunakan huruf besar semua (CAPS LOCK)", "Menyapa dengan salam santun, ramah, dan tidak menyinggung perasaan teman", "Mengirim stiker ejekan"],
+    "a": 2,
+    "e": "Norma sopan santun chat maya (Netiket) sama pentingnya dengan sopan santun berbicara tatap muka."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jika di grup game online ada orang asing tidak dikenal meminta alamat rumah atau foto kartu keluarga kita, tindakan yang benar adalah...",
+    "o": ["Langsung memberikannya agar dapat hadiah", "Mengabaikannya dan segera memberitahu orang tua atau bapak/ibu guru", "Mengajaknya bertemu langsung", "Memberikan password HP"],
+    "a": 1,
+    "e": "Jangan pernah membagikan data privasi sensitif kepada siapapun di internet demi mencegah tindak kejahatan penculikan/penipuan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan mengejek fisik teman, mencemooh hasil karyanya, atau mengucilkan teman di media sosial dinamakan kejahatan...",
+    "o": ["Cyberbullying (Perundungan Dunia Maya)", "Downloading", "Scanning", "Coding"],
+    "a": 0,
+    "e": "Cyberbullying merusak mental korban, kita wajib menjadi sahabat yang baik dan suportif baik di sekolah maupun online."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Bagaimana cara menjaga kerahasiaan Akun Game atau Email kita agar tidak dicuri (hack) oleh orang jahat?",
+    "o": ["Memberikan kata sandi kepada teman sebangku", "Membuat kata sandi (password) yang kuat kombinasi huruf & angka dan merahasiakannya rapat-rapat", "Menulis password di status WA", "Memakai password tanggal lahir"],
+    "a": 1,
+    "e": "Password adalah kunci rumah digital pribadi yang tidak boleh dipinjamkan atau diberitahu siapapun."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Perasaan iri atau sedih akibat terlalu sering melihat postingan pamer liburan teman di media sosial disebut gejala...",
+    "o": ["Mengantuk", "FOMO / Insecure", "Kenyang", "Semangat"],
+    "a": 1,
+    "e": "Melihat pameran semu dunia maya sering merusak rasa syukur anak. Batasi medsos dan nikmati hidup nyata."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Menyebarkan cerita bohong atau berita palsu (hoax) yang belum jelas kebenarannya di grup sekolah melanggar aturan...",
+    "o": ["Aturan Kebersihan", "Hukum ITE dan Etika Kejujuran Digital", "Aturan Seragam", "Tidak melanggar apapun"],
+    "a": 1,
+    "e": "Penyebar hoax membuat panik dan memecah permusuhan, hukum negara melarang perbuatan tersebut."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Manfaat positif terbesar internet bagi anak sekolah dasar kelas 5 untuk mendukung prestasinya adalah...",
+    "o": ["Bisa begadang main game perang-perangan", "Akses ensiklopedia sains, video edukasi matematika, dan kamus bahasa asing gratis", "Belanja online boros kuota", "Melihat tayangan mengerikan"],
+    "a": 1,
+    "e": "Internet menyimpan perpustakaan pengetahuan dunia yang sangat luas jika digunakan bijak mencari materi materi positif."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Saat meminjam komputer sekolah di laboratorium komputer, sikap pemakai yang baik dan bertanggung jawab setelah selesai memakai adalah...",
+    "o": ["Langsung pulang membiarkan komputer hidup", "Mematikan komputer sesuai prosedur (Shut down) dan merapikan kursi", "Mencabut paksa kabel listrik", "Membawa pulang mouse komputer"],
+    "a": 1,
+    "e": "Menutup aplikasi dan Shut down komputer menjaga ketahanan hardware sekolah agar tetap awet awet dipakai bersama."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Jika kamu diberi tugas kelompok membuat poster digital bersama teman sekelas di aplikasi Canva, proses kerja sama ini dinamakan...",
+    "o": ["Individualis", "Kompetisi", "Kolaborasi (Kerja Kelompok Digital)", "Mandiri"],
+    "a": 2,
+    "e": "Kolaborasi digital menyatukan ide kreatif banyak anak dalam merakit satu karya poster yang indah."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Coretan alur gambar cerita berurutan per adegan sebelum kita membuat animasi utuh di komputer dinamakan berkas...",
+    "o": ["Daftar Belanja", "Storyboard", "Kamus", "Rapor"],
+    "a": 1,
+    "e": "Storyboard mempermudah animator membayangkan alur skenario adegan per adegan dari awal hingga tamat."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Langkah mengenalkan hasil karya proyek animasi Scratch buatanmu kepada bapak/ibu guru dan teman di depan kelas dinamakan...",
+    "o": ["Penyembunyian", "Presentasi / Demo Produk", "Pemasaran", "Instalasi"],
+    "a": 1,
+    "e": "Presentasi memamerkan keberhasilan logika karya kita agar mendapatkan masukan yang membangun."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Untuk mengambil foto bunga hias di taman sekolah demi tugas kliping informatika, perangkat input yang kita gunakan adalah...",
+    "o": ["Keyboard", "Printer", "Kamera (Digital/HP)", "Speaker"],
+    "a": 2,
+    "e": "Kamera menangkap citra visual dunia nyata menjadi berkas gambar piksel digital di memori memori."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Sebuah aplikasi desain grafis online seru yang memudahkan anak sekolah merakit portofolio gambar atau poster memakai template cantik adalah...",
+    "o": ["Microsoft Excel", "Canva", "Notepad", "Windows Media Player"],
+    "a": 1,
+    "e": "Canva populer menyediakan ribuan elemen grafis seret-lepas ramah ramah pemula dan anak-anak."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Menyontek tugas ketikan cerita milik teman lalu mengganti namanya menjadi namamu sendiri adalah perbuatan buruk bernama...",
+    "o": ["Bekerja sama", "Plagiarisme (Menjiplak)", "Menghormati", "Meningkatkan nilai"],
+    "a": 1,
+    "e": "Menjiplak karya orang lain melanggar nilai kejujuran dan menghambat perkembangan kemampuan berpikir orisinil kamu."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Langkah menguji coba game Scratch buatanmu dengan cara memainkannya berkali-kali untuk mencari apakah ada gerakan macet dinamakan...",
+    "o": ["Mengganti tema", "Testing / Uji Coba Permainan", "Menghapus file", "Menjual game"],
+    "a": 1,
+    "e": "Uji coba memastikan tidak ada kesalahan logika tersembunyi sehingga pemain lain senang memainkannya."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Media pameran daring tempat kita membagikan link game Scratch kita ke seluruh komunitas anak-anak dunia di web Scratch dinamakan proses...",
+    "o": ["Deleting", "Share (Membagikan)", "Editing", "Coding"],
+    "a": 1,
+    "e": "Tombol 'Share' oranye di atas proyek Scratch mempublikasikan karya ciptamu agar bisa dimainkan jutaan teman sedunia."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Sebelum mulai membuat proyek kolaborasi digital, kesepakatan pembagian tugas anggota tim yang paling adil idealnya disepakati melalui...",
+    "o": ["Pertengkaran", "Musyawarah / Diskusi Tim", "Ditentukan sepihak satu anak saja", "Undian acak"],
+    "a": 1,
+    "e": "Diskusi melatih kepemimpinan dan empati dalam membagi peran adil sesuai bakat masing-masing anggota."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Umpan balik berupa tepuk tangan dan pujian ramah teman-teman saat melihat hasil karyamu dinamakan...",
+    "o": ["Kritik tajam", "Apresiasi Positif", "Hukuman", "Sindiran"],
+    "a": 1,
+    "e": "Apresiasi menumbuhkan kepercayaan diri anak untuk berkarya menciptakan proyek informatika yang lebih keren lagi."
+  }
+]

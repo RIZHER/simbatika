@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Di komputer, data disimpan menggunakan saklar elektrik kecil bernilai 1 (On) dan 0 (Off). Sistem bilangan dasar dua ini dinamakan...",
+    "o": ["Bilangan Cacah", "Bilangan Biner", "Bilangan Heksadesimal", "Bilangan Desimal"],
+    "a": 1,
+    "e": "Sistem Biner adalah bahasa dasar mesin komputer untuk mewakili semua sinyal elektronik."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika angka biner 1 setara dengan lampu menyala dan 0 mati. Berapakah nilai dari biner '10' jika diubah ke angka kita sehari-hari (desimal)?",
+    "o": ["1", "2", "3", "4"],
+    "a": 1,
+    "e": "10 biner = (1 * 2^1) + (0 * 2^0) = 2 + 0 = 2 desimal."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam bilangan biner, berapakah nilai desimal yang setara dengan deretan biner '11'?",
+    "o": ["1", "2", "3", "4"],
+    "a": 2,
+    "e": "11 biner = (1 * 2) + (1 * 1) = 3 desimal."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Cara kerja otak komputer dalam memecah satu masalah besar (seperti membuat pesta kelas) menjadi tugas-tugas mandiri (makanan, musik, undangan) disebut...",
+    "o": ["Dekomposisi", "Abstraksi", "Biner", "Hardware"],
+    "a": 0,
+    "e": "Dekomposisi memecah kerumitan agar tugas terbagi menjadi potongan kecil yang gampang diselesaikan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Saat merancang ikon kompas digital, kita hanya menggambar tanda panah merah-putih sederhana dan membuang ornamen hiasannya. Teknik ini dinamakan...",
+    "o": ["Pengenalan Pola", "Algoritma", "Abstraksi", "Instalasi"],
+    "a": 2,
+    "e": "Abstraksi menyaring informasi penting agar inti gambar mudah dipahami dengan cepat."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Tumpukan buku pelajaran dari hari Senin paling bawah sampai Sabtu paling atas menerapkan prinsip...",
+    "o": ["FIFO (First In First Out)", "LIFO (Last In First Out / Tumpukan)", "Antrean Bebas", "Kotak Acak"],
+    "a": 1,
+    "e": "LIFO berarti buku hari Sabtu (paling akhir ditumpuk) wajib diambil pertama kali agar tumpukan tidak roboh."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Proses mengantre di kantin sekolah di mana anak yang datang paling siang berada di posisi paling belakang menerapkan prinsip...",
+    "o": ["Stack", "Queue (Antrean / FIFO)", "Lingkaran", "Acak"],
+    "a": 1,
+    "e": "Antrean kantin menerapkan FIFO, yang pertama masuk berhak pertama dilayani dengan tertib."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Logika berpikir komputer yang berisi pilihan: 'JIKA nilai di atas 75 MAKA lulus, JIKA TIDAK MAKA remedial' disebut struktur...",
+    "o": ["Perulangan", "Percabangan / Pengkondisian", "Antrean", "Tumpukan"],
+    "a": 1,
+    "e": "Pengkondisian (IF-ELSE) menuntun komputer mengambil jalur keputusan berbeda berdasarkan syarat tertentu."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Langkah-langkah logis dan berurutan yang disusun secara tepat untuk memandu robot bergerak keluar dari labirin dinamakan...",
+    "o": ["Algoritma", "Software", "RAM", "Monitor"],
+    "a": 0,
+    "e": "Algoritma bertindak seperti peta resep langkah demi langkah penuntun pencapaian solusi target."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data hirarki yang menghubungkan satu induk dengan beberapa anak cabang (mirip diagram pohon terbalik) dinamakan...",
+    "o": ["Struktur Garis", "Struktur Pohon (Tree Structure)", "Struktur Tumpuk", "Struktur Lingkar"],
+    "a": 1,
+    "e": "Tree merepresentasikan data induk-cabang satu arah seperti folder di komputer."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Mengenali bahwa semua hewan burung memiliki sayap, paruh, dan bertelur meskipun bentuknya berbeda-beda adalah keahlian...",
+    "o": ["Dekomposisi", "Abstraksi", "Pengenalan Pola", "Koding"],
+    "a": 2,
+    "e": "Mengenali pola melatih nalar pengelompokan fakta kesamaan agar pemahaman meluas meluas."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sikap logis saat komputer atau aplikasi game mengalami hang (berhenti gerak) mendadak adalah...",
+    "o": ["Menangis kencang", "Memukul layar monitor", "Mencari tahu penyebab (troubleshoot) dan merestart aplikasi secara tenang", "Membuang komputernya"],
+    "a": 2,
+    "e": "Penyelesaian masalah komputasional melatih ketenangan menganalisis letak kesalahan secara prosedural."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah diagram alur (Flowchart) menggambarkan langkah 'Mulai' dan 'Selesai' menggunakan simbol bangun datar berbentuk...",
+    "o": ["Kotak persegi", "Oval (Bulat Lonjong)", "Segitiga", "Jajar genjang"],
+    "a": 1,
+    "e": "Simbol Oval (Terminator) menandai titik awal dan titik akhir rentetan alur diagram."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Langkah perulangan (Loop) pada algoritma menyikat gigi pagi hari tecermin pada gerakan...",
+    "o": ["Menaruh pasta gigi sekali", "Menyikat bolak-balik berulang kali sampai bersih", "Membuka mulut", "Menutup keran air"],
+    "a": 1,
+    "e": "Mengulang gerakan gosok gigi berkali-kali melambangkan instruksi looping sampai syarat bersih terpenuhi."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data yang saling terhubung acak seperti jejaring pertemanan facebook atau peta jalan raya perkotaan disebut...",
+    "o": ["Stack", "Tree", "Graph (Graf)", "Queue"],
+    "a": 2,
+    "e": "Graph menghubungkan banyak simpul secara bebas tak beraturan lewat jalur garis penghubung."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Aplikasi perkantoran berlogo warna Oranye berlambang huruf 'P' yang digunakan untuk membuat slide bahan presentasi tugas akhir sekolah adalah...",
+    "o": ["Microsoft Word", "Microsoft PowerPoint", "Microsoft Paint", "Microsoft Publisher"],
+    "a": 1,
+    "e": "PowerPoint sangat hebat merangkai slide gambar dan teks menarik untuk presentasi lisan di depan kelas."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Lembaran-lembaran halaman kerja di dalam Microsoft PowerPoint dinamakan...",
+    "o": ["Page", "Sheet", "Slide", "Document"],
+    "a": 2,
+    "e": "Slide melambangkan satu bingkai tampilan informasi yang bisa kita isi teks dan gambar animasi."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Efek animasi pergantian visual saat satu slide berpindah menuju slide berikutnya di PowerPoint dinamakan...",
+    "o": ["Layout", "Transition (Transisi)", "WordArt", "Format"],
+    "a": 1,
+    "e": "Transisi memberi kesan gerak dinamis (seperti memudar atau bergeser) antar lembar presentasi."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Di Microsoft Excel, simbol operasi perkalian matematika yang benar digunakan adalah...",
+    "o": ["Huruf x", "Tanda Titik (.)", "Simbol Bintang (*)", "Tanda Tambah (+)"],
+    "a": 2,
+    "e": "Komputer mengenali simbol bintang '*' sebagai operator perkalian baku."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Rumus Excel untuk mencari nilai TERBESAR (Paling Tinggi) dari sekumpulan nilai ulangan murid di kelas adalah...",
+    "o": ["=MIN()", "=SUM()", "=MAX()", "=AVERAGE()"],
+    "a": 2,
+    "e": "Fungsi =MAX() (Maximum) mengekstraksi angka dengan nominal tertinggi dari rentang sel terpilih."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Kebalikan dari MAX, rumus Excel untuk menemukan nilai TERKECIL (Paling Rendah) dari daftar harga jajanan kantin adalah...",
+    "o": ["=MAX()", "=MIN()", "=COUNT()", "=AVERAGE()"],
+    "a": 1,
+    "e": "=MIN() (Minimum) melacak angka paling rendah nominalnya di dalam susunan baris/kolom."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk menaruh tabel ringkasan nilai dari Microsoft Excel menuju dokumen laporan di Microsoft Word, langkah praktis yang kita gunakan adalah...",
+    "o": ["Menulis ulang dengan pensil", "Teknik Copy dan Paste", "Memfoto layar monitor", "Menghapus file Excel"],
+    "a": 1,
+    "e": "Copy-Paste antar aplikasi (OLE) mempermudah integrasi data tabel Excel masuk ke naskah laporan Word."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Fitur di PowerPoint yang kita tekan di pojok kanan bawah layar untuk MENAYANGKAN presentasi ke layar penuh (full screen) dinamakan...",
+    "o": ["Save", "Slide Show", "Print Preview", "New Slide"],
+    "a": 1,
+    "e": "Slide Show mengaktifkan mode pemutaran penuh agar audiens bisa menyimak presentasi dengan jelas."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Di Microsoft Excel, kolom ditandai dengan huruf (A, B, C) sedangkan baris ditandai dengan angka (1, 2, 3). Apa sebutan alamat kotak gabungan 'C5'?",
+    "o": ["Referensi Range", "Referensi Sel (Cell Reference)", "Garis Kisi", "Sheet"],
+    "a": 1,
+    "e": "C5 menunjukkan sel persimpangan antara Kolom C tegak dan Baris 5 mendatar."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Menu untuk mengganti warna latar belakang kertas slide di PowerPoint agar terlihat estetik menarik adalah...",
+    "o": ["Insert", "Design / Format Background", "Review", "Help"],
+    "a": 1,
+    "e": "Menu Design menawarkan ribuan varian tema visual profesional siap pakai dalam sekali klik."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Jika kita ingin memberikan tautan aktif pada kata 'Klik Disini' agar saat diklik otomatis membuka halaman situs web, fitur yang digunakan adalah...",
+    "o": ["WordArt", "Hyperlink", "Footer", "Margin"],
+    "a": 1,
+    "e": "Hyperlink menghubungkan teks dokumen dengan file lain maupun rute situs URL dunia maya."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk mencetak lembar dokumen Word ke media printer fisik, kita menekan tombol shortcut cepat...",
+    "o": ["Ctrl + S", "Ctrl + P (Print)", "Ctrl + O", "Ctrl + A"],
+    "a": 1,
+    "e": "Ctrl + P singkatan dari Print, memunculkan jendela perintah konfigurasi pencetakan printer."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Dalam menulis surel (email), kolom bertuliskan 'Subject' diisi untuk keterangan apa?",
+    "o": ["Nama alamat penerima", "Isi surat yang panjang", "Judul singkat atau perihal isi surel", "File foto yang dilampirkan"],
+    "a": 2,
+    "e": "Subject memudahkan penerima menebak isi inti surat elektronik sebelum ia membukanya."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Fitur pada email berlambang 'Klip Kertas' (Attachment) memiliki fungsi kegunaan untuk...",
+    "o": ["Menghapus tulisan email", "Melampirkan berkas file (foto, dokumen, PDF) bersama surat email", "Mengirim email", "Menandai email penting"],
+    "a": 1,
+    "e": "Attachment menyertakan berkas fisik sekunder ikut terkirim di dalam gerbong paket email."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk memilih SEMUA teks ketikan dalam satu lembar dokumen kerja secara instan, shortcut yang digunakan adalah...",
+    "o": ["Ctrl + C", "Ctrl + V", "Ctrl + A (Select All)", "Ctrl + Z"],
+    "a": 2,
+    "e": "Ctrl + A singkatan dari 'All', menyeleksi seluruh isi konten dokumen secara serempak."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Komponen chip kecil silikon yang tertanam di dalam CPU dan bertugas sebagai 'Otak Inti' pengolah data komputer dinamakan...",
+    "o": ["RAM", "Harddisk", "Mikroprosesor / Processor", "Power Supply"],
+    "a": 2,
+    "e": "Prosesor mengolah seluruh triliunan kalkulasi per detik yang menghidupkan kecerdasan sistem komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Memori penyimpanan komputer jangka pendek yang isinya akan hilang bersih saat komputer dimatikan (Volatile) dinamakan...",
+    "o": ["ROM", "Harddisk", "RAM (Random Access Memory)", "Flashdisk"],
+    "a": 2,
+    "e": "RAM bertugas menampung instruksi aktif sementara yang sedang diakses prosesor saat komputer menyala."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Benda penyimpan data magnetik di dalam CPU berkapasitas sangat besar untuk menyimpan seluruh program dan file secara kekal dinamakan...",
+    "o": ["RAM", "Harddisk Drive (HDD)", "Kabel data", "VGA Card"],
+    "a": 1,
+    "e": "Harddisk mengunci file data foto, game, dan dokumen kita secara permanen meski listrik dimatikan."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Papan sirkuit elektronik induk yang sangat besar tempat menancapkan Prosesor, RAM, dan kabel-kabel komponen dinamakan...",
+    "o": ["Motherboard (Papan Induk)", "Casing", "Keyboard", "Soundcard"],
+    "a": 0,
+    "e": "Motherboard mengintegrasikan seluruh saraf elektronik penghubung komunikasi antar perangkat keras."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah perangkat input di bawah ini yang bertugas menangkap suara vokal kita menjadi rekaman digital di komputer?",
+    "o": ["Speaker", "Earphone", "Mikrofon (Microphone)", "Kamera"],
+    "a": 2,
+    "e": "Mikrofon mendeteksi getaran suara udara menjadi sinyal biner digital perekaman komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat pencetak visual yang menyinarkan cahaya terang ke dinding putih atau layar kain agar gambar laptop terlihat sangat besar di kelas dinamakan...",
+    "o": ["Monitor", "Proyektor LCD", "Scanner", "Lampu Senter"],
+    "a": 1,
+    "e": "Proyektor memudahkan puluhan murid menyimak presentasi guru secara klasikal di tembok kelas."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Satuan kapasitas ruang penyimpanan data terkecil di komputer (sesuai urutan) yang paling tepat di bawah ini adalah...",
+    "o": ["Kilobyte (KB) < Megabyte (MB) < Gigabyte (GB)", "Gigabyte (GB) < Megabyte (MB) < Kilobyte (KB)", "Semua ukuran sama saja", "Megabyte < Kilobyte < Gigabyte"],
+    "a": 0,
+    "e": "1 GB setara dengan 1024 MB, dan 1 MB setara 1024 KB. Ini adalah tingkatan volume memori."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Bagian yang mendistribusikan aliran listrik tegangan rendah dari colokan tembok menuju seluruh komponen hardware di dalam CPU dinamakan...",
+    "o": ["Kipas Angin", "Motherboard", "Power Supply Unit (PSU)", "Baterai CMOS"],
+    "a": 2,
+    "e": "Power Supply mengubah arus bolak-balik PLN menjadi searah demi melistriki hardware secara aman."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah yang BUKAN merupakan contoh aplikasi web browser di komputer?",
+    "o": ["Google Chrome", "Mozilla Firefox", "Microsoft Edge", "Microsoft Word"],
+    "a": 3,
+    "e": "Microsoft Word adalah aplikasi pengolah kata offline, bukan peramban penjelajah situs internet."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Alat khusus pemindai kertas yang memasukkan gambar lembaran majalah fisik cetak menjadi berkas gambar digital JPG dinamakan...",
+    "o": ["Printer", "Scanner (Pemindai)", "Fotokopi", "Kamera Web"],
+    "a": 1,
+    "e": "Scanner membaca lembar kertas datar dan menyimpannya ke file gambar digital komputer."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Kombinasi angka unik alamat komputer (seperti 192.168.1.10) agar bisa saling berkirim data di jaringan disebut...",
+    "o": ["Nomor KTP", "Kode Pos", "IP Address", "Alamat Rumah"],
+    "a": 2,
+    "e": "IP Address bertindak layaknya alamat surat agar kiriman paket internet sampai di komputer yang dituju."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Jaringan komputer lingkup kecil yang berada di dalam satu ruangan laboratorium komputer sekolah dinamakan...",
+    "o": ["WAN", "MAN", "LAN (Local Area Network)", "Internet"],
+    "a": 2,
+    "e": "LAN menghubungkan alat jarak pendek di lingkungan tertutup menggunakan kabel tembaga lokal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sebuah jaringan privat lokal di area terbatas (seperti jaringan WiFi tertutup di kantor) dinamakan...",
+    "o": ["Intranet", "Extranet", "Internet", "Supernet"],
+    "a": 0,
+    "e": "Intranet adalah jaringan pribadi berpagar aman yang tidak terhubung dengan internet publik liar."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tindakan peretas jahat (Hacker) menyusup ke dalam komputer orang lain untuk merusak sistem dinamakan...",
+    "o": ["Browsing", "Hacking", "Downloading", "Gaming"],
+    "a": 1,
+    "e": "Hacking tanpa izin melanggar hukum siber karena mencuri data privasi dan merusak aset aset digital."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Tanda keamanan 'https://' di kolom alamat browser menggunakan akhiran huruf 'S' yang melambangkan...",
+    "o": ["Situs", "Secure (Aman/Terenkripsi)", "Sekolah", "Sistem"],
+    "a": 1,
+    "e": "Secure menandakan jalur komunikasi transit data diacak sandi agar kebal sadapan pihak luar."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Program perusak komputer yang bisa menular antar file, merusak dokumen, dan memperlambat sistem komputer dinamakan...",
+    "o": ["Obat Komputer", "Virus Komputer", "Game Online", "Microsoft Excel"],
+    "a": 1,
+    "e": "Virus komputer adalah software jahat penginfeksi memori yang menular dari internet atau flashdisk kotor."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Untuk membentengi laptop agar terlindung dari infeksi virus jahat, perangkat lunak pengaman yang wajib diinstal dinamakan...",
+    "o": ["Anti-Gores", "Antivirus", "Cleaner", "Google Chrome"],
+    "a": 1,
+    "e": "Antivirus secara otomatis memindai, memblokir, dan mengkarantina file sampah terinfeksi malware."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Nama domain situs web berakhiran '.go.id' khusus digunakan di Indonesia untuk mengidentifikasi situs milik...",
+    "o": ["Sekolah Dasar", "Instansi Pemerintahan (Government)", "Toko Online", "Militer"],
+    "a": 1,
+    "e": "'.go' singkatan dari Government, merupakan portal penyaji berita resmi jajaran dinas pemerintahan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Layanan internet gratis dari penyedia WiFi publik di mall/taman yang mewajibkan memasukkan nama login dinamakan...",
+    "o": ["Hotspot", "Radio", "Kabel", "Flashdisk"],
+    "a": 0,
+    "e": "Hotspot adalah area jangkauan titik pancar akses internet nirkabel yang disediakan penyedia layanan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sikap bijak saat berselancar internet menggunakan jaringan Wi-Fi publik yang tidak diproteksi kata sandi adalah...",
+    "o": ["Membuka rekening bank online", "Hati-hati dan hindari mengetikkan password penting karena datanya rentan dicuri penyadap", "Bebas belanja sesuka hati", "Sembarangan klik tautan"],
+    "a": 1,
+    "e": "WiFi publik rawan kejahatan penyadapan data lalu lintas yang tidak terproteksi enkripsi kunci."
+  }
+]

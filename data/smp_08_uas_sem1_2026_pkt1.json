@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Pernyataan yang bernilai benar (True) atau salah (False), tetapi tidak keduanya sekaligus, dalam logika komputasional disebut...",
+    "o": ["Variabel", "Algoritma", "Proposisi", "Himpunan"],
+    "a": 2,
+    "e": "Proposisi adalah kalimat deklaratif yang memiliki nilai kebenaran tunggal, yakni benar saja atau salah saja."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jika proposisi p bernilai Benar, maka negasi dari p (ditulis ~p) akan bernilai...",
+    "o": ["Benar", "Salah", "Bisa benar bisa salah", "Tidak terdefinisi"],
+    "a": 1,
+    "e": "Negasi (ingkaran) berfungsi membalikkan nilai kebenaran. Lawan dari Benar adalah Salah."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Konjungsi (operasi logika AND) antara dua proposisi p dan q akan bernilai BENAR hanya jika...",
+    "o": ["Salah satu proposisi bernilai benar", "Kedua proposisi bernilai salah", "Kedua proposisi bernilai benar", "Proposisi pertama lebih panjang"],
+    "a": 2,
+    "e": "Logika AND mensyaratkan semua kondisi terpenuhi (Benar) agar menghasilkan keluaran yang Benar."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Disjungsi (operasi logika OR) antara dua proposisi akan bernilai SALAH apabila...",
+    "o": ["Kedua proposisi bernilai salah", "Kedua proposisi bernilai benar", "Salah satu proposisi bernilai salah", "Salah satu proposisi bernilai benar"],
+    "a": 0,
+    "e": "Logika OR menghasilkan nilai salah HANYA JIKA tidak ada satu pun kondisi yang bernilai benar (keduanya salah)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam konsep himpunan, operasi Irisan (Intersection) antara himpunan A dan B menghasilkan...",
+    "o": ["Semua anggota yang ada di A saja", "Semua anggota yang ada di B saja", "Anggota yang menjadi milik A sekaligus milik B", "Semua anggota A dan B digabung"],
+    "a": 2,
+    "e": "Irisan (lambang ∩) mencari elemen persekutuan yang ada di kedua himpunan tersebut."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Himpunan A = {1, 2, 3} dan Himpunan B = {3, 4, 5}. Hasil Gabungan (Union) A ∪ B adalah...",
+    "o": ["{3}", "{1, 2, 3, 4, 5}", "{1, 2, 4, 5}", "{1, 2, 3, 3, 4, 5}"],
+    "a": 1,
+    "e": "Gabungan menyatukan seluruh elemen unik dari kedua himpunan tanpa menduplikasi anggota yang sama."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data yang menggunakan prinsip LIFO (Last In, First Out) adalah...",
+    "o": ["Queue (Antrean)", "Tree (Pohon)", "Stack (Tumpukan)", "Graph (Graf)"],
+    "a": 2,
+    "e": "Stack bekerja dengan konsep LIFO: elemen terakhir yang dimasukkan akan menjadi elemen pertama yang dikeluarkan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data yang menerapkan konsep FIFO (First In, First Out) adalah...",
+    "o": ["Stack", "Queue", "Array", "Linked List"],
+    "a": 1,
+    "e": "Queue (antrean) bekerja dengan konsep FIFO: elemen pertama yang masuk akan menjadi yang pertama kali dilayani/keluar."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Contoh penerapan konsep Stack (Tumpukan) yang paling tepat dalam aplikasi komputer sehari-hari adalah...",
+    "o": ["Fitur 'Undo' pada text editor Microsoft Word", "Proses cetak (print queue) di printer", "Streaming video di YouTube", "Pengiriman email massal"],
+    "a": 0,
+    "e": "Tombol Undo mengambil aksi TERAKHIR yang Anda lakukan untuk dibatalkan terlebih dahulu (LIFO)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam struktur data Antrean (Queue), proses menambahkan elemen baru ke dalam antrean disebut...",
+    "o": ["Pop", "Push", "Enqueue", "Dequeue"],
+    "a": 2,
+    "e": "Enqueue adalah istilah menambahkan elemen ke ujung belakang antrean. Sebaliknya, Dequeue adalah mengeluarkan elemen dari depan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Kumpulan dari simpul (node) yang saling terhubung oleh sisi (edge) dan bisa saling bersilang membentuk jaringan bebas disebut struktur data...",
+    "o": ["Stack", "Queue", "Graph (Graf)", "Tree (Pohon)"],
+    "a": 2,
+    "e": "Graph adalah struktur nonlinear yang memodelkan hubungan antarobjek (seperti peta jalan kota atau jaringan pertemanan medsos)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Perbedaan utama antara struktur data Tree (Pohon) dengan Graph (Graf) adalah...",
+    "o": ["Tree tidak boleh memiliki siklus (loop/jalur melingkar)", "Tree memiliki elemen tak terbatas", "Graph selalu berbentuk lingkaran", "Tree tidak memiliki simpul sama sekali"],
+    "a": 0,
+    "e": "Tree adalah kasus khusus dari Graph yang terhubung dan tidak memiliki siklus/jalur memutar tertutup."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Apabila ada 5 tumpukan piring A, B, C, D, dan E (E paling atas). Jika kita mengambil 2 piring, piring apa saja yang tersisa di tumpukan bawah?",
+    "o": ["D dan E", "A dan B", "A, B, dan C", "C, D, dan E"],
+    "a": 2,
+    "e": "Konsep Stack (LIFO). Mengambil 2 piring berarti mengambil E lalu D. Sisa di tumpukan adalah A, B, dan C."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Pada struktur pohon (Tree), simpul paling atas yang tidak memiliki induk (parent) disebut...",
+    "o": ["Leaf (Daun)", "Branch (Cabang)", "Root (Akar)", "Node"],
+    "a": 2,
+    "e": "Root (Akar) adalah simpul awal mula pembentukan pohon hirarkis."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Teknik memecah masalah besar menjadi masalah-masalah yang lebih kecil agar lebih mudah dikelola dan dianalisis disebut...",
+    "o": ["Abstraksi", "Algoritma", "Dekomposisi", "Pengenalan Pola"],
+    "a": 2,
+    "e": "Dekomposisi adalah pilar CT yang fokus membagi kerumitan masalah besar menjadi sub-masalah yang simpel."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Teknik integrasi data yang memungkinkan data di satu aplikasi perkantoran terhubung ke dokumen aplikasi lain, sehingga jika sumbernya berubah maka di tujuan ikut berubah secara otomatis disebut...",
+    "o": ["Embedding", "Linking", "Formatting", "Replacing"],
+    "a": 1,
+    "e": "Linking membuat referensi dinamis ke berkas asli. Perubahan pada berkas sumber akan terefleksi di berkas tujuan."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Fitur pada Microsoft Word yang digunakan untuk membuat surat massal dengan nama dan alamat penerima yang berbeda secara otomatis dari data Excel disebut...",
+    "o": ["Page Layout", "Mail Merge", "Track Changes", "Cross Reference"],
+    "a": 1,
+    "e": "Mail Merge (Surat Massal) menggabungkan naskah dokumen induk (Word) dengan sumber data eksternal (Excel/Access)."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Manakah format berkas di bawah ini yang paling cocok digunakan sebagai sumber basis data penerima untuk fitur Mail Merge?",
+    "o": [".mp3", ".jpg", ".xlsx (Excel Spreadsheet)", ".exe"],
+    "a": 2,
+    "e": "Sumber data Mail Merge memerlukan data tabular yang terstruktur rapi dalam kolom dan baris."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Teknologi buatan Microsoft yang memungkinkan objek (seperti grafik/tabel) dari satu aplikasi disematkan secara penuh ke dalam aplikasi lain disebut...",
+    "o": ["OLE (Object Linking and Embedding)", "USB (Universal Serial Bus)", "BIOS (Basic Input Output System)", "DNS (Domain Name System)"],
+    "a": 0,
+    "e": "OLE memfasilitasi integrasi antar-aplikasi (misalnya menyematkan tabel Excel langsung ke dalam Slide PowerPoint)."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Apa perbedaan utama antara fitur 'Embed' dengan 'Link' pada penggabungan objek dokumen?",
+    "o": ["Embed membuat ukuran file lebih kecil", "Link tidak membutuhkan koneksi file sumber", "Embed menyalin objek secara utuh ke file baru sehingga tidak bergantung pada file sumber lagi", "Link mengubah format objek menjadi gambar murni"],
+    "a": 2,
+    "e": "Embedding menyertakan seluruh data objek ke file baru sehingga mandiri. Jika file sumber asli terhapus, objek di file tujuan tetap ada."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Sebuah situs web pribadi atau jurnal online yang berisi tulisan, artikel, opini, atau pengalaman penulisnya yang diterbitkan secara berurutan kronologis disebut...",
+    "o": ["Spreadsheet", "Browser", "Blog (Web Log)", "Search Engine"],
+    "a": 2,
+    "e": "Blog adalah singkatan dari web log, sebuah situs berisi konten dinamis berupa pos/artikel berkala."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Di bawah ini yang BUKAN merupakan platform gratis populer untuk membuat blog adalah...",
+    "o": ["WordPress", "Blogger", "Google Slides", "Tumblr"],
+    "a": 2,
+    "e": "Google Slides adalah aplikasi presentasi online, bukan sistem manajemen blog (CMS)."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Bagian dari tata letak blog yang biasanya terletak di bagian samping (kiri atau kanan) dan berisi widget, arsip, kategori, atau profil disebut...",
+    "o": ["Header", "Footer", "Sidebar", "Main Content"],
+    "a": 2,
+    "e": "Sidebar berfungsi menampung navigasi tambahan dan widget pelengkap blog."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Keunggulan utama menggunakan Google Docs dibandingkan Microsoft Word versi konvensional/desktop adalah...",
+    "o": ["Tidak perlu menggunakan internet sama sekali", "Fitur kolaborasi waktu nyata (real-time) dengan pengguna lain secara bersamaan", "Hanya bisa dibuka di satu komputer", "Ukurannya sangat berat saat diunduh"],
+    "a": 1,
+    "e": "Google Docs berbasis Cloud, memungkinkan beberapa orang mengedit dokumen yang sama pada detik yang sama."
+  },
+  {
+    "c": "Teknologi Informasi & Komunikasi",
+    "q": "Untuk menyisipkan video YouTube secara langsung ke dalam slide PowerPoint versi modern, kita menggunakan menu...",
+    "o": ["Design -> Background", "Insert -> Video -> Online Video", "Transitions -> Effect Options", "View -> Slide Master"],
+    "a": 1,
+    "e": "Menu Insert pada MS Office menampung seluruh elemen media luar yang ingin disisipkan ke dalam kanvas kerja."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Siklus kerja utama CPU (Central Processing Unit) dalam memproses instruksi terdiri dari tahapan...",
+    "o": ["Input -> Process -> Output", "Read -> Write -> Delete", "Fetch -> Decode -> Execute", "Load -> Save -> Close"],
+    "a": 2,
+    "e": "Siklus instruksi CPU adalah Fetch (Mengambil data), Decode (Menerjemahkan maksud), dan Execute (Menjalankan perintah)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Komponen di dalam CPU yang bertugas melakukan perhitungan aritmatika (+, -, *, /) dan perbandingan logika adalah...",
+    "o": ["Control Unit (CU)", "Arithmetic Logic Unit (ALU)", "RAM", "Hardisk"],
+    "a": 1,
+    "e": "ALU bertindak sebagai 'kalkulator logika' di jantung prosesor komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Komponen CPU yang berfungsi mengatur dan mengendalikan lalu lintas data serta koordinasi kerja seluruh perangkat komputer adalah...",
+    "o": ["ALU", "Control Unit (CU)", "Register", "VGA Card"],
+    "a": 1,
+    "e": "Control Unit (CU) ibarat konduktor orkestra atau polisi lalu lintas data yang mengatur waktu aktif instruksi."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Jenis memori penyimpanan yang terletak di dalam CPU dan memiliki kecepatan akses paling tinggi dibandingkan RAM atau Cache adalah...",
+    "o": ["ROM", "Flashdisk", "Register", "SSD"],
+    "a": 2,
+    "e": "Register adalah area memori internal CPU yang sangat kecil namun dengan akses secepat kilat (setingkat kecepatan inti prosesor)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Gerbang logika dasar yang akan menghasilkan keluaran logika 1 (True) jika dan hanya jika KEDUA masukan bernilai 1 adalah...",
+    "o": ["AND", "OR", "NOT", "NOR"],
+    "a": 0,
+    "e": "Gerbang AND bertindak seperti logika perkalian biner: 1 x 1 = 1. Kombinasi lain menghasilkan 0."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Gerbang logika dasar yang menghasilkan keluaran berkebalikan dari nilai masukannya disebut...",
+    "o": ["NAND", "NOT (Inverter)", "XOR", "OR"],
+    "a": 1,
+    "e": "Gerbang NOT hanya memiliki 1 input dan 1 output. Tugasnya membalikkan status logika (0 jadi 1, 1 jadi 0)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Hasil konversi bilangan desimal angka 10 ke dalam bentuk bilangan biner adalah...",
+    "o": ["1001", "1010", "1100", "0111"],
+    "a": 1,
+    "e": "10 dibagi 2 = 5 sisa 0; 5 dibagi 2 = 2 sisa 1; 2 dibagi 2 = 1 sisa 0; 1 dibagi 2 = 0 sisa 1. Dibaca terbalik: 1010."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Bilangan biner '1101' jika dikonversi kembali ke sistem bilangan desimal bernilai...",
+    "o": ["11", "12", "13", "14"],
+    "a": 2,
+    "e": "(1 * 2^3) + (1 * 2^2) + (0 * 2^1) + (1 * 2^0) = 8 + 4 + 0 + 1 = 13."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Sistem bilangan Heksadesimal adalah sistem bilangan yang menggunakan basis (radiks)...",
+    "o": ["Basis 2", "Basis 8", "Basis 10", "Basis 16"],
+    "a": 3,
+    "e": "Heksadesimal menggunakan 16 simbol unik (0-9 dan A-F) untuk merepresentasikan angka."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Pada sistem bilangan Heksadesimal, huruf 'F' melambangkan angka desimal berapakah?",
+    "o": ["10", "12", "14", "15"],
+    "a": 3,
+    "e": "A=10, B=11, C=12, D=13, E=14, dan F=15."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Kemampuan sistem operasi komputer untuk menjalankan beberapa proses atau aplikasi secara bersamaan disebut...",
+    "o": ["Formatting", "Multitasking", "Debugging", "Rendering"],
+    "a": 1,
+    "e": "Multitasking mengalokasikan waktu CPU dengan sangat cepat bergantian ke aplikasi-aplikasi terbuka sehingga terkesan berjalan serentak."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat keras komputer (hardware) tidak akan bisa mengenali instruksi tanpa adanya perangkat lunak yang ditanam pada chipset motherboard, yaitu...",
+    "o": ["Ms Office", "Antivirus", "BIOS / Firmware", "Database Manager"],
+    "a": 2,
+    "e": "BIOS (Basic Input/Output System) adalah firmware level paling rendah yang menginisialisasi hardware saat boot pertama kali."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Jenis antarmuka pengguna yang mengharuskan user mengetik baris perintah teks secara manual (tanpa klik mouse pada ikon) disebut...",
+    "o": ["GUI (Graphical User Interface)", "VUI (Voice User Interface)", "CLI (Command Line Interface)", "Touch Screen"],
+    "a": 2,
+    "e": "CLI (seperti Terminal atau Command Prompt) mengandalkan sintaks teks untuk berinteraksi dengan sistem operasi."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Kumpulan komputer dan perangkat periferal yang saling terhubung terbatas dalam satu area geografis yang sempit/lokal (seperti lab sekolah) disebut...",
+    "o": ["LAN (Local Area Network)", "WAN (Wide Area Network)", "MAN (Metropolitan Area Network)", "Internet"],
+    "a": 0,
+    "e": "LAN dirancang untuk cakupan gedung, ruang kelas, atau rumah tinggal yang berskala mikro."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Sebuah jaringan komputer privat (internal perusahaan/sekolah) yang menerapkan protokol internet namun tertutup bagi khalayak umum di luar jaringan tersebut disebut...",
+    "o": ["Extranet", "Intranet", "Dark Web", "Ethernet"],
+    "a": 1,
+    "e": "Intranet adalah internet versi privat yang hanya dapat diakses oleh anggota organisasi internal."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Perangkat keras jaringan yang bertugas menentukan rute terbaik dan meneruskan paket data dari satu jaringan ke jaringan eksternal yang berbeda disebut...",
+    "o": ["Switch", "Hub", "Router", "Kabel UTP"],
+    "a": 2,
+    "e": "Router berfungsi seperti pintu gerbang dan papan penunjuk jalan tol yang mengarahkan lalu lintas antar jaringan IP yang berbeda."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Koneksi nirkabel (wireless) jarak dekat yang biasanya digunakan untuk menghubungkan HP dengan perangkat audio earphone atau transfer file kecil antar ponsel disebut...",
+    "o": ["Wi-Fi", "Bluetooth", "Satelit", "Kabel Fiber Optik"],
+    "a": 1,
+    "e": "Bluetooth menggunakan standar frekuensi radio daya rendah untuk mentransmisikan data tanpa kabel jarak pendek (WPAN)."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Kapasitas maksimal atau volume data yang dapat ditransmisikan melalui suatu jalur komunikasi jaringan dalam satuan waktu tertentu (biasanya per detik) disebut...",
+    "o": ["Latency", "Throughput", "Bandwidth", "Ping"],
+    "a": 2,
+    "e": "Bandwidth mengukur lebar pita transmisi data, analoginya seperti jumlah lajur jalan tol."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Identitas unik numerik berupa deretan angka (contoh: 192.168.1.1) yang disematkan pada setiap perangkat yang terhubung ke jaringan komputer/internet disebut...",
+    "o": ["URL Address", "IP Address", "Mac Address", "Domain Name"],
+    "a": 1,
+    "e": "IP Address (Internet Protocol Address) wajib dimiliki perangkat agar paket data tahu ke mana harus dialamatkan secara tepat."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Metode menyamarkan data pesan teks biasa menjadi kode acak rahasia yang tidak mudah dimengerti oleh penyadap di jaringan disebut teknik...",
+    "o": ["Kompresi", "Enkripsi", "Dekripsi", "Formatting"],
+    "a": 1,
+    "e": "Enkripsi mengubah data mentah (plaintext) menjadi ciphertext acak demi menjaga kerahasiaan informasi digital."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Salah satu teknik enkripsi tertua dengan cara menggeser alfabet karakter sejauh jumlah angka tertentu secara urut disebut...",
+    "o": ["RSA", "MD5", "Caesar Cipher", "AES-256"],
+    "a": 2,
+    "e": "Caesar Cipher adalah sandi substitusi klasik dinamai dari Julius Caesar yang menggeser alfabet secara konsisten."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Dengan teknik Caesar Cipher geser +3 (A menjadi D). Jika terdapat kode teks asli 'B U K U', maka hasil ciphertext-nya menjadi...",
+    "o": ["C V L V", "E X N X", "A T J T", "D Y M Y"],
+    "a": 1,
+    "e": "B+3=E, U+3=X, K+3=N, U+3=X. Hasil ciphertext: E X N X."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Mengapa kita dilarang membuka akun perbankan atau memasukkan password sensitif saat terhubung ke Wi-Fi publik tanpa password (terbuka)?",
+    "o": ["Karena kuota Wi-Fi bisa habis", "Karena rawan aksi pembajakan paket data (Sniffing) oleh hacker di jaringan lokal yang sama", "Karena koneksinya terlalu cepat", "Karena menguras daya baterai laptop"],
+    "a": 1,
+    "e": "Wi-Fi tanpa proteksi enkripsi memungkinkan penyerang mengintip lalu lintas data perangkat lain dalam satu pancaran router."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Perbedaan utama protokol HTTP dengan HTTPS (dengan tambahan huruf 'S' di ujungnya) pada tautan alamat web browser adalah...",
+    "o": ["HTTPS berbayar", "HTTPS dilengkapi enkripsi sertifikat SSL/TLS yang aman", "HTTP memuat video lebih lambat", "HTTPS hanya bisa dibuka di HP"],
+    "a": 1,
+    "e": "HTTPS (Secure) menjamin transmisi data dari browser Anda ke server tujuan disandikan agar tidak bisa disadap di tengah jalan."
+  },
+  {
+    "c": "Jaringan Komputer & Internet",
+    "q": "Fitur pada smartphone modern yang memungkinkan kita membagikan koneksi data internet pribadi milik seluler kita ke perangkat PC atau HP lain di dekatnya disebut...",
+    "o": ["Tethering / Personal Hotspot", "Flight Mode", "Roaming Data", "Cloud Storage"],
+    "a": 0,
+    "e": "Tethering mengubah smartphone menjadi 'modem mini nirkabel' bagi perangkat-perangkat di sekitarnya."
+  }
+]

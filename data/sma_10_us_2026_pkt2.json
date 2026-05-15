@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Fungsi yang sangat penting di Microsoft Excel untuk merangkum ratusan ribu data penjualan menjadi data rata-rata penjualan bulanan per wilayah secara ringkas disebut...",
+    "o": ["VLOOKUP", "Pivot Table", "COUNTIF", "Conditional Formatting"],
+    "a": 1,
+    "e": "Pivot Table merupakan alat analisis paling dinamis untuk melakukan agregasi grup data instan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Format file basis data teks paling ringan yang menggunakan karakter koma untuk memisahkan data antar kolom adalah...",
+    "o": [".xlsx", ".docx", ".csv (Comma-Separated Values)", ".pdf"],
+    "a": 2,
+    "e": "CSV sering digunakan sebagai standar pertukaran data antar-sistem karena ukurannya kecil dan format teks murni."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Langkah validasi data di spreadsheet yang memastikan pengguna hanya dapat memasukkan nilai numerik di rentang 1 sampai 100 disebut...",
+    "o": ["Data Cleaning", "Data Aggregation", "Data Validation", "Data Visualization"],
+    "a": 2,
+    "e": "Data Validation mencegah anomali entri data yang tidak sah di awal proses perekaman tabel."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Bahasa pemograman terpopuler di dunia untuk bidang Data Science dan pengolahan analisis data statistik modern adalah...",
+    "o": ["HTML", "C++", "Python", "PHP"],
+    "a": 2,
+    "e": "Python memiliki library melimpah khusus visualisasi dan analisis data seperti Pandas, NumPy, dan Matplotlib."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Rumus excel =SUMIFS(E2:E100; F2:F100; \"Pria\"; G2:G100; \">25\") berfungsi untuk...",
+    "o": ["Menghitung total sel berisi kata Pria", "Menjumlahkan data kolom E hanya jika kolom F bernilai Pria DAN kolom G bernilai lebih dari 25", "Mencari nilai terbesar", "Mencari rata-rata"],
+    "a": 1,
+    "e": "SUMIFS melakukan akumulasi penjumlahan data bersyarat majemuk (lebih dari satu kriteria logika)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Library fundamental pada Python yang menawarkan struktur data DataFrame untuk analisis data berukuran besar secara efisien adalah...",
+    "o": ["Flask", "Pygame", "Pandas", "Django"],
+    "a": 2,
+    "e": "Pandas DataFrame memodelkan data tabular (baris & kolom) dengan kemampuan indexing yang sangat cepat."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebelum dianalisis, data mentah harus dibersihkan (Data Cleaning). Proses membuang baris yang nilainya kosong sama sekali disebut penanganan...",
+    "o": ["Data Duplicates", "Missing Values", "Outliers", "Metadata"],
+    "a": 1,
+    "e": "Missing values (data yang hilang) wajib ditangani agar tidak merusak hasil analisis rata-rata atau kalkulasi algoritma."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jenis grafik visualisasi data yang paling ideal digunakan untuk menganalisis tren naik atau turun suatu nilai dalam rentang waktu historis kontinu adalah...",
+    "o": ["Pie Chart", "Scatter Plot", "Line Chart (Grafik Garis)", "Bar Chart"],
+    "a": 2,
+    "e": "Grafik garis menghubungkan titik-titik data berurutan secara waktu (time-series) untuk memudahkan pembacaan fluktuasi tren."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah istilah yang memayungi kumpulan data dalam jumlah raksasa, berkecepatan produksi sangat tinggi, dan terdiri dari beragam format kompleks disebut...",
+    "o": ["Local Database", "Big Data", "Flash Data", "Single Data"],
+    "a": 1,
+    "e": "Karakteristik Big Data diukur oleh prinsip 3V (Volume, Velocity, Variety)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Prinsip etika data yang menuntut agar identitas asli individu disembunyikan atau tidak ditampilkan saat mempublikasi data riset publik dinamakan...",
+    "o": ["Anonimisasi Data (Anonymization)", "Sinkronisasi Data", "Komersialisasi Data", "Kompilasi Data"],
+    "a": 0,
+    "e": "Anonimisasi melindungi privasi pribadi dengan menghapus informasi pengenal unik (seperti NIK atau nama asli) dari dataset riset."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam MS Excel, simbol pembatas absolut '$' digunakan untuk mengunci posisi referensi baris/kolom. Di manakah simbol $ harus diletakkan untuk mengunci kolom B saja namun baris 10 bisa bergerak?",
+    "o": ["B$10", "$B10", "$B$10", "B10$"],
+    "a": 1,
+    "e": "Simbol $ di sebelah kiri huruf mengunci kolom ($B). Simbol di kiri angka mengunci baris ($10)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Proses menyortir nilai data numerik dari angka terbesar ke angka terkecil di dalam pengolah spreadsheet disebut...",
+    "o": ["Filter Custom", "Ascending Sorting", "Descending Sorting", "Grouping"],
+    "a": 2,
+    "e": "Descending berarti menurun (Z ke A atau Besar ke Kecil). Ascending adalah menaik."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fitur spreadsheet yang berfungsi memberi warna latar belakang sel secara otomatis HANYA JIKA nilai sel di bawah standar kelulusan (misal di bawah 75) disebut...",
+    "o": ["Format Painter", "Data Filter", "Conditional Formatting", "WordArt"],
+    "a": 2,
+    "e": "Conditional Formatting mengubah gaya tampilan visual sel berdasarkan evaluasi kondisi logika runtime."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Pernyataan 'GIGO' (Garbage In Garbage Out) dalam dunia pemrosesan data komputer mengandung pesan bahwa...",
+    "o": ["Komputer dapat memperbaiki data rusak", "Input data yang buruk/kotor pasti menghasilkan keluaran informasi keputusan yang buruk pula", "Komputer harus dibuang bila eror", "Semua data adalah sampah"],
+    "a": 1,
+    "e": "Kualitas analisis final bertumpu penuh pada kejujuran, validitas, dan kebersihan data masukan awal."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Manakah visualisasi data yang paling tepat untuk menguji korelasi/hubungan sebaran sepasang variabel angka acak?",
+    "o": ["Scatter Plot (Diagram Pencar)", "Bar Chart", "Pie Chart", "Doughnut Chart"],
+    "a": 0,
+    "e": "Scatter Plot memetakan titik koordinat (X, Y) antar-variabel untuk mengamati pola korelasi positif, negatif, atau tidak berkorelasi."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Tanda khusus di baris pertama bahasa pemrograman Python yang digunakan untuk menandai baris tersebut sebagai komentar (tidak dijalankan program) adalah...",
+    "o": ["//", "/*", "#", "<!--"],
+    "a": 2,
+    "e": "Di Python, tanda pagar '#' di awal baris membuat penerjemah mengabaikan baris tersebut selama eksekusi."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Sintaks yang benar di bahasa Python untuk memunculkan kalimat 'Selamat Belajar' ke layar konsol monitor adalah...",
+    "o": ["echo \"Selamat Belajar\";", "Console.WriteLine(\"Selamat Belajar\")", "print(\"Selamat Belajar\")", "system.out.print(\"Selamat Belajar\")"],
+    "a": 2,
+    "e": "Fungsi bawaan print() digunakan bahasa pemrograman Python 3 untuk menampilkan teks/variabel ke layar standar."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Tipe data di Python yang khusus digunakan untuk menyimpan urutan huruf atau teks karakter biasa disebut tipe data...",
+    "o": ["Integer (int)", "String (str)", "Boolean (bool)", "Float (float)"],
+    "a": 1,
+    "e": "String digunakan merepresentasikan data alfanumerik tekstual, ditulis mengapit tanda petik tunggal atau ganda."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Jika kita mengetik baris perintah Python: print(10 % 3), hasil output keluaran yang tampil di monitor adalah...",
+    "o": ["3", "3.33", "1", "0"],
+    "a": 2,
+    "e": "Simbol % melambangkan operasi modulus (sisa pembagian bulat). 10 dibagi 3 hasilnya 3 sisa 1."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Struktur logika pengkondisian di Python untuk mengevaluasi kriteria alternatif bercabang majemuk menggunakan kata kunci...",
+    "o": ["else if", "elif", "elseif", "switch case"],
+    "a": 1,
+    "e": "Di Python, sintaks gabungan 'else if' disederhanakan menjadi kata kunci baku: elif."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Bagaimana cara menuliskan blok kode pengulangan di Python untuk mencetak angka dari 0 sampai 4?",
+    "o": ["for i in range(5): print(i)", "repeat(5): print(i)", "while(5): print(i)", "for i = 0 to 4: print i"],
+    "a": 0,
+    "e": "Fungsi range(5) menghasilkan urutan numerik dari 0 hingga 4 (batas atas 5 tidak diikutkan)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Manakah penulisan nama variabel di Python berikut ini yang DIANGGAP TIDAK VALID menurut aturan sintaks standar?",
+    "o": ["nama_lengkap", "_umurSiswa", "2nd_skor", "totalHarga100"],
+    "a": 2,
+    "e": "Nama variabel di Python tidak boleh diawali dengan karakter angka (digit numerik)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Python, tipe data koleksi yang terurut, nilainya bisa diubah (mutable), dan ditulis diapit kurung siku seperti [1, 2, 3] dinamakan...",
+    "o": ["Tuple", "Set", "Dictionary", "List"],
+    "a": 3,
+    "e": "List adalah tipe struktur data array bawaan Python yang sangat fleksibel untuk menyimpan beragam objek data."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Pemberian jarak ketukan spasi atau tab di awal baris kode instruksi Python untuk menandai cakupan hierarki blok kode disebut...",
+    "o": ["Kompilasi", "Deklarasi", "Indentasi (Indentation)", "Inisialisasi"],
+    "a": 2,
+    "e": "Berbeda dengan bahasa C++/Java yang pakai kurung kurawal {}, Python mewajibkan indentasi sebagai pembatas blok kode logis."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Manakah ekspresi Boolean di bawah ini yang akan menghasilkan nilai True di Python?",
+    "o": ["10 < 5", "\"Apel\" == \"Jeruk\"", "(5 > 3) and (2 < 4)", "(10 == 10) and False"],
+    "a": 2,
+    "e": "(5 > 3 adalah True) AND (2 < 4 adalah True) menghasilkan logika True secara keseluruhan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Fungsi input() pada Python secara bawaan akan selalu mengembalikan nilai tangkapan papan ketik user dalam format tipe data...",
+    "o": ["Integer", "String", "Boolean", "Float"],
+    "a": 1,
+    "e": "Fungsi input() menganggap semua masukan user sebagai string teks. Untuk hitungan angka, wajib dilakukan casting seperti int(input())."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Konsep perulangan yang akan terus berjalan HINGGA kondisi pengecekan logikanya berubah menjadi False dinamakan perulangan...",
+    "o": ["For loop", "While loop", "Forever loop", "Static loop"],
+    "a": 1,
+    "e": "While loop melakukan pengulangan dinamis berdasarkan evaluasi kondisi Boolean sebelum setiap putaran dijalankan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Apakah output dari cuplikan kode Python ini?\nx = 5\nx = x + 2\nprint(x)",
+    "o": ["5", "2", "7", "Eror program"],
+    "a": 2,
+    "e": "Variabel diinisialisasi 5, lalu dimutasi nilainya ditambah 2 menjadi 7. Maka saat dicetak menghasilkan 7."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dalam pemrograman, kesalahan aturan penulisan sintaks bahasa (misal lupa memberi kurung penutup) yang mengakibatkan kegagalan eksekusi disebut...",
+    "o": ["Logical Error", "Syntax Error", "Runtime Error", "Algorithmic Error"],
+    "a": 1,
+    "e": "Syntax Error terjadi saat penulisan tata bahasa kode melanggar aturan interpreter compiler program."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Tindakan mengurutkan jalannya kode selangkah demi selangkah demi menemukan sumber bug kesalahan logikanya disebut proses...",
+    "o": ["Coding", "Encoding", "Debugging", "Rendering"],
+    "a": 2,
+    "e": "Debugging adalah proses isolasi dan perbaikan kutu/cacat (bug) logika di program komputer."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Python, operator penugasan yang benar untuk mengisi atau menaruh suatu nilai ke dalam sebuah nama variabel adalah...",
+    "o": ["==", "=", "===", ":="],
+    "a": 1,
+    "e": "Simbol '=' tunggal adalah operator assignment (penugasan). Sedangkan '==' ganda adalah operator perbandingan logika kesamaan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Jika ada list: warna = [\"merah\", \"hijau\", \"biru\"]. Cara mengakses elemen pertama (\"merah\") yang tepat sesuai urutan indeks nol-based adalah...",
+    "o": ["warna[1]", "warna(0)", "warna[0]", "warna.first()"],
+    "a": 2,
+    "e": "Bahasa pemrograman mayoritas menggunakan zero-based indexing. Data urutan pertama diakses di indeks [0]."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Cuplikan kode Python: x = len(\"Halo\"). Berapakah isi nilai akhir numerik variabel x?",
+    "o": ["0", "3", "4", "Halo"],
+    "a": 2,
+    "e": "Fungsi len() menghitung panjang koleksi atau jumlah karakter dalam string. 'Halo' memiliki 4 karakter."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Perintah di Python yang memaksa program langsung keluar mendadak atau memutus alur perulangan saat itu juga adalah...",
+    "o": ["continue", "pass", "break", "stop"],
+    "a": 2,
+    "e": "Kata kunci break menghentikan putaran loop secara prematur, melompati sisa siklus loop langsung ke baris setelah blok loop."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Sifat perangkat lunak yang kode sumber aslinya dipublikasikan gratis dan boleh dimodifikasi publik (seperti Python, Linux) disebut...",
+    "o": ["Proprietary", "Closed Source", "Open Source", "Freeware"],
+    "a": 2,
+    "e": "Open Source memupuk kolaborasi global dalam pengembangan software dengan transparansi kode sumber."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Pernyataan di internet yang memuat pencemaran nama baik, ujaran kebencian, atau konten bohong (hoax) melanggar undang-undang Indonesia yaitu...",
+    "o": ["UU Hak Asasi Manusia", "UU Tipikor", "UU ITE (Informasi & Transaksi Elektronik)", "UU Pemilu"],
+    "a": 2,
+    "e": "UU ITE menjamin kepastian hukum kegiatan informasi elektronik sekaligus memberi ancaman sanksi penyalahgunaan siber."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Hak kekayaan intelektual eksklusif yang melindungi ciptaan penulis buku, pencipta lagu, atau pembuat kode software dinamakan...",
+    "o": ["Hak Paten", "Hak Merek", "Hak Cipta (Copyright)", "Hak Desain Industri"],
+    "a": 2,
+    "e": "Hak Cipta melindungi ekspresi orisinil dari ide karya sastra, seni, dan program komputer secara otomatis semenjak diwujudkan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jenis lisensi Hak Cipta publik di internet yang mengizinkan orang lain menyebarluaskan karya dengan syarat wajib mencantumkan sitasi pembuat asli disebut...",
+    "o": ["Public Domain", "Creative Commons (CC BY)", "Patent Protected", "EULA License"],
+    "a": 1,
+    "e": "Lisensi CC BY (Attribution) memudahkan berbagi aset digital secara legal dengan penghormatan sitasi kepemilikan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Bahaya terbesar dari pembiasaan mengunduh berkas bajakan (software crack) dari situs ilegal pihak ketiga di internet adalah...",
+    "o": ["Komputer menjadi kebal virus", "Kemungkinan besar berkas disusupi malware, ransomware, atau trojan pencuri data", "Mempercepat kecepatan CPU", "Menghemat RAM"],
+    "a": 1,
+    "e": "Situs bajakan sering menyamarkan malware jahat di dalam berkas jamu instalasi bajakan untuk membajak komputer korban."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seluruh histori pencarian, interaksi suka (like), foto, dan data diri kita yang tersimpan kekal di pusat server internet disebut...",
+    "o": ["Jejak Digital (Digital Footprint)", "Data Sampah", "Cookie Lokal", "Riwayat Chat"],
+    "a": 0,
+    "e": "Jejak digital bersifat semi permanen, dapat dicari mesin pelacak, dan dapat memengaruhi reputasi profil masa depan seseorang."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Upaya pencegahan pembobolan akun secara berlapis, di mana sistem mewajibkan kode SMS OTP setelah memasukkan password biasa disebut...",
+    "o": ["Single Sign On (SSO)", "DDoS Shield", "Two-Factor Authentication (2FA)", "Captchas Verification"],
+    "a": 2,
+    "e": "Otentikasi Dua Faktor menjamin keamanan tinggi karena pencuri password tetap tidak bisa masuk tanpa fisik HP korban."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kesenjangan sosial-ekonomi antara masyarakat yang memiliki akses teknologi informasi memadai dengan yang tidak memilikinya sama sekali disebut...",
+    "o": ["Digital Innovation", "Digital Divide (Kesenjangan Digital)", "Social Media Crisis", "Data Breach"],
+    "a": 1,
+    "e": "Kesenjangan digital berpotensi mengisolasi pemerataan kemajuan ekonomi dan akses pendidikan berkualitas di pedalaman."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sikap menentang perundungan siber (cyberbullying) di lingkungan sekolah yang paling tepat dan suportif adalah...",
+    "o": ["Ikut membagikan postingan bully agar viral", "Mengabaikannya dan berpura-pura tidak tahu", "Mendukung psikologis korban dan melaporkan bukti pelecehan kepada guru BK atau pihak berwajib", "Menertawakannya di kolom komentar"],
+    "a": 2,
+    "e": "Melaporkan konten pelecehan merupakan kontribusi nyata menjaga internet aman, sehat, dan produktif bagi mental generasi muda."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Penggunaan nama instansi palsu yang memirip-miripkan tampilan laman perbankan agar korban sukarela mengetikkan nomor kartu kreditnya disebut kejahatan...",
+    "o": ["Carding", "Phishing", "Spyware", "Adware"],
+    "a": 1,
+    "e": "Phishing mengelabui nalar psikologis korban (social engineering) agar menyerahkan kunci data rahasia tanpa curiga."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Berikut ini cara menyusun kata sandi (password) yang aman terhadap ancaman tebakan komputer cerdas hacker, KECUALI...",
+    "o": ["Kombinasi huruf besar dan kecil", "Memasukkan karakter spesial (!@#)", "Menggunakan nama asli lengkap dan tanggal lahir", "Membuat sandi minimal panjang 12 karakter"],
+    "a": 2,
+    "e": "Nama asli dan tanggal lahir sangat mudah dilacak lewat sosial media profil umum, menjadikannya tebakan pertama program peretas."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kecakapan dasar masyarakat abad ke-21 untuk secara bijak memilah berita asli dengan berita manipulatif hoax di dunia maya dinamakan...",
+    "o": ["Keterampilan Coding", "Literasi Digital", "Kemampuan Desain", "Cyber Security Specialist"],
+    "a": 1,
+    "e": "Literasi digital membekali manusia nalar berpikir kritis menyaring kebenaran arus informasi digital yang melimpah."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Software antivirus berbayar memiliki ketentuan tertulis bagi pembelinya yang mengatur hak guna produk, dokumen hukum tersebut dinamakan...",
+    "o": ["EULA (End User License Agreement)", "GPL License", "Creative Commons", "Public Domain Notice"],
+    "a": 0,
+    "e": "EULA adalah kontrak perjanjian hukum sah antara pembuat aplikasi eksklusif dengan pengguna akhir mengenai batasan pemakaian produk."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan menyalin karya tulis ilmiah orang lain dari laman internet tanpa mencantumkan rujukan sumber dan mengakuinya sebagai tulisan sendiri disebut...",
+    "o": ["Plagiarisme (Plagiasi)", "Publikasi", "Modifikasi", "Integrasi"],
+    "a": 0,
+    "e": "Plagiarisme adalah pelanggaran etika akademis berat berupa pencurian kekayaan intelektual tulisan milik orang lain."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Perilaku sopan santun bertata krama saat berkomunikasi mengirim surel (email) resmi ke instansi atau pihak sekolah dinamakan...",
+    "o": ["Protokol Enkripsi", "Netiket (Netiquette)", "Logika Digital", "Integritas Algoritma"],
+    "a": 1,
+    "e": "Netiket atau Network Etiquette mengajarkan kesantunan bahasa komunikasi maya layaknya norma sopan santun dunia nyata."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dampak kesehatan mata akibat terlalu lama memandang intens layar monitor komputer secara terus-menerus dikenal dengan istilah...",
+    "o": ["Carpal Tunnel Syndrome", "Computer Vision Syndrome", "Obesity", "Insomnia"],
+    "a": 1,
+    "e": "Gejala Computer Vision Syndrome meliputi mata merah, pandangan berbayang, sakit kepala, dan mata lelah kering."
+  }
+]

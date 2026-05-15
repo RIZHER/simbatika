@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Sebuah paradigma algoritma yang membuat pilihan optimal secara lokal pada setiap langkah dengan harapan bahwa pilihan ini akan mengarah pada solusi optimal global dinamakan...",
+    "o": ["Dynamic Programming", "Algoritma Greedy", "Divide and Conquer", "Backtracking"],
+    "a": 1,
+    "e": "Algoritma Greedy bersifat 'rakus', langsung mengambil pilihan terbaik yang ada di depan mata tanpa memikirkan konsekuensi langkah kedepan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Masalah optimasi klasik di mana kita harus memilih kombinasi barang dengan bobot tertentu agar memaksimalkan nilai tanpa melebihi kapasitas tas disebut...",
+    "o": ["Shortest Path Problem", "Knapsack Problem", "Minimum Spanning Tree", "Sorting Problem"],
+    "a": 1,
+    "e": "Knapsack Problem adalah teka-teki optimasi kombinatorial yang sering dipecahkan menggunakan paradigma Greedy atau Dynamic Programming."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam penukaran koin (Coin Change), kapan Algoritma Greedy dijamin selalu menghasilkan solusi jumlah koin paling sedikit (optimal)?",
+    "o": ["Hanya untuk sistem mata uang tertentu yang bersifat 'canonical'", "Selalu optimal untuk semua jenis pecahan koin di dunia", "Hanya jika nilai tukarnya bernilai negatif", "Tidak pernah memberikan solusi yang benar"],
+    "a": 0,
+    "e": "Greedy optimal pada sistem koin kanonik (seperti Rupiah atau Dollar AS), namun gagal pada pecahan acak (misal pecahan koin 1, 3, dan 4 untuk menukar senilai 6)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Metode pemecahan masalah kompleks dengan cara membaginya menjadi sub-masalah yang saling tumpang tindih (overlapping), dan menyimpan hasil kalkulasi sub-masalah agar tidak dihitung ulang dinamakan...",
+    "o": ["Greedy Choice", "Dynamic Programming", "Linear Search", "Brute Force"],
+    "a": 1,
+    "e": "Dynamic Programming mengandalkan konsep memoization atau tabulasi untuk menyimpan solusi sub-masalah yang sudah pernah diselesaikan demi efisiensi waktu."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Strategi penyimpanan hasil perhitungan fungsi rekursif ke dalam tabel pencarian (cache) agar pada panggilan berikutnya cukup mengambil nilainya saja disebut...",
+    "o": ["Modulasi", "Fragmentasi", "Memoization", "Enkapsulasi"],
+    "a": 2,
+    "e": "Memoization mengubah fungsi rekursif yang lambat (eksponensial) menjadi sangat cepat (linear) dalam pemrograman dinamis."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Manakah struktur data yang paling cocok merepresentasikan hubungan rute antar kota lengkap dengan jarak tempuh sebagai bobot sisinya?",
+    "o": ["Binary Tree", "Stack", "Weighted Graph (Graf Berbobot)", "Queue"],
+    "a": 2,
+    "e": "Weighted Graph memodelkan jaringan simpul (kota) dan sisi yang memiliki nilai kuantitatif (jarak, biaya, waktu)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Algoritma populer yang digunakan untuk mencari jalur terpendek (shortest path) dari satu titik sumber ke seluruh titik lain pada graf berbobot non-negatif adalah...",
+    "o": ["Algoritma Dijkstra", "Algoritma Prim", "Algoritma Kruskal", "Selection Sort"],
+    "a": 0,
+    "e": "Algoritma Dijkstra adalah algoritma berbasis Greedy yang memecahkan masalah rute terpendek (Single-source Shortest Path)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Algoritma Prim dan Kruskal memiliki tujuan yang sama dalam teori Graf, yaitu untuk menemukan...",
+    "o": ["Shortest Path antara dua simpul", "Minimum Spanning Tree (MST)", "Cycle terbanyak", "Maximum Flow"],
+    "a": 1,
+    "e": "Minimum Spanning Tree (Pohon Merentang Minimum) menghubungkan seluruh simpul graf dengan total bobot sisi yang paling minimal tanpa membentuk siklus."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Karakteristik utama struktur data pohon biner pencarian (Binary Search Tree) adalah...",
+    "o": ["Semua node memiliki tiga anak", "Nilai node anak kiri selalu lebih kecil dari induk, dan nilai node anak kanan selalu lebih besar", "Tidak memiliki root", "Terdiri dari loop tertutup"],
+    "a": 1,
+    "e": "BST diorganisir secara terurut untuk mempercepat pencarian data, penyisipan, dan penghapusan (O(log n))."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam analisis algoritma, notasi Big-O digunakan untuk mengukur...",
+    "o": ["Berapa kilobyte ukuran kode program", "Tingkat pertumbuhan batas atas efisiensi waktu atau ruang memori seiring bertambahnya input data", "Jumlah baris komentar di kode program", "Harga lisensi software"],
+    "a": 1,
+    "e": "Notasi Big O mengklasifikasikan efisiensi algoritma dalam kasus terburuk secara matematis (Time/Space Complexity)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Urutan kompleksitas waktu dari yang PALING CEPAT (paling efisien) ke yang PALING LAMBAT adalah...",
+    "o": ["O(n^2) < O(n) < O(log n) < O(1)", "O(1) < O(log n) < O(n) < O(n^2)", "O(log n) < O(1) < O(n^2) < O(n)", "O(n) < O(n^2) < O(1) < O(log n)"],
+    "a": 1,
+    "e": "O(1) bersifat konstan, O(log n) logaritmik, O(n) linear, dan O(n^2) kuadratik. Ini adalah hierarki standar kecepatan eksekusi."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Kelemahan utama dari penyelesaian masalah menggunakan pendekatan brute-force murni adalah...",
+    "o": ["Kodenya sangat sulit dipahami", "Membutuhkan memori super komputer", "Waktu eksekusinya dapat meledak eksponensial untuk ukuran input yang besar", "Hasil jawabannya selalu salah"],
+    "a": 2,
+    "e": "Brute Force mencoba seluruh kemungkinan kombinasi solusi, menjadikannya tidak praktis untuk masalah skala industri."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Proses kunjungan (traversal) pada pohon biner di mana urutannya adalah: Kunjungi Akar, lalu Sub-pohon Kiri, lalu Sub-pohon Kanan disebut...",
+    "o": ["In-order Traversal", "Pre-order Traversal", "Post-order Traversal", "Level-order Traversal"],
+    "a": 1,
+    "e": "Pre-order mengunjungi Node Induk terlebih dahulu (Akar -> Kiri -> Kanan)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Bilangan biner bertanda '11111111' dalam representasi Two's Complement 8-bit bernilai desimal...",
+    "o": ["255", "-1", "-127", "-128"],
+    "a": 1,
+    "e": "Dalam Two's Complement, jika bit MSB bernilai 1 maka bilangan negatif. Membalik bit dan tambah 1 dari '11111111' menghasilkan desimal -1."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Representasi graf yang menggunakan matriks dua dimensi ukuran N x N (N = jumlah simpul) berisi angka 1 jika terhubung dan 0 jika tidak disebut...",
+    "o": ["Adjacency List", "Adjacency Matrix", "Incident Matrix", "Pointer List"],
+    "a": 1,
+    "e": "Adjacency Matrix efisien untuk graf padat (dense graph) untuk memeriksa konektivitas antar node secara instan O(1)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Paradigma pemrograman yang berorientasi pada penyusunan kode berdasarkan kumpulan objek yang saling berinteraksi dinamakan...",
+    "o": ["Procedural Programming", "Functional Programming", "Object-Oriented Programming (OOP)", "Logic Programming"],
+    "a": 2,
+    "e": "OOP menyatukan data (atribut) dan perilaku (metode) dalam satu kesatuan entitas bernama objek."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kerangka cetak biru (blueprint) atau rancangan yang mendefinisikan variabel dan metode untuk menciptakan objek konkrit disebut...",
+    "o": ["Instance", "Class (Kelas)", "Inheritance", "Polymorphism"],
+    "a": 1,
+    "e": "Class adalah pola konseptualnya, sedangkan Objek adalah wujud fisik (instance) dari rancangan kelas tersebut."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Prinsip OOP di mana sebuah kelas baru dapat mewarisi atribut dan metode dari kelas yang sudah ada sebelumnya dinamakan...",
+    "o": ["Encapsulation", "Inheritance (Pewarisan)", "Polymorphism", "Abstraction"],
+    "a": 1,
+    "e": "Inheritance mempromosikan penggunaan ulang kode (code reusability). Kelas turunan disebut subclass dan kelas induk disebut superclass."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Membungkus data sensitif agar terlindungi dari akses atau modifikasi langsung dari luar objek, dan hanya bisa diakses via metode getter/setter disebut konsep...",
+    "o": ["Polymorphism", "Inheritance", "Abstraction", "Encapsulation (Enkapsulasi)"],
+    "a": 3,
+    "e": "Enkapsulasi menyembunyikan status internal objek untuk menjamin integritas data (konsep data hiding)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Konsep di mana satu antarmuka (metode dengan nama yang sama) dapat berperilaku berbeda-beda tergantung pada objek kelas mana yang memanggilnya disebut...",
+    "o": ["Encapsulation", "Polymorphism (Polimorfisme)", "Inheritance", "Constructors"],
+    "a": 1,
+    "e": "Polimorfisme berarti 'banyak bentuk'. Metode 'bersuara()' akan berbunyi gukguk di objek Anjing dan meong di objek Kucing."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Metode khusus di Python yang dipanggil secara otomatis pada saat sebuah objek baru pertama kali diciptakan/diinstansiasi adalah...",
+    "o": ["def method()", "def __init__(self)", "def new()", "def start()"],
+    "a": 1,
+    "e": "Fungsi __init__() bertindak sebagai konstruktor di Python untuk menetapkan nilai awal parameter objek."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Python, parameter pertama pada definisi metode kelas yang mereferensikan ke instance objek itu sendiri secara konvensional dinamakan...",
+    "o": ["this", "super", "self", "me"],
+    "a": 2,
+    "e": "Kata kunci self wajib dituliskan pada argumen pertama fungsi di dalam kelas agar metode mengenali atribut objek pemanggilnya."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Sintaks Python yang benar untuk menciptakan kelas baru bernama 'Mobil' yang mewarisi sifat dari kelas induk 'Kendaraan' adalah...",
+    "o": ["class Mobil inherits Kendaraan:", "class Mobil extend Kendaraan:", "class Mobil(Kendaraan):", "class Mobil : Kendaraan"],
+    "a": 2,
+    "e": "Pewarisan di Python ditulis dengan memasukkan nama kelas induk di dalam tanda kurung setelah nama kelas anak."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Sebuah fungsi yang memanggil dirinya sendiri di dalam tubuh fungsinya sendiri dinamakan fungsi...",
+    "o": ["Iteratif", "Lambda", "Rekursif", "Statis"],
+    "a": 2,
+    "e": "Fungsi rekursif mempermudah penulisan kode untuk masalah hierarkis (seperti faktorial, fibonacci, atau penelusuran direktori folder)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dalam pembuatan fungsi rekursif, hal wajib yang harus ada agar program tidak terjebak dalam infinite recursion (stack overflow) adalah...",
+    "o": ["Looping while", "Base Case (Kasus Dasar Berhenti)", "Try-Except block", "Variabel Global"],
+    "a": 1,
+    "e": "Base Case memberikan kondisi eksplisit di mana rekursi harus berhenti memanggil dirinya sendiri dan mulai mengembalikan nilai."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Apakah kegunaan utama dari kata kunci 'super()' di dalam metode kelas anak di Python?",
+    "o": ["Menghapus objek dari memori", "Memanggil metode atau konstruktor milik kelas induk (parent class)", "Mengubah tipe data variabel", "Membuat salinan objek"],
+    "a": 1,
+    "e": "super() mengakses ruang lingkup kelas induk untuk memicu inisialisasi properti dasar warisan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di Python, penulisan nama atribut dengan awalan dua garis bawah (double underscore seperti __rahasia) menandakan bahwa atribut tersebut bersifat...",
+    "o": ["Public", "Protected", "Private (Sangat Privat/Mangled)", "Static"],
+    "a": 2,
+    "e": "Double underscore memicu name mangling di Python, menyembunyikan atribut agar tidak sengaja diakses dari luar kelas."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Library standar Python untuk berinteraksi dengan antarmuka sistem operasi, seperti membuat folder, melihat direktori, dan mengecek berkas adalah...",
+    "o": ["math", "random", "os", "sys"],
+    "a": 2,
+    "e": "Modul 'os' menyediakan fungsi portabel untuk mengeksekusi perintah shell operasi sistem internal secara langsung dari skrip Python."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Penanganan kesalahan saat program berjalan (Runtime Exception) di Python agar aplikasi tidak langsung crash/berhenti mendadak menggunakan blok...",
+    "o": ["try - except", "if - else", "do - catch", "throw - catch"],
+    "a": 0,
+    "e": "Blok try-except menangkap eror terduga (misal pembagian nol atau file tidak ditemukan) lalu menangani penanganannya secara anggun."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Operator perbandingan di Python yang khusus digunakan untuk memeriksa apakah dua objek menunjuk ke lokasi alamat memori yang persis sama (identitas objek) adalah...",
+    "o": ["==", "is", "in", "isinstance"],
+    "a": 1,
+    "e": "Operator '==' membandingkan kesamaan nilai konten, sedangkan operator 'is' membandingkan identitas referensi memori objek."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Arsitektur komputer klasik di mana data dan instruksi program disimpan bersama-sama di dalam satu ruang memori fisik tunggal disebut...",
+    "o": ["Arsitektur Harvard", "Arsitektur Von Neumann", "RISC Architecture", "CISC Architecture"],
+    "a": 1,
+    "e": "Arsitektur Von Neumann mendasari hampir semua komputer modern saat ini (siklus Fetch-Decode-Execute bersama di memori)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Masalah perlambatan kinerja pada komputer akibat kecepatan transfer bus data antara CPU dan memori utama tidak sebanding dengan kecepatan prosesor disebut...",
+    "o": ["CPU Overclock", "Von Neumann Bottleneck", "Memory Leak", "Thermal Throttling"],
+    "a": 1,
+    "e": "Von Neumann Bottleneck terjadi karena CPU super cepat harus antre menunggu data dikirim dari jalur bus memori yang sempit."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perbedaan utama arsitektur komputer Harvard dibandingkan Von Neumann adalah...",
+    "o": ["Harvard tidak memiliki RAM", "Harvard memisahkan ruang memori penyimpanan instruksi (program) dengan memori penyimpanan data", "Harvard lebih lambat", "Harvard hanya untuk superkomputer"],
+    "a": 1,
+    "e": "Arsitektur Harvard memiliki jalur bus dan memori terpisah sehingga pengambilan instruksi dan akses data bisa dilakukan serentak."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Teknologi prosesor modern yang memiliki beberapa inti pemroses independen (multi-core) di dalam satu keping silikon tunggal bertujuan untuk...",
+    "o": ["Meningkatkan konsumsi daya listrik", "Melakukan pemrosesan paralel (Parallel Processing) untuk mempercepat kinerja sistem", "Mengurangi ukuran CPU", "Menghilangkan kebutuhan akan RAM"],
+    "a": 1,
+    "e": "Multi-core membagi tugas komputasi ke beberapa inti secara bersamaan, sehingga melipatgandakan throughput pemrosesan program."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Tingkatan memori komputer super cepat berkapasitas sangat kecil yang terletak persis di dalam atau di dekat inti die CPU dinamakan...",
+    "o": ["Virtual Memory", "Cache Memory (L1, L2, L3)", "Flash Memory", "ROM"],
+    "a": 1,
+    "e": "Cache Memory memangkas waktu tunggu CPU dengan menduplikasi data yang paling sering diakses dari RAM."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Bagian dari sistem operasi yang paling inti, berinteraksi langsung dengan hardware, dan bertanggung jawab mengelola memori serta CPU scheduler dinamakan...",
+    "o": ["Shell", "Kernel", "Compiler", "File Explorer"],
+    "a": 1,
+    "e": "Kernel adalah jantung sistem operasi yang mengontrol segalanya di dalam sistem komputer level paling rendah."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Mekanisme sinyal darurat dari hardware atau software kepada CPU untuk segera menunda eksekusi program saat ini dan melayani kejadian kritis tertentu dinamakan...",
+    "o": ["Interrupt", "Formatting", "Paging", "Segmentation"],
+    "a": 0,
+    "e": "Interrupt (Interupsi) memberi tahu prosesor bahwa ada kejadian mendesak (seperti tombol keyboard ditekan atau eror hardware)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Fitur sistem operasi yang menyimulasikan penambahan memori RAM fisik dengan cara meminjam sebagian kapasitas penyimpanan hard disk (swap space) dinamakan...",
+    "o": ["Cache Memory", "Virtual Memory (Memori Virtual)", "Cloud Memory", "ROM Extension"],
+    "a": 1,
+    "e": "Virtual Memory mencegah komputer kehabisan memori saat membuka banyak aplikasi berat dengan teknik paging ke cakram padat."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Jenis mikroprosesor yang dirancang khusus dengan set instruksi yang disederhanakan untuk performa kecepatan eksekusi satu siklus adalah...",
+    "o": ["CISC (Complex Instruction Set Computer)", "RISC (Reduced Instruction Set Computer)", "ASIC", "FPGA"],
+    "a": 1,
+    "e": "RISC (arsitektur seperti ARM) menyederhanakan set instruksi instruksi agar CPU bekerja sangat cepat dan efisien daya."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Siklus Fetch-Decode-Execute dikendalikan oleh pulsa elektrik periodik yang dihasilkan oleh kristal kuarsa di motherboard, kecepatan pulsa ini disebut...",
+    "o": ["Bus Rate", "Clock Speed (Kecepatan Jam)", "Latency", "Voltage"],
+    "a": 1,
+    "e": "Clock speed diukur dalam Hertz (GHz modern) yang menandakan milyaran siklus detak per detik yang bisa diproses CPU."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Manakah yang merupakan komponen utama pembentuk sirkuit ALU (Arithmetic Logic Unit) di dalam CPU?",
+    "o": ["Dioda", "Transistor", "Gerbang Logika dan Adder (Penjumlah)", "Kapasitor"],
+    "a": 2,
+    "e": "ALU dibangun dari kombinasi jutaan gerbang logika logika penyusun rangkaian adder (penjumlah penuh biner)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat sistem embedded (tertanam) yang mengintegrasikan CPU, RAM, ROM, dan I/O port di dalam satu chip tunggal berbiaya murah dinamakan...",
+    "o": ["Mikroprosesor", "Mikrokontroler (Microcontroller)", "Supercomputer", "Mainframe"],
+    "a": 1,
+    "e": "Mikrokontroler (seperti Arduino/ESP32) dirancang untuk mengontrol tugas spesifik pada perkakas elektronik pintar (mesin cuci, robotik)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Tindakan memaksa komponen komputer (khususnya CPU atau VGA) berjalan pada kecepatan detak (clock rate) di atas spesifikasi pabrikan disebut...",
+    "o": ["Underclocking", "Overclocking", "Hyper-threading", "Multi-tasking"],
+    "a": 1,
+    "e": "Overclocking meningkatkan performa namun menghasilkan panas berlebih dan berpotensi memperpendek umur hardware jika pendinginnya tidak memadai."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Register internal CPU khusus yang bertugas menyimpan alamat instruksi berikutnya di memori yang akan dieksekusi adalah...",
+    "o": ["Accumulator", "Instruction Register", "Program Counter (PC)", "Stack Pointer"],
+    "a": 2,
+    "e": "Program Counter melacak letak langkah instruksi agar CPU tahu persis urutan program yang sedang berjalan."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Teknologi pemrosesan komputer di mana beberapa CPU fisik mandiri dihubungkan bersama dalam satu motherboard papan induk besar dinamakan...",
+    "o": ["Multiprogramming", "Multiprocessing", "Multithreading", "Simultaneous Computing"],
+    "a": 1,
+    "e": "Multiprocessing melibatkan pengerahan lebih dari satu prosesor fisik mandiri untuk mempercepat kalkulasi beban komputasi server."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Penerapan arsitektur sistem operasi modular di mana fungsi Kernel dipotong seminimal mungkin dan sisanya dijalankan di user-space dinamakan...",
+    "o": ["Monolithic Kernel", "Microkernel", "Exokernel", "Hybrid Kernel"],
+    "a": 1,
+    "e": "Microkernel menawarkan isolasi kegagalan sistem yang lebih baik karena layanan OS terpisah dari Kernel inti."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Peta atau jalur komunikasi paralel yang menghubungkan komponen internal komputer untuk mentransfer bit alamat memori dinamakan...",
+    "o": ["Data Bus", "Control Bus", "Address Bus", "Peripheral Bus"],
+    "a": 2,
+    "e": "Address Bus secara spesifik membawa informasi bit penunjuk lokasi sel memori mana yang ingin dibaca atau ditulis CPU."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Jenis interupsi CPU yang dihasilkan secara internal oleh perangkat lunak akibat kondisi eror kalkulasi ilegal (seperti pembagian nol) disebut...",
+    "o": ["Hardware Interrupt", "Trap / Exception", "External Event", "Maskable Interrupt"],
+    "a": 1,
+    "e": "Trap/Exception adalah interupsi internal perangkat lunak yang sinkron dipicu oleh aksi instruksi kode yang salah."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Dalam sistem bilangan komputer, bilangan biner '1011' setara dengan nilai desimal...",
+    "o": ["9", "10", "11", "13"],
+    "a": 2,
+    "e": "1011 = (1*2^3) + (0*2^2) + (1*2^1) + (1*2^0) = 8 + 0 + 2 + 1 = 11."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Unit pemrosesan grafis mandiri yang sangat andal memproses kalkulasi paralel jutaan piksel 3D dan algoritma pelatihan kecerdasan buatan dinamakan...",
+    "o": ["APU", "VRAM", "GPU (Graphics Processing Unit)", "Soundcard"],
+    "a": 2,
+    "e": "GPU memiliki ribuan inti pemroses mini paralel yang sangat superior dalam melakukan komputasi aritmatika matriks (seperti grafis game dan AI)."
+  }
+]

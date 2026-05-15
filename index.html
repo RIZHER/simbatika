@@ -273,6 +273,16 @@
           </button>
         </div>
 
+        <!-- Search Bar Section -->
+        <div class="mb-8 animate-fade-in-up" style="animation-delay: 0.1s;">
+          <div class="relative max-w-md">
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <input type="text" id="quiz-search-input" oninput="handleSearchInput()" placeholder="Cari kuis, kelas, atau topik..." class="w-full pl-11 pr-4 py-3.5 bg-white border border-slate-200 rounded-2xl text-slate-800 font-semibold placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 shadow-sm hover:border-slate-300 transition duration-200">
+          </div>
+        </div>
+
         <!-- Wrapper Cards Kuis -->
         <div id="packages-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 animate-fade-in-up">
           <!-- Diisi via Javascript renderGrid -->
@@ -319,6 +329,7 @@
       const TEACHER_PASSWORD = "nuahhhhh";
 
       let allPackages = [];
+      let currentActiveLevel = null;
 
       document.addEventListener("DOMContentLoaded", initPortal);
 
@@ -366,6 +377,12 @@
       }
 
       function selectLevel(levelKey, btnElement) {
+        currentActiveLevel = levelKey;
+
+        // Reset Search Input jika berganti jenjang
+        const searchInput = document.getElementById("quiz-search-input");
+        if (searchInput) searchInput.value = "";
+
         // 1. Visual Feedback: Bersihkan kelas aktif lama di kartu lain
         const allCards = document.querySelectorAll(".level-card");
         allCards.forEach(card => {
@@ -400,13 +417,39 @@
         document.getElementById("active-level-title").textContent = `Kumpulan Kuis ${mappingTitle[levelKey]}`;
 
         // 5. Eksekusi Penyaringan & Render Data
-        const filtered = allPackages.filter(pkg => (pkg.level || "SMA").toUpperCase() === levelKey);
-        renderGrid(filtered);
+        filterAndRenderGrid();
 
         // 6. Scroll Otomatis dengan Elegan ke Daftar Soal
         setTimeout(() => {
           section.scrollIntoView({ behavior: "smooth", block: "start" });
         }, 150);
+      }
+
+      function handleSearchInput() {
+        filterAndRenderGrid();
+      }
+
+      function filterAndRenderGrid() {
+        if (!currentActiveLevel) return;
+
+        const searchInput = document.getElementById("quiz-search-input");
+        const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+
+        const filtered = allPackages.filter(pkg => {
+          const matchesLevel = (pkg.level || "SMA").toUpperCase() === currentActiveLevel;
+          if (!matchesLevel) return false;
+
+          if (query === "") return true;
+
+          return (
+            (pkg.title || "").toLowerCase().includes(query) ||
+            (pkg.class || "").toLowerCase().includes(query) ||
+            (pkg.description || "").toLowerCase().includes(query) ||
+            (pkg.subject || "").toLowerCase().includes(query)
+          );
+        });
+
+        renderGrid(filtered);
       }
 
       function scrollToLevels() {
@@ -489,13 +532,16 @@
         grid.innerHTML = "";
 
         if (data.length === 0) {
+          const searchInput = document.getElementById("quiz-search-input");
+          const isSearching = searchInput && searchInput.value.trim() !== "";
+          
           grid.innerHTML = `
-            <div class="col-span-full bg-slate-50 border-2 border-slate-200 border-dashed text-center py-16 px-8 rounded-3xl text-slate-500 italic font-semibold text-sm">
+            <div class="col-span-full bg-slate-50 border-2 border-slate-200 border-dashed text-center py-16 px-8 rounded-3xl text-slate-500 italic font-semibold text-sm animate-fade-in-up">
               <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-400">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
               </div>
-              <span>Belum ada paket soal yang tersedia untuk jenjang ini.</span>
-              <span class="block text-[10px] font-extrabold tracking-widest uppercase text-indigo-500 mt-2">Segera Hadir / Tahap Pengembangan</span>
+              <span>${isSearching ? 'Tidak menemukan hasil pencarian yang cocok.' : 'Belum ada paket soal yang tersedia untuk jenjang ini.'}</span>
+              <span class="block text-[10px] font-extrabold tracking-widest uppercase text-indigo-500 mt-2">${isSearching ? 'Silakan coba kata kunci lain.' : 'Segera Hadir / Tahap Pengembangan'}</span>
             </div>
           `;
           return;
