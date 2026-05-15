@@ -1,0 +1,1302 @@
+[
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Algoritma pencarian yang membagi rentang pencarian menjadi dua bagian pada setiap tahapannya disebut...",
+    "o": [
+      "Linear Search",
+      "Bubble Search",
+      "Binary Search",
+      "Selection Search",
+      "Insertion Search"
+    ],
+    "a": 2,
+    "e": "Binary Search (Pencarian Biner) bekerja dengan membagi dua data yang sudah terurut. Jika nilai yang dicari lebih kecil dari nilai tengah, pencarian dilanjutkan ke paruh kiri, jika lebih besar ke paruh kanan."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Syarat mutlak agar algoritma Binary Search dapat berjalan dengan benar adalah...",
+    "o": [
+      "Data harus berupa angka",
+      "Jumlah data harus genap",
+      "Data harus berada dalam array 2 dimensi",
+      "Data harus sudah dalam keadaan terurut",
+      "Data tidak boleh ada yang duplikat"
+    ],
+    "a": 3,
+    "e": "Binary Search membandingkan nilai yang dicari dengan nilai tengah. Logika membagi dua (kiri/kanan) ini hanya valid jika elemen-elemen tersebut sudah terurut (secara *ascending* atau *descending*)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Algoritma pengurutan yang membandingkan dua elemen berdekatan dan menukarnya jika urutannya salah, seperti gelembung yang naik ke atas, adalah...",
+    "o": [
+      "Quick Sort",
+      "Merge Sort",
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort"
+    ],
+    "a": 4,
+    "e": "Bubble Sort adalah algoritma sederhana yang secara berulang membandingkan elemen yang bersebelahan dan menukarnya. Elemen terbesar akan 'mengapung' ke posisi paling akhir pada setiap iterasinya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data Stack (Tumpukan) beroperasi berdasarkan prinsip...",
+    "o": [
+      "FIFO (First In First Out)",
+      "LIFO (Last In First Out)",
+      "LILO (Last In Last Out)",
+      "Random Access",
+      "Sequential Access"
+    ],
+    "a": 1,
+    "e": "Stack menggunakan LIFO (Last In First Out). Artinya, elemen yang terakhir kali dimasukkan ke dalam tumpukan akan menjadi elemen pertama yang dikeluarkan. Contohnya tumpukan piring atau fitur *Undo*."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Operasi untuk menambahkan elemen baru ke dalam sebuah Stack disebut...",
+    "o": [
+      "Pop",
+      "Push",
+      "Enqueue",
+      "Dequeue",
+      "Insert"
+    ],
+    "a": 1,
+    "e": "Push adalah operasi menambah elemen ke puncak Stack. Sebaliknya, operasi untuk menghapus elemen dari puncak Stack disebut Pop."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Antrean orang di loket tiket bioskop adalah representasi terbaik dari struktur data...",
+    "o": [
+      "Tree",
+      "Graph",
+      "Stack",
+      "Queue",
+      "Array"
+    ],
+    "a": 3,
+    "e": "Queue (Antrean) menggunakan prinsip FIFO (First In First Out). Orang yang pertama datang mengantre adalah yang pertama kali dilayani dan keluar dari antrean."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Struktur data hierarkis yang terdiri dari simpul akar (root) dan anak-anaknya (children) disebut...",
+    "o": [
+      "Array",
+      "Linked List",
+      "Tree",
+      "Graph",
+      "Stack"
+    ],
+    "a": 2,
+    "e": "Tree (Pohon) adalah struktur data non-linear yang berbentuk hierarki. Puncak hierarki disebut *Root* (Akar), dan elemen di bawahnya disebut *Child* (Anak) atau *Leaf* (Daun jika tidak punya anak lagi)."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Jejaring jalan raya yang menghubungkan berbagai kota di sebuah peta digital direpresentasikan menggunakan struktur data...",
+    "o": [
+      "Tree",
+      "Graph",
+      "Queue",
+      "Stack",
+      "Array"
+    ],
+    "a": 1,
+    "e": "Graph (Graf) terdiri dari Node (titik/kota) dan Edge (garis penghubung/jalan raya). Graf sangat cocok untuk merepresentasikan rute, jaringan komputer, atau relasi sosial."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Logika matematika: Jika proposisi P bernilai BENAR dan Q bernilai SALAH, maka hasil dari (P AND Q) adalah...",
+    "o": [
+      "BENAR",
+      "SALAH",
+      "RAGU-RAGU",
+      "TIDAK VALID",
+      "Tergantung kondisi"
+    ],
+    "a": 1,
+    "e": "Dalam logika konjungsi (AND), hasilnya hanya akan BENAR jika KEDUA proposisi bernilai BENAR. Karena Q salah, maka (P AND Q) menghasilkan SALAH."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Manakah dari algoritma berikut yang mencari nilai terkecil dari sekumpulan data, lalu menempatkannya di posisi paling depan?",
+    "o": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Selection Sort",
+      "Merge Sort",
+      "Quick Sort"
+    ],
+    "a": 2,
+    "e": "Selection Sort bekerja dengan cara menyeleksi (mencari) nilai terkecil dari array yang belum terurut, kemudian menukarnya dengan elemen pertama, lalu mencari nilai terkecil kedua, dan seterusnya."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Operasi mengeluarkan data terdepan dari sebuah antrean (Queue) disebut...",
+    "o": [
+      "Push",
+      "Pop",
+      "Enqueue",
+      "Dequeue",
+      "Peek"
+    ],
+    "a": 3,
+    "e": "Dequeue adalah operasi menghapus/mengeluarkan elemen dari depan Queue. Sedangkan Enqueue adalah operasi memasukkan elemen baru ke bagian belakang Queue."
+  },
+  {
+    "c": "Berpikir Komputasional",
+    "q": "Dalam ekspresi logika `(A OR B) AND C`, jika A=False, B=True, dan C=True, maka hasil akhirnya adalah...",
+    "o": [
+      "False",
+      "True",
+      "Error",
+      "Null",
+      "0"
+    ],
+    "a": 1,
+    "e": "(A OR B) -> (False OR True) menghasilkan True. Kemudian True AND C -> True AND True menghasilkan True."
+  },
+  {
+    "c": "TIK",
+    "q": "Fitur di Microsoft Word yang sangat berguna untuk membuat sertifikat atau surat undangan dalam jumlah banyak dengan nama penerima yang otomatis berubah adalah...",
+    "o": [
+      "Table of Contents",
+      "Track Changes",
+      "Mail Merge",
+      "Macro",
+      "Cross Reference"
+    ],
+    "a": 2,
+    "e": "Mail Merge (Surat Massal) menghubungkan dokumen utama di Word dengan sumber data (biasanya tabel Excel). Ini mengotomatisasi pembuatan banyak dokumen tanpa harus mengetik nama satu per satu."
+  },
+  {
+    "c": "TIK",
+    "q": "Untuk melakukan Mail Merge, selain dokumen utama di Word, kita membutuhkan file sumber data yang disebut...",
+    "o": [
+      "Data Source",
+      "Main Document",
+      "Merge Field",
+      "Query",
+      "Macro Code"
+    ],
+    "a": 0,
+    "e": "Data Source (Sumber Data) adalah file yang berisi daftar informasi (seperti nama, alamat, nilai) yang akan disisipkan ke dalam dokumen utama saat proses Mail Merge."
+  },
+  {
+    "c": "TIK",
+    "q": "Fitur Object Linking and Embedding (OLE) memungkinkan kita menyisipkan grafik Excel ke PowerPoint. Keuntungan utama metode *Linking* (bukan Embedding) adalah...",
+    "o": [
+      "Ukuran file PowerPoint menjadi lebih kecil dan grafik otomatis update jika file Excel diubah",
+      "Grafik tidak bisa diubah sama sekali",
+      "File PowerPoint tidak lagi membutuhkan Excel",
+      "Warna grafik menjadi lebih tajam",
+      "Grafik otomatis berubah menjadi animasi"
+    ],
+    "a": 0,
+    "e": "Linking hanya membuat 'jalan pintas' ke file asli (Excel). Jika file Excel diedit, grafik di PPT ikut berubah. Ini juga membuat ukuran PPT tetap kecil karena data aslinya tidak ditanam (embedded) di PPT."
+  },
+  {
+    "c": "TIK",
+    "q": "Fungsi Microsoft Excel yang digunakan untuk menghitung jumlah sel yang memenuhi sebuah kriteria tertentu adalah...",
+    "o": [
+      "SUMIF",
+      "COUNT",
+      "COUNTA",
+      "COUNTIF",
+      "VLOOKUP"
+    ],
+    "a": 3,
+    "e": "COUNT digunakan untuk menghitung sel berisi angka. COUNTA menghitung sel yang tidak kosong. COUNTIF digunakan untuk menghitung jumlah sel berdasarkan kriteria spesifik (misal: hitung siswa yang nilainya >80)."
+  },
+  {
+    "c": "TIK",
+    "q": "Rumus Excel: `=IF(A1>=80; \"Baik\"; IF(A1>=60; \"Cukup\"; \"Kurang\"))`. Jika sel A1 bernilai 70, apa hasil yang ditampilkan?",
+    "o": [
+      "Baik",
+      "Cukup",
+      "Kurang",
+      "Error",
+      "70"
+    ],
+    "a": 1,
+    "e": "Ini adalah IF bersarang (Nested IF). Pertama dievaluasi: Apakah 70 >= 80? (Salah). Lanjut ke IF kedua: Apakah 70 >= 60? (Benar). Maka hasilnya adalah 'Cukup'."
+  },
+  {
+    "c": "TIK",
+    "q": "Fungsi yang digunakan untuk mencari data secara vertikal pada kolom pertama sebuah tabel referensi di Excel adalah...",
+    "o": [
+      "HLOOKUP",
+      "LOOKUP",
+      "MATCH",
+      "INDEX",
+      "VLOOKUP"
+    ],
+    "a": 4,
+    "e": "VLOOKUP (Vertical Lookup) mencari nilai referensi di kolom pertama tabel, lalu mengembalikan nilai di baris yang sama dari kolom yang ditentukan. HLOOKUP digunakan untuk pencarian horizontal (baris)."
+  },
+  {
+    "c": "TIK",
+    "q": "Pada rumus `=VLOOKUP(D2; $A$2:$B$10; 2; FALSE)`, apa arti dari argumen `FALSE`?",
+    "o": [
+      "Pencarian data yang mirip (Approximate Match)",
+      "Pencarian data yang sama persis (Exact Match)",
+      "Data tidak perlu diurutkan",
+      "Mengabaikan huruf besar/kecil",
+      "Menghapus pesan error"
+    ],
+    "a": 1,
+    "e": "FALSE atau 0 dalam VLOOKUP berarti *Exact Match*. Excel hanya akan mengembalikan nilai jika menemukan kecocokan yang 100% sama persis. Jika menggunakan TRUE, Excel mencari kecocokan yang mendekati."
+  },
+  {
+    "c": "TIK",
+    "q": "Tanda `$` pada rumus Excel (contoh: `$A$1`) berfungsi untuk...",
+    "o": [
+      "Mengubah format sel menjadi mata uang Dolar",
+      "Membuat rumus menjadi absolut (tidak bergeser saat di-copy)",
+      "Mempercepat perhitungan rumus",
+      "Mengunci file Excel dengan password",
+      "Menandai sel tersebut sebagai referensi eksternal"
+    ],
+    "a": 1,
+    "e": "Tanda $ digunakan untuk membuat Referensi Sel Absolut. Saat rumus di-copy (di-drag) ke sel lain, referensi sel yang dikunci dengan $ tidak akan berubah posisi baris atau kolomnya."
+  },
+  {
+    "c": "TIK",
+    "q": "Aplikasi perkantoran pengolah angka (Spreadsheet) biasanya menyimpan dokumen dalam format standar...",
+    "o": [
+      " .docx",
+      ".pptx",
+      ".xlsx",
+      ".pdf",
+      ".txt"
+    ],
+    "a": 2,
+    "e": "Format standar Microsoft Excel versi 2007 ke atas adalah .xlsx. Sedangkan .docx untuk Word, dan .pptx untuk PowerPoint."
+  },
+  {
+    "c": "TIK",
+    "q": "Fitur untuk membuat daftar isi otomatis di Microsoft Word berdasarkan Heading disebut...",
+    "o": [
+      "References > Table of Contents",
+      "Insert > Index",
+      "View > Navigation Pane",
+      "Layout > Margins",
+      "Home > Styles"
+    ],
+    "a": 0,
+    "e": "Table of Contents (Daftar Isi) di tab References memungkinkan pembuatan daftar isi secara instan yang halamannya otomatis menyesuaikan jika kita menggunakan fitur Styles (Heading 1, Heading 2, dst)."
+  },
+  {
+    "c": "TIK",
+    "q": "Kumpulan titik data yang disajikan dalam bentuk lingkaran dan dipotong-potong sesuai persentase disebut grafik...",
+    "o": [
+      "Line Chart",
+      "Bar Chart",
+      "Area Chart",
+      "Pie Chart",
+      "Scatter Chart"
+    ],
+    "a": 3,
+    "e": "Pie Chart (Grafik Lingkaran/Kue) sangat ideal untuk menunjukkan proporsi atau persentase dari keseluruhan."
+  },
+  {
+    "c": "TIK",
+    "q": "CMS (Content Management System) yang paling populer untuk membuat web atau blog adalah...",
+    "o": [
+      "Photoshop",
+      "WordPress",
+      "Microsoft Access",
+      "Adobe Premiere",
+      "AutoCAD"
+    ],
+    "a": 1,
+    "e": "WordPress adalah sistem manajemen konten sumber terbuka yang menenagai lebih dari 40% website di seluruh dunia karena kemudahan pengelolaannya."
+  },
+  {
+    "c": "TIK",
+    "q": "Di PowerPoint, fitur yang mengatur bagaimana tampilan bergeser dari satu slide ke slide berikutnya disebut...",
+    "o": [
+      "Animation",
+      "Slide Show",
+      "Transition",
+      "Design Ideas",
+      "Hyperlink"
+    ],
+    "a": 2,
+    "e": "Transition (Transisi) mengatur efek perpindahan antar slide. Sedangkan Animation (Animasi) mengatur pergerakan objek (teks/gambar) di dalam satu slide."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Otak dari sebuah komputer yang memproses semua instruksi adalah...",
+    "o": [
+      "RAM",
+      "Motherboard",
+      "Harddisk",
+      "CPU",
+      "VGA"
+    ],
+    "a": 3,
+    "e": "CPU (Central Processing Unit) atau Prosesor adalah perangkat keras utama komputer yang bertindak sebagai otak, memproses instruksi dan mengelola aliran data."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Dalam arsitektur Von Neumann, komponen yang mengatur dan mengendalikan alat-alat input dan output serta mengambil instruksi dari memori adalah...",
+    "o": [
+      "ALU (Arithmetic Logic Unit)",
+      "CU (Control Unit)",
+      "Register",
+      "Cache Memory",
+      "Bus"
+    ],
+    "a": 1,
+    "e": "Control Unit (CU) berfungsi sebagai pengatur (mandor). Ia mengambil instruksi dari memori, menerjemahkannya, dan memberi sinyal ke komponen lain (seperti ALU atau I/O) untuk bertindak."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Memori komputer yang bersifat *Volatile* (datanya hilang ketika listrik dimatikan) adalah...",
+    "o": [
+      "ROM",
+      "Flash Drive",
+      "Harddisk",
+      "RAM",
+      "SSD"
+    ],
+    "a": 3,
+    "e": "RAM (Random Access Memory) adalah memori sementara yang sangat cepat tetapi *volatile*. Begitu komputer dimatikan, semua data yang sedang diproses di RAM akan terhapus."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Konversi bilangan biner 1011(2) ke desimal adalah...",
+    "o": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "a": 2,
+    "e": "(1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (1 * 2^0) = 8 + 0 + 2 + 1 = 11."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Konversi bilangan desimal 14(10) ke biner adalah...",
+    "o": [
+      "1100",
+      "1101",
+      "1110",
+      "1111",
+      "1010"
+    ],
+    "a": 2,
+    "e": "14 / 2 = 7 sisa 0. 7 / 2 = 3 sisa 1. 3 / 2 = 1 sisa 1. 1 / 2 = 0 sisa 1. Baca sisa dari bawah: 1110."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Bilangan Heksadesimal menggunakan basis...",
+    "o": [
+      "2",
+      "8",
+      "10",
+      "16",
+      "32"
+    ],
+    "a": 3,
+    "e": "Heksadesimal menggunakan basis 16, yang terdiri dari angka 0-9 ditambah huruf A-F (dimana A=10, B=11, C=12, D=13, E=14, F=15)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Gerbang logika yang merupakan kebalikan dari gerbang OR adalah...",
+    "o": [
+      "AND",
+      "NAND",
+      "NOR",
+      "XOR",
+      "NOT"
+    ],
+    "a": 2,
+    "e": "NOR (NOT OR) menghasilkan keluaran yang berlawanan dengan OR. Jika OR bernilai 1 jika ada input 1, maka NOR hanya bernilai 1 jika SEMUA inputnya 0."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Output dari gerbang XOR (Exclusive OR) akan bernilai 1 (True) jika...",
+    "o": [
+      "Kedua input bernilai 1",
+      "Kedua input bernilai 0",
+      "Semua input sama nilainya",
+      "Inputnya memiliki nilai yang berbeda (1 dan 0)",
+      "Tidak ada arus listrik"
+    ],
+    "a": 3,
+    "e": "XOR (Exclusive OR) hanya mengeluarkan output 1 jika nilai inputnya BERBEDA (contoh: Input A=1 dan B=0, atau A=0 dan B=1)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Perangkat keras yang berfungsi mengubah sinyal digital dari komputer menjadi sinyal analog untuk ditransmisikan melalui kabel telepon (dan sebaliknya) adalah...",
+    "o": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Hub",
+      "Access Point"
+    ],
+    "a": 2,
+    "e": "Modem (Modulator Demodulator) memodulasi sinyal digital ke analog dan mendemodulasi sinyal analog kembali menjadi digital agar bisa dibaca komputer."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Berikut ini yang merupakan perangkat input (Input Device) adalah...",
+    "o": [
+      "Monitor",
+      "Printer",
+      "Speaker",
+      "Scanner",
+      "Projector"
+    ],
+    "a": 3,
+    "e": "Scanner digunakan untuk memasukkan data fisik (kertas) menjadi data digital ke dalam sistem komputer, sehingga ia adalah perangkat input."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Sistem operasi bertugas menjembatani antara perangkat keras dan...",
+    "o": [
+      "Brainware",
+      "Software aplikasi",
+      "Jaringan internet",
+      "Listrik",
+      "Data"
+    ],
+    "a": 1,
+    "e": "Sistem Operasi (seperti Windows, Linux) adalah perangkat lunak sistem yang mengelola perangkat keras dan menyediakan layanan dasar untuk Software Aplikasi (seperti Word, Chrome)."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Siklus pengolahan data dasar pada komputer terdiri dari...",
+    "o": [
+      "Input -> Proses -> Output",
+      "Output -> Input -> Proses",
+      "Proses -> Penyimpanan -> Input",
+      "Keyboard -> CPU -> Monitor",
+      "Ketik -> Simpan -> Print"
+    ],
+    "a": 0,
+    "e": "Siklus informasi (Information Processing Cycle) selalu bermula dari Input data, lalu di-Proses oleh CPU, dan akhirnya menjadi Output yang bermanfaat bagi pengguna."
+  },
+  {
+    "c": "Sistem Komputer",
+    "q": "Papan sirkuit utama di dalam casing komputer tempat menancapkan CPU, RAM, dan perangkat lain disebut...",
+    "o": [
+      "Power Supply",
+      "Motherboard",
+      "Processor",
+      "VGA Card",
+      "Casing"
+    ],
+    "a": 1,
+    "e": "Motherboard (papan induk) adalah tulang punggung komputer yang menyediakan koneksi sirkuit agar semua komponen perangkat keras dapat saling berkomunikasi."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Jaringan yang hanya mencakup area kecil seperti satu gedung sekolah atau warnet disebut...",
+    "o": [
+      "WAN",
+      "MAN",
+      "LAN",
+      "PAN",
+      "Internet"
+    ],
+    "a": 2,
+    "e": "LAN (Local Area Network) adalah jaringan yang dibatasi oleh area fisik yang kecil seperti kantor, rumah, atau laboratorium sekolah."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Topologi jaringan yang menggunakan satu kabel utama panjang sebagai 'tulang punggung' (backbone) dimana semua komputer terhubung ke kabel tersebut adalah...",
+    "o": [
+      "Star",
+      "Bus",
+      "Ring",
+      "Mesh",
+      "Tree"
+    ],
+    "a": 1,
+    "e": "Topologi Bus memiliki satu kabel coaxial utama. Jika kabel utama ini putus, maka seluruh jaringan akan lumpuh."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Keunggulan utama dari Topologi Star dibandingkan Topologi Bus adalah...",
+    "o": [
+      "Hemat kabel",
+      "Jika satu kabel komputer putus, komputer lain tetap bisa terhubung",
+      "Kecepatan internet lebih stabil",
+      "Tidak membutuhkan switch/hub",
+      "Sangat mudah dipasang tanpa konfigurasi"
+    ],
+    "a": 1,
+    "e": "Dalam Topologi Star, setiap node terhubung langsung ke Switch pusat. Jadi, kerusakan pada kabel salah satu node tidak akan mempengaruhi node lainnya."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Alamat unik yang tertanam secara fisik pada kartu jaringan (NIC/LAN Card) sejak dari pabrik disebut...",
+    "o": [
+      "IP Address",
+      "Subnet Mask",
+      "MAC Address",
+      "Default Gateway",
+      "DNS"
+    ],
+    "a": 2,
+    "e": "MAC Address (Media Access Control) adalah alamat fisik (hardware address) sepanjang 48-bit yang bersifat permanen dan unik untuk setiap perangkat jaringan di dunia."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "IPv4 terdiri dari berapa bit?",
+    "o": [
+      "16 bit",
+      "32 bit",
+      "64 bit",
+      "128 bit",
+      "256 bit"
+    ],
+    "a": 1,
+    "e": "IPv4 memiliki panjang 32 bit yang dibagi menjadi 4 oktet (setiap oktet 8 bit). Sedangkan IPv6 memiliki panjang 128 bit."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Subnet mask default untuk IP Address Kelas C adalah...",
+    "o": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255",
+      "0.0.0.0"
+    ],
+    "a": 2,
+    "e": "IP Kelas C dirancang untuk jaringan skala kecil. Ia menggunakan 3 oktet pertama untuk Network dan 1 oktet terakhir untuk Host. Sehingga Subnet mask-nya adalah 255.255.255.0 (atau /24)."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Protokol yang menerjemahkan nama domain (seperti google.com) menjadi IP Address yang dapat dimengerti komputer adalah...",
+    "o": [
+      "DHCP",
+      "FTP",
+      "DNS",
+      "HTTP",
+      "SMTP"
+    ],
+    "a": 2,
+    "e": "DNS (Domain Name System) berfungsi sebagai buku telepon internet. Manusia menghafal nama domain (google.com), sedangkan komputer berkomunikasi dengan angka (IP: 142.250.190.46)."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Metode mengubah teks asli yang dapat dibaca (Plaintext) menjadi teks sandi yang tidak dapat dipahami (Ciphertext) disebut...",
+    "o": [
+      "Decryption",
+      "Compression",
+      "Encryption",
+      "Hashing",
+      "Encoding"
+    ],
+    "a": 2,
+    "e": "Encryption (Enkripsi) adalah proses mengamankan data dengan algoritma matematis agar tidak bisa dibaca oleh peretas saat data sedang transit di jaringan."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Pada Caesar Cipher dengan pergeseran 3 huruf ke kanan (A->D), teks 'BACA' akan dienkripsi menjadi...",
+    "o": [
+      "EDFD",
+      "EDED",
+      "DFDF",
+      "EFDF",
+      "DADA"
+    ],
+    "a": 0,
+    "e": "Geser huruf: B(+3)=E, A(+3)=D, C(+3)=F, A(+3)=D. Maka BACA menjadi EDFD."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Di *browser*, huruf 'S' pada protokol HTTPS menandakan...",
+    "o": [
+      "Server",
+      "Secure",
+      "System",
+      "Software",
+      "Standard"
+    ],
+    "a": 1,
+    "e": "HTTPS (Hypertext Transfer Protocol Secure) menggunakan enkripsi SSL/TLS untuk melindungi pertukaran data antara browser Anda dan server web."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Perangkat yang menghubungkan dua jaringan atau lebih yang memiliki subnet berbeda (misalnya menghubungkan LAN ke Internet) adalah...",
+    "o": [
+      "Switch",
+      "Hub",
+      "Router",
+      "Repeater",
+      "Bridge"
+    ],
+    "a": 2,
+    "e": "Router adalah perangkat jaringan yang cerdas. Ia merutekan paket data antar jaringan logis yang berbeda (seperti dari jaringan lokal IP 192.168.1.0 ke jaringan internet publik)."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Layanan yang secara otomatis memberikan IP Address kepada komputer client yang terhubung ke jaringan adalah...",
+    "o": [
+      "DNS Server",
+      "Web Server",
+      "DHCP Server",
+      "File Server",
+      "Mail Server"
+    ],
+    "a": 2,
+    "e": "DHCP (Dynamic Host Configuration Protocol) bertugas meminjamkan dan mengatur IP secara otomatis agar administrator tidak perlu menginput IP manual ke ratusan komputer."
+  },
+  {
+    "c": "Jaringan Komputer",
+    "q": "Pada IP 192.168.10.5 dengan Subnet Mask 255.255.255.0, angka '.5' merepresentasikan...",
+    "o": [
+      "Network ID",
+      "Host ID",
+      "Broadcast ID",
+      "Gateway",
+      "Subnetting"
+    ],
+    "a": 1,
+    "e": "Karena subnetnya 255.255.255.0, tiga blok pertama (192.168.10) adalah alamat Network (Nama jalan), dan blok terakhir (.5) adalah Host ID (Nomor rumah/identitas unik PC di jalan tersebut)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Proses mengumpulkan data secara otomatis dari halaman web menggunakan program atau skrip disebut...",
+    "o": [
+      "Web Hosting",
+      "Web Scraping",
+      "Web Surfing",
+      "Web Phishing",
+      "Web Designing"
+    ],
+    "a": 1,
+    "e": "Web Scraping adalah teknik ekstraksi data untuk mengambil ribuan informasi dari website (seperti harga produk di Tokopedia) secara otomatis menggunakan kode pemrograman."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebelum dianalisis, data seringkali mengandung nilai kosong (Null), data ganda, atau format yang salah. Proses memperbaikinya disebut...",
+    "o": [
+      "Data Mining",
+      "Data Storage",
+      "Data Cleansing",
+      "Data Visualization",
+      "Data Validation"
+    ],
+    "a": 2,
+    "e": "Data Cleansing (Pembersihan Data) adalah proses mengidentifikasi dan memperbaiki catatan yang tidak akurat, tidak lengkap, atau tidak relevan dari sebuah dataset."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Visualisasi data mana yang paling tepat untuk menunjukkan hubungan atau korelasi antara dua variabel (misal: tinggi badan dengan berat badan)?",
+    "o": [
+      "Pie Chart",
+      "Line Chart",
+      "Bar Chart",
+      "Scatter Plot",
+      "Radar Chart"
+    ],
+    "a": 3,
+    "e": "Scatter Plot (Diagram Pencar) menempatkan titik-titik pada sumbu X dan Y untuk melihat apakah ada pola korelasi (positif/negatif) antara dua variabel tersebut."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fenomena di mana volume, kecepatan, dan variasi data yang dihasilkan dunia modern sangat besar sehingga sulit diproses menggunakan database tradisional disebut...",
+    "o": [
+      "Cloud Computing",
+      "Artificial Intelligence",
+      "Big Data",
+      "Internet of Things",
+      "Blockchain"
+    ],
+    "a": 2,
+    "e": "Big Data dicirikan oleh 3V: Volume (ukuran besar), Velocity (kecepatan data masuk sangat tinggi), dan Variety (jenis data beragam seperti teks, video, log)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam statistik dasar, nilai yang paling sering muncul dalam sebuah kumpulan data disebut...",
+    "o": [
+      "Mean",
+      "Median",
+      "Mode (Modus)",
+      "Range",
+      "Standar Deviasi"
+    ],
+    "a": 2,
+    "e": "Mode atau Modus adalah nilai dengan frekuensi kemunculan tertinggi. Mean adalah rata-rata, sedangkan Median adalah nilai tengah setelah data diurutkan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Pada Microsoft Excel, fitur tingkat lanjut untuk merangkum, menganalisis, dan mengeksplorasi data yang kompleks secara dinamis tanpa mengubah tabel asli disebut...",
+    "o": [
+      "Mail Merge",
+      "Pivot Table",
+      "VLOOKUP",
+      "Macro",
+      "Conditional Formatting"
+    ],
+    "a": 1,
+    "e": "Pivot Table memungkinkan Anda membuat tabel ringkasan interaktif. Anda bisa memutar (pivot) baris menjadi kolom untuk melihat data dari berbagai sudut pandang dengan cepat."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Kumpulan data yang sangat besar biasanya disimpan dalam sebuah sistem gudang data yang disebut...",
+    "o": [
+      "Flash Drive",
+      "Data Warehouse",
+      "RAM",
+      "Register",
+      "Google Drive"
+    ],
+    "a": 1,
+    "e": "Data Warehouse adalah sistem terpusat untuk menyimpan sejumlah besar data historis dari berbagai sumber yang digunakan untuk analisis dan pelaporan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Salah satu bahaya utama jika data pribadi (seperti NIK dan nama ibu kandung) bocor di internet adalah terjadinya kejahatan...",
+    "o": [
+      "DDoS",
+      "Ransomware",
+      "Identity Theft",
+      "SQL Injection",
+      "Hardware failure"
+    ],
+    "a": 2,
+    "e": "Identity Theft (Pencurian Identitas) terjadi saat pelaku menggunakan data pribadi Anda untuk membuka rekening palsu, pinjaman online, atau melakukan penipuan atas nama Anda."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Tahapan mengubah data teks berantakan menjadi huruf kecil semua, membuang tanda baca, dan membuang kata hubung (stopword) dalam Analisis Teks disebut...",
+    "o": [
+      "Text Mining",
+      "Web Scraping",
+      "Data Visualization",
+      "Preprocessing Data",
+      "Modeling"
+    ],
+    "a": 3,
+    "e": "Preprocessing (Pra-pemrosesan) adalah tahap penyiapan data mentah sebelum algortima AI/Analisis memprosesnya. Untuk teks, ini meliputi *case folding*, penghapusan *stopword*, dan *stemming*."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Alat visualisasi data manakah yang paling baik untuk merepresentasikan alur (flow) langkah demi langkah dari sebuah algoritma?",
+    "o": [
+      "Flowchart",
+      "Pie Chart",
+      "Scatter Plot",
+      "Bar Chart",
+      "Gantt Chart"
+    ],
+    "a": 0,
+    "e": "Flowchart (Diagram Alir) menggunakan simbol-simbol standar (seperti oval, persegi panjang, belah ketupat) untuk memvisualisasikan alur logika suatu proses/algoritma."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Data yang terstruktur biasanya disimpan dalam format tabular (baris dan kolom). Format file teks sederhana untuk data tabular yang memisahkan nilainya dengan koma adalah...",
+    "o": [
+      " .docx",
+      " .pdf",
+      " .csv",
+      " .png",
+      " .mp4"
+    ],
+    "a": 2,
+    "e": "CSV (Comma Separated Values) adalah format file *plain text* universal untuk menyimpan data tabel. Mudah dibaca oleh Excel maupun bahasa pemrograman seperti Python."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Di era digital, data dianggap setara dengan minyak (Data is the new oil) karena...",
+    "o": [
+      "Sangat licin",
+      "Sulit dicari",
+      "Bisa terbakar",
+      "Jika diolah dan dianalisis, akan memiliki nilai ekonomi yang sangat tinggi",
+      "Harganya selalu naik"
+    ],
+    "a": 3,
+    "e": "Seperti minyak mentah, data mentah belum berguna. Tetapi jika diekstraksi dan 'disuling' (dianalisis), ia menghasilkan wawasan yang sangat berharga untuk bisnis dan pengambilan keputusan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Tipe data yang digunakan untuk menyimpan bilangan desimal (pecahan) seperti 3.14 adalah...",
+    "o": [
+      "Integer",
+      "String",
+      "Boolean",
+      "Float",
+      "Char"
+    ],
+    "a": 3,
+    "e": "Float (atau Real/Double) adalah tipe data numerik yang mengakomodasi angka pecahan/desimal. Integer khusus untuk bilangan bulat."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Variabel x = \"15\". Tipe data dari variabel x adalah...",
+    "o": [
+      "Integer",
+      "Float",
+      "String",
+      "Boolean",
+      "Array"
+    ],
+    "a": 2,
+    "e": "Meskipun berisi angka 15, karena diapit oleh tanda kutip ganda (\" \"), komputer membacanya sebagai teks/karakter, yaitu tipe data String."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Struktur percabangan yang menyeleksi sebuah nilai variabel terhadap banyak kemungkinan nilai (kasus) secara spesifik adalah...",
+    "o": [
+      "if-else",
+      "switch-case",
+      "for loop",
+      "while loop",
+      "do-while"
+    ],
+    "a": 1,
+    "e": "Switch-case sangat elegan untuk menguji satu variabel terhadap sekumpulan konstanta spesifik (kasus), sebagai alternatif jika penggunaan 'if-else if' terlalu panjang."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Perhatikan pseudocode berikut:<br>`x = 10`<br>`y = x + 5`<br>`x = y * 2`<br>Berapakah nilai akhir x?",
+    "o": [
+      "10",
+      "15",
+      "20",
+      "30",
+      "35"
+    ],
+    "a": 3,
+    "e": "Baris 1: x menjadi 10. Baris 2: y menjadi 10+5 = 15. Baris 3: x ditimpa nilainya menjadi 15*2 = 30."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Perulangan `while` adalah perulangan yang...",
+    "o": [
+      "Jumlah perulangannya sudah pasti/diketahui",
+      "Berhenti jika kondisinya bernilai True",
+      "Berjalan selamanya",
+      "Mengeksekusi blok kode selama kondisinya bernilai True",
+      "Hanya berjalan 1 kali"
+    ],
+    "a": 3,
+    "e": "While (selama) akan terus mengulang blok kode instruksi di dalamnya selama (*while*) syarat/kondisi pengujiannya bernilai Benar (True)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Diketahui array `A = [2, 4, 6, 8, 10]`. Nilai dari `A[3]` adalah...",
+    "o": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "Error"
+    ],
+    "a": 2,
+    "e": "Indeks array selalu dimulai dari 0. A[0]=2, A[1]=4, A[2]=6, dan A[3]=8."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Simbol untuk logika OR pada bahasa pemrograman C++ atau Java adalah...",
+    "o": [
+      "&&",
+      "==",
+      "||",
+      "!=",
+      "++"
+    ],
+    "a": 2,
+    "e": "Simbol `||` (dua garis vertikal / pipe) merepresentasikan logika OR. Simbol `&&` untuk AND, dan `!` untuk NOT."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok kode mandiri yang memiliki nama, dapat menerima input (parameter), melakukan tugas spesifik, dan dapat mengembalikan nilai disebut...",
+    "o": [
+      "Variabel",
+      "Array",
+      "Fungsi (Function)",
+      "Loop",
+      "Library"
+    ],
+    "a": 2,
+    "e": "Fungsi dibuat untuk mencegah penulisan kode berulang (Don't Repeat Yourself). Anda memanggil nama fungsinya kapanpun Anda butuh tugas itu dikerjakan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dalam algoritma, variabel yang nilainya tidak dapat diubah setelah diinisialisasi disebut...",
+    "o": [
+      "Variabel Global",
+      "Variabel Lokal",
+      "Konstanta (Constant)",
+      "Array",
+      "Pointer"
+    ],
+    "a": 2,
+    "e": "Konstanta digunakan untuk nilai yang sifatnya tetap selama program berjalan, contohnya nilai PI (3.14159) atau persentase pajak."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Operator modulo (%) berfungsi untuk...",
+    "o": [
+      "Membagi bilangan",
+      "Mengalikan bilangan",
+      "Mencari nilai persentase",
+      "Mendapatkan sisa hasil bagi",
+      "Memangkatkan bilangan"
+    ],
+    "a": 3,
+    "e": "Modulo (sisa bagi) sangat penting di pemrograman. Misalnya `10 % 3` hasilnya adalah 1, karena 10 dibagi 3 adalah 9, menyisakan 1."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Perulangan `for (int i=1; i<=5; i++)`. Berapa kali perulangan ini dieksekusi?",
+    "o": [
+      "4 kali",
+      "5 kali",
+      "6 kali",
+      "Error",
+      "Loop tanpa henti"
+    ],
+    "a": 1,
+    "e": "Variabel i mulai dari 1. Berjalan saat i=1, 2, 3, 4, 5 (karena ada operator '<=' yaitu lebih kecil sama dengan 5). Total 5 kali berjalan."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Bug atau kesalahan dalam penulisan aturan bahasa pemrograman (misalnya kurang titik koma `;` atau salah ejaan perintah) disebut...",
+    "o": [
+      "Logical Error",
+      "Runtime Error",
+      "Syntax Error",
+      "Human Error",
+      "Hardware Error"
+    ],
+    "a": 2,
+    "e": "Syntax Error (Error Sintaks) terjadi saat komputer tidak bisa membaca kode Anda karena melanggar tata bahasa pemrograman yang ketat (typo, kurang simbol)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kesalahan program yang membuat aplikasi berjalan normal tapi menghasilkan output hitungan yang salah disebut...",
+    "o": [
+      "Syntax Error",
+      "Runtime Error",
+      "System Error",
+      "Logical Error",
+      "Fatal Error"
+    ],
+    "a": 3,
+    "e": "Logical Error adalah kesalahan logika dari si pembuat program. Komputer tidak komplain, program tetap jalan, tapi hasilnya keliru (misal salah pakai rumus tambah padahal harusnya kali)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Bentuk komunikasi informal algoritma yang menggunakan struktur bahasa Inggris sederhana menyerupai kode pemrograman (bukan flowchart) disebut...",
+    "o": [
+      "Mind Map",
+      "Pseudocode",
+      "Binary Code",
+      "Source Code",
+      "Machine Language"
+    ],
+    "a": 1,
+    "e": "Pseudocode (Kode Semu) dirancang agar algoritma mudah dibaca oleh manusia tanpa terikat aturan sintaks bahasa pemrograman tertentu yang rumit."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan intimidasi, pelecehan, atau ejekan yang dilakukan secara berulang-ulang melalui media digital disebut...",
+    "o": [
+      "Cyberstalking",
+      "Cyberbullying",
+      "Carding",
+      "Phishing",
+      "Hacking"
+    ],
+    "a": 1,
+    "e": "Cyberbullying adalah perundungan dunia maya. Ini sangat berbahaya karena jejak digitalnya bisa abadi dan dampaknya parah bagi mental korban."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Lisensi perangkat lunak yang memperbolehkan pengguna menggunakan program tersebut secara gratis, namun KODE SUMBERNYA (Source Code) ditutup dan tidak boleh diubah adalah...",
+    "o": [
+      "Open Source",
+      "Freeware",
+      "Shareware",
+      "Commercial Software",
+      "Malware"
+    ],
+    "a": 1,
+    "e": "Freeware itu gratis dipakai selamanya (contoh: Adobe Reader, Skype). Beda dengan Open Source yang selain gratis dipakai, kode sumbernya juga dibagikan bebas."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Teknik manipulasi psikologis di internet yang menipu korban agar memberikan informasi sensitif (seperti password atau OTP) dengan menyamar sebagai pihak tepercaya disebut...",
+    "o": [
+      "DDoS",
+      "Deface",
+      "Phishing",
+      "Ransomware",
+      "Malware"
+    ],
+    "a": 2,
+    "e": "Phishing (memancing) biasanya lewat email atau web palsu yang sangat mirip web asli (misal: situs bank palsu), menjebak korban agar login di sana."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Undang-Undang di Indonesia yang secara spesifik mengatur tentang ujaran kebencian, pencemaran nama baik, dan transaksi elektronik adalah...",
+    "o": [
+      "UU Hak Cipta",
+      "UU Konsumen",
+      "UU ITE",
+      "UU HAM",
+      "KUHP"
+    ],
+    "a": 2,
+    "e": "UU ITE (Informasi dan Transaksi Elektronik) adalah payung hukum utama di Indonesia untuk segala aktivitas di ruang siber."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Hak Kekayaan Intelektual (HAKI) yang melindungi karya seni, lagu, tulisan, buku, dan kode program dari pembajakan disebut...",
+    "o": [
+      "Paten",
+      "Merek Dagang (Trademark)",
+      "Hak Cipta (Copyright)",
+      "Rahasia Dagang",
+      "Lisensi"
+    ],
+    "a": 2,
+    "e": "Hak Cipta (Copyright) melekat secara otomatis saat sebuah karya diekspresikan (ditulis/dibuat). Paten untuk penemuan mesin/teknologi, Merek untuk logo/nama brand."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jejak data yang kita tinggalkan secara pasif atau aktif saat berselancar di internet (seperti riwayat pencarian, komentar, foto) disebut...",
+    "o": [
+      "Digital Signature",
+      "Digital Footprint",
+      "Digital Divide",
+      "Digital Marketing",
+      "Digital Certificate"
+    ],
+    "a": 1,
+    "e": "Digital Footprint (Jejak Digital) sangat sulit dihapus. Oleh karena itu, penting memiliki literasi digital agar tidak sembarangan memposting hal negatif yang berdampak pada masa depan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Perangkat lunak jahat yang menyandera (mengunci/mengenkripsi) file komputer korban dan meminta uang tebusan agar file tersebut bisa dibuka kembali disebut...",
+    "o": [
+      "Spyware",
+      "Adware",
+      "Trojan",
+      "Ransomware",
+      "Worm"
+    ],
+    "a": 3,
+    "e": "Ransomware dari kata 'Ransom' yang berarti tebusan. Ini adalah salah satu serangan siber paling mematikan bagi instansi/perusahaan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Konsep komputasi di mana data, aplikasi, dan pemrosesan disimpan di server internet dan dapat diakses dari mana saja tanpa perlu menginstal di PC lokal disebut...",
+    "o": [
+      "Edge Computing",
+      "Quantum Computing",
+      "Cloud Computing",
+      "Grid Computing",
+      "Local Computing"
+    ],
+    "a": 2,
+    "e": "Cloud Computing (Komputasi Awan). Contohnya Google Docs, Google Drive, atau Netflix. Anda tidak perlu menyimpan file besarnya di HP Anda, cukup akses via internet."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Internet of Things (IoT) adalah konsep teknologi dimana...",
+    "o": [
+      "Semua komputer harus terhubung ke internet menggunakan kabel LAN",
+      "Manusia dapat masuk ke dalam dunia virtual reality",
+      "Berbagai benda sehari-hari (seperti kulkas, lampu, CCTV) dilengkapi sensor dan terhubung ke internet",
+      "Internet digunakan untuk bermain game online",
+      "Internet dibagikan secara gratis di area publik"
+    ],
+    "a": 2,
+    "e": "IoT memungkinkan benda mati saling berkomunikasi. Contohnya lampu rumah yang bisa Anda matikan dari kantor lewat aplikasi HP."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kecerdasan Buatan (Artificial Intelligence / AI) yang bisa menghasilkan konten baru seperti teks (contoh: ChatGPT) atau gambar disebut...",
+    "o": [
+      "Narrow AI",
+      "Generative AI",
+      "Robotics",
+      "Machine Vision",
+      "Data Mining"
+    ],
+    "a": 1,
+    "e": "Generative AI adalah cabang AI yang tidak hanya menganalisis pola, tetapi juga men-generate (menghasilkan) pola baru yang belum pernah ada sebelumnya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Penyebaran informasi bohong yang didesain seolah-olah sebagai fakta nyata untuk menipu masyarakat disebut...",
+    "o": [
+      "Cyberbullying",
+      "Phishing",
+      "Hoaks (Hoax)",
+      "Clickbait",
+      "Spam"
+    ],
+    "a": 2,
+    "e": "Hoaks sangat berbahaya di era media sosial karena algoritma seringkali menyebarkan konten yang memancing emosi (termasuk kemarahan) lebih cepat daripada kebenaran."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Salah satu dampak negatif dari revolusi industri 4.0 (otomatisasi dan AI) bagi dunia tenaga kerja adalah...",
+    "o": [
+      "Munculnya profesi baru",
+      "Pekerjaan menjadi lebih efisien",
+      "Pekerjaan yang bersifat rutin dan repetitif terancam digantikan oleh robot/sistem",
+      "Komunikasi antar negara semakin mudah",
+      "Kualitas produksi meningkat"
+    ],
+    "a": 2,
+    "e": "Ini adalah tantangan utama. Kasir tol, operator mesin pabrik, bahkan staf administrasi dasar rentan tergantikan oleh otomasi dan AI."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kesenjangan atau ketimpangan antara masyarakat yang memiliki akses dan pengetahuan terhadap teknologi dengan masyarakat yang tidak memilikinya disebut...",
+    "o": [
+      "Digital Native",
+      "Digital Immigrant",
+      "Digital Footprint",
+      "Digital Divide",
+      "Digital Law"
+    ],
+    "a": 3,
+    "e": "Digital Divide (Kesenjangan Digital) biasanya terjadi antara daerah perkotaan (sinyal kuat, fasilitas lengkap) dan pedesaan/pelosok."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Siklus hidup pengembangan perangkat lunak secara keseluruhan (mulai dari perencanaan hingga pemeliharaan) disebut...",
+    "o": [
+      "SDLC",
+      "HTML",
+      "HTTP",
+      "DBMS",
+      "API"
+    ],
+    "a": 0,
+    "e": "SDLC (Software Development Life Cycle) adalah metodologi standar industri untuk merancang, membangun, dan menguji aplikasi perangkat lunak."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Tahap pertama dan paling krusial dalam SDLC, di mana tim mengumpulkan apa saja yang diinginkan dan dibutuhkan oleh klien/pengguna, adalah tahap...",
+    "o": [
+      "Testing",
+      "Coding",
+      "Requirement Analysis (Analisis Kebutuhan)",
+      "Maintenance",
+      "Deployment"
+    ],
+    "a": 2,
+    "e": "Requirement Analysis. Tanpa mengetahui apa yang sebenarnya dibutuhkan klien, programmer bisa membuat aplikasi yang canggih tetapi salah sasaran dan tidak terpakai."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Profesi dalam tim pengembang yang bertugas memastikan aplikasi berjalan lancar tanpa bug (kesalahan) sebelum dirilis ke publik adalah...",
+    "o": [
+      "Project Manager",
+      "Software Tester (Quality Assurance)",
+      "System Analyst",
+      "Database Admin",
+      "Programmer"
+    ],
+    "a": 1,
+    "e": "QA/Tester bertugas mencoba berbagai skenario ekstrem untuk 'merusak' aplikasi agar bug bisa ditemukan dan diperbaiki oleh programmer sebelum dipakai pengguna nyata."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Metode pengembangan perangkat lunak yang bersifat adaptif, fleksibel, mengutamakan kerja sama tim yang erat, dan memecah proyek menjadi iterasi-iterasi kecil yang cepat (sprint) disebut...",
+    "o": [
+      "Waterfall",
+      "V-Model",
+      "Agile",
+      "Spiral",
+      "Big Bang"
+    ],
+    "a": 2,
+    "e": "Agile sangat populer saat ini karena merespons perubahan kebutuhan klien dengan cepat, berbeda dengan metode Waterfall yang kaku dan linier berurutan."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Platform berbasis web yang sangat populer di kalangan programmer untuk berkolaborasi dan menyimpan source code (Version Control System) adalah...",
+    "o": [
+      "Instagram",
+      "GitHub",
+      "WhatsApp",
+      "Zoom",
+      "Figma"
+    ],
+    "a": 1,
+    "e": "GitHub menggunakan sistem Git. Ini memungkinkan puluhan programmer bekerja pada satu kode aplikasi yang sama secara bersamaan tanpa saling menimpa/merusak kode rekannya."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Alat bantu desain (tools) yang sering digunakan oleh UI/UX Designer untuk membuat purwarupa (prototype) tampilan aplikasi sebelum di-coding adalah...",
+    "o": [
+      "Microsoft Word",
+      "Figma / Adobe XD",
+      "Notepad",
+      "MySQL",
+      "Visual Studio Code"
+    ],
+    "a": 1,
+    "e": "Figma sangat standar di industri untuk merancang antarmuka (UI) dan pengalaman pengguna (UX) secara visual dan kolaboratif."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Seseorang yang bertanggung jawab memimpin tim, mengatur jadwal proyek, membagi tugas, dan memastikan aplikasi selesai tepat waktu sesuai anggaran adalah...",
+    "o": [
+      "Programmer",
+      "UI Designer",
+      "Project Manager",
+      "System Analyst",
+      "DevOps"
+    ],
+    "a": 2,
+    "e": "Project Manager (Manajer Proyek) memegang kendali atas manajemen waktu, biaya, dan sumber daya tim, bukan menulis kodenya secara langsung."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Tahap dalam SDLC di mana kode program mulai ditulis berdasarkan desain yang sudah dibuat disebut tahap...",
+    "o": [
+      "Planning",
+      "Design",
+      "Implementation (Coding)",
+      "Testing",
+      "Maintenance"
+    ],
+    "a": 2,
+    "e": "Implementasi atau Coding adalah proses menerjemahkan bahasa manusia (desain/algoritma) menjadi bahasa mesin/kode program yang riil."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Aktivitas memperbaiki bug yang baru ditemukan saat aplikasi sudah digunakan oleh klien, serta memberikan pembaruan (update) fitur berkala, termasuk ke dalam tahapan...",
+    "o": [
+      "Planning",
+      "Requirement Gathering",
+      "Testing",
+      "Maintenance (Pemeliharaan)",
+      "Design"
+    ],
+    "a": 3,
+    "e": "Maintenance (Pemeliharaan) adalah tahap terpanjang dalam SDLC. Aplikasi butuh perawatan terus-menerus menyesuaikan dengan versi OS baru atau kebutuhan bisnis."
+  },
+  {
+    "c": "Praktik Lintas Bidang",
+    "q": "Keterampilan paling penting yang dibutuhkan dalam sebuah proyek pengembangan aplikasi, selain *hard skill* (kemampuan coding), adalah...",
+    "o": [
+      "Mengetik cepat",
+      "Kerja sama tim dan Komunikasi",
+      "Menghafal rumus matematika",
+      "Bisa begadang setiap hari",
+      "Mampu merakit komputer"
+    ],
+    "a": 1,
+    "e": "Komunikasi (Soft skill) adalah kunci utama. Aplikasi besar tidak mungkin dibuat oleh 1 orang genius, melainkan oleh kolaborasi erat antara tim UI, Analis, Programmer, Tester, dan Klien."
+  }
+]

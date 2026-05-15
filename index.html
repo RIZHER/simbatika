@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Asesmen Informatika Terpadu SD-SMA - Mr. RH</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["'Plus Jakarta Sans'", "sans-serif"],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'shake': 'shake 0.4s cubic-bezier(.36,.07,.19,.97) both',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              shake: {
+                '10%, 90%': { transform: 'translate3d(-1px, 0, 0)' },
+                '20%, 80%': { transform: 'translate3d(2px, 0, 0)' },
+                '30%, 50%, 70%': { transform: 'translate3d(-4px, 0, 0)' },
+                '40%, 60%': { transform: 'translate3d(4px, 0, 0)' }
+              }
+            }
+          },
+        },
+      };
+    </script>
+
+    <style>
+      body {
+        background-color: #f8fafc;
+        background-image: 
+          radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.05) 0px, transparent 50%), 
+          radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.05) 0px, transparent 50%);
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+      
+      .package-card {
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      
+      .package-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+      }
+    </style>
+  </head>
+  <body class="font-sans text-slate-800 min-h-screen flex flex-col antialiased selection:bg-indigo-100 selection:text-indigo-900">
+
+    <!-- HERO/HEADER SECTION -->
+    <header class="relative overflow-hidden border-b border-slate-100 bg-white">
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-pulse-slow"></div>
+        <div class="absolute top-48 -left-24 w-96 h-96 bg-violet-100 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-pulse-slow" style="animation-delay: 1s;"></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative pt-12 pb-16 text-center sm:pt-20 sm:pb-24">
+        <div class="inline-flex items-center gap-2 bg-indigo-50 border border-indigo-100 text-indigo-700 px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider mb-6 shadow-sm">
+          <span class="flex h-2 w-2 relative">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-600"></span>
+          </span>
+          Simulasi Mandiri & Terpadu
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.1] mb-6 animate-fade-in-up">
+          Pusat Asesmen Mandiri <br/>
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-indigo-500 to-violet-600">Informatika SD, SMP & SMA</span>
+        </h1>
+        
+        <p class="text-slate-500 text-base sm:text-lg lg:text-xl max-w-2xl mx-auto font-medium leading-relaxed mb-10 animate-fade-in-up" style="animation-delay: 0.1s;">
+          Portal kuis interaktif komprehensif untuk mengevaluasi dan memperdalam penguasaan berbagai bidang keilmuan Informatika serta Teknologi Informasi.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-3 animate-fade-in-up" style="animation-delay: 0.2s;">
+          <a href="#pilih-jenjang" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-indigo-200 hover:shadow-indigo-300 hover:scale-[1.02] active:scale-95 transition flex items-center gap-2">
+            <span>Lihat Paket Soal</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </a>
+          <div class="bg-white border border-slate-200 px-6 py-4 rounded-2xl flex items-center gap-3 text-slate-600 font-semibold">
+            <div class="p-1.5 bg-slate-100 rounded-lg text-slate-500">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+            </div>
+            <span id="global-counter">Memuat Database...</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CORE SUBJECTS SECTION -->
+    <section class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-16 border-b border-slate-100">
+      <div class="text-center max-w-3xl mx-auto mb-12 animate-fade-in-up" style="animation-delay: 0.3s;">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">8 Pilar Utama Keilmuan Informatika</h2>
+        <p class="text-slate-500 font-medium mt-3 text-sm md:text-base">Seluruh simulasi kuis dikembangkan berlandaskan delapan pilar kompetensi teknologi informasi terpadu sesuai kurikulum nasional.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 animate-fade-in-up" style="animation-delay: 0.4s;">
+        <!-- 1. BK -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Berpikir Komputasional</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Mencakup dekomposisi, pengenalan pola, abstraksi, serta dasar penalaran logika.</p>
+        </div>
+
+        <!-- 2. TIK -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Teknologi Informasi (TIK)</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Penguasaan integrasi perkantoran, email merge, hingga advanced searching.</p>
+        </div>
+
+        <!-- 3. SK -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Sistem Komputer</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Fungsi gerbang logika, memori cache, siklus Von Neumann & sistem operasi.</p>
+        </div>
+
+        <!-- 4. JKI -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Jaringan & Internet</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Mengulas protokol subnetting, keamanan siber (MITM), hingga OSI layer.</p>
+        </div>
+
+        <!-- 5. AD -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-violet-50 text-violet-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Analisis Data</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Pengelolaan siklus big data, tools analisis (pandas), dan anonimisasi privasi.</p>
+        </div>
+
+        <!-- 6. AP -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Algoritma Pemrograman</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Konsep struktur runtunan, OOP, array multi-dimensi, dan rekursi data.</p>
+        </div>
+
+        <!-- 7. DSI -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-sky-50 text-sky-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Dampak Sosial (DSI)</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Etika netiket, hak kekayaan intelektual (HAKI), lisensi CC, & jejak digital.</p>
+        </div>
+
+        <!-- 8. PLB -->
+        <div class="bg-white border border-slate-100 p-6 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1.5 transition duration-300 flex flex-col items-start">
+          <div class="w-12 h-12 bg-teal-50 text-teal-600 rounded-2xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+          </div>
+          <h3 class="font-bold text-slate-800 text-sm md:text-base mb-1.5 leading-tight">Praktik Lintas Bidang</h3>
+          <p class="text-slate-500 text-xs leading-relaxed font-medium">Kerangka Scrum/Agile, kolaborasi source control (Git), dan siklus SDLC.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DECORATIVE SEPARATOR -->
+    <div class="relative flex items-center justify-center my-4">
+      <div class="absolute inset-0 flex items-center" aria-hidden="true">
+        <div class="w-full border-t border-slate-200 border-dashed"></div>
+      </div>
+      <div class="relative">
+        <span class="glass border border-slate-200 text-slate-400 text-[10px] font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full shadow-sm flex items-center gap-1.5 transition-all duration-300 hover:scale-105">
+          <svg class="w-3.5 h-3.5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 13l-7 7-7-7m14-6l-7 7-7-7"></path></svg>
+          PILIH JENJANG DI BAWAH
+        </span>
+      </div>
+    </div>
+
+    <!-- MAIN INTERACTIVE ZONE -->
+    <main id="pilih-jenjang" class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-16 flex-grow scroll-mt-4">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12 animate-fade-in-up" style="animation-delay: 0.5s;">
+        <span class="bg-indigo-50 text-indigo-600 text-[11px] font-extrabold px-3 py-1 rounded-full border border-indigo-100 tracking-widest uppercase">Langkah Pertama</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">Pilih Jenjang Pendidikan</h2>
+        <p class="text-slate-500 font-medium mt-3 text-sm md:text-base">Tersedia bank soal asesmen komprehensif dari tingkat dasar hingga menengah atas.</p>
+      </div>
+
+      <!-- GRID JENJANG SEKOLAH -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 animate-fade-in-up" style="animation-delay: 0.6s;">
+        <!-- LEVEL SD -->
+        <button onclick="selectLevel('SD', this)" class="level-card group bg-white border-2 border-slate-100 p-8 rounded-3xl shadow-xl shadow-slate-100/40 text-left hover:shadow-rose-100 hover:-translate-y-2 transition-all duration-300 flex flex-col">
+          <div class="w-16 h-16 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>
+          </div>
+          <span class="bg-rose-50 text-rose-700 text-[10px] font-extrabold px-2.5 py-1 rounded-md tracking-wider uppercase mb-3 inline-block self-start">Tingkat Dasar</span>
+          <h3 class="text-2xl font-black text-slate-800 mb-2">Sekolah Dasar</h3>
+          <p class="text-slate-500 text-sm font-medium leading-relaxed mb-6 flex-grow">Kuis interaktif TIK & logika berpikir komputasional mendasar untuk siswa kelas 1 hingga 6 SD.</p>
+          <div class="flex items-center justify-between text-slate-400 text-xs font-extrabold pt-4 border-t border-slate-50 group-hover:text-rose-600 transition-colors w-full">
+            <span id="count-SD" class="bg-slate-50 group-hover:bg-rose-50 px-3 py-1 rounded-full transition-colors">0 Paket</span>
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </div>
+        </button>
+
+        <!-- LEVEL SMP -->
+        <button onclick="selectLevel('SMP', this)" class="level-card group bg-white border-2 border-slate-100 p-8 rounded-3xl shadow-xl shadow-slate-100/40 text-left hover:shadow-blue-100 hover:-translate-y-2 transition-all duration-300 flex flex-col">
+          <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"></path></svg>
+          </div>
+          <span class="bg-blue-50 text-blue-700 text-[10px] font-extrabold px-2.5 py-1 rounded-md tracking-wider uppercase mb-3 inline-block self-start">Tingkat Menengah</span>
+          <h3 class="text-2xl font-black text-slate-800 mb-2">SMP / MTs</h3>
+          <p class="text-slate-500 text-sm font-medium leading-relaxed mb-6 flex-grow">Asesmen penguasaan aplikasi kantor, sistem komputer dasar, dan visual programming (Scratch/Blockly).</p>
+          <div class="flex items-center justify-between text-slate-400 text-xs font-extrabold pt-4 border-t border-slate-50 group-hover:text-blue-600 transition-colors w-full">
+            <span id="count-SMP" class="bg-slate-50 group-hover:bg-blue-50 px-3 py-1 rounded-full transition-colors">0 Paket</span>
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </div>
+        </button>
+
+        <!-- LEVEL SMA -->
+        <button onclick="selectLevel('SMA', this)" class="level-card group bg-white border-2 border-slate-100 p-8 rounded-3xl shadow-xl shadow-slate-100/40 text-left hover:shadow-indigo-100 hover:-translate-y-2 transition-all duration-300 flex flex-col">
+          <div class="w-16 h-16 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          </div>
+          <span class="bg-indigo-50 text-indigo-700 text-[10px] font-extrabold px-2.5 py-1 rounded-md tracking-wider uppercase mb-3 inline-block self-start">Tingkat Atas</span>
+          <h3 class="text-2xl font-black text-slate-800 mb-2">SMA / SMK / MA</h3>
+          <p class="text-slate-500 text-sm font-medium leading-relaxed mb-6 flex-grow">Asesmen analitis arsitektur jaringan, big data mining, logika algoritma, pemrograman terstruktur & DSI.</p>
+          <div class="flex items-center justify-between text-slate-400 text-xs font-extrabold pt-4 border-t border-slate-50 group-hover:text-indigo-600 transition-colors w-full">
+            <span id="count-SMA" class="bg-slate-50 group-hover:bg-indigo-50 px-3 py-1 rounded-full transition-colors">0 Paket</span>
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </div>
+        </button>
+      </div>
+
+      <!-- SECTION: DYNAMIC PACKAGES LIST (Kuis Terkait Jenjang) -->
+      <div id="active-packages-section" class="hidden mt-20 pt-16 border-t-2 border-slate-100 scroll-mt-6 transition-all duration-500">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+          <div>
+            <div class="flex items-center gap-2 text-[10px] font-black tracking-widest text-slate-400 uppercase mb-1.5">
+              <span class="flex h-2 w-2 relative">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              </span>
+              DAFTAR KUIS AKTIF
+            </div>
+            <h2 id="active-level-title" class="text-2xl md:text-4xl font-black text-slate-900 tracking-tight leading-none">Paket Soal Jenjang</h2>
+          </div>
+          <button onclick="scrollToLevels()" class="self-start bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold px-4 py-3 rounded-2xl flex items-center gap-2 transition active:scale-95 shadow-sm border border-slate-200/30">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+            <span>Ganti Jenjang</span>
+          </button>
+        </div>
+
+        <!-- Wrapper Cards Kuis -->
+        <div id="packages-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 animate-fade-in-up">
+          <!-- Diisi via Javascript renderGrid -->
+        </div>
+      </div>
+
+      <!-- Error Container -->
+      <div id="grid-error" class="hidden text-center py-16 bg-white rounded-3xl border border-red-100 p-8 max-w-md mx-auto shadow-xl shadow-slate-100 mt-8">
+        <div class="w-16 h-16 bg-red-50 text-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+        </div>
+        <h3 class="text-lg font-bold text-slate-800">Koneksi Database Gagal</h3>
+        <p class="text-slate-500 text-xs mt-1 mb-6">Tidak dapat membaca data paket dari server lokal. Silakan refresh halaman.</p>
+        <button onclick="window.location.reload()" class="bg-slate-900 text-white text-xs font-bold py-3 px-6 rounded-xl transition shadow active:scale-95">Muat Ulang</button>
+      </div>
+
+    </main>
+
+    <!-- PORTAL FOOTER -->
+    <footer class="bg-white border-t border-slate-100 mt-12 relative z-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <div class="p-2 bg-slate-50 border border-slate-100 rounded-xl text-indigo-600 font-black tracking-tighter text-lg">
+            RH
+          </div>
+          <div>
+            <p class="text-slate-800 font-bold text-sm">Portal Asesmen Informatika</p>
+            <p class="text-slate-400 text-xs font-medium mt-0.5">Didesain khusus untuk menunjang evaluasi belajar mandiri siswa.</p>
+          </div>
+        </div>
+        
+        <p class="text-slate-400 text-xs font-semibold text-center sm:text-right">
+          Dikembangkan Oleh <br/>
+          <span class="text-slate-700 font-bold text-sm">I Gede Rizki Heriana Prayoga (Mr. RH)</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- LOGIKA FRONT-END PORTAL LANDING -->
+    <script>
+      // ==========================================
+      // KONFIGURASI: Ganti Password Pengajar di Sini
+      // ==========================================
+      const TEACHER_PASSWORD = "nuahhhhh";
+
+      let allPackages = [];
+
+      document.addEventListener("DOMContentLoaded", initPortal);
+
+      async function initPortal() {
+        const counter = document.getElementById("global-counter");
+        const errorView = document.getElementById("grid-error");
+
+        try {
+          errorView.classList.add("hidden");
+
+          // Fetch manifest data list
+          const response = await fetch("data/packages.json");
+          if (!response.ok) throw new Error("Gagal membaca database.");
+          
+          allPackages = await response.json();
+
+          // Tampilkan Global Counter
+          const totalQ = allPackages.reduce((acc, curr) => acc + curr.questionCount, 0);
+          counter.textContent = `${allPackages.length} Paket (${totalQ} Soal)`;
+
+          // Sinkronkan angka paket di label tombol jenjang
+          calculateLevelCounts();
+
+        } catch (err) {
+          console.error(err);
+          errorView.classList.remove("hidden");
+          counter.textContent = "Error";
+        }
+      }
+
+      function calculateLevelCounts() {
+        const counts = { SD: 0, SMP: 0, SMA: 0 };
+        
+        allPackages.forEach(pkg => {
+          const lvl = (pkg.level || "SMA").toUpperCase();
+          if (counts.hasOwnProperty(lvl)) {
+            counts[lvl]++;
+          }
+        });
+
+        // Update label kuantitas visual
+        document.getElementById("count-SD").textContent = `${counts.SD} Paket Soal`;
+        document.getElementById("count-SMP").textContent = `${counts.SMP} Paket Soal`;
+        document.getElementById("count-SMA").textContent = `${counts.SMA} Paket Soal`;
+      }
+
+      function selectLevel(levelKey, btnElement) {
+        // 1. Visual Feedback: Bersihkan kelas aktif lama di kartu lain
+        const allCards = document.querySelectorAll(".level-card");
+        allCards.forEach(card => {
+          card.classList.remove(
+            "border-rose-500", "ring-4", "ring-rose-500", "ring-opacity-20",
+            "border-blue-500", "ring-4", "ring-blue-500", "ring-opacity-20",
+            "border-indigo-500", "ring-4", "ring-indigo-500", "ring-opacity-20"
+          );
+          card.classList.add("border-slate-100");
+        });
+
+        // 2. Tandai kartu yang sedang aktif terpilih
+        const activeColorStyles = {
+          SD: ["border-rose-500", "ring-4", "ring-rose-500", "ring-opacity-20"],
+          SMP: ["border-blue-500", "ring-4", "ring-blue-500", "ring-opacity-20"],
+          SMA: ["border-indigo-500", "ring-4", "ring-indigo-500", "ring-opacity-20"]
+        };
+
+        btnElement.classList.remove("border-slate-100");
+        btnElement.classList.add(...(activeColorStyles[levelKey] || activeColorStyles.SMA));
+
+        // 3. Tampilkan Kontainer List Kuis di Bawah
+        const section = document.getElementById("active-packages-section");
+        section.classList.remove("hidden");
+
+        // 4. Ganti Judul Bagian Aktif
+        const mappingTitle = {
+          SD: "Sekolah Dasar (SD)",
+          SMP: "SMP / MTs",
+          SMA: "SMA / SMK / MA"
+        };
+        document.getElementById("active-level-title").textContent = `Kumpulan Kuis ${mappingTitle[levelKey]}`;
+
+        // 5. Eksekusi Penyaringan & Render Data
+        const filtered = allPackages.filter(pkg => (pkg.level || "SMA").toUpperCase() === levelKey);
+        renderGrid(filtered);
+
+        // 6. Scroll Otomatis dengan Elegan ke Daftar Soal
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 150);
+      }
+
+      function scrollToLevels() {
+        document.getElementById("pilih-jenjang").scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      let pendingPackageId = null;
+
+      function accessTeacherMode(event, pkgId) {
+        event.preventDefault();
+        pendingPackageId = pkgId; 
+
+        const modal = document.getElementById("auth-modal");
+        const modalBox = document.getElementById("auth-modal-box");
+        const input = document.getElementById("teacher-input-pass");
+        const error = document.getElementById("auth-error-msg");
+
+        // Reset visual states
+        input.value = "";
+        error.classList.add("hidden");
+        input.classList.remove("border-rose-500", "focus:ring-rose-500/10");
+
+        // Tampilkan kerangka modal
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        
+        // Delay mikro untuk memicu transisi opasitas & skala CSS
+        setTimeout(() => {
+          modal.classList.remove("opacity-0");
+          modalBox.classList.remove("scale-95");
+          modalBox.classList.add("scale-100");
+          input.focus();
+        }, 20);
+      }
+
+      function closeAuthModal() {
+        const modal = document.getElementById("auth-modal");
+        const modalBox = document.getElementById("auth-modal-box");
+
+        // Trigger animasi menutup
+        modalBox.classList.remove("scale-100");
+        modalBox.classList.add("scale-95");
+        modal.classList.add("opacity-0");
+
+        // Bersihkan DOM setelah animasi selesai
+        setTimeout(() => {
+          modal.classList.remove("flex");
+          modal.classList.add("hidden", "opacity-0");
+          pendingPackageId = null;
+        }, 200);
+      }
+
+      function submitAuth(event) {
+        event.preventDefault();
+        const input = document.getElementById("teacher-input-pass");
+        const error = document.getElementById("auth-error-msg");
+        const modalBox = document.getElementById("auth-modal-box");
+        
+        const enteredPass = input.value.trim();
+
+        if (enteredPass === TEACHER_PASSWORD) {
+          error.classList.add("hidden");
+          window.location.href = `kuis.html?paket=${pendingPackageId}&role=pengajar`;
+        } else {
+          // Feedback Error Gagal
+          error.classList.remove("hidden");
+          input.classList.add("border-rose-500", "focus:ring-rose-500/10");
+          input.focus();
+          
+          // Efek guncang/shake
+          modalBox.classList.add("animate-shake");
+          setTimeout(() => {
+            modalBox.classList.remove("animate-shake");
+          }, 500);
+        }
+      }
+
+      function renderGrid(data) {
+        const grid = document.getElementById("packages-grid");
+        grid.innerHTML = "";
+
+        if (data.length === 0) {
+          grid.innerHTML = `
+            <div class="col-span-full bg-slate-50 border-2 border-slate-200 border-dashed text-center py-16 px-8 rounded-3xl text-slate-500 italic font-semibold text-sm">
+              <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4 text-slate-400">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+              </div>
+              <span>Belum ada paket soal yang tersedia untuk jenjang ini.</span>
+              <span class="block text-[10px] font-extrabold tracking-widest uppercase text-indigo-500 mt-2">Segera Hadir / Tahap Pengembangan</span>
+            </div>
+          `;
+          return;
+        }
+
+        data.forEach(pkg => {
+          const card = document.createElement("div");
+          card.className = "bg-white border border-slate-100 rounded-3xl shadow-xl shadow-slate-100/50 p-6 flex flex-col package-card transition duration-300 ease-out";
+          card.innerHTML = `
+            <div class="flex items-center justify-between gap-2 mb-5">
+              <span class="bg-slate-100 text-slate-600 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
+                ${pkg.class}
+              </span>
+              <div class="flex items-center gap-1 text-indigo-600 bg-indigo-50 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider border border-indigo-100">
+                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+                <span>${pkg.questionCount} Butir</span>
+              </div>
+            </div>
+
+            <h3 class="text-xl font-black text-slate-800 mb-2 tracking-tight leading-snug">${pkg.title}</h3>
+            <p class="text-slate-500 text-xs font-medium leading-relaxed mb-8 flex-grow line-clamp-3">
+              ${pkg.description}
+            </p>
+
+            <!-- Dual Portal Access -->
+            <div class="space-y-2 pt-4 border-t border-slate-100/70">
+              <!-- AKSES SISWA -->
+              <a href="kuis.html?paket=${pkg.id}&role=siswa" class="flex items-center justify-between w-full bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold py-3.5 px-5 rounded-2xl shadow-md shadow-indigo-100/50 transition active:scale-95">
+                <div class="flex items-center gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                  <span>Kerjakan Kuis</span>
+                </div>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+              
+              <!-- AKSES PENGAJAR -->
+              <button onclick="accessTeacherMode(event, '${pkg.id}')" class="flex items-center justify-center gap-2 w-full border border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-600 text-xs font-bold py-3 rounded-xl transition active:scale-95">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                <span>Kunci & Cetak (Khusus Pengajar)</span>
+              </button>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      }
+    </script>
+    <!-- MODERN PREMIUM MODAL: PASSWORD PENGAJAR -->
+    <div id="auth-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 overflow-x-hidden overflow-y-auto opacity-0 transition-all duration-300 ease-out">
+      <!-- Overlay backdrop semi transparan dengan blur mewah -->
+      <div onclick="closeAuthModal()" class="fixed inset-0 bg-slate-900/60 backdrop-blur-md"></div>
+      
+      <!-- Modal Box Kotak Utama -->
+      <div class="relative bg-white rounded-3xl w-full max-w-md p-6 sm:p-8 shadow-2xl border border-slate-100 transform transition-all scale-95 duration-300 flex flex-col z-10" id="auth-modal-box">
+        
+        <!-- Tombol Close Silang -->
+        <button onclick="closeAuthModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 hover:bg-slate-50 p-2 rounded-xl transition active:scale-90">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+
+        <!-- Bagian Header Modal -->
+        <div class="flex flex-col items-center text-center mb-6 mt-2">
+          <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center mb-4 shadow-inner ring-4 ring-indigo-50">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+          </div>
+          <h3 class="text-xl font-black text-slate-900">Autentikasi Pengajar</h3>
+          <p class="text-slate-500 text-xs font-medium mt-1 max-w-[240px]">Halaman kunci jawaban & dokumen cetak membutuhkan validasi kode keamanan.</p>
+        </div>
+
+        <!-- Formulir Input Kata Sandi -->
+        <form onsubmit="submitAuth(event)" class="space-y-4">
+          <div>
+            <label for="teacher-input-pass" class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Kode Akses Khusus</label>
+            <input type="password" id="teacher-input-pass" placeholder="Ketik password pengajar..." class="w-full px-4 py-3.5 bg-slate-50 border-2 border-slate-200 rounded-2xl text-slate-800 font-bold placeholder-slate-400 focus:outline-none focus:bg-white focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition duration-200">
+            
+            <!-- Notifikasi Pesan Kesalahan -->
+            <div id="auth-error-msg" class="hidden text-rose-600 text-xs font-extrabold mt-2.5 flex items-center gap-1.5 bg-rose-50/50 border border-rose-100 p-2.5 rounded-xl">
+              <svg class="w-4 h-4 shrink-0 text-rose-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+              <span>Maaf, password Anda salah. Coba lagi.</span>
+            </div>
+          </div>
+
+          <!-- Tombol Aksi -->
+          <div class="flex gap-3 pt-2">
+            <button type="button" onclick="closeAuthModal()" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold py-3.5 rounded-xl transition active:scale-95">
+              Batal
+            </button>
+            <button type="submit" class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold py-3.5 rounded-xl transition shadow-md shadow-indigo-200/80 active:scale-95 hover:scale-[1.02]">
+              Buka Akses
+            </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>

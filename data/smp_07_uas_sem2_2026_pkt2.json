@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Salah satu fungsi utama dari pengolahan data menggunakan Spreadsheet (seperti Excel) di lingkungan sekolah adalah...",
+    "o": ["Membuat desain logo sekolah", "Mengedit video kegiatan siswa", "Mengolah dan menghitung nilai rapor siswa secara otomatis", "Merekam suara paduan suara"],
+    "a": 2,
+    "e": "Spreadsheet dirancang untuk mengelola data angka berkolom, seperti absen dan nilai rapor siswa."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Warna mata, golongan darah, dan merek handphone yang dipakai siswa merupakan contoh dari data...",
+    "o": ["Kuantitatif", "Primer", "Numerik", "Kualitatif"],
+    "a": 3,
+    "e": "Data kualitatif berbentuk kategori, deskripsi, atau sifat benda, BUKAN berbentuk angka yang bisa dihitung matematikanya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Data yang diperoleh langsung dari sumber pertama melalui wawancara atau pengisian kuesioner disebut data...",
+    "o": ["Sekunder", "Primer", "Tersier", "Kuantitatif"],
+    "a": 1,
+    "e": "Data Primer adalah data 'tangan pertama' yang kita kumpulkan sendiri langsung di lapangan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Manakah yang BUKAN merupakan tahapan dalam siklus pengolahan data?",
+    "o": ["Pengumpulan Data (Collection)", "Input Data", "Menghapus Data (Deletion)", "Output Informasi"],
+    "a": 2,
+    "e": "Penghapusan data bukan tahapan utama siklus; siklus utamanya adalah Input -> Proses -> Output/Storage."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jika kita salah memasukkan data (typo) di awal, maka hasil analisis komputer juga pasti akan salah. Konsep ini dikenal dalam komputer dengan istilah...",
+    "o": ["Copy Paste", "GIGO (Garbage In, Garbage Out)", "Drag and Drop", "Plug and Play"],
+    "a": 1,
+    "e": "GIGO (Sampah Masuk, Sampah Keluar) menekankan pentingnya membersihkan data sebelum dianalisis komputer."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Langkah memeriksa kelengkapan, menghapus duplikasi, dan membenarkan format data sebelum diproses disebut...",
+    "o": ["Visualisasi Data", "Cleansing (Pembersihan Data)", "Export Data", "Backup Data"],
+    "a": 1,
+    "e": "Data Cleansing krusial agar hasil hitungan statistik (misalnya rata-rata) akurat tanpa diganggu data eror."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Terdapat data nilai: 60, 70, 80, 90. Cara mencari Median (nilai tengah) dari data genap tersebut adalah...",
+    "o": ["Mengambil angka paling ujung", "Menjumlahkan semua lalu dibagi 4", "Menjumlahkan dua angka di tengah (70+80) lalu dibagi 2", "Median tidak bisa dicari"],
+    "a": 2,
+    "e": "Untuk data berjumlah genap, median diambil dari rata-rata 2 angka di posisi paling tengah."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jika sebuah file foto berukuran 2 Megabyte (MB), ukurannya dalam Kilobyte (KB) adalah...",
+    "o": ["200 KB", "2000 KB", "2048 KB", "20 MB"],
+    "a": 2,
+    "e": "1 MB = 1024 KB. Jadi 2 MB = 2 x 1024 KB = 2048 KB."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Urutan satuan penyimpanan data dari yang TERKECIL ke yang TERBESAR yang benar adalah...",
+    "o": ["Byte, MB, KB, GB", "Bit, Byte, KB, MB, GB", "GB, MB, KB, Byte", "KB, Byte, GB, MB"],
+    "a": 1,
+    "e": "Tingkatannya: Bit -> Byte -> Kilobyte -> Megabyte -> Gigabyte -> Terabyte."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam statistik kelas, tinggi badan yang paling banyak dimiliki oleh siswa di kelas tersebut (misalnya 155 cm dimiliki oleh 10 anak) disebut sebagai...",
+    "o": ["Mean", "Rentang", "Modus", "Median"],
+    "a": 2,
+    "e": "Modus mendeskripsikan tren/kategori mayoritas. Jika banyak yang tingginya 155 cm, maka 155 adalah modusnya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Untuk menyajikan data perubahan suhu kota setiap jam dari pagi hingga malam, visualisasi grafik yang paling tepat digunakan adalah...",
+    "o": ["Diagram Garis (Line Chart)", "Diagram Lingkaran", "Tabel Distribusi", "Peta"],
+    "a": 0,
+    "e": "Diagram garis sangat unggul untuk menunjukkan perubahan/pergerakan data dari waktu ke waktu secara kontinu."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Penggunaan password (kata sandi) pada file Excel berfungsi untuk...",
+    "o": ["Membuat file Excel lebih berwarna", "Memperkecil ukuran file data", "Mencegah data dibuka atau diubah oleh orang yang tidak berhak", "Mengubah file menjadi Word"],
+    "a": 2,
+    "e": "Password / Enkripsi adalah pengamanan mutlak bagi data yang bersifat rahasia (Privasi Data)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dalam proses pembuatan program komputer, jika terjadi 'Error' atau kesalahan jalannya program, programmer akan melakukan perbaikan yang disebut tahap...",
+    "o": ["Coding", "Debugging", "Designing", "Installing"],
+    "a": 1,
+    "e": "Bug adalah istilah eror pada program. Debugging (menyingkirkan bug) adalah mencari dan memperbaiki kesalahan tersebut."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Mengapa kita membutuhkan algoritma dalam memecahkan masalah sehari-hari?",
+    "o": ["Agar pekerjaan selesai lebih lama", "Agar bisa menjadi programmer", "Agar pemecahan masalah lebih terstruktur, runtut, dan pasti membuahkan hasil", "Hanya sebagai teori di sekolah"],
+    "a": 2,
+    "e": "Pola pikir algoritmik (sistematis) mencegah kita kebingungan atau melompati langkah krusial."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dua bentuk penyajian algoritma yang paling umum dan mudah dipelajari sebelum melakukan coding adalah...",
+    "o": ["Pseudocode dan Flowchart", "Microsoft Word dan Excel", "Teks bahasa Inggris dan Spanyol", "C++ dan Python"],
+    "a": 0,
+    "e": "Pseudocode (bahasa tiruan) dan Flowchart (diagram alir) adalah standar universal penulisan algoritma logika."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Sebuah program kasir harus menghitung diskon. Urutan algoritma yang paling logis adalah...",
+    "o": ["Hitung Diskon -> Input Total Belanja -> Bayar", "Bayar -> Hitung Diskon -> Input Total", "Input Total Belanja -> Hitung Diskon -> Tampilkan Jumlah Bayar", "Tampilkan Bayar -> Input Total"],
+    "a": 2,
+    "e": "Input (masukkan total belanja) harus selalu berada di depan sebelum Proses (hitung diskon), baru kemudian Output (bayar)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kata algoritma (algorithm) sebenarnya berasal dari nama ilmuwan matematika muslim ternama, yaitu...",
+    "o": ["Al-Kindi", "Ibnu Sina", "Al-Khawarizmi", "Al-Farabi"],
+    "a": 2,
+    "e": "Al-Khawarizmi (algorism) adalah matematikawan pencipta aljabar yang metode penyelesaian matematisnya diadaptasi menjadi istilah Algoritma."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Algoritma tidak boleh ambigu (bermakna ganda). Jika ada instruksi 'Tambahkan sedikit gula', instruksi tersebut buruk karena...",
+    "o": ["Kurang manis", "Tidak jelas takarannya ('sedikit' tiap orang berbeda)", "Terlalu panjang", "Bahasanya jelek"],
+    "a": 1,
+    "e": "Instruksi komputer harus presisi (Definiteness). Lebih baik ditulis 'Tambahkan 1 sendok teh gula'."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Orang yang profesinya merancang, menulis, dan menguji kode-kode instruksi untuk membuat perangkat lunak disebut...",
+    "o": ["Analis Sistem", "Database Administrator", "Programmer / Developer", "Network Engineer"],
+    "a": 2,
+    "e": "Programmer/Software Developer bertugas mengubah ide dan algoritma menjadi aplikasi nyata."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Selain Scratch, platform visual (berbasis blok puzzle) yang populer digunakan siswa untuk membuat aplikasi HP Android adalah...",
+    "o": ["Adobe Premiere", "Microsoft Powerpoint", "App Inventor / Thunkable", "Corel Draw"],
+    "a": 2,
+    "e": "MIT App Inventor menggunakan logika blok persis seperti Scratch, tetapi untuk menghasilkan file APK."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Di antarmuka Scratch, daftar kumpulan karakter / objek yang bisa kita masukkan dan program disebut bagian...",
+    "o": ["Sprite Pane", "Script Area", "Stage", "Block Palette"],
+    "a": 0,
+    "e": "Sprite Pane berada di pojok kanan bawah, menampilkan ikon semua karakter yang aktif di proyek kita."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Untuk menghentikan semua program/skrip yang sedang berjalan pada aplikasi Scratch, kita mengeklik tombol berwarna...",
+    "o": ["Hijau (Bendera)", "Merah (Stop Sign)", "Kuning", "Biru"],
+    "a": 1,
+    "e": "Tombol Segi Delapan Merah (Stop) digunakan untuk menginterupsi paksa berjalannya simulasi/game."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok 'play sound [Meow] until done' digunakan untuk...",
+    "o": ["Memunculkan teks Meow", "Menggerakkan kucing", "Memutar file audio suara kucing secara penuh", "Menghapus suara"],
+    "a": 2,
+    "e": "Blok kategori Sound (Merah Muda) mengatur efek audio dan musik backsound."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Jika kita ingin sprite Kucing mengikuti pergerakan kursor mouse kita di panggung, blok perintah yang digunakan adalah...",
+    "o": ["go to [mouse-pointer]", "turn 15 degrees", "change x by 10", "say Hello"],
+    "a": 0,
+    "e": "Blok 'go to [mouse-pointer]' di dalam kategori Motion akan memaksa koordinat X dan Y sprite sama persis dengan kursor."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Blok kode 'wait 1 seconds' pada Scratch terdapat di kategori warna...",
+    "o": ["Oranye (Control)", "Biru (Motion)", "Kuning (Events)", "Ungu (Looks)"],
+    "a": 0,
+    "e": "Blok Control (Oranye) mengatur aliran waktu (wait), perulangan (repeat), dan percabangan (if-then)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Fungsi matematika dasar seperti Tambah (+), Kurang (-), Kali (*), dan Bagi (/) di Scratch dapat dirakit menggunakan blok kategori...",
+    "o": ["Variables", "Control", "Operators (Warna Hijau)", "Sensing"],
+    "a": 2,
+    "e": "Blok Operators berisi perhitungan aritmatika dan logika perbandingan (>, <, =)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Pemrograman blok (Block-based programming) lebih disarankan untuk anak SMP kelas 7 karena...",
+    "o": ["Bisa digunakan untuk meretas web", "Aplikasi jadinya ukurannya paling kecil", "Tidak perlu menghafal baris kode yang rumit, cukup merangkai logika kepingan puzzle", "Hanya itu bahasa yang ada"],
+    "a": 2,
+    "e": "Blok mengurangi risiko 'Syntax Error' (salah ketik) sehingga siswa fokus murni melatih logika Berpikir Komputasional."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Struktur percabangan (Condition) pada algoritma selalu menggunakan operator perbandingan logika. Contoh hasil dari perbandingan (10 > 5) adalah...",
+    "o": ["Benar (True)", "Salah (False)", "Angka 15", "Angka 5"],
+    "a": 0,
+    "e": "Pertanyaan 'Apakah 10 lebih besar dari 5?' jawabannya pasti mutlak Benar (True)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Kondisi If-Else memiliki dua cabang. 'JIKA hujan, bawa payung, JIKA TIDAK, pakai topi'. Jika ternyata cuaca CERAH, aksi apa yang dikerjakan program?",
+    "o": ["Bawa payung", "Pakai topi", "Diam di rumah", "Program error"],
+    "a": 1,
+    "e": "Cuaca cerah membuat kondisi 'hujan' bernilai Salah, sehingga cabang instruksi 'ELSE' (pakai topi) yang akan dieksekusi."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Dalam membuat game sederhana di Scratch, jika skor (score) sudah mencapai 100, maka latar berubah tulisan 'You Win'. Konsep yang digunakan adalah...",
+    "o": ["Perulangan", "Variabel dan Percabangan", "Input Hardware", "Sound"],
+    "a": 1,
+    "e": "Menyimpan poin 100 butuh 'Variabel'. Mengecek apakah nilai sudah tembus 100 butuh 'Percabangan (If score > 99)'."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Apa dampak buruk jika algoritma memiliki 'Infinite Loop' yang tidak disengaja?",
+    "o": ["Program menjadi sangat cepat", "Program akan 'hang' (membeku) karena prosesor bekerja penuh tiada henti memutar blok yang sama", "Layar monitor meledak", "Program selesai lebih awal"],
+    "a": 1,
+    "e": "Perulangan tanpa henti menghabiskan seluruh memori RAM (Memory Leak) dan utilisasi CPU, membuat sistem operasi tidak merespons (Not Responding)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Pada diagram alir (Flowchart), bentuk Oval (kapsul memanjang) pada ujung atas dan bawah berfungsi sebagai...",
+    "o": ["Tempat menulis proses hitung", "Simbol percabangan", "Simbol Input Keyboard", "Simbol Terminator (Start dan End)"],
+    "a": 3,
+    "e": "Setiap Flowchart selalu diawali dan diakhiri dengan kapsul/oval bertuliskan Start (Mulai) atau Stop (Selesai)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Mengapa kita perlu menyederhanakan algoritma yang kita buat agar efisien?",
+    "o": ["Biar guru senang", "Mempersingkat waktu eksekusi (program tidak lemot) dan menghemat daya memori komputer", "Agar kodenya terlihat rahasia", "Agar program sulit dibaca hacker"],
+    "a": 1,
+    "e": "Algoritma efisien (Time & Space Complexity) sangat krusial saat mengolah jutaan data agar server tidak terbebani (lemot)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Jika algoritma awal berisi langkah: 1) Maju 1 langkah, 2) Maju 1 langkah, 3) Maju 1 langkah. Cara menuliskannya secara lebih efisien adalah...",
+    "o": ["Maju 3 kali perlahan", "Repeat 3 times: Maju 1 langkah", "Ubah menjadi mundur", "Hapus langkahnya"],
+    "a": 1,
+    "e": "Menggabungkan baris yang sama menggunakan fungsi perulangan (loop/repeat) adalah esensi dari penyederhanaan instruksi (Refactoring)."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Ekstensi 'Pen' (Pena) di dalam aplikasi Scratch berfungsi untuk...",
+    "o": ["Menulis di kertas printer", "Meninggalkan jejak warna saat sprite bergerak, seolah-olah menggambar di kanvas layar", "Menghapus sprite", "Mengetik dokumen teks"],
+    "a": 1,
+    "e": "Ekstensi Pen digunakan untuk membuat bentuk geometris (segitiga, lingkaran) melalui pergerakan Sprite yang meninggalkan tinta digital."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Untuk menggambar sebuah Bujur Sangkar (Persegi) dengan jejak Pen, sprite harus mengulang instruksi maju sejauh X dan berbelok (turn) sebesar sudut...",
+    "o": ["45 derajat", "90 derajat", "180 derajat", "360 derajat"],
+    "a": 1,
+    "e": "Persegi memiliki empat sudut siku-siku. Jadi setiap selesai maju 1 sisi, sprite harus berbelok tepat 90 derajat."
+  },
+  {
+    "c": "Algoritma & Pemrograman",
+    "q": "Salah satu indikator program yang baik adalah memiliki fitur 'User Friendly', artinya...",
+    "o": ["Sulit ditebak penggunaannya", "Mudah dan intuitif dipahami/digunakan bahkan oleh orang awam sekalipun", "Hanya bisa dipakai oleh pembuatnya", "Gratis"],
+    "a": 1,
+    "e": "UI/UX (User Interface / User Experience) yang baik membuat orang nyaman berlama-lama menggunakan aplikasi tanpa perlu membaca buku panduan tebal."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang siswa yang memiliki literasi digital yang tinggi akan selalu melakukan *cross-check* (uji silang) sebuah artikel kontroversial dari grup media sosial dengan cara...",
+    "o": ["Ikut menyebarkan untuk lihat reaksi teman", "Mencari kebenarannya di portal berita resmi/pemerintah yang terpercaya", "Memarahi pembuat artikel tersebut", "Menghapus akunnya"],
+    "a": 1,
+    "e": "Sikap tabayyun digital (memverifikasi dari sumber valid yang kredibel) adalah ciri orang yang literat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dampak otomatisasi pabrik oleh robot AI (Kecerdasan Buatan) terhadap dunia sosial tenaga kerja adalah...",
+    "o": ["Meningkatkan jumlah buruh angkut kasar", "Menciptakan profesi baru di bidang IT namun menghilangkan beberapa pekerjaan rutin manual", "Menghilangkan semua lapangan kerja manusia selamanya", "Gaji pegawai pabrik semakin kecil"],
+    "a": 1,
+    "e": "Disrupsi teknologi (Distruption) selalu membunuh profesi usang namun menciptakan jenis pekerjaan modern yang baru (misal: Prompt Engineer)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Fenomena berkurangnya privasi pribadi karena kita dengan sadar mengunggah semua aktivitas keseharian kita agar bisa dilihat jutaan orang dikenal sebagai...",
+    "o": ["Oversharing", "Hoax", "Endorsement", "Spam"],
+    "a": 0,
+    "e": "Oversharing menceritakan hal yang seharusnya dijaga kerahasiaannya, memancing niat jahat orang (seperti maling/stalker) memanfaatkannya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Cara paling bijaksana dalam menanggapi komentar benci (Hate Speech) atau ujaran kasar pada postingan sosial media kita adalah...",
+    "o": ["Membalasnya dengan kata-kata yang lebih kasar", "Melaporkan (Report) akun tersebut dan memblokirnya agar tidak memperpanjang masalah", "Mendatangi rumah pelakunya langsung", "Menangis dan menyebarkannya"],
+    "a": 1,
+    "e": "Konsep 'Don't feed the troll' menyarankan agar kita tidak menanggapi secara emosi, melainkan gunakan fitur Report/Block bawaan platform."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Istilah untuk berita bohong yang sengaja dirakit seolah-olah benar untuk menipu, memprovokasi, atau mencari keuntungan trafik (klik) adalah...",
+    "o": ["Phishing", "Clickbait", "Hoaks (Hoax)", "Deepfake"],
+    "a": 2,
+    "e": "Hoaks sangat berbahaya karena bisa memicu kepanikan massal (misal: hoaks penculikan atau hoaks obat ajaib)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Penerapan sistem keamanan otentikasi lapis kedua (seperti kode OTP SMS atau sidik jari) setelah memasukkan password disebut sistem...",
+    "o": ["Antivirus", "Two-Factor Authentication (2FA)", "Firewall", "End-to-End Encryption"],
+    "a": 1,
+    "e": "Otentikasi 2 Langkah (2FA) menjamin jika *hacker* menebak password Anda, mereka tetap tidak bisa masuk tanpa memegang HP asli milik Anda."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jejak digital yang tercipta TANPA SEPENGETAHUAN kita yang secara diam-diam dicatat oleh sistem web (seperti durasi Anda menonton video YouTube, dan lokasi IP Internet Anda) disebut...",
+    "o": ["Jejak Digital Aktif", "Jejak Digital Pasif", "File Log", "Database Publik"],
+    "a": 1,
+    "e": "Jejak pasif (Passive footprint) dikumpulkan algoritma (seperti *cookies/tracker*) tanpa disadari pengguna, berbeda dari postingan Facebook (aktif)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Pasal dalam UU ITE yang paling sering menjerat pengguna media sosial karena menyinggung Suku, Agama, Ras, dan Antargolongan adalah pasal terkait...",
+    "o": ["Pembajakan software", "Pornografi", "Ujaran Kebencian (SARA) dan Pencemaran Nama Baik", "Penipuan kartu kredit"],
+    "a": 2,
+    "e": "Kebebasan berpendapat diatur oleh negara. Cuitan yang menistakan agama atau menyebarkan kebencian etnis diancam hukuman berat oleh UU ITE."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Mengunggah data diri berupa foto struk tiket pesawat atau e-KTP (yang memperlihatkan *barcode* utuh) sangat tidak disarankan karena...",
+    "o": ["Kualitas fotonya jelek", "Barcode/NIK bisa dipindai dan dipakai penjahat mencuri identitas Anda", "Akan dimarahi pemerintah", "Membuat memori server penuh"],
+    "a": 1,
+    "e": "Barcode tiket pesawat mengandung kode pemesanan PNR yang bisa digunakan untuk membatalkan penerbangan Anda oleh orang iseng/jahat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Konsekuensi nyata dari meninggalkan jejak digital yang buruk (seperti riwayat mem-bully orang dan menggunakan kata rasis di Twitter saat SMP) di masa depan adalah...",
+    "o": ["Akan langsung diubah oleh sistem jadi baik", "Pihak universitas atau HRD perusahaan dapat membatalkan penerimaan beasiswa/kerja saat menemukan profil tersebut", "Mendapat banyak follower", "Tidak ada konsekuensi sama sekali"],
+    "a": 1,
+    "e": "Banyak universitas top dan perusahaan modern menyeleksi kandidat lewat penelusuran rekam jejak digital masa lalunya (Background Check)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dalam konsep Etika Digital, menghargai Hak Kekayaan Intelektual (HAKI) di internet dilakukan dengan cara...",
+    "o": ["Menulis nama kita di foto karya orang lain", "Mencomot lagu tanpa seizin pencipta untuk video komersial", "Selalu mencantumkan sumber/kredit saat menggunakan gambar, tulisan, atau ide milik orang lain", "Mendownload software bajakan karena lebih murah"],
+    "a": 2,
+    "e": "Atribusi (Sitasi) adalah etika akademik dan moral mutlak, agar kreator asli mendapat pengakuan karya ciptanya (Copyright)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Salah satu dampak negatif dari komunikasi instan melalui aplikasi *chatting* adalah sering terjadinya *Miscommunication* (salah paham). Hal ini disebabkan karena...",
+    "o": ["Chatting terlalu cepat dibalas", "Aplikasi chat menggunakan warna aneh", "Teks chat tidak bisa menyampaikan nada suara, intonasi, dan ekspresi wajah asli penulisnya", "Sistem sering mengubah kata kita otomatis"],
+    "a": 2,
+    "e": "Pesan ketikan hambar yang ditulis tanpa emotikon sering dibaca/diinterpretasikan lawan bicara dengan nada tinggi (marah/sinis)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kegiatan merekam seseorang tanpa izin atau menyebarluaskan percakapan privasi (chat pribadi) ke publik tanpa persetujuan pihak lain merupakan bentuk...",
+    "o": ["Hacking tingkat tinggi", "Pencurian uang secara digital", "Pelanggaran Privasi atau Pelanggaran Data Pribadi", "Tindakan keren"],
+    "a": 2,
+    "e": "Menyebarkan rahasia orang (Doxing) atau tangkapan layar privasi (SS) ke medsos adalah pelanggaran hak privasi seseorang."
+  }
+]
