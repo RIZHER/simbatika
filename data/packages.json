@@ -97,7 +97,17 @@
     "subject": "Informatika",
     "file": "data/smp_08_uas_sem2_2026_pkt1.json",
     "questionCount": 50,
-    "description": "Latihan Asesmen Sumatif Akhir Semester Genap Kelas 8 mencakup Analisis Data Spreadsheet, AP Scratch Kompleks, dan Dampak Sosial Informatika."
+    "description": "Latihan Paket 1 Kelas 8 mencakup Analisis Data (Excel), Algoritma Pemrograman (Scratch), Dampak Sosial Informatika, dan Literasi Digital."
+  },
+  {
+    "id": "smp-08-uas-sem2-2026-pkt2",
+    "title": "Simulasi ASAS Semester Genap - Paket 2",
+    "level": "SMP",
+    "class": "8 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_08_uas_sem2_2026_pkt2.json",
+    "questionCount": 50,
+    "description": "Latihan Paket 2 Kelas 8 mematangkan pemahaman Pivot Table, Fungsi VLOOKUP/IF, Logika Perulangan Bersarang Scratch, dan Literasi Keamanan Digital."
   },
   {
     "id": "smp-07-uas-sem2-2026-pkt1",

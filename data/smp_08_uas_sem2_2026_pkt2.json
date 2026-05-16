@@ -1,0 +1,352 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Rumus Excel yang digunakan untuk mencari data di baris pertama sebuah tabel dan mengambil nilai di bawahnya pada baris yang ditentukan disebut...",
+    "o": ["VLOOKUP", "HLOOKUP", "LOOKUP", "MATCH"],
+    "a": 1,
+    "e": "HLOOKUP (Horizontal Lookup) melakukan pencarian mendatar pada baris."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jika sel A1 berisi angka 10 dan B1 berisi 5, rumus =IF(A1>B1; \"Lulus\"; \"Gagal\") akan menghasilkan...",
+    "o": ["Gagal", "Lulus", "Error", "10"],
+    "a": 1,
+    "e": "Karena 10 lebih besar dari 5, maka kondisi IF bernilai benar dan menghasilkan teks 'Lulus'."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Shortcut keyboard untuk menyalin (copy) dan menempel (paste) data di spreadsheet secara berurutan adalah...",
+    "o": ["Ctrl+X dan Ctrl+V", "Ctrl+C dan Ctrl+V", "Ctrl+Z dan Ctrl+Y", "Ctrl+A dan Ctrl+S"],
+    "a": 1,
+    "e": "Ctrl+C untuk Copy dan Ctrl+V untuk Paste adalah standar navigasi data."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Agar penulisan $D$5 saat disalin ke samping maupun ke bawah tetap merujuk pada sel D5, maka jenis referensi ini disebut...",
+    "o": ["Referensi Relatif", "Referensi Campuran", "Referensi Absolut", "Referensi Bebas"],
+    "a": 2,
+    "e": "Referensi Absolut mengunci baik kolom maupun baris dengan simbol $."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fungsi untuk menghitung JUMLAH SEL yang berisi teks atau angka (sel yang tidak kosong) dalam suatu rentang adalah...",
+    "o": ["COUNT", "COUNTA", "COUNTIF", "SUM"],
+    "a": 1,
+    "e": "COUNTA menghitung 'Count All', yaitu sel yang berisi data apapun (tidak kosong)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Fitur yang digunakan untuk menggabungkan beberapa sel menjadi satu sel besar di Excel adalah...",
+    "o": ["Wrap Text", "Merge & Center", "Format Painter", "AutoSum"],
+    "a": 1,
+    "e": "Merge & Center menggabungkan sel terpilih dan meratakan teks ke tengah."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Kriteria dalam fungsi =COUNTIF(C2:C20; \"IPA\") bertujuan untuk...",
+    "o": ["Menjumlahkan nilai IPA", "Menghitung berapa banyak sel yang berisi teks 'IPA'", "Mencari nilai tertinggi IPA", "Menghapus data IPA"],
+    "a": 1,
+    "e": "COUNTIF menghitung frekuensi kemunculan data yang sesuai dengan kriteria teks 'IPA'."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Visualisasi data yang paling tepat untuk menunjukkan tren atau perkembangan data dari waktu ke waktu adalah...",
+    "o": ["Pie Chart", "Line Chart (Grafik Garis)", "Bar Chart", "Scatter Plot"],
+    "a": 1,
+    "e": "Line Chart sangat efektif untuk memperlihatkan naik-turunnya nilai secara kronologis."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Pesan kesalahan #VALUE! di Excel biasanya muncul karena...",
+    "o": ["Sel yang dirujuk kosong", "Rumus menggunakan tipe data yang salah (misal: angka ditambah teks)", "Kolom kurang lebar", "Pembagian dengan angka nol"],
+    "a": 1,
+    "e": "#VALUE! terjadi jika operasi matematika dilakukan pada data non-numerik yang tidak valid."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Untuk mengurutkan data dari angka terbesar ke terkecil (Z ke A), kita menggunakan fitur...",
+    "o": ["Sort Ascending", "Sort Descending", "Filter", "Custom Format"],
+    "a": 1,
+    "e": "Sort Descending mengurutkan dari nilai tinggi ke rendah."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam Pivot Table, bagian yang digunakan untuk membagi data ke dalam kategori baris disebut...",
+    "o": ["Values", "Columns", "Rows", "Filters"],
+    "a": 2,
+    "e": "Field yang diletakkan di area 'Rows' akan tampil sebagai label baris di tabel ringkasan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Mengapa penting untuk melakukan pembersihan data (cleaning) sebelum dianalisis?",
+    "o": ["Agar ukuran file lebih besar", "Agar hasil analisis akurat dan tidak ada data ganda atau salah ketik", "Agar warna tabel lebih bagus", "Agar komputer bekerja lebih lambat"],
+    "a": 1,
+    "e": "Data yang kotor menghasilkan kesimpulan yang salah (Garbage In, Garbage Out)."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Di Scratch, posisi tengah panggung (stage) secara horizontal dan vertikal dinyatakan dengan koordinat...",
+    "o": ["x: 100, y: 100", "x: 0, y: 0", "x: 240, y: 180", "x: -240, y: -180"],
+    "a": 1,
+    "e": "Titik pusat (0,0) adalah titik awal di sistem koordinat kartesius panggung Scratch."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Blok perintah untuk mengubah tampilan gambar sprite agar terlihat seperti sedang berjalan atau berganti gaya adalah...",
+    "o": ["Change color effect", "Next costume", "Switch backdrop", "Show"],
+    "a": 1,
+    "e": "Next costume mengganti urutan gambar pada sprite untuk menciptakan efek animasi."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Operator logika 'OR' di Scratch akan menghasilkan nilai Benar jika...",
+    "o": ["Kedua kondisi harus benar", "Salah satu atau kedua kondisi bernilai benar", "Kedua kondisi harus salah", "Hanya kondisi pertama yang benar"],
+    "a": 1,
+    "e": "Logika OR memberikan kelonggaran: cukup satu syarat terpenuhi, maka hasilnya dianggap benar."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Jika Anda ingin mengurangi nilai variabel 'Nyawa' sebanyak 1 setiap kali menyentuh musuh, blok yang digunakan adalah...",
+    "o": ["Set Nyawa to 1", "Change Nyawa by -1", "Change Nyawa by 1", "Show variable Nyawa"],
+    "a": 1,
+    "e": "Change by -1 akan mengurangi nilai variabel secara kumulatif."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Fitur di Scratch yang memungkinkan kita membuat duplikat sprite yang identik secara otomatis saat program berjalan disebut...",
+    "o": ["Copy Paste", "Cloning", "Broadcasting", "Stamp"],
+    "a": 1,
+    "e": "Cloning memungkinkan pembuatan banyak objek serupa tanpa harus membuat banyak sprite manual."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Blok 'When Green Flag Clicked' termasuk dalam kategori...",
+    "o": ["Motion", "Events", "Control", "Sensing"],
+    "a": 1,
+    "e": "Events adalah pemicu (trigger) yang memulai jalannya sebuah skrip kode."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Untuk mendeteksi apakah sprite menyentuh warna tertentu, kita menggunakan blok di kategori...",
+    "o": ["Operators", "Sensing", "Motion", "Variables"],
+    "a": 1,
+    "e": "Sensing (Sensor) digunakan untuk mendeteksi interaksi sprite dengan lingkungan panggung."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Apa hasil dari operasi (15 mod 4) di pemrograman?",
+    "o": ["3", "1", "4", "0"],
+    "a": 0,
+    "e": "15 dibagi 4 adalah 3 sisa 3. Maka 15 mod 4 = 3."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Blok 'Go to random position' akan membuat sprite...",
+    "o": ["Berpindah ke pojok kanan atas", "Berpindah ke lokasi acak di panggung", "Mengikuti kursor mouse", "Berhenti bergerak"],
+    "a": 1,
+    "e": "Random position memindahkan sprite ke titik (x,y) yang ditentukan secara acak oleh sistem."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Dalam logika 'If (skor > 10) then (Say Menang)', jika skor adalah 10, apakah sprite akan berkata Menang?",
+    "o": ["Ya", "Tidak", "Mungkin", "Error"],
+    "a": 1,
+    "e": "Tidak, karena 10 tidak lebih besar dari 10. Jika ingin 10 ikut menang, harus menggunakan operator >=."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Apa kegunaan blok 'Stop all' di Scratch?",
+    "o": ["Menghentikan suara saja", "Menghentikan seluruh skrip dan pergerakan di semua sprite", "Menghapus proyek", "Memulai ulang game"],
+    "a": 1,
+    "e": "Stop all berfungsi mengakhiri seluruh aktivitas program secara total."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Kategori blok yang berwarna hijau di Scratch biasanya digunakan untuk...",
+    "o": ["Gerakan", "Suara", "Operator matematika dan logika", "Sensor"],
+    "a": 2,
+    "e": "Warna hijau adalah identitas kategori Operators."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Jika sebuah perulangan 'Repeat 5' diletakkan di dalam perulangan 'Repeat 2', maka blok di paling dalam akan dijalankan sebanyak...",
+    "o": ["7 kali", "5 kali", "10 kali", "2 kali"],
+    "a": 2,
+    "e": "Total eksekusi adalah perkalian loop luar dan dalam: 2 x 5 = 10."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Istilah untuk kesenjangan atau perbedaan kemampuan akses internet dan teknologi antara satu wilayah dengan wilayah lainnya disebut...",
+    "o": ["Digital Footprint", "Digital Divide (Kesenjangan Digital)", "Digital Literacy", "Digital Transformation"],
+    "a": 1,
+    "e": "Digital Divide menjadi tantangan dalam pemerataan pendidikan dan ekonomi di era modern."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Aplikasi jasa transportasi online (seperti Gojek/Grab) merupakan contoh dampak informatika di bidang...",
+    "o": ["Politik", "Ekonomi dan Sosial", "Kehutanan", "Kelautan"],
+    "a": 1,
+    "e": "Teknologi ini mengubah cara orang bertransaksi dan berinteraksi sosial di transportasi."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Penyebaran berita palsu yang disengaja untuk menyesatkan pembaca di internet dikenal dengan istilah...",
+    "o": ["Hoax", "Viral", "Trending", "Broadcasting"],
+    "a": 0,
+    "e": "Hoax sering menyebar cepat melalui media sosial dan merugikan masyarakat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Apa dampak negatif dari terlalu lama bermain game online bagi kesehatan fisik?",
+    "o": ["Meningkatkan kecerdasan", "Menambah teman baru", "Gangguan mata dan postur tubuh yang bungkuk", "Koneksi internet lebih stabil"],
+    "a": 2,
+    "e": "Penggunaan gadget berlebihan tanpa istirahat merusak kesehatan mata dan tulang belakang."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Lisensi perangkat lunak yang memperbolehkan pengguna mencoba aplikasi secara gratis dalam jangka waktu tertentu sebelum harus membeli disebut...",
+    "o": ["Freeware", "Shareware / Trialware", "Open Source", "Adware"],
+    "a": 1,
+    "e": "Trialware memberikan kesempatan uji coba fitur sebelum transaksi pembelian lisensi penuh."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Berikut ini adalah etika dalam berkomentar di media sosial, KECUALI...",
+    "o": ["Menggunakan bahasa yang santun", "Menghargai pendapat orang lain", "Melakukan Body Shaming atau menghina fisik orang", "Tidak menyebarkan data pribadi orang lain"],
+    "a": 2,
+    "e": "Body shaming adalah bentuk perundungan digital yang melanggar etika."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Membagikan lokasi rumah atau nomor telepon pribadi secara terbuka di kolom komentar publik sangat berbahaya karena...",
+    "o": ["Mengurangi kuota internet", "Memancing tindakan kriminal atau penyalahgunaan data", "Membuat baterai boros", "Meningkatkan jumlah like"],
+    "a": 1,
+    "e": "Privasi data pribadi harus dijaga untuk menghindari kejahatan dunia nyata."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Informatika memungkinkan orang bekerja dari mana saja tanpa harus ke kantor. Istilah ini dikenal dengan...",
+    "o": ["Freelance", "Remote Working / Work From Home", "Unemployment", "Traditional Job"],
+    "a": 1,
+    "e": "Kerja jarak jauh menjadi tren berkat infrastruktur internet yang memadai."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jenis perangkat lunak jahat yang dapat menggandakan diri dan merusak file di komputer disebut...",
+    "o": ["Software", "Hardware", "Virus / Malware", "Brainware"],
+    "a": 2,
+    "e": "Virus komputer dirancang untuk mengganggu kinerja sistem dan mencuri data."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Salah satu keuntungan menggunakan perangkat lunak Open Source adalah...",
+    "o": ["Sangat mahal harganya", "Tidak bisa dimodifikasi", "Gratis dan boleh dikembangkan sesuai kebutuhan", "Hanya bisa digunakan di satu komputer"],
+    "a": 2,
+    "e": "Open Source memberikan kebebasan bagi pengguna untuk belajar dan berinovasi."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Profesi yang bertugas merancang tampilan visual sebuah aplikasi agar menarik dan mudah digunakan adalah...",
+    "o": ["Programmer", "Database Administrator", "UI/UX Designer", "Hardware Technician"],
+    "a": 2,
+    "e": "User Interface (UI) dan User Experience (UX) fokus pada kenyamanan interaksi pengguna."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Apa yang dimaksud dengan 'E-waste'?",
+    "o": ["Sampah plastik", "Sampah elektronik (HP rusak, komputer bekas, kabel)", "Email yang tidak dibaca", "Boros kuota data"],
+    "a": 1,
+    "e": "E-waste mengandung bahan kimia berbahaya yang memerlukan penanganan khusus agar tidak mencemari lingkungan."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Manakah yang merupakan sumber informasi paling valid untuk mencari data tentang kesehatan?",
+    "o": ["Pesan berantai di grup WA tanpa sumber", "Situs resmi Kementerian Kesehatan atau WHO", "Postingan akun anonim di TikTok", "Komentar di kolom YouTube"],
+    "a": 1,
+    "e": "Situs resmi otoritas kesehatan memiliki data yang sudah terverifikasi secara medis."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Teknik pencarian di mesin cari untuk mendapatkan hasil dalam format file tertentu (misal: PDF) adalah dengan menambahkan kata kunci...",
+    "o": ["format:pdf", "filetype:pdf", "search:pdf", "type:pdf"],
+    "a": 1,
+    "e": "Operator 'filetype:' membatasi hasil pencarian hanya pada ekstensi file yang diinginkan."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Mengapa kita tidak boleh sembarangan mengklik link (tautan) dari nomor tidak dikenal di WhatsApp yang menawarkan hadiah?",
+    "o": ["Karena kuota akan bertambah", "Potensi serangan phishing untuk mencuri data akun atau menginstal malware", "Karena layar HP akan menjadi lebih terang", "Karena sinyal akan hilang"],
+    "a": 1,
+    "e": "Link mencurigakan seringkali menjadi pintu masuk peretas untuk menguasai akun atau perangkat kita."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Apa tindakan yang paling tepat jika Anda mendapati akun media sosial Anda diretas (hack)?",
+    "o": ["Menangis dan membiarkannya", "Segera lapor ke penyedia platform, ganti password, dan aktifkan 2FA jika masih bisa", "Membuat akun baru dengan nama yang sama", "Membayar orang di internet untuk membalas dendam"],
+    "a": 1,
+    "e": "Langkah pemulihan akun secara resmi adalah prosedur keamanan yang paling disarankan."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Ciri situs web yang aman untuk transaksi pembayaran biasanya memiliki protokol...",
+    "o": ["http://", "https:// (ada simbol gembok)", "www.", ".com"],
+    "a": 1,
+    "e": "HTTPS menggunakan enkripsi SSL/TLS untuk melindungi data sensitif selama transmisi."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Pesan 'Don't feed the trolls' dalam literasi digital berarti...",
+    "o": ["Jangan memberi makan hewan di internet", "Jangan membalas atau menanggapi orang yang sengaja memancing emosi/keributan di medsos", "Jangan membagikan makanan di internet", "Jangan menonton video orang makan"],
+    "a": 1,
+    "e": "Mengabaikan provokator (troll) adalah cara terbaik untuk menjaga kesehatan mental di dunia maya."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Berikut ini kelebihan menyimpan file di Cloud (seperti Google Drive/OneDrive), KECUALI...",
+    "o": ["Bisa diakses dari mana saja asal ada internet", "Mudah dibagikan ke orang lain untuk kolaborasi", "File tidak akan hilang meski komputer rusak", "Hanya bisa dibuka jika menggunakan flashdisk"],
+    "a": 3,
+    "e": "Cloud storage justru menghilangkan ketergantungan pada perangkat fisik seperti flashdisk."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Salah satu bentuk etika digital (Netiquette) saat ingin menelepon seseorang melalui WhatsApp adalah...",
+    "o": ["Langsung telepon berkali-kali sampai diangkat", "Mengirim pesan teks terlebih dahulu untuk bertanya apakah sedang senggang", "Telepon di jam tengah malam", "Telepon saat orang tersebut sedang rapat"],
+    "a": 1,
+    "e": "Meminta izin atau konfirmasi sebelum menelepon menunjukkan rasa hormat terhadap waktu orang lain."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Kemampuan untuk mengenali apakah sebuah foto adalah asli atau hasil editan AI (Artificial Intelligence) termasuk dalam kecakapan...",
+    "o": ["Kreativitas Digital", "Literasi Digital (Verifikasi Konten)", "Coding Dasar", "Hardware Maintenance"],
+    "a": 1,
+    "e": "Kritis terhadap konten visual sangat penting di era kecerdasan buatan."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Apa fungsi dari mode 'Incognito' atau 'Private Browsing' di web browser?",
+    "o": ["Membuat internet menjadi gratis", "Mencegah browser menyimpan riwayat (history) dan cookies selama sesi tersebut", "Menyembunyikan komputer dari satelit", "Menghapus virus secara otomatis"],
+    "a": 1,
+    "e": "Incognito menjaga kerahasiaan aktivitas browsing di perangkat lokal."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Jika Anda tidak sengaja membagikan hoaks, langkah yang paling ksatria dilakukan adalah...",
+    "o": ["Menghapus postingan diam-diam", "Segera memberikan klarifikasi atau permintaan maaf dan mengoreksi informasi tersebut", "Menyalahkan orang yang mengirim pertama", "Menonaktifkan akun"],
+    "a": 1,
+    "e": "Bertanggung jawab atas kesalahan informasi membantu meredam penyebaran hoaks lebih lanjut."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Bagaimana posisi duduk yang benar menurut prinsip ergonomi saat menggunakan komputer dalam waktu lama?",
+    "o": ["Membungkuk sangat dekat ke layar", "Duduk tegak, mata sejajar dengan bagian atas layar, dan kaki menapak di lantai", "Tidur sambil memangku laptop", "Duduk miring"],
+    "a": 1,
+    "e": "Postur ergonomis mencegah nyeri leher, punggung, dan kelelahan mata."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Software yang harus selalu diperbarui (update) ke versi terbaru bertujuan untuk...",
+    "o": ["Menghabiskan kuota", "Mendapatkan fitur baru dan menambal celah keamanan (security patch)", "Mengganti nama aplikasi", "Menghapus data lama"],
+    "a": 1,
+    "e": "Update berkala melindungi perangkat dari serangan peretas yang memanfaatkan kelemahan versi lama."
+  }
+]

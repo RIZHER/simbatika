@@ -1,352 +1,352 @@
 [
   {
     "c": "Analisis Data",
-    "q": "Fungsi pada Microsoft Excel atau Google Sheets yang digunakan untuk menjumlahkan angka-angka dalam suatu rentang (range) berdasarkan BEBERAPA kriteria/syarat adalah...",
-    "o": ["SUM", "SUMIF", "SUMIFS", "COUNTIF"],
-    "a": 2,
-    "e": "Fungsi SUMIFS memungkinkan penjumlahan bersyarat dengan lebih dari satu kriteria. Sedangkan SUMIF hanya satu kriteria."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Rumus Excel yang paling tepat digunakan untuk menghitung JUMLAH SISWA laki-laki yang mendapatkan NILAI di atas 80 adalah...",
-    "o": ["COUNTIFS", "SUMIFS", "VLOOKUP", "AVERAGEIF"],
-    "a": 0,
-    "e": "COUNTIFS bertugas menghitung banyaknya sel data yang memenuhi lebih dari satu kondisi kriteria."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Fungsi pembacaan tabel pencarian yang mencari suatu nilai data pada kolom paling kiri tabel, lalu mengambil nilai searah baris dari kolom yang ditentukan disebut...",
+    "q": "Fungsi pada spreadsheet yang digunakan untuk mencari data pada kolom pertama sebuah tabel, kemudian mengambil nilai dari kolom lain yang sejajar adalah...",
     "o": ["HLOOKUP", "VLOOKUP", "LOOKUP", "INDEX"],
     "a": 1,
-    "e": "VLOOKUP (Vertical Lookup) melakukan pencarian data secara menurun/tegak lurus kolom dari kiri ke kanan."
+    "e": "VLOOKUP (Vertical Lookup) mencari data secara vertikal berdasarkan kolom."
   },
   {
     "c": "Analisis Data",
-    "q": "Perbedaan mendasar antara rumus VLOOKUP dengan HLOOKUP pada spreadsheet terletak pada...",
-    "o": ["Jumlah data yang bisa dihitung", "Arah orientasi pencarian tabel referensi (Kolom Vertikal vs Baris Horizontal)", "Aplikasi yang digunakannya", "Format hasil angkanya"],
-    "a": 1,
-    "e": "VLOOKUP mencari vertikal (menurun berdasarkan kolom), HLOOKUP mencari horizontal (menyamping berdasarkan baris)."
+    "q": "Simbol yang digunakan untuk membuat referensi sel menjadi absolut (tidak berubah saat disalin) di Excel adalah...",
+    "o": ["#", "&", "@", "$"],
+    "a": 3,
+    "e": "Simbol $ digunakan untuk mengunci baris atau kolom agar tidak bergeser saat rumus disalin."
   },
   {
     "c": "Analisis Data",
-    "q": "Agar sebuah referensi sel di Excel (seperti C4) tidak bergeser sama sekali saat rumus tersebut disalin (copy) ke posisi lain, kita harus menambahkan simbol absolut ($) menjadi...",
-    "o": ["$C4", "C$4", "$C$4", "C4$"],
+    "q": "Fungsi =SUMIF(B2:B10; \">100\") digunakan untuk...",
+    "o": ["Menjumlahkan semua angka di rentang B2:B10", "Menghitung banyaknya sel yang berisi angka di atas 100", "Menjumlahkan angka di rentang B2:B10 yang nilainya lebih dari 100", "Mencari nilai rata-rata dari angka di atas 100"],
     "a": 2,
-    "e": "Simbol $ di depan huruf kolom ($C) dan di depan angka baris ($4) mengunci referensi sel secara absolut (mutlak)."
+    "e": "SUMIF menjumlahkan nilai sel yang memenuhi kriteria tertentu (dalam hal ini >100)."
   },
   {
     "c": "Analisis Data",
-    "q": "Fitur canggih pada aplikasi pengolah angka yang sangat efektif untuk merangkum, menganalisis, mengeksplorasi, dan menyajikan data dalam bentuk tabel interaktif ringkas disebut...",
-    "o": ["Format Painter", "Pivot Table", "Mail Merge", "Chart Wizard"],
+    "q": "Fitur yang digunakan untuk mengatur format sel secara otomatis berdasarkan nilai atau kondisi tertentu disebut...",
+    "o": ["Data Validation", "Conditional Formatting", "Pivot Table", "Auto Filter"],
     "a": 1,
-    "e": "Pivot Table meringkas ribuan baris data mentah menjadi ringkasan laporan ringkas dalam hitungan detik."
+    "e": "Conditional Formatting mengubah tampilan sel (warna, font) jika memenuhi syarat yang ditentukan."
   },
   {
     "c": "Analisis Data",
-    "q": "Proses menyusun atau mengurutkan kumpulan baris data secara alfabetis (A sampai Z) atau numerik (Kecil ke Besar) disebut proses...",
-    "o": ["Filtering", "Sorting Ascending", "Sorting Descending", "Merging"],
+    "q": "Untuk menghitung rata-rata nilai siswa dengan kriteria tertentu (misalnya hanya siswa perempuan), fungsi yang tepat adalah...",
+    "o": ["AVERAGE", "AVERAGEIF", "SUMIF", "COUNTIF"],
     "a": 1,
-    "e": "Sorting Ascending mengurutkan data dari yang terkecil ke terbesar (menaik). Descending adalah kebalikannya."
+    "e": "AVERAGEIF menghitung rata-rata berdasarkan satu kriteria spesifik."
   },
   {
     "c": "Analisis Data",
-    "q": "Apabila Anda hanya ingin memunculkan data siswa yang berasal dari kota 'Jakarta' saja di layar monitor dari total 500 siswa, fitur Excel yang digunakan adalah...",
-    "o": ["Delete Row", "Sort Custom", "Filter", "Subtotal"],
-    "a": 2,
-    "e": "Filter (Penyaring) menyembunyikan sementara baris data yang tidak sesuai dengan kriteria yang kita inginkan."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Format file penyimpanan data tekstual sederhana di mana setiap nilai data dalam kolom dipisahkan oleh tanda koma (contoh: Nama, Kelas, Nilai) adalah...",
-    "o": [".xlsx", ".docx", ".csv (Comma Separated Values)", ".pptx"],
-    "a": 2,
-    "e": "Berkas CSV adalah standar data tabel terbuka universal yang ringan dan bisa dibuka oleh teks editor apapun."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Fungsi =AVERAGEIF(C2:C10, \">75\") digunakan oleh guru untuk keperluan...",
-    "o": ["Mencari nilai paling tinggi di kelas", "Menjumlahkan seluruh nilai di atas 75", "Mencari rata-rata nilai khusus untuk siswa yang nilainya di atas 75", "Mencari modus nilai 75"],
-    "a": 2,
-    "e": "AVERAGEIF mencari rata-rata hitung aritmatika hanya pada sel yang lolos kriteria tertentu (di atas 75)."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Langkah pencegahan agar sel tabel input di Excel hanya bisa diisi oleh angka 1 sampai 100 saja (tidak bisa diisi teks atau angka lain) dilakukan dengan fitur...",
-    "o": ["Conditional Formatting", "Data Validation", "Goal Seek", "Protect Sheet"],
-    "a": 1,
-    "e": "Data Validation memaksa pengguna untuk memasukkan data sesuai dengan aturan tipe dan rentang yang sah."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Jenis visualisasi grafik yang paling ideal digunakan untuk membandingkan kontribusi persentase data dari setiap bagian terhadap total keseluruhan adalah...",
-    "o": ["Diagram Garis", "Diagram Lingkaran (Pie Chart)", "Diagram Sebar (Scatter)", "Diagram Area"],
-    "a": 1,
-    "e": "Pie Chart menunjukkan perbandingan proporsional 100% irisan bagian data terhadap lingkaran utuh."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Data mentah harus melalui proses pembersihan data (cleaning) sebelum dianalisis, karena data kotor yang mengandung nilai kosong atau duplikat dapat...",
-    "o": ["Membuat komputer panas", "Menghasilkan kesimpulan analisis yang menyesatkan atau tidak akurat", "Merusak layar monitor", "Mengurangi kecepatan internet"],
-    "a": 1,
-    "e": "Prinsip GIGO (Garbage In, Garbage Out). Jika inputnya cacat, hasil keputusan analisanya pasti akan keliru."
-  },
-  {
-    "c": "Analisis Data",
-    "q": "Manakah penulisan sintaks VLOOKUP yang benar di Microsoft Excel?",
-    "o": ["=VLOOKUP(kriteria; tabel_referensi; nomor_kolom; [range_lookup])", "=VLOOKUP(jumlah; bagi; kali)", "=VLOOKUP(tabel; kolom; baris)", "=VLOOKUP(cari; cari; cari)"],
+    "q": "Fitur di Excel yang sangat efektif untuk merangkum dan menganalisis data dalam jumlah besar dengan cepat melalui tabel interaktif disebut...",
+    "o": ["Pivot Table", "Mail Merge", "What-If Analysis", "Chart Wizard"],
     "a": 0,
-    "e": "Sintaks baku VLOOKUP membutuhkan: nilai_cari, range_tabel_array, index_kolom, dan argumen kebenaran."
+    "e": "Pivot Table memungkinkan pengguna meringkas ribuan data mentah menjadi laporan yang mudah dibaca."
   },
   {
     "c": "Analisis Data",
-    "q": "Apabila terdapat 200 nilai acak, rumus spreadsheet untuk mencari NILAI PALING RENDAH di antara kumpulan data tersebut adalah...",
-    "o": ["=MAX(A1:A200)", "=MIN(A1:A200)", "=SMALLER(A1:A200)", "=LOWEST(A1:A200)"],
-    "a": 1,
-    "e": "Fungsi MIN singkatan dari Minimum, digunakan mengembalikan angka terkecil dari rentang sel terpilih."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Struktur kontrol dalam pemrograman yang menempatkan blok perintah kondisional (IF-THEN) di DALAM blok kondisional lainnya disebut...",
-    "o": ["Infinite Condition", "Nested IF (Percabangan Bersarang)", "Simple IF", "Single IF"],
-    "a": 1,
-    "e": "Nested IF memungkinkan pengecekan kondisi bertingkat/bercabang berlapis untuk penyelesaian masalah kompleks."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Perulangan di dalam perulangan (misal: blok Repeat diletakkan di dalam blok Repeat lainnya) dalam konsep pemrograman dikenal sebagai...",
-    "o": ["Double Loop", "Nested Loop (Perulangan Bersarang)", "Infinity Loop", "Static Loop"],
-    "a": 1,
-    "e": "Nested Loop berguna untuk memproses data matriks baris-kolom atau instruksi geometri 2D."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Pada pemrograman Scratch, fitur untuk membuat blok kode kustom sendiri yang bisa dipanggil berulang kali di sprite tersebut dinamakan...",
-    "o": ["Variable blocks", "My Blocks (Make a Block)", "Backpack", "Sound Editor"],
-    "a": 1,
-    "e": "My Blocks memungkinkan kita melakukan modularitas kode, membuat fungsi terpisah agar program bersih dan efisien."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Tujuan utama kita membungkus sekumpulan instruksi panjang ke dalam satu buah Custom Block ('My Blocks') adalah...",
-    "o": ["Agar program terasa lambat", "Mencegah penulisan kode duplikat secara berulang dan mempermudah debugging", "Memperbanyak bug program", "Mengubah warna latar belakang"],
-    "a": 1,
-    "e": "Konsep modularitas DRY (Don't Repeat Yourself) membuat kode mudah dibaca dan hemat memori."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Apabila sebuah struktur Nested Loop memiliki loop luar (outer) sebanyak 3 kali, dan di dalamnya ada loop dalam (inner) sebanyak 4 kali. Berapa kali total instruksi di loop paling dalam dieksekusi?",
-    "o": ["7 kali", "12 kali", "34 kali", "1 kali"],
-    "a": 1,
-    "e": "Total iterasi nested loop adalah hasil perkalian antar putaran: 3 x 4 = 12 kali eksekusi."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Di Scratch, apa perbedaan mendasar memilih opsi variabel 'For this sprite only' dibandingkan 'For all sprites'?",
-    "o": ["Warna variabel berbeda", "Variabel 'For this sprite only' bersifat lokal (hanya dikenali oleh sprite tersebut saja)", "Variabel 'For all sprites' tidak bisa dihapus", "Opsi pertama membuat sprite tidak terlihat"],
-    "a": 1,
-    "e": "Ini adalah konsep cakupan variabel (Variable Scope). Lokal vs Global. Lokal membatasi hak akses data."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Struktur data di Scratch yang digunakan untuk menampung BANYAK data sekaligus di bawah satu nama (ibarat laci lemari bernomor urut indeks) disebut...",
-    "o": ["Variable", "List (Daftar)", "Broadcast", "Costume"],
-    "a": 1,
-    "e": "List atau Array di pemrograman digunakan untuk menyimpan kumpulan data homogen yang terurut."
-  },
-  {
-    "c": "Algoritma & Pemrograman",
-    "q": "Mekanisme komunikasi antar-sprite di Scratch di mana satu sprite dapat mengirim sinyal pemicu tanpa kabel, dan sprite lain menerimanya untuk memulai aksi dinamakan...",
-    "o": ["Sound Link", "Touching Color", "Broadcast Message & Receive Message", "Go to random position"],
+    "q": "Operator logika yang menghasilkan nilai TRUE hanya jika SEMUA kondisi yang diberikan bernilai benar adalah...",
+    "o": ["OR", "NOT", "AND", "XOR"],
     "a": 2,
-    "e": "Broadcast ibarat 'siaran radio' yang dipancarkan ke seluruh bagian program untuk mensinkronkan event antar objek."
+    "e": "Fungsi AND mensyaratkan semua argumen bernilai benar untuk menghasilkan output benar."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Operator aritmatika di Scratch yang dilambangkan dengan simbol kata 'mod' (Modulo) berfungsi untuk mencari...",
-    "o": ["Hasil pembulatan angka", "Hasil sisa pembagian bilangan bulat", "Nilai absolut angka negatif", "Akar pangkat dua"],
+    "c": "Analisis Data",
+    "q": "Langkah yang dilakukan untuk memvalidasi agar sel hanya bisa diisi dengan angka antara 1 sampai 10 adalah menggunakan fitur...",
+    "o": ["Consolidate", "Data Validation", "Filter", "Goal Seek"],
     "a": 1,
-    "e": "Modulo (sisa bagi). Contoh: 10 mod 3 = 1, karena 10 dibagi 3 menghasilkan 3 sisa 1."
+    "e": "Data Validation membatasi input data sesuai aturan yang telah ditetapkan."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Blok perintah control di Scratch yang akan terus-menerus mengulang kode di dalamnya HINGGA suatu kondisi bernilai Benar (terpenuhi) adalah...",
-    "o": ["Repeat", "Forever", "Repeat Until", "If then else"],
+    "c": "Analisis Data",
+    "q": "Format file teks sederhana yang sering digunakan untuk menyimpan data tabel di mana antar data dipisahkan oleh tanda koma adalah...",
+    "o": [".xlsx", ".pdf", ".csv", ".docx"],
     "a": 2,
-    "e": "Repeat Until akan berhenti berputar jika kondisi yang disyaratkan di parameter segi-enamnya bernilai Benar (True)."
+    "e": "CSV (Comma Separated Values) adalah format standar untuk pertukaran data tabel sederhana."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Apa dampak dari kesalahan logika algoritma yang melupakan pemberian kondisi berhenti (termination condition) pada blok loop bersyarat?",
-    "o": ["Kamera laptop aktif sendiri", "Program terjebak dalam Infinite Loop (perulangan tak hingga) dan akan membeku/hang", "Hasil perhitungan menjadi nol", "Warna panggung Scratch berubah hitam"],
+    "c": "Analisis Data",
+    "q": "Proses menyusun data dari yang terkecil ke terbesar (A ke Z atau 1 ke 10) disebut...",
+    "o": ["Filter", "Ascending Sort", "Descending Sort", "Merging"],
     "a": 1,
-    "e": "Infinite Loop menghabiskan sumber daya prosesor secara penuh karena tidak ada titik keluar instruksi."
+    "e": "Ascending berarti urutan menaik (kecil ke besar)."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Apabila kita membuat game menembak sasaran, aksi menambah skor sebesar +1 setiap kali sasaran tertembak dapat diimplementasikan dengan blok Scratch...",
-    "o": ["set [skor] to 1", "change [skor] by 1", "show variable [skor]", "delete [skor]"],
+    "c": "Analisis Data",
+    "q": "Jika Anda ingin menyembunyikan data yang tidak memenuhi kriteria tertentu tanpa menghapusnya, Anda menggunakan fitur...",
+    "o": ["Sort", "Filter", "Hide Columns", "Conditional Formatting"],
     "a": 1,
-    "e": "'Change by' menambahkan nilai numerik secara kumulatif ke dalam nilai variabel yang sudah ada."
+    "e": "Filter berfungsi menyaring data yang ditampilkan berdasarkan syarat tertentu."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Blok kategori sensor 'touching [mouse-pointer]?' di Scratch akan menghasilkan nilai Boolean...",
-    "o": ["Angka 1 s.d 100", "Teks alfabet", "True (Benar) atau False (Salah)", "Gambar kursor"],
+    "c": "Analisis Data",
+    "q": "Jenis grafik yang paling tepat untuk menunjukkan perbandingan proporsi atau persentase dari sebuah total adalah...",
+    "o": ["Line Chart", "Bar Chart", "Pie Chart", "Scatter Plot"],
     "a": 2,
-    "e": "Blok heksagon runcing selalu merupakan ekspresi Boolean yang hanya mengenal dua status logika: Benar/Salah."
+    "e": "Pie Chart (Diagram Lingkaran) sangat baik untuk menunjukkan bagian dari keseluruhan."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Konsep algoritma pengurutan (sorting) dasar yang menukar posisi dua angka bersebelahan berulang-ulang hingga posisi angka terbesar berada di paling ujung belakang disebut...",
-    "o": ["Selection Sort", "Bubble Sort (Urut Gelembung)", "Merge Sort", "Quick Sort"],
+    "c": "Analisis Data",
+    "q": "Dalam rumus =VLOOKUP(A2; D2:F10; 3; 0), angka '3' menunjukkan...",
+    "o": ["Baris ketiga", "Kolom ketiga dari tabel referensi", "Range pencarian", "Nilai yang dicari"],
     "a": 1,
-    "e": "Bubble Sort adalah algoritma urut klasik yang paling mudah dipahami siswa dengan prinsip 'mengapungkan' angka terbesar."
+    "e": "Angka 3 adalah index_column_num, yaitu kolom tempat data hasil akan diambil."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Proyek Scratch yang kita buat di komputer memiliki ekstensi format file khas yaitu...",
-    "o": [".mp4", ".exe", ".sb3", ".html"],
+    "c": "Algoritma Pemrograman",
+    "q": "Dalam pemrograman Scratch, blok perintah yang digunakan untuk menjalankan skrip secara terus-menerus tanpa henti adalah...",
+    "o": ["Repeat", "Repeat Until", "Forever", "Wait Until"],
     "a": 2,
-    "e": ".sb3 adalah ekstensi format berkas proyek buatan Scratch versi 3.0 ke atas."
+    "e": "Forever loop menjalankan kode di dalamnya selama program aktif atau hingga tombol stop ditekan."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Dalam logika perulangan Scratch, blok 'Forever' BEDA dengan 'Repeat 10' karena...",
-    "o": ["Forever berjalan lebih cepat", "Forever tidak memiliki batas putaran akhir (berhenti jika tombol merah stop diklik)", "Repeat 10 tidak membutuhkan memori CPU", "Forever hanya untuk sprite warna kuning"],
+    "c": "Algoritma Pemrograman",
+    "q": "Blok perintah 'broadcast' di Scratch berfungsi untuk...",
+    "o": ["Mengubah suara", "Mengirim sinyal pesan ke sprite lain", "Menghapus sprite", "Mempercepat gerakan"],
     "a": 1,
-    "e": "Forever adalah putaran abadi (loop tanpa kondisi henti) yang terus aktif selama game berjalan."
+    "e": "Broadcast memungkinkan komunikasi antar-sprite dengan mengirimkan pesan yang bisa memicu aksi di sprite lain."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Jika ingin sprite kucing berteriak 'Meow!' HANYA jika ia disentuh oleh anjing DAN tombol spasi ditekan, kita menggabungkan kondisi menggunakan operator logika...",
-    "o": ["OR", "AND", "NOT", "SUM"],
+    "c": "Algoritma Pemrograman",
+    "q": "Untuk menyimpan sebuah nilai (seperti skor atau nyawa) yang dapat berubah-ubah selama program berjalan, kita menggunakan...",
+    "o": ["Variable", "Backdrop", "Costume", "Sound"],
+    "a": 0,
+    "e": "Variable digunakan sebagai wadah penyimpan data yang nilainya dinamis."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Struktur kontrol 'If-Else' digunakan dalam algoritma untuk menangani...",
+    "o": ["Perulangan", "Percabangan atau kondisi", "Pemberian nama variabel", "Penghapusan kode"],
     "a": 1,
-    "e": "Operator AND mengharuskan KEDUA syarat Boolean terpenuhi serentak agar blok 'If' di dalamnya aktif."
+    "e": "If-Else memungkinkan program memilih satu dari dua jalur aksi berdasarkan hasil evaluasi kondisi (Benar/Salah)."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Fungsi area 'Backpack' (ransel abu-abu di bawah layar Scratch) adalah untuk...",
-    "o": ["Menaruh file musik saja", "Menyalin dan memindahkan aset gambar/blok skrip antar proyek Scratch yang berbeda", "Menghapus sprite secara permanen", "Menghubungkan internet"],
+    "c": "Algoritma Pemrograman",
+    "q": "Blok 'Repeat Until' akan berhenti mengulang jika kondisi yang ditentukan bernilai...",
+    "o": ["Salah (False)", "Benar (True)", "Nol", "Kosong"],
     "a": 1,
-    "e": "Backpack menyimpan clipboard objek-objek Scratch agar bisa diduplikasi ke file proyek lain dengan drag & drop."
+    "e": "Repeat Until mengulang instruksi HINGGA (sampai) kondisi tersebut menjadi Benar."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Untuk mengatur agar sprite selalu menghadap/menengok ke arah kursor mouse digerakkan, kita menggunakan blok perintah...",
-    "o": ["glide 1 secs to mouse-pointer", "point towards [mouse-pointer]", "move 10 steps", "turn 15 degrees"],
+    "c": "Algoritma Pemrograman",
+    "q": "Apa fungsi dari fitur 'My Blocks' (Blok Saya) di Scratch?",
+    "o": ["Menghapus semua kode", "Membuat blok kode kustom baru yang bisa dipakai berulang kali", "Mengubah warna sprite", "Menyimpan proyek ke komputer"],
     "a": 1,
-    "e": "'Point towards' menyelaraskan arah hadap rotasi derajat sprite mengarah persis ke target."
+    "e": "My Blocks memungkinkan modularitas kode dengan membungkus sekumpulan instruksi menjadi satu blok baru."
   },
   {
-    "c": "Algoritma & Pemrograman",
-    "q": "Di bawah ini yang merupakan tahapan 'Logical Thinking' saat menemukan eror pada game buatan Anda adalah...",
-    "o": ["Menghapus seluruh file proyek", "Menyalahkan komputer", "Melacak jalannya kode baris per baris (debugging) untuk mencari di blok mana logika menyimpang", "Membeli aplikasi baru"],
+    "c": "Algoritma Pemrograman",
+    "q": "Operator 'mod' (modulo) digunakan untuk mencari...",
+    "o": ["Hasil pembagian", "Sisa hasil pembagian", "Nilai pangkat", "Akar bilangan"],
+    "a": 1,
+    "e": "Modulo memberikan sisa dari pembagian bilangan bulat. Contoh: 10 mod 3 = 1."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Konsep pemrograman di mana kita meletakkan sebuah loop (perulangan) di dalam loop lainnya disebut...",
+    "o": ["Double Loop", "Nested Loop", "Circle Loop", "Parallel Loop"],
+    "a": 1,
+    "e": "Nested Loop (perulangan bersarang) sering digunakan untuk memproses data dua dimensi atau pola kompleks."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Di Scratch, variabel yang dibuat dengan opsi 'For this sprite only' bersifat...",
+    "o": ["Global (bisa diakses semua sprite)", "Lokal (hanya bisa diakses sprite tersebut)", "Rahasia", "Tidak bisa diubah"],
+    "a": 1,
+    "e": "Variabel lokal hanya dikenali oleh sprite tempat variabel tersebut dibuat."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Struktur data di Scratch yang dapat menampung banyak nilai sekaligus dalam satu nama (seperti daftar belanja) disebut...",
+    "o": ["Variable", "List", "Array Block", "Collection"],
+    "a": 1,
+    "e": "List (Daftar) memungkinkan penyimpanan kumpulan data yang memiliki urutan/indeks."
+  },
+  {
+    "c": "Algoritma Pemrograman",
+    "q": "Blok 'Wait Until' akan membuat program...",
+    "o": ["Berhenti selamanya", "Berjalan terus", "Menunggu hingga sebuah kondisi menjadi Benar baru lanjut ke blok berikutnya", "Berhenti selama 1 detik"],
     "a": 2,
-    "e": "Debugging melatih kemampuan problem-solving siswa dengan menganalisis kegagalan sistem secara logis."
+    "e": "Wait Until menunda eksekusi instruksi selanjutnya sampai syarat tertentu terpenuhi."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Tindakan intimidasi, perundungan, ejekan, atau menyebarkan gosip jahat melalui media digital (Instagram, WhatsApp, game online) disebut kejahatan...",
-    "o": ["Hacking", "Cyberbullying", "Phishing", "Carding"],
+    "c": "Algoritma Pemrograman",
+    "q": "Jika kita ingin sprite bergerak ke arah kursor mouse secara otomatis, blok yang tepat digunakan adalah...",
+    "o": ["Move 10 steps", "Point towards mouse-pointer", "Turn 15 degrees", "Go to x:0 y:0"],
     "a": 1,
-    "e": "Cyberbullying adalah pelecehan digital yang berdampak serius bagi kesehatan psikologis korbannya."
+    "e": "Point towards mengarahkan rotasi sprite menuju target tertentu (seperti mouse atau sprite lain)."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Kejahatan siber dengan cara memancing korban mengklik tautan palsu (tiruan laman login Facebook atau m-Banking) demi mencuri password korban dinamakan...",
-    "o": ["Spam", "Trolling", "Phishing (Pengelabuan)", "Adware"],
+    "c": "Algoritma Pemrograman",
+    "q": "Proses mencari dan memperbaiki kesalahan dalam sebuah kode program disebut...",
+    "o": ["Coding", "Designing", "Debugging", "Analyzing"],
     "a": 2,
-    "e": "Phishing memancing data sensitif user dengan memanipulasi tampilan halaman web semirip mungkin dengan aslinya."
+    "e": "Debugging adalah langkah krusial untuk memastikan program berjalan sesuai logika yang diinginkan."
   },
   {
     "c": "Dampak Sosial Informatika",
-    "q": "UU di Indonesia yang mengatur larangan penyebaran hoaks, penghinaan SARA, dan ancaman kekerasan di dunia maya adalah...",
-    "o": ["UU Antikorupsi", "UU Hak Asasi Manusia", "UU ITE (Informasi dan Transaksi Elektronik)", "UU Perlindungan Konsumen"],
+    "q": "UU di Indonesia yang mengatur tentang etika dan sanksi hukum bagi penyebar hoaks atau pencemaran nama baik di dunia maya adalah...",
+    "o": ["UU Hak Cipta", "UU ITE", "UU Perlindungan Anak", "UU Keterbukaan Informasi"],
+    "a": 1,
+    "e": "UU Informasi dan Transaksi Elektronik (ITE) mengatur segala aktivitas hukum di ruang digital."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan menggunakan, menyalin, atau menyebarkan karya orang lain tanpa izin dan mengklaim sebagai milik sendiri disebut...",
+    "o": ["Plagiarisme", "Cyberbullying", "Phishing", "Hacking"],
+    "a": 0,
+    "e": "Plagiarisme melanggar hak kekayaan intelektual pencipta asli."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Istilah bagi catatan atau jejak aktivitas seseorang yang tertinggal di internet dan sulit untuk dihapus sepenuhnya adalah...",
+    "o": ["Digital History", "Digital Footprint (Jejak Digital)", "Cloud Storage", "Browser Cookies"],
+    "a": 1,
+    "e": "Jejak digital mencakup postingan, komentar, hingga riwayat pencarian yang membentuk reputasi online seseorang."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jenis lisensi perangkat lunak yang kode sumbernya (source code) bebas dilihat, dimodifikasi, dan disebarkan oleh siapa saja adalah...",
+    "o": ["Proprietary Software", "Closed Source", "Open Source", "Trialware"],
     "a": 2,
-    "e": "UU ITE adalah regulasi dasar payung hukum aktivitas transaksi dan informasi elektronik di tanah air."
+    "e": "Open Source mendorong kolaborasi dan transparansi dalam pengembangan teknologi."
   },
   {
     "c": "Dampak Sosial Informatika",
-    "q": "Hak eksklusif yang diberikan negara kepada pencipta lagu, buku, atau software aplikasi atas ciptaannya disebut...",
-    "o": ["Sertifikat Hak Milik", "Hak Cipta (Copyright)", "Izin Operasional", "Lisensi Negara"],
+    "q": "Kejahatan siber yang bertujuan untuk menipu korban agar memberikan data pribadi (seperti password) melalui email atau web palsu disebut...",
+    "o": ["Spamming", "Phishing", "Trolling", "Carding"],
     "a": 1,
-    "e": "Hak Cipta melindungi pencipta software agar karyanya tidak dibajak atau diklaim orang lain."
+    "e": "Phishing berasal dari kata 'fishing' (memancing) korban masuk ke jebakan digital."
   },
   {
     "c": "Dampak Sosial Informatika",
-    "q": "Di bawah ini yang BUKAN merupakan perilaku menghargai Hak Kekayaan Intelektual (HAKI) orang lain adalah...",
-    "o": ["Membeli software resmi", "Mengunduh versi crack/bajakan ilegal dari situs bajakan", "Mencantumkan sumber sitasi saat mengambil karya orang", "Menggunakan gambar lisensi Creative Commons"],
+    "q": "Perundungan atau intimidasi yang dilakukan melalui media sosial atau platform digital lainnya dinamakan...",
+    "o": ["Cyberbullying", "Social Hacking", "Digital War", "Fake News"],
+    "a": 0,
+    "e": "Cyberbullying dapat memberikan dampak psikologis yang berat bagi korbannya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Hak eksklusif yang diberikan kepada penemu atas hasil penemuannya di bidang teknologi untuk jangka waktu tertentu disebut...",
+    "o": ["Hak Cipta", "Paten", "Merek", "Desain Industri"],
     "a": 1,
-    "e": "Menggunakan crack/pembajakan merugikan pengembang asli dan melanggar hak eksklusif pencipta."
+    "e": "Paten melindungi invensi teknis agar tidak diproduksi pihak lain tanpa izin."
   },
   {
     "c": "Dampak Sosial Informatika",
-    "q": "Jenis lisensi perangkat lunak di mana kode sumbernya (source code) dibuka untuk publik, sehingga siapa saja boleh memodifikasi dan menyebarkannya gratis disebut...",
-    "o": ["Proprietary License", "Freeware", "Open Source Software (OSS)", "Trialware"],
+    "q": "Berikut ini yang merupakan dampak positif informatika di bidang ekonomi adalah...",
+    "o": ["Meningkatnya angka kejahatan kartu kredit", "Munculnya sistem belanja online (E-commerce)", "Ketergantungan pada gadget", "Hilangnya interaksi tatap muka"],
+    "a": 1,
+    "e": "E-commerce memudahkan transaksi jual beli lintas wilayah secara efisien."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Menggunakan software bajakan (crack) termasuk pelanggaran terhadap...",
+    "o": ["Hak Asasi Manusia", "Hak Kekayaan Intelektual (HAKI)", "Hak Demokrasi", "Hak Privasi"],
+    "a": 1,
+    "e": "Pembajakan merugikan pengembang perangkat lunak secara finansial dan moral."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Media sosial seringkali menimbulkan fenomena FOMO pada remaja. Apa kepanjangan dari FOMO?",
+    "o": ["Fear Of Moving On", "Fear Of Missing Out", "Feeling Of Making Opinion", "Focus On My Own"],
+    "a": 1,
+    "e": "FOMO adalah rasa takut tertinggal informasi atau tren yang sedang berlangsung di media sosial."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Salah satu etika dalam berdiskusi di grup WhatsApp kelas adalah...",
+    "o": ["Menyebarkan gosip tentang teman", "Menggunakan bahasa yang sopan dan tidak menyinggung SARA", "Mengirim pesan di jam tidur malam", "Memaksakan pendapat pribadi"],
+    "a": 1,
+    "e": "Etika (Netiket) sangat penting untuk menjaga keharmonisan di ruang digital."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Profesi di bidang informatika yang bertugas menjaga keamanan sistem jaringan perusahaan dari serangan peretas disebut...",
+    "o": ["Data Analyst", "UI/UX Designer", "Cyber Security Specialist", "Web Developer"],
     "a": 2,
-    "e": "Lisensi Sumber Terbuka (seperti Linux, Python, Scratch) mengizinkan kolaborasi komunitas tanpa batasan komersial."
+    "e": "Spesialis keamanan siber memastikan data dan infrastruktur digital tetap aman."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Segala rekam data digital yang tertinggal saat kita beraktivitas di internet (seperti riwayat pencarian, chat, like, upload foto) disebut...",
-    "o": ["Browser History", "Jejak Digital (Digital Footprint)", "Trash Bin", "Cloud Computing"],
+    "c": "Literasi Digital",
+    "q": "Kemampuan individu untuk menemukan, mengevaluasi, dan mengomunikasikan informasi melalui berbagai platform digital secara bijak disebut...",
+    "o": ["Literasi Baca", "Literasi Digital", "Literasi Finansial", "Literasi Sains"],
     "a": 1,
-    "e": "Jejak digital bersifat abadi dan sulit dihapus sepenuhnya dari database internet sehingga wajib dikelola dengan bijak."
+    "e": "Literasi digital adalah kecakapan dasar untuk hidup dan bekerja di era teknologi informasi."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Sistem pengamanan ganda saat login, di mana setelah memasukkan password sistem meminta kode OTP via SMS/Aplikasi Pengautentikasi dinamakan...",
-    "o": ["Antivirus Scan", "Firewall Protection", "Two-Factor Authentication (2FA)", "Single Sign On"],
+    "c": "Literasi Digital",
+    "q": "Langkah pertama yang harus dilakukan saat menerima berita yang terkesan provokatif atau mengejutkan di internet adalah...",
+    "o": ["Langsung membagikannya ke grup keluarga", "Mengabaikannya saja", "Melakukan verifikasi/cek fakta (fact-check) dari sumber terpercaya", "Memberikan komentar marah"],
     "a": 2,
-    "e": "2FA menjamin akun tetap aman meski password utama berhasil ditebak oleh peretas."
+    "e": "Verifikasi penting untuk mencegah penyebaran berita bohong (hoaks)."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Bagaimana kriteria kata sandi (password) yang SANGAT KUAT menurut standar keamanan siber modern?",
-    "o": ["Hanya angka 123456", "Nama panggilan sendiri", "Kombinasi minimal 8-12 karakter berisi huruf kapital, huruf kecil, angka, dan simbol unik (!,@,#)", "Nama sekolah favorit"],
+    "c": "Literasi Digital",
+    "q": "Manakah kriteria kata sandi (password) yang paling aman dan sulit ditebak?",
+    "o": ["Tanggal lahir sendiri", "Nama hewan peliharaan", "Kombinasi huruf besar, kecil, angka, dan simbol unik", "Urutan angka 123456"],
     "a": 2,
-    "e": "Kompleksitas karakter menyulitkan metode tebakan program komputer hacker (Brute Force attack)."
+    "e": "Semakin kompleks variasi karakter, semakin kuat keamanan akun tersebut."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Jenis virus komputer jahat yang mengunci/mengenkripsi seluruh file di komputer korban dan meminta uang tebusan agar file bisa dibuka dinamakan...",
-    "o": ["Trojan Horse", "Ransomware", "Spyware", "Logic Bomb"],
+    "c": "Literasi Digital",
+    "q": "Sistem pengamanan akun yang meminta kode OTP tambahan setelah memasukkan password disebut...",
+    "o": ["One Step Login", "Two-Factor Authentication (2FA)", "Auto Login", "Data Encryption"],
     "a": 1,
-    "e": "Ransomware menyandera file dengan kunci enkripsi kuat demi memeras uang tebusan korban."
+    "e": "2FA memberikan lapisan keamanan ganda untuk melindungi akun dari akses ilegal."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Etika sopan santun berkomunikasi digital yang tepat ketika mengirim pesan WhatsApp atau Email formal kepada bapak/ibu guru adalah...",
-    "o": ["Langsung menuliskan keperluan tanpa salam pembuka", "Menyapa dengan sopan, mengucapkan salam, menyebutkan identitas nama/kelas yang jelas, dan menggunakan bahasa baku", "Menggunakan singkatan alay yang gaul", "Mengirim pesan di tengah malam buta pukul 02.00 WIB"],
+    "c": "Literasi Digital",
+    "q": "Jika Anda ingin menggunakan gambar dari internet untuk tugas sekolah tanpa melanggar hak cipta, jenis lisensi yang sebaiknya dicari adalah...",
+    "o": ["All Rights Reserved", "Creative Commons (CC)", "Private License", "Commercial License"],
     "a": 1,
-    "e": "Tata krama digital (Netiquette) mencerminkan integritas karakter seseorang di dunia maya."
+    "e": "Creative Commons mengizinkan penggunaan karya secara gratis dengan syarat tertentu (seperti atribusi)."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Kemampuan individu untuk secara bijak menemukan, mengevaluasi, memanfaatkan, dan membagikan informasi melalui media digital disebut...",
-    "o": ["Literasi Baca", "Literasi Digital", "Kompetensi Teknis", "Keahlian Programing"],
-    "a": 1,
-    "e": "Literasi digital adalah kecakapan komprehensif mencakup keamanan, etika, budaya, dan keterampilan digital."
-  },
-  {
-    "c": "Dampak Sosial Informatika",
-    "q": "Dampak buruk dari kecanduan media sosial akibat dorongan FOMO (Fear Of Missing Out) pada remaja adalah...",
-    "o": ["Kesehatan fisik makin bugar", "Nilai akademik merosot, insomnia, dan kecemasan sosial di kehidupan nyata", "Menjadi anak terpintar di kelas", "Koneksi internet makin cepat"],
-    "a": 1,
-    "e": "Kecanduan layar (Screen Addiction) merusak kualitas tidur dan mengganggu fokus utama aktivitas belajar."
-  },
-  {
-    "c": "Dampak Sosial Informatika",
-    "q": "Langkah pertolongan pertama saat teman Anda menjadi korban pemerasan atau penyebaran foto pribadi oleh orang tak dikenal di internet adalah...",
-    "o": ["Ikut menertawakan", "Mengabaikan masalah tersebut", "Menyimpan tangkapan layar bukti ancaman dan melaporkannya ke orang tua/guru BK/pihak berwajib", "Memberikan password kita"],
+    "c": "Literasi Digital",
+    "q": "Ciri utama dari sebuah berita hoaks biasanya adalah...",
+    "o": ["Menggunakan bahasa yang baku dan formal", "Mencantumkan narasumber yang jelas dan ahli", "Judul yang bombastis/sensasional dan meminta untuk segera disebarkan", "Dipublikasikan oleh media massa resmi"],
     "a": 2,
-    "e": "Dokumentasi bukti penting untuk pengaduan hukum. Melaporkan pada orang dewasa/otoritas adalah langkah penyelamatan krusial."
+    "e": "Hoaks sering menggunakan umpan klik (clickbait) untuk menarik perhatian emosional pembaca."
   },
   {
-    "c": "Dampak Sosial Informatika",
-    "q": "Program perangkat lunak gratis untuk melindungi sistem komputer dari ancaman perusakan oleh perangkat lunak jahat/malicious dinamakan...",
-    "o": ["Spreadsheet", "Web Browser", "Antivirus", "Word Processor"],
+    "c": "Literasi Digital",
+    "q": "Etika yang benar saat mengirim email formal kepada guru adalah...",
+    "o": ["Tidak menuliskan subjek email", "Menggunakan bahasa gaul atau singkatan alay", "Menuliskan subjek, salam pembuka, identitas diri, isi yang jelas, dan salam penutup", "Mengirim email tanpa teks isi (hanya lampiran)"],
     "a": 2,
-    "e": "Antivirus aktif mendeteksi, menangkal, dan membersihkan virus, worm, dan trojan dari sistem penyimpanan komputer."
+    "e": "Email formal mencerminkan profesionalisme dan rasa hormat pengirimnya."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Platform yang memungkinkan beberapa orang mengerjakan satu dokumen secara bersamaan dari tempat berbeda disebut alat...",
+    "o": ["Offline Storage", "Cloud Collaboration", "Social Networking", "Video Streaming"],
+    "a": 1,
+    "e": "Alat kolaborasi cloud (seperti Google Docs) memudahkan kerja kelompok secara daring."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Mengatur profil media sosial menjadi 'Private' bertujuan untuk...",
+    "o": ["Mendapatkan lebih banyak follower", "Menjaga privasi agar data hanya dilihat oleh orang yang disetujui", "Mempercepat koneksi internet", "Menghapus iklan"],
+    "a": 1,
+    "e": "Pengaturan privasi adalah langkah dasar perlindungan data pribadi di media sosial."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Saat mencari informasi di Google, penggunaan tanda kutip pada kata kunci (misal: \"Informatika Kelas 8\") berfungsi untuk...",
+    "o": ["Mencari kata yang mirip", "Menghapus hasil pencarian", "Mencari frase kata yang persis sama dan berurutan", "Membuka situs secara otomatis"],
+    "a": 2,
+    "e": "Tanda kutip mempersempit hasil pencarian agar lebih akurat sesuai urutan kata."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Tindakan melaporkan konten negatif (seperti ujaran kebencian atau pornografi) di platform media sosial disebut fitur...",
+    "o": ["Like", "Share", "Report / Flag", "Block"],
+    "a": 2,
+    "e": "Fitur Report membantu menjaga lingkungan digital tetap sehat dan aman bagi semua orang."
+  },
+  {
+    "c": "Literasi Digital",
+    "q": "Apa yang sebaiknya Anda lakukan jika melihat teman Anda menyebarkan foto pribadi orang lain tanpa izin di grup kelas?",
+    "o": ["Ikut menyebarkannya agar viral", "Menertawakannya bersama-sama", "Menegur dengan sopan dan menyarankan untuk menghapusnya demi hukum ITE", "Keluar dari grup tanpa bicara"],
+    "a": 2,
+    "e": "Menjadi warga digital yang bertanggung jawab berarti berani bertindak benar jika ada pelanggaran etika/hukum."
   }
 ]
