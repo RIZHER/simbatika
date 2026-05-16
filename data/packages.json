@@ -80,16 +80,6 @@
     "description": "Latihan Pengayaan SMP Kelas 9 menguji pemahaman Rumus Spreadsheet Lanjut (IF, VLOOKUP, COUNTIF), Pemrograman Lanjut Scratch (Clone, Custom Block), UU ITE, dan Kolaborasi Digital."
   },
   {
-    "id": "smp-08-uas-sem1-2026-pkt1",
-    "title": "Simulasi ASAS Semester Ganjil - Paket 1",
-    "level": "SMP",
-    "class": "8 SMP",
-    "subject": "Informatika",
-    "file": "data/smp_08_uas_sem1_2026_pkt1.json",
-    "questionCount": 50,
-    "description": "Latihan Asesmen Sumatif Akhir Semester Ganjil Kelas 8 mencakup Berpikir Komputasional, TIK, SK, dan Jaringan Komputer."
-  },
-  {
     "id": "smp-08-uas-sem2-2026-pkt1",
     "title": "Simulasi ASAS Semester Genap - Paket 1",
     "level": "SMP",
