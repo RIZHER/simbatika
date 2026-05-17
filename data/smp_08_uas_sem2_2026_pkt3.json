@@ -1,0 +1,1302 @@
+[
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Seorang staf tata usaha menggunakan rumus <code>=VLOOKUP(A2; DataSiswa!A2:F100; 4; FALSE)</code> untuk mencari alamat siswa berdasarkan NIS. Namun, beberapa hasil menampilkan error <code>#N/A</code>, padahal NIS tersebut secara kasat mata ada di tabel referensi. Apa penyebab berlabel HOTS paling logis yang harus dianalisis pertama kali?",
+    "o": [
+      "Tabel referensi DataSiswa!A2:F100 belum diurutkan secara alfabetis (A-Z).",
+      "Terdapat perbedaan tipe data, misalnya di A2 berformat teks, sedangkan di tabel referensi berformat angka, atau terdapat spasi tersembunyi (trailing spaces).",
+      "Parameter FALSE harus diganti dengan TRUE agar Excel mencari nilai yang paling mendekati.",
+      "Kolom alamat berada di urutan ke-5, bukan ke-4.",
+      "Kapasitas baris Excel tidak mampu membaca data hingga baris ke-100."
+    ],
+    "a": 1,
+    "e": "Error #N/A dengan parameter FALSE (Exact Match) sering kali disebabkan oleh ketidakcocokan tipe data absolut. Excel menganggap angka 1001 berbeda dengan teks '1001', atau teks '1001 ' (ada spasi) berbeda dengan '1001'. Hal ini membutuhkan pembersihan data (Data Cleansing) terlebih dahulu menggunakan fitur TRIM atau Text to Columns."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Guru ingin memberikan predikat nilai. Jika nilai 0-69 = C, 70-84 = B, dan 85-100 = A. Tabel referensi (Kriteria) ada di sel G2:H4 dengan nilai terendah diurutkan ke atas. Rumus VLOOKUP mana yang paling tepat untuk diterapkan di sel B2 (sel berisi nilai siswa)?",
+    "o": [
+      "=VLOOKUP(B2, $G$2:$H$4, 2, FALSE)",
+      "=VLOOKUP(B2, $G$2:$H$4, 2, TRUE)",
+      "=VLOOKUP($G$2:$H$4, B2, 2, FALSE)",
+      "=VLOOKUP(B2, $G$2:$H$4, 1, TRUE)",
+      "=VLOOKUP(B2, $G$2:$H$4, 3, FALSE)"
+    ],
+    "a": 1,
+    "e": "Untuk pencarian rentang/interval data (seperti range nilai), parameter [range_lookup] harus bernilai TRUE (Approximate Match) atau angka 1. Excel akan mengevaluasi angka dan berhenti di nilai terbesar yang lebih kecil atau sama dengan nilai yang dicari. Tabel acuan WAJIB diurutkan (ascending)."
+  },
+  {
+    "c": "Pencarian Data (Hlookup)",
+    "q": "Tabel bonus karyawan disusun secara horizontal (Baris 1 = Masa Kerja, Baris 2 = Persentase Bonus). Untuk mencari bonus karyawan yang bermasa kerja 3 tahun di sel A5, Anda menggunakan <code>=HLOOKUP(A5; $B$1:$F$2; 2; FALSE)</code>. Jika ditarik ke bawah (Copy Formula), mengapa acuan <code>$B$1:$F$2</code> harus dikunci menggunakan lambang Dollar ($)?",
+    "o": [
+      "Agar rentang data berubah secara dinamis mengikuti baris yang dituju.",
+      "Karena HLOOKUP hanya bisa membaca data jika ada lambang Dollar.",
+      "Untuk mengunci (Absolute Reference) posisi tabel referensi agar tidak bergeser (turun) ketika rumus disalin ke sel di bawahnya.",
+      "Agar format angka otomatis berubah menjadi format mata uang/persentase.",
+      "Karena data disusun secara horizontal, maka hanya barisnya saja yang dikunci."
+    ],
+    "a": 2,
+    "e": "Penguncian (Absolute Reference) menggunakan tombol F4 atau lambang $ sangat esensial saat menyalin rumus (copy/drag down). Jika tidak dikunci, rentang referensi akan ikut bergeser (misal menjadi B2:F3, B3:F4) sehingga data akan gagal ditemukan (#N/A)."
+  },
+  {
+    "c": "Pencarian Data (Hlookup)",
+    "q": "Sebuah sistem menolak rumus <code>=HLOOKUP(\"Jakarta\"; A1:D5; 6; FALSE)</code> dengan memunculkan error <code>#REF!</code>. Kesalahan analisis apa yang dilakukan pembuat rumus?",
+    "o": [
+      "Kata \"Jakarta\" tidak ditemukan di baris pertama.",
+      "Rumus tidak dikunci dengan tanda Dollar ($).",
+      "Parameter baris indeks (row_index_num) yang dimasukkan adalah 6, padahal rentang tabel (A1:D5) hanya memiliki 5 baris.",
+      "HLOOKUP tidak mendukung pencarian berupa teks String (huruf).",
+      "Tabel belum diubah susunannya menjadi VLOOKUP."
+    ],
+    "a": 2,
+    "e": "Error #REF! (Reference) pada fungsi pencarian terjadi ketika indeks kolom atau baris yang diminta melebihi dimensi tabel referensi (range). Meminta data di baris ke-6 dari tabel yang hanya berukuran 5 baris adalah hal yang mustahil (invalid reference)."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Anda bertugas merekap pengeluaran sekolah. Pada kolom A (Kategori) terdapat teks spesifik seperti 'ATK Guru', 'ATK Murid', 'Listrik', dll. Kolom B berisi nominal rupiah. Bagaimana rumus SUMIF untuk menjumlahkan semua pengeluaran yang HANYA berkaitan dengan 'ATK' secara keseluruhan?",
+    "o": [
+      "=SUMIF(A:A; \"ATK\"; B:B)",
+      "=SUMIF(A:A; \"*ATK*\"; B:B)",
+      "=SUMIF(A:A; \"=ATK\"; B:B)",
+      "=SUMIF(B:B; \"ATK\"; A:A)",
+      "=SUMIFS(A:A; \"ATK\"; B:B)"
+    ],
+    "a": 1,
+    "e": "Untuk kriteria teks sebagian (partial match) tingkat menengah/HOTS, kita wajib menggunakan karakter Wildcard yaitu Asterisk (*). Asterisk (*) mewakili karakter apa saja sebelum dan sesudah kata 'ATK', sehingga 'ATK Guru' maupun 'Pembelian ATK' akan ikut terjumlahkan."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Data inventaris lab komputer tercatat di Excel. Kolom C berisi kondisi (Baik, Rusak, Sedang), dan Kolom D berisi jumlah unit. Jika Anda mengetik <code>=SUMIF(C2:C100; \"<>Rusak\"; D2:D100)</code>, logika apa yang sedang dijalankan program?",
+    "o": [
+      "Menjumlahkan unit yang kondisinya Rusak.",
+      "Mencari selisih pengurangan antara barang Baik dan Rusak.",
+      "Menjumlahkan unit barang selain yang berkondisi 'Rusak' (berarti menjumlahkan barang 'Baik' dan 'Sedang').",
+      "Menampilkan error karena penggunaan operator tidak valid pada fungsi teks.",
+      "Menghitung jumlah sel yang mengandung kata 'Rusak'."
+    ],
+    "a": 2,
+    "e": "Dalam sintaks kriteria Excel, operator `<>` berarti 'Tidak Sama Dengan' (Not Equal To). Oleh karena itu, rumus tersebut akan melakukan penjumlahan pada rentang D selama nilai di kolom C bukan 'Rusak'."
+  },
+  {
+    "c": "Pencarian Data (Countif)",
+    "q": "Seorang guru ingin menghitung jumlah siswa yang memperoleh nilai di atas rata-rata kelas. Jika nilai rata-rata kelas dihitung dan tersimpan di sel <code>Z1</code>, dan daftar nilai siswa ada di <code>A2:A40</code>, bagaimana kombinasi penulisan <code>COUNTIF</code> yang tepat?",
+    "o": [
+      "=COUNTIF(A2:A40; >Z1)",
+      "=COUNTIF(A2:A40; \">Z1\")",
+      "=COUNTIF(A2:A40; \">\"&Z1)",
+      "=COUNTIF(A2:A40; Z1>A)",
+      "=COUNTIF(A2:A40; \">\"+Z1)"
+    ],
+    "a": 2,
+    "e": "Penulisan kriteria dinamis yang merujuk pada referensi sel lain (seperti Z1) harus memisahkan operator perbandingan (dalam tanda kutip) dan mengikatnya (concatenate) dengan alamat sel menggunakan simbol ampersand (&). Sintaks yang benar: `\">\"&Z1`."
+  },
+  {
+    "c": "Pencarian Data (Index & Match)",
+    "q": "Kombinasi INDEX dan MATCH adalah solusi arsitektural (C4) untuk mengatasi kelemahan utama VLOOKUP. Kelemahan absolut dari VLOOKUP yang terpecahkan oleh INDEX-MATCH adalah...",
+    "o": [
+      "VLOOKUP hanya bisa mengambil data (return value) yang posisinya berada di sebelah KANAN dari kolom pencarian, sedangkan INDEX-MATCH bisa mengambil data di KIRI.",
+      "VLOOKUP tidak dapat membaca file yang berbeda, INDEX-MATCH bisa.",
+      "VLOOKUP dibatasi hanya 255 karakter, INDEX-MATCH tidak terbatas.",
+      "VLOOKUP sangat memperlambat komputer, INDEX-MATCH tidak memakan RAM.",
+      "VLOOKUP tidak membutuhkan pengurutan data, MATCH wajib."
+    ],
+    "a": 0,
+    "e": "VLOOKUP (Vertical Lookup) mencari nilai (lookup value) secara kaku, yaitu HANYA pada kolom paling kiri dari tabel array, dan mengembalikan baris di kanannya (Right-sided return). Kombinasi INDEX (mengambil nilai berdasarkan koordinat array) dan MATCH (mencari nomor urut posisi) memecah kekakuan ini sehingga pencarian 360 derajat (Left Lookup) bisa dilakukan."
+  },
+  {
+    "c": "Pencarian Data (Match)",
+    "q": "Fungsi <code>=MATCH(85; B2:B10; -1)</code> menghasilkan nilai, tetapi mengharuskan data disusun secara descending (Z-A atau besar ke kecil). Apa arti dari tipe parameter (match_type) bernilai <code>-1</code> pada logika pencarian tersebut?",
+    "o": [
+      "Mencari nilai yang sama persis (Exact Match).",
+      "Mencari nilai numerik terkecil yang lebih besar atau sama dengan nilai pencarian.",
+      "Mencari nilai terbesar yang lebih kecil atau sama dengan nilai pencarian.",
+      "Melakukan pencarian dari bawah (baris B10) naik ke atas (baris B2).",
+      "Mencari nilai yang mengandung unsur angka negatif."
+    ],
+    "a": 1,
+    "e": "Pada fungsi MATCH, tipe -1 (Greater than) berfungsi untuk menemukan nilai terkecil yang ukurannya lebih besar atau sama dengan lookup_value. Namun syarat mutlaknya: data pada *lookup_array* harus diurutkan secara menurun (Descending)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Seorang siswa merancang permainan labirin (maze). Karakter utamanya menggunakan loop <code>forever</code> yang berisi pengecekan sensor dinding: <code>if touching color [hitam] then say [Ouch] for 2 seconds</code>. Siswa bingung mengapa karakter tersebut tidak bisa digerakkan (lagging/stuck) saat menyentuh dinding. Apa masalah komputasional pada blok tersebut?",
+    "o": [
+      "Warna hitam bukan standar yang dikenali oleh engine Scratch.",
+      "Loop forever tidak kompatibel dengan blok sensor (sensing).",
+      "Blok 'say ... for 2 seconds' menghentikan (menjeda) seluruh eksekusi script pada sprite tersebut selama durasi waktu yang diminta, sehingga input pergerakan ikut terhenti.",
+      "Karakter perlu di-hide dan di-show kembali agar sensor di-reset.",
+      "CPU komputer kepanasan akibat loop forever."
+    ],
+    "a": 2,
+    "e": "Blok dengan tipe eksekusi 'for [x] seconds' atau 'wait' di dalam Scratch memiliki sifat menunda/mem-blok script (*blocking code*) di tumpukan yang sama. Jika pergerakan karakter diatur dalam loop yang sama, saat menyentuh hitam script akan 'berhenti' 2 detik, sehingga karakter tidak merespons input kontrol (*stuck*)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Mekanika (mechanics) penting dalam membuat game Platformer di Scratch adalah 'Gravitasi'. Konsep logika fisika gravitasi yang paling masuk akal (C4) untuk diterapkan pada koordinat y (sumbu vertikal) adalah...",
+    "o": [
+      "Set Y to -10 secara terus menerus, tanpa mengubah variabel.",
+      "Ubah variabel [kecepatan_y] sebesar -1 setiap frame, dan ubah posisi Y karakter berdasarkan nilai [kecepatan_y] tersebut (change y by kecepatan_y).",
+      "Menggunakan efek 'Glide' ke bawah.",
+      "Mengurangi koordinat X secara eksponensial.",
+      "Menggunakan blok 'Move 10 steps' diarahkan ke bawah."
+    ],
+    "a": 1,
+    "e": "Gravitasi dalam dunia nyata adalah percepatan (acceleration). Kecepatan jatuh objek semakin lama akan semakin cepat. Menerapkan perubahan pada variabel 'kecepatan_y' lalu menerapkannya pada 'change Y', mensimulasikan hukum gerak fisika jauh lebih realistis (akselerasi) daripada pengurangan statis."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Pada proyek Scratch berskala besar, terdapat pilihan saat membuat Variabel: 'For all sprites' (Global) atau 'For this sprite only' (Local). Kapan Anda MUTLAK harus menggunakan 'For this sprite only'?",
+    "o": [
+      "Saat membuat variabel Skor pemain untuk ditampilkan ke layar.",
+      "Saat membuat variabel Timer (Waktu Tersisa) yang berlaku untuk keseluruhan permainan.",
+      "Saat membuat sistem peluru kloning (Clones) di mana setiap peluru individu memiliki nilai darah/kecepatannya masing-masing.",
+      "Saat menyimpan nama pengguna (*username*) agar bisa dibaca sprite lain.",
+      "Saat membuat variabel agar sprite bisa disembunyikan (Hide)."
+    ],
+    "a": 2,
+    "e": "Variabel Lokal (For this sprite only) sangat krusial dalam konsep *Object-Oriented Programming* pada *Cloning*. Jika variabel disetel Global, maka perubahan yang dilakukan 1 kloning akan menimpa kloning lain. Dengan Lokal, setiap 'clone' memiliki salinan variabel memori pribadinya sendiri (instansiasi terpisah)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Anda menggunakan blok Event <code>broadcast [pesan] and wait</code> dibandingkan <code>broadcast [pesan]</code> biasa. Apa perbedaan arsitektural dari kedua blok tersebut saat di-compile?",
+    "o": [
+      "Broadcast biasa hanya bisa dikirim sekali, Broadcast and Wait bisa berkali-kali.",
+      "Broadcast and Wait akan mempause (*blocking*) script pengirim hingga seluruh sprite penerima pesan selesai menjalankan tumpukan script-nya.",
+      "Broadcast and Wait memaksa pemain menunggu selama 1 detik.",
+      "Broadcast biasa tidak bisa menembus backdrop, yang lain bisa.",
+      "Broadcast and Wait hanya digunakan untuk komunikasi ke database."
+    ],
+    "a": 1,
+    "e": "Blok `broadcast` bersifat asinkron (mengirim pesan dan langsung lanjut ke baris kode di bawahnya tanpa peduli penerima). Sedangkan `broadcast and wait` bersifat sinkron: program pengirim akan membeku (pause) dan menunggu semua sprite yang memiliki trigger `when I receive` menyelesaikan tugas mereka sebelum melanjutkan script pengirim."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dalam menganalisis jejak digital (digital footprint) C4, ada istilah jejak aktif dan pasif. Manakah skenario di bawah ini yang paling berisiko tinggi jika ditinjau dari jejak digital AKTIF (Active Digital Footprint)?",
+    "o": [
+      "Server merekam IP address Anda saat membaca portal berita.",
+      "Cookie pelacakan (tracking cookie) merekam produk yang Anda lihat di E-Commerce.",
+      "Seorang remaja memposting komentar provokatif bernada SARA dan ancaman dengan akun media sosial pribadinya pada unggahan tokoh publik.",
+      "Algoritma media sosial memantau durasi Anda menonton video.",
+      "Layanan Maps merekam pergerakan GPS smartphone tanpa sepengetahuan detail Anda."
+    ],
+    "a": 2,
+    "e": "Jejak digital aktif adalah data yang Anda tinggalkan DENGAN SENGAJA saat berinteraksi di internet (memposting, berkomentar, membagikan). Komentar bernada SARA dan ancaman (Cyberbullying) memiliki implikasi hukum (UU ITE) dan dapat menghancurkan masa depan akademis/karir secara nyata karena terekam permanen."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Serangan 'Phishing' adalah salah satu kejahatan rekayasa sosial (Social Engineering). Teknik analisis apa yang harus dilakukan siswa untuk mengenali tautan Phishing dalam sebuah email yang mengaku dari 'Bank Indonesia'?",
+    "o": [
+      "Mengecek apakah email tersebut ada logo bank resmi di bagian lampirannya.",
+      "Melihat apakah subjek email ditulis dengan huruf kapital penting (URGENT!).",
+      "Melakukan inspeksi/hover (menahan kursor) pada tautan URL untuk memastikan nama domainnya sesuai dengan alamat resmi instansi (misal go.id atau co.id), bukan domain gratisan (.xyz / .site) atau URL dipendekkan (bit.ly).",
+      "Langsung membalas email tersebut dengan data diri untuk memverifikasi apakah CS-nya aktif.",
+      "Memastikan email tidak masuk ke folder SPAM."
+    ],
+    "a": 2,
+    "e": "Ciri khas phishing bukan pada desain visual atau logo (karena logo sangat mudah dicuri dan dipalsukan), melainkan pada URL tujuan. Praktik literasi keamanan digital tertinggi (HOTS) adalah tidak mengklik langsung, melainkan memeriksa domain aktual dari *hyperlink* tersebut."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Fenomena 'Echo Chamber' (Ruang Gema) atau 'Filter Bubble' di media sosial merupakan dampak algoritma kecerdasan buatan (AI) yang memicu perpecahan polarisasi sosial. Algoritma ini bekerja dengan cara...",
+    "o": [
+      "Membatasi durasi waktu penggunaan aplikasi bagi anak di bawah umur secara acak.",
+      "Mendeteksi ucapan kebencian dan secara otomatis menghapus akun yang bersangkutan.",
+      "Menyajikan rekomendasi konten yang hanya sesuai dengan preferensi, riwayat klik, dan pandangan politik pengguna, sehingga menyembunyikan perspektif yang berseberangan.",
+      "Membaca pikiran pengguna melalui kamera smartphone tanpa izin.",
+      "Mengiklankan produk secara terus menerus (Spam) tanpa peduli selera pengguna."
+    ],
+    "a": 2,
+    "e": "Filter bubble adalah isolasi intelektual. Algoritma *Machine Learning* media sosial didesain untuk mempertahankan perhatian (*engagement*). Caranya adalah memberikan asupan informasi yang memvalidasi (menyetujui) apa yang sudah dipercayai pengguna dan menyaring keluar informasi yang bertolak belakang, membuat masyarakat kehilangan pandangan objektif."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "UU ITE di Indonesia sering menjerat pengguna internet pada pasal pencemaran nama baik. Berdasarkan literasi digital (Etika), apa langkah preventif yang paling tepat sebelum menyebarluaskan sebuah informasi keluhan pribadi terhadap suatu produk di platform umum?",
+    "o": [
+      "Membuat akun samaran (anonim) agar identitas tidak bisa dilacak oleh polisi cyber.",
+      "Menggunakan kata-kata kasar (umpatan) agar cepat viral dan direspons perusahaan.",
+      "Menyelesaikan masalah secara kekeluargaan terlebih dahulu melalui kanal pengaduan konsumen/Customer Service resmi milik perusahaan sebelum menuliskannya di ruang publik internet.",
+      "Membayar buzzer untuk menyerang akun media sosial perusahaan tersebut.",
+      "Menyertakan foto KTP dan alamat rumah sendiri di dalam postingan agar dipercaya netizen."
+    ],
+    "a": 2,
+    "e": "Sikap bijak dan literasi hukum ITE menuntut agar konflik diselesaikan melalui jalur privat/resmi (Customer Care/Yayasan Perlindungan Konsumen) terlebih dahulu. Memposting keluhan secara impulsif berpotensi menjadi bumerang tuduhan *cyber-defamation* (pencemaran nama baik)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Sebuah sistem permainan memiliki 3 variabel: Darah Musuh (100), Kekuatan Serang Pemain (20), dan Pertahanan Musuh (5). Algoritma menghitung Damage (Luka) = Kekuatan Serang - Pertahanan. Berapa blok pengulangan (loop) Serangan yang diperlukan agar Musuh hancur (Darah <= 0)?",
+    "o": [
+      "4 kali perulangan.",
+      "5 kali perulangan.",
+      "6 kali perulangan.",
+      "7 kali perulangan.",
+      "20 kali perulangan."
+    ],
+    "a": 3,
+    "e": "Damage sekali serang = 20 - 5 = 15 point. Darah Musuh = 100. Untuk menghancurkan musuh, 100 / 15 = 6,66. Karena program dieksekusi secara diskrit (bulat tiap serangan), 6 kali serangan hanya mengurangi 90 (Sisa 10 Darah). Dibutuhkan serangan ke-7 agar darah habis menjadi minus/nol."
+  },
+  {
+    "c": "Pencarian Data (Index & Match)",
+    "q": "Rumus bersarang (Nested Function) <code>=INDEX(B2:D10; MATCH(G2; A2:A10; 0); MATCH(H2; B1:D1; 0))</code> digunakan dalam pelaporan akuntansi tingkat lanjut. Berdasarkan pola sintaks tersebut, kemampuan analitis apa yang sedang dilakukan (C4)?",
+    "o": [
+      "Melakukan perhitungan persentase diskon dari dua tabel yang berbeda.",
+      "Mencari nilai pada titik temu (persimpangan matriks 2D), yaitu pencarian data secara baris vertikal sekaligus mencocokkan judul kolom horizontal secara dinamis.",
+      "Menghapus data ganda (duplicates) pada kolom B dan D.",
+      "Merangkum tabel pivot secara otomatis menggunakan makro.",
+      "Menggabungkan teks nama depan (G2) dan nama belakang (H2)."
+    ],
+    "a": 1,
+    "e": "Sintaks INDEX(array, row_num, column_num). Di rumus tersebut, MATCH pertama menghasilkan posisi Baris (berdasarkan kriteria vertikal di kolom A). MATCH kedua menghasilkan posisi Kolom (berdasarkan judul/header horisontal di B1:D1). Ini adalah teknik 2-Way (Matrix) Lookup."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Lisensi *Creative Commons* (CC) membantu pembuat konten berbagi karya mereka. Jika Anda mengunduh musik yang memiliki lambang lisensi 'CC BY-NC-ND', tindakan mana yang melanggar hukum hak cipta tersebut?",
+    "o": [
+      "Mengunduh musik tersebut dan mendengarkannya sendiri di HP.",
+      "Membagikan lagu tersebut secara gratis kepada teman sekelas.",
+      "Menggunakan musik tersebut sebagai latar presentasi sekolah (non-komersial) tanpa mengubah lagunya, dan menyebutkan nama penyanyinya.",
+      "Memotong bagian reff lagu tersebut, melakukan remix (remastering), dan menjadikannya musik latar (backsound) konten YouTube Anda yang dimonetisasi (menghasilkan uang).",
+      "Menyimpan file lagu tersebut ke flashdisk."
+    ],
+    "a": 3,
+    "e": "Analisis Lisensi: BY = Wajib menyebutkan pencipta (Attribution); NC = Non-Commercial (Tidak boleh untuk cari uang); ND = No Derivatives (Tidak boleh di-remix/dipotong/dimodifikasi). Memotong lagu dan memonetisasinya melanggar kode NC dan ND sekaligus."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Seorang guru mencoba mencari data siswa menggunakan VLOOKUP dengan kata kunci huruf kecil 'budi', namun di database tertulis 'BUDI'. Excel berhasil menemukan data tersebut tanpa error. Dari kejadian ini, analisis karakteristik VLOOKUP yang paling tepat adalah...",
+    "o": [
+      "Excel memiliki fitur AI yang mendeteksi kesalahan pengetikan.",
+      "Fungsi VLOOKUP secara default bersifat Case-Insensitive, artinya ia tidak membedakan antara huruf kapital dan huruf kecil pada teks acuan.",
+      "Parameter FALSE yang digunakan mencegah sistem membedakan huruf kapital.",
+      "VLOOKUP otomatis mengubah semua teks menjadi huruf besar.",
+      "Data di Excel secara bawaan tidak peka terhadap angka."
+    ],
+    "a": 1,
+    "e": "Fungsi VLOOKUP (dan sebagian besar fungsi pencarian bawaan Excel) bersifat Case-Insensitive (tidak peka huruf kapital). 'Budi', 'budi', dan 'BUDI' dianggap sebagai satu nilai identik. Jika guru ingin mencari yang peka kapital (Case-Sensitive), ia harus mengombinasikannya dengan fungsi EXACT()."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Anda ingin menggunakan VLOOKUP untuk mencari harga barang yang namanya diawali dengan kata 'Samsung' (misal: Samsung A54, Samsung S23). Penulisan formula <code>lookup_value</code> yang paling efisien agar pencarian parsial (sebagian teks) ini berhasil adalah...",
+    "o": [
+      "=VLOOKUP(\"Samsung\"; Data!A1:D50; 2; FALSE)",
+      "=VLOOKUP(\"Samsung*\"; Data!A1:D50; 2; FALSE)",
+      "=VLOOKUP(*Samsung*; Data!A1:D50; 2; FALSE)",
+      "=VLOOKUP(\"Samsung\" + \"*\"; Data!A1:D50; 2; FALSE)",
+      "=VLOOKUP(\"&Samsung&\"; Data!A1:D50; 2; FALSE)"
+    ],
+    "a": 1,
+    "e": "Karakter wildcard asterisk (*) dapat disisipkan langsung di dalam string teks pencarian VLOOKUP. Asterisk di akhir kata (\"Samsung*\") mewakili 'kata yang berawalan Samsung diikuti oleh huruf bebas apa pun di belakangnya'."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "VLOOKUP memiliki kelemahan bawaan yaitu tidak bisa mencari berdasarkan 2 kriteria bersamaan (misal: mencari 'Baju' dan ukuran 'M'). Jika Anda DILARANG menggunakan kombinasi rumus rumit (seperti INDEX-MATCH), teknik manipulasi (C4) apa yang paling efektif memaksa VLOOKUP menyeleksi 2 kriteria?",
+    "o": [
+      "Menggunakan dua rumus VLOOKUP di satu sel dan ditambahkan dengan operator +.",
+      "Membuat 'Helper Column' (Kolom Bantuan) di tabel referensi yang menggabungkan teks dari dua kolom kriteria (misal: =A2&B2) sehingga tercipta satu kode unik baru (misal 'BajuM') untuk dijadikan acuan.",
+      "Mengganti parameter FALSE menjadi parameter TRUE pada argumen terakhir.",
+      "Mengubah tipe data sel menjadi format teks khusus.",
+      "Menekan tombol CTRL+SHIFT+ENTER saat mengeksekusi rumus VLOOKUP."
+    ],
+    "a": 1,
+    "e": "Helper Column (Kolom Bantuan) adalah metode arsitektural (database hacking) paling klasik. Dengan menggabungkan (Concatenate) kriteria menjadi satu identifier unik baru, VLOOKUP bisa kembali berjalan normal karena ia hanya membutuhkan satu 'lookup_value' tunggal."
+  },
+  {
+    "c": "Pencarian Data (Hlookup)",
+    "q": "Tabel pengiriman barang berbentuk horizontal memiliki baris 'Jarak (KM)' dengan nilai berurutan (0, 10, 50, 100) dan baris 'Biaya'. Jika pengguna memasukkan jarak '25 KM', HLOOKUP dengan argumen akhir FALSE akan menghasilkan error <code>#N/A</code>. Apa perubahan argumen yang tepat agar HLOOKUP mengambil biaya dari jarak '10' secara matematis?",
+    "o": [
+      "Mengubah urutan baris 'Biaya' ke atas.",
+      "Mengganti nilai 25 menjadi string teks.",
+      "Mengganti parameter FALSE (Exact Match) pada argumen range_lookup menjadi TRUE (Approximate Match).",
+      "Menggunakan fungsi VLOOKUP.",
+      "Menghapus kolom 50 dan 100 dari tabel acuan."
+    ],
+    "a": 2,
+    "e": "Parameter Approximate Match (TRUE) digunakan untuk pencarian berbasis interval (tier/range). Excel akan mengevaluasi angka dan berhenti di nilai interval terbesar yang ukurannya lebih kecil (atau sama dengan) angka yang dicari."
+  },
+  {
+    "c": "Pencarian Data (Hlookup)",
+    "q": "Siswa A menggunakan rumus <code>=HLOOKUP(B1; Sheet2!A1:Z5; 3; FALSE)</code>. Jika besoknya seseorang menyisipkan (Insert) satu baris kosong baru tepat di antara baris ke-2 dan ke-3 pada Sheet2, apa yang terjadi pada hasil tarikan data Siswa A?",
+    "o": [
+      "Rumus otomatis mengubah angka argumennya dari 3 menjadi 4.",
+      "Rumus akan menghasilkan error #REF! karena tabel rusak.",
+      "Rumus akan menghasilkan error #NAME?.",
+      "Rumus tetap mencari data pada baris ke-3 (yang kini bergeser menjadi baris kosong), membuat data yang dimunculkan bernilai 0 (salah sasaran).",
+      "Rumus akan mengabaikan baris kosong dan tetap mencari ke bawah."
+    ],
+    "a": 3,
+    "e": "Berbeda dengan sel referensi standar (A1:Z5) yang dinamis mengikuti pergeseran (insert/delete), argumen 'row_index_num' pada rumus HLOOKUP adalah angka keras (Hardcoded) yaitu 3. Saat data bergeser ke baris 4, HLOOKUP tetap keras kepala mengambil data di baris ke-3."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Terdapat data Tanggal Penjualan di Kolom A dan Total Omset di Kolom B. Rumus SUMIF manakah yang tepat jika Anda ingin menjumlahkan seluruh omset HANYA untuk transaksi yang terjadi SETELAH tanggal 15 Januari 2026?",
+    "o": [
+      "=SUMIF(A:A; >\"15/01/2026\"; B:B)",
+      "=SUMIF(A:A; \">15/01/2026\"; B:B)",
+      "=SUMIF(A:A; >15/01/2026; B:B)",
+      "=SUMIF(B:B; \">15/01/2026\"; A:A)",
+      "=SUMIFS(A:A; B:B; \">15/01/2026\")"
+    ],
+    "a": 1,
+    "e": "Dalam fungsi keluarga IF (SUMIF/COUNTIF), kriteria yang memadukan operator perbandingan logika (seperti > atau <) dengan teks atau tanggal wajib diletakkan secara menyeluruh di dalam tanda kutip ganda (\")."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Pada formula <code>=SUMIF(A2:A50; \"?apel\"; B2:B50)</code>, penggunaan tanda tanya (?) berfungsi sebagai wildcard khusus. Apa makna spesifik dari frasa string pencarian \"?apel\" tersebut?",
+    "o": [
+      "Mencari kalimat yang diakhiri dengan tanda tanya, misalnya 'apel?'.",
+      "Mencari kata yang menggantikan SATU karakter alfabet bebas apapun sebelum kata 'apel'. (Misal 'kapel' akan terhitung, namun teks 'buah apel' tidak terhitung).",
+      "Menjumlahkan seluruh data yang bernilai error (#N/A).",
+      "Mencari semua teks yang panjang karakternya ganjil.",
+      "Menanyakan kepada user apakah kolom tersebut kosong."
+    ],
+    "a": 1,
+    "e": "Wildcard tanda tanya (?) pada Microsoft Excel secara spesifik menginstruksikan sistem untuk mewakili HANYA SATU karakter tunggal di posisi tersebut, tidak kurang dan tidak lebih."
+  },
+  {
+    "c": "Pencarian Data (Countif)",
+    "q": "Anda bertugas mengidentifikasi indikasi kecurangan dengan mencari nama peserta ganda/duplikat pada Kolom A. Rumus format bersyarat (Conditional Formatting) mana yang secara logis tepat mendeteksi sel A2 sebagai entri duplikat dari sel lain di kolom yang sama?",
+    "o": [
+      "=COUNT(A:A) > 1",
+      "=COUNTIF($A:$A; A2) = 1",
+      "=COUNTIF($A:$A; A2) > 1",
+      "=SUMIF(A:A; A2; A:A) > 1",
+      "=VLOOKUP(A2; A:A; 1; FALSE)"
+    ],
+    "a": 2,
+    "e": "Fungsi COUNTIF menghitung frekuensi kemunculan sebuah data (A2) di seluruh rentang ($A:$A). Jika data tersebut adalah unik, maka hasilnya pasti 1. Jika hasilnya lebih dari 1 (>1), dapat disimpulkan mutlak bahwa data tersebut duplikat."
+  },
+  {
+    "c": "Pencarian Data (Index & Match)",
+    "q": "Formula matriks <code>=INDEX(B2:B10; MATCH(MAX(C2:C10); C2:C10; 0))</code> terlihat rumit, namun memiliki alur logika yang kokoh. Jika dianalisis secara *Step-by-Step* (C4), tujuan operasional dari rumus tersebut adalah...",
+    "o": [
+      "Menjumlahkan nilai maksimal dari rentang B2:B10.",
+      "Menghasilkan error sirkular karena MAX tidak kompatibel dengan MATCH.",
+      "Mengambil atau menampilkan nilai di kolom B milik data yang memiliki skor tertinggi (nilai maksimal) di kolom C.",
+      "Mencari selisih sel tertinggi antara kolom B dan C.",
+      "Mengurutkan tabel secara Descending (besar ke kecil) otomatis."
+    ],
+    "a": 2,
+    "e": "1) MAX menemukan angka tertinggi di kolom C. 2) MATCH mencari di baris ke berapa angka tertinggi tersebut berada. 3) INDEX mengambil data pada posisi baris yang sama persis namun menyeberang dan mengambil isinya dari Kolom B."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Siswa membuat game dengan efek di mana musuh terus-menerus membelah diri menjadi banyak menggunakan blok 'create clone of myself' tiap 0,5 detik. Namun pada detik ke-150 (300 clone terbentuk), game mendadak berhenti melipatgandakan musuh. Penjelasan sistem teknis mengapa hal ini terjadi adalah...",
+    "o": [
+      "Terdapat kesalahan pada variabel loop.",
+      "Platform Scratch memiliki mekanisme pertahanan batasan hard-limit (sekitar 300 clones pada saat yang sama) untuk melindungi browser pengguna dari crash (hang) akibat kehabisan memori RAM.",
+      "Layar Scratch berukuran kecil, jadi objek ditolak masuk.",
+      "Koneksi internet terputus saat program sedang dimuat.",
+      "Siswa lupa menekan Bendera Hijau."
+    ],
+    "a": 1,
+    "e": "Setiap *clone* memakan resource memori peramban (browser). Untuk menghindari memory-leak (browser freeze), developer MIT Scratch membatasinya. Solusi pemrograman terbaik adalah membuat Garbage Collector dengan memberikan blok 'delete this clone' jika objek sudah keluar batas layar."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Di Scratch, saat kita membuat balok kustomisasi mandiri (My Blocks), terdapat opsi centang (checkbox) bernama 'Run without screen refresh'. Dalam struktur algoritma logika tinggi (C4), situasi apa yang sangat mewajibkan kita mencentang opsi ini?",
+    "o": [
+      "Saat sprite menari secara mulus pelan-pelan.",
+      "Saat mengeksekusi perhitungan fisika rumit (seperti menggambar ratusan pola dengan pen block) agar dilakukan dalam 1 siklus memori instan secara bersamaan, menghilangkan jeda *lag* layar visual.",
+      "Saat ingin memainkan musik latar yang diulang-ulang.",
+      "Saat ingin membuat game Multiplayer.",
+      "Saat menggunakan kamera (Video Sensing)."
+    ],
+    "a": 1,
+    "e": "Secara normal, Scratch memberikan 'jeda micro' setiap blok di dalam Loop tereksekusi agar layar (Stage) sempat merender frame gambar (refresh screen). Fitur ini memaksa Scratch me-bypass jeda grafis tersebut, menahan gambar, mengeksekusi script matematis dengan kecepatan maksimum, dan menampilkannya seketika."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Dalam merancang game genre 'Top-Down Shooter', musuh (Zombie) harus secara dinamis bergerak ke arah Pemain (Sprite). Algoritma penginderaan jarak (Sensing Algorithm) bawaan apa yang paling hemat baris kode untuk diimplementasikan?",
+    "o": [
+      "Menggunakan teorema Phytagoras panjang sumbu x dan y.",
+      "Memakai loop forever -> set x to (x of Player).",
+      "Memakai blok loop forever -> 'point towards [Player]' dilanjutkan dengan blok gerak maju 'move [5] steps'.",
+      "Memakai blok efek visual 'glide [1] secs to [Player]'.",
+      "Memanfaatkan broadcast message berulang-ulang."
+    ],
+    "a": 2,
+    "e": "Fitur 'Point Towards' otomatis menghitung sudut trigonometri target dan merotasi karakter. Setelah merotasi, blok gerak 'Move steps' akan mendorong sprite pada sumbu lokal tersebut (maju lurus sesuai arah wajah). Ini adalah AI termudah dan teringan di Scratch."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Anda mendapati tumpukan blok kondisi logika gabungan berikut: <code>if &lt;not &lt;touching color [hitam]&gt;&gt; then ...</code>. Pahami alurnya. Pada kondisi seperti apa komputer akan mengeksekusi baris kode di DALAM IF tersebut?",
+    "o": [
+      "Hanya ketika karakter tidak sengaja menyentuh warna biru.",
+      "Ketika karakter saat itu sedang bersentuhan dengan objek warna hitam.",
+      "Terus menerus, selama sistem mendeteksi karakter tersebut saat ini TIDAK SEDANG bersentuhan (menghindar) dengan warna hitam.",
+      "Hanya saat tombol Spasi tidak ditekan pengguna.",
+      "Hanya saat awal permainan di inisialisasi."
+    ],
+    "a": 2,
+    "e": "Operator NOT adalah negasi mutlak boolean logika (True menjadi False, False menjadi True). Blok ini mensyaratkan status bersentuhan warna hitam harus bernilai False. Oleh karena itu program hanya berjalan jika pemain berada di zona aman (tidak menyentuh rintangan hitam)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Sprite Koin tersentuh dan bertambah 10 poin. Algoritma siswa tertulis: <code>forever { if touching [Hero] then change [Score] by 10 }</code>. Saat dites, setiap kali menabrak, skor langsung bertambah drastis 400 poin hingga 600 poin dalam sedetik. Evaluasi mengapa *bug* (kesalahan) komputasi ini terjadi?",
+    "o": [
+      "Terjadi kerusakan (Glitch) di server browser Scratch.",
+      "Tipe data yang digunakan oleh skor (Score) adalah Float (desimal pecahan).",
+      "Karakter Hero memiliki resolusi grafis terlalu tinggi sehingga skor nge-lag.",
+      "Loop 'Forever' terus membaca memori puluhan kali/detik. Karena tidak dipisah oleh jeda (wait) / perintah sembunyi (hide) / menghilang, posisi kedua sprite tertindih terus dan menambah poin 30x lipat per detik.",
+      "Blok event bendera hijau digunakan dua kali."
+    ],
+    "a": 3,
+    "e": "Konsep dasar game engine: Frame Rate. Karena sistem merender layar 30 hingga 60 Frame per Second, proses tabrakan yang memakan waktu 0.5 detik nyata di layar akan dideteksi oleh komputer sebagai 15 kali kejadian tabrakan berulang. Dibutuhkan jeda blok `wait until <not <touching...>>`."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Simbol bangun datar 'Belah Ketupat' (Diamond) dalam diagram alir perancangan pemrograman (*Flowchart*) secara universal melambangkan proses komputasi yang berkaitan dengan...",
+    "o": [
+      "Permulaan dan Pengakhiran sebuah *Syntax* program.",
+      "Deklarasi variabel Statis memori sistem.",
+      "Input data dari peramban dan Output ke layar monitor pengguna.",
+      "Percabangan keputusan kondisional (Decision/Branching) yang secara alamiah bercabang menuju jalur Ya (True) atau jalur Tidak (False).",
+      "Penyimpanan aset grafis ke dalam sistem basis data."
+    ],
+    "a": 3,
+    "e": "Di dalam kaidah *Flowcharting* algoritma internasional, simbol belah ketupat adalah satu-satunya entitas yang memiliki lebih dari 1 garis keluar (alur output). Simbol ini identik dengan blok fungsi IF-ELSE di dalam sintaks bahasa pemrograman."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Perangkat lunak tersembunyi yang tertanam diam-diam di sistem pengguna untuk mengunci (enkripsi) dokumen dan memblokir akses ke OS komputer hingga pengguna menukarkan mata uang Kripto untuk membayar sandi pembuka, dikenal spesifik sebagai...",
+    "o": [
+      "Trojan Horse",
+      "Malware - Ransomware",
+      "Spyware / Adware",
+      "Firmware Hardware",
+      "DDoS (Distributed Denial of Service)"
+    ],
+    "a": 1,
+    "e": "Ransomware berasal dari kata 'Ransom' (Tebusan) dan 'Software'. Đây adalah ancaman keamanan tingkat paling merusak di era korporasi modern karena berakibat pada pemerasan finansial permanen serta kelumpuhan aktivitas birokrasi."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Di platform perbankan dan e-mail digital, sering digunakan sistem di mana selain *password*, Anda memerlukan 6 digit kode (OTP) acak yang dikirim lewat SMS atau Authenticator. Lapisan arsitektur pertahanan ini dinamakan...",
+    "o": [
+      "Enkripsi Sistem Biometrik (Bypass).",
+      "Firewall Cloud Protection.",
+      "Two-Factor Authentication (2FA) / Autentikasi Dua Faktor.",
+      "Sertifikat SSL Domain Validasi.",
+      "Defacing Antivirus."
+    ],
+    "a": 2,
+    "e": "Autentikasi Dua Faktor mengharuskan verifikasi lewat dua hal (What you know dan What you have). Password adalah sesuatu yang diketahui (bisa dicuri di internet), sedangan HP atau token OTP adalah sesuatu fisik yang dimiliki dan dibawa pengguna, sehingga memperkecil risiko."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kejahatan pengumpulan identitas sensitif individu secara spesifik (alamat rumah lengkap, NIK, foto anak) dan sengaja dipublikasikan ke forum terbuka guna memancing persekusi, intimidasi, hingga bahaya fisik nyata, dikategorikan secara hukum sebagai praktik pelanggaran...",
+    "o": [
+      "Phishing",
+      "Doxing (Doxxing)",
+      "Carding Ekonomi",
+      "Cyberbullying taraf ringan",
+      "Catfishing (Pemalsuan Profil)"
+    ],
+    "a": 1,
+    "e": "Doxing bermula dari slang internet 'dropping dox / documents'. Berbeda dengan pencemaran nama baik, doxing tidak menyebarkan kebohongan, melainkan merampas hak privasi eksklusif data faktual individu sebagai senjata penghancuran keamanan hidup seseorang di dunia maya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jejak Digital diidentifikasi dalam dua bentuk. Jika Anda mencari buku spesifik di toko online (*marketplace*), dan keesokan harinya iklan buku tersebut mengikuti halaman sosial media Anda, Anda sedang dilacak melalui mekanisme...",
+    "o": [
+      "Jejak Digital Aktif berupa Komentar Ulasan",
+      "Jejak Digital Pasif yang terekam diam-diam lewat Cookie Pelacakan (Tracking Cookies) di latar belakang peramban internet.",
+      "Jejak Digital Sosial lewat *Like/Share*.",
+      "Sistem peramban terkena infeksi Virus Trojan ganas.",
+      "Fitur mikrofon di peranti pengguna yang disadap *marketplace*."
+    ],
+    "a": 1,
+    "e": "Cookie pihak ketiga (Third-party Cookies) merupakan program pelacak mikroskopis yang berfungsi merekam *Jejak Digital Pasif* dari preferensi atau interaksi pengguna di lintas-situs. Tujuannya adalah merangkum profil demi penargetan periklanan agresif (*Targeted Advertising*)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Siswa A membaca teks materi opini di sebuah blog personal. Kemudian untuk menyelesaikan makalah, ia menyalin mentah-mentah dua paragraf tersebut dan mengakui ke dalam *bibliography* bahwa itu hasil pikirannya sendiri. Dalam kode etik Informatika, aksi ini adalah tindakan merugikan berupa...",
+    "o": [
+      "Plagiarisme Intelektual (Penjiplakan Karya).",
+      "Cracking Sandi Algoritma Akademis.",
+      "Penetrasi Bypass Dokumen Publik.",
+      "Seni Kolase *Fair Use* Terbuka.",
+      "Defacement Laman Karya Tulis."
+    ],
+    "a": 0,
+    "e": "Setiap teks ide atau tulisan di ranah daring melekat hak cipta moral (moral rights) pembuatnya. Penjiplakan tanpa menyertakan Sitasi/Kutipan/Sourced Link merupakan kejahatan kekayaan intelektual (Plagiarisme) dengan ancaman pembatalan nilai dan sanksi akademis."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sebuah insiden (Studi Kasus C4) di mana *database* perusahaan medis kebobolan, ribuan data pasien dijual ke *Dark Web*. Manajemen perusahaan mengklaim sistem *firewall* terupdate mereka diretas teknologi canggih. Namun, investigasi independen membeberkan admin mereka terkena jebakan tautan surel bodong (Social Engineering). Apa kesimpulan kritis dari insiden di atas?",
+    "o": [
+      "Serangan teknologi masa depan mustahil dihalau, tidak ada keamanan berarti.",
+      "Kerentanan keamanan suatu infrastruktur paling fatal selalu bersumber pada kelemahan 'Rantai Manusia' (Human Error) melalui penipuan taktis, bukan kelemahan mesin.",
+      "Pemerintah kurang cepat menerbitkan regulasi pajak peramban anti virus.",
+      "Semua e-mail memiliki kerentanan server asal perusahaan pos surel.",
+      "Kabel server telah tersabotase akibat sambaran kilat saat pengiriman data sandi."
+    ],
+    "a": 1,
+    "e": "Prinsip utama *Cybersecurity*: 'The human factor is truly the weakest link' (Manusia adalah rantai terlemah). Metode *Social Engineering/Phishing* menargetkan sisi kelemahan psikologis manusiawi (rasa takut, terburu-buru, penasaran) dan mem-*bypass* seluruh pertahanan keamanan jutaan dollar dalam satu kali 'klik' bodoh tanpa disengaja."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Pemerintah melarang platform e-commerce menyatukan data pembelian toko dengan data algoritma jejaring sosial untuk mencegah monopoli algoritma. Secara dampak sosial informatika, apa risiko yang membahayakan kesejahteraan wirausaha UMKM dari penyatuan database ini (C4)?",
+    "o": [
+      "Meningkatkan volume ruang memori perangkat dan menghambat loading data UMKM lokal yang kuotanya sedikit.",
+      "Timbulnya 'Algoritma Monopoli Eksploitatif' - raksasa e-commerce dapat mencaplok seluruh pangsa pasar dengan mengiklankan produk mereka sendiri secara terus menerus ke pengguna tepat sebelum pembeli sempat melirik produk pesaing/UMKM.",
+      "Para pembeli berisiko lebih sering menggunakan transaksi uang kartal tunai dibandingkan dompet virtual online.",
+      "Penjualan barang impor via aplikasi pihak ketiga akan berkurang pesat menyejahterakan negara.",
+      "Fitur obrolan pesan pendek penjual kepada pembeli ditiadakan, yang menyusahkan konfirmasi."
+    ],
+    "a": 1,
+    "e": "Dominasi data silang (Cross-data utilization) tanpa batas memberi kuasa absolut terhadap satu entitas kapital besar. Pemegang algoritma sosial dapat menciptakan *predatory pricing* di atas lapak toko wirausaha kecil di platform yang sama. Regulasi tata tertib algoritma digital berperan sebagai sistem anti-monopoli (Antitrust)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Pada aplikasi pengolah kata, ada fitur hak kekayaan intelektual perangkat lunak (Lisensi Software). Manakah antara label di bawah ini yang membebaskan siapapun membedah dan memodifikasi struktur kode pemrograman aslinya (*Source Code*)?",
+    "o": [
+      "Freeware Komersial",
+      "Open-Source Software (Perangkat Lunak Sumber Terbuka).",
+      "Proprietary Software Berbayar.",
+      "Shareware / Trial Ware Demo.",
+      "Malware Adware Terenkripsi."
+    ],
+    "a": 1,
+    "e": "Open-Source (seperti OS Linux) adalah lisensi progresif komputasi kerumunan, di mana sang pembuat melepaskan kode mentahnya ke publik. Hal ini mendorong kolaborasi massa programmer dunia untuk bahu-membahu menambal *bug*, meningkatkan efisiensi, dan melahirkan inovasi turunannya secara tak terbatas (Forking)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jika diamati dari persfektif UU Informasi dan Transaksi Elektronik (UU ITE), mengapa mendistribusikan gambar sensitif dan tidak pantas di grup percakapan tertutup (seperti Grup WA) tetap dianggap kejahatan siber (Cybercrime), padahal grup itu privat?",
+    "o": [
+      "Karena tidak ada administrator hukum terpusat di dalam grup percakapan privat tersebut.",
+      "Karena rekam jejak grup dapat disalin bebas. Ruang 'grup digital', meski disetel privat, merupakan medium transmisi ganda. Begitu diunggah, materi itu disebarkan dan dapat disaksikan (diunduh) lebih dari 1 orang perangkat berbeda, memenuhi kualifikasi pidana 'mentransmisikan' di ruang siber.",
+      "Karena server aplikasi berada di yurisdiksi luar negeri sehingga tidak bisa dituntut di dalam negeri.",
+      "Karena tidak ada perlindungan paten terhadap resolusi materi gambar yang dikirim.",
+      "Karena mengganggu keharmonisan obrolan keluarga atau kantor pada jam sibuk."
+    ],
+    "a": 1,
+    "e": "Dalam interpretasi hukum kejahatan siber Indonesia, mentransmisikan dan mendistribusikan berkas bermuatan melanggar norma kesusilaan, tidak mengenal sekat privat dan ruang riil tertutup, sebab esensi siber itu sendirilah adalah duplikasi, penyebaran (*broadcasting*), dan rekaman abadi pelayan (*server-side footprint*)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Kombinasi algoritma logika tingkat lanjut untuk mensimulasikan hukum Gravitasi Nyata (Akselerasi percepatan) yang paling responsif dan efisien digunakan dalam game jenis Scratch *Platformer* adalah...",
+    "o": [
+      "Mengurangi ordinat Sumbu Y secara terus-menerus dan teratur dengan angka yang sama besar di setiap siklus (loop).",
+      "Menggunakan satu variabel mandiri misal 'Kecepatan Sumbu Y'. Berikan nilai pengurangan berangsur-angsur (-1) pada variabel di tiap putarannya, kemudian aplikasikan nilai desimal berakumulasi tersebut menjadi pendorong ke blok parameter 'Change Y By...'.",
+      "Menekan tombol *Move Steps* menghadap ke arah bawah secara membabi buta.",
+      "Mengonfigurasi blok peluncur efek visual 'Glide' agar menyesuaikan kursor gerak pemain (*Mouse Pointer*).",
+      "Mengeset X menjadi bilangan minus agar objek condong miring ke tepi bawah kanvas panggung."
+    ],
+    "a": 1,
+    "e": "Tarikan gaya berat di muka bumi merepresentasikan akselerasi/percepatan (fisika kuantum mekanika dasar). Apabila perancang gim hanya mengurangi Y sejumlah (angka statis -5), objek akan terjun lambat konstan tak alami layaknya di angkasa. Modulasi Variabel Velocity memberikan sensasi kecepatan jatuh yang semakin berlipat dan memperkuat visualisasi massa dan daya fisika objek."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Dalam menganalisis data, apa perbedaan mendasar antara fungsi SUMIF dan SUMIFS?",
+    "o": [
+      "SUMIF untuk teks, SUMIFS untuk angka.",
+      "SUMIF menjumlahkan dengan 1 kriteria, SUMIFS dapat mengevaluasi 2 kriteria atau lebih.",
+      "SUMIF digunakan beda sheet, SUMIFS dalam satu sheet.",
+      "SUMIFS tidak membutuhkan argumen range yang dijumlahkan.",
+      "Tidak ada perbedaan, hanya versi rilisnya saja."
+    ],
+    "a": 1,
+    "e": "Keluarga fungsi dengan akhiran 'S' (SUMIFS, COUNTIFS, AVERAGEIFS) dirancang khusus untuk Multi-Criteria (lebih dari 1 syarat kondisi)."
+  },
+  {
+    "c": "Pencarian Data (Countif)",
+    "q": "Rumus =COUNTIF(A1:A50; \"<>*batal*\") bermaksud untuk menghitung...",
+    "o": [
+      "Semua sel yang berisi teks 'batal'.",
+      "Sel yang diawali kata batal.",
+      "Seluruh transaksi yang tidak mengandung kata 'batal' di dalamnya.",
+      "Sel kosong.",
+      "Sel yang error nilainya."
+    ],
+    "a": 2,
+    "e": "Operator <> berarti 'tidak sama dengan', dan wildcard asterisk (*) mengapit 'batal' berarti kata tersebut bisa di posisi mana saja. Ini mengecualikan semua entri yang batal."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Jika kita menggabungkan =IFERROR(VLOOKUP(...); \"Tidak Terdaftar\"), apa fungsi dari IFERROR tersebut?",
+    "o": [
+      "Memperbaiki otomatis ejaan kata yang salah.",
+      "Mengganti error bawaan Excel (seperti #N/A) menjadi teks peringatan yang ramah bagi pengguna.",
+      "Menghapus baris yang datanya kosong.",
+      "Mencegah file Excel terkena virus.",
+      "Menjadikan VLOOKUP mencari data ke arah kiri."
+    ],
+    "a": 1,
+    "e": "IFERROR menangkap segala jenis error matematika/pencarian dan menggantinya dengan nilai alternatif (seperti teks khusus atau angka 0) agar tabel tetap terlihat rapi."
+  },
+  {
+    "c": "Pencarian Data (Index)",
+    "q": "Fungsi tunggal =INDEX(A2:C10; 3; 2) akan mengembalikan (menghasilkan) nilai dari sel mana secara spesifik?",
+    "o": [
+      "Sel A2",
+      "Sel C3",
+      "Sel B4",
+      "Sel C2",
+      "Sel B10"
+    ],
+    "a": 2,
+    "e": "INDEX menghitung dari rentang array. A2:C10. Baris ke-3 dari rentang ini adalah baris ke-4 di Excel. Kolom ke-2 dari rentang ini adalah kolom B. Maka bertemulah koordinat di sel B4."
+  },
+  {
+    "c": "Pencarian Data (Hlookup)",
+    "q": "Sebuah data tersusun: Baris 1: Kode_Pos, Baris 2: Kota, Baris 3: Provinsi. Untuk mencari 'Provinsi' menggunakan HLOOKUP, indeks baris berapakah yang digunakan?",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "a": 2,
+    "e": "Indeks baris dihitung mulai dari baris pertama pada rentang tabel referensi yang kita blok. Karena Provinsi ada di baris ke-3 dari rentang tersebut, indeksnya adalah 3."
+  },
+  {
+    "c": "Pencarian Data (Match)",
+    "q": "Apa hasil keluaran (output) dari fungsi MATCH yang membedakannya dengan fungsi LOOKUP?",
+    "o": [
+      "MATCH menghasilkan teks data yang dicari, LOOKUP menghasilkan baris.",
+      "MATCH menghasilkan angka numerik yang menunjukkan urutan posisi item, bukan nilai itemnya itu sendiri.",
+      "MATCH selalu memberikan hasil TRUE atau FALSE.",
+      "MATCH hanya membaca tabel berbentuk vertikal.",
+      "MATCH menghitung jumlah data ganda."
+    ],
+    "a": 1,
+    "e": "MATCH difokuskan untuk pencarian koordinat (posisi baris atau posisi kolom) dalam wujud angka integer. Itulah mengapa ia sering digabungkan dengan INDEX yang membutuhkan input angka baris."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Rumus =SUMIF(D2:D20; \">=\"&TODAY(); E2:E20) memiliki fungsi arsitektural untuk...",
+    "o": [
+      "Menghitung jumlah hari dari tanggal hari ini.",
+      "Menjumlahkan nominal di kolom E hanya untuk transaksi yang tanggalnya (Kolom D) terjadi pada hari ini atau di masa depan.",
+      "Menampilkan pesan error kalender.",
+      "Mengurangi saldo pada tanggal tertentu.",
+      "Memeriksa apakah format D2:D20 adalah tanggal yang sah."
+    ],
+    "a": 1,
+    "e": "Fungsi TODAY() mengambil tanggal hari ini dari sistem komputer. Rumus ini dinamis menjumlahkan data yang lebih besar atau sama dengan (mendatang/hari ini) setiap kali file dibuka."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Saat memakai VLOOKUP untuk mencari NIM mahasiswa antar-file Excel yang berbeda, jika file referensinya ditutup/close, apa yang terjadi?",
+    "o": [
+      "Data menjadi error #REF!",
+      "Data berubah menjadi nol (0).",
+      "Tampilan Excel akan crash/hang.",
+      "Rumus tetap menampilkan hasil terakhir karena Excel menyimpan cache file eksternal (full path), kecuali di-refresh.",
+      "Rumus otomatis terhapus."
+    ],
+    "a": 3,
+    "e": "Excel mengingat nilai eksternal (absolute path). Hasil tetap ada di sel asalkan pengguna tidak menekan 'Update Links' saat membuka dokumen ketika file sumber sedang tidak ada/tertutup."
+  },
+  {
+    "c": "Pencarian Data (Index & Match)",
+    "q": "Sintaks =INDEX(C:C; MATCH(A2; D:D; 0)) menginstruksikan Excel untuk...",
+    "o": [
+      "Mencari nilai A2 di kolom C, lalu menampilkan kolom D.",
+      "Mencari nilai A2 di kolom D, lalu menarik nilai sebaris yang berada di kolom C (Left Lookup).",
+      "Menjumlahkan kolom C dan D.",
+      "Mencari nilai maksimum dari kedua kolom.",
+      "Menghapus duplikasi pada baris yang sama."
+    ],
+    "a": 1,
+    "e": "Ini adalah formula standar Left Lookup. MATCH mencari posisi baris di kolom D. INDEX menggunakan angka baris tersebut untuk memanggil data yang selevel di kolom C."
+  },
+  {
+    "c": "Pencarian Data (Countif)",
+    "q": "Rumus =COUNTIFS(A:A; \"Laki-laki\"; B:B; \">80\") berfungsi untuk...",
+    "o": [
+      "Mencari jumlah nilai siswa laki-laki.",
+      "Menjumlahkan total poin nilai 80.",
+      "Menghitung berapa BANYAK siswa Laki-laki yang nilainya di atas 80.",
+      "Mencari laki-laki dengan nilai tertinggi.",
+      "Mengubah data nilai 80 menjadi teks Laki-laki."
+    ],
+    "a": 2,
+    "e": "COUNTIFS menghitung banyaknya data (frekuensi kemunculan baris) yang memenuhi SEMUA syarat kondisional secara bersamaan di berbagai rentang kolom."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Jika kita ingin variabel 'Health' (Darah) dapat terbaca dan diubah nilainya oleh semua rintangan musuh di stage, tipe variabel apa yang harus dibuat?",
+    "o": [
+      "For this sprite only (Local)",
+      "For all sprites (Global)",
+      "Cloud variable",
+      "List array",
+      "My Blocks"
+    ],
+    "a": 1,
+    "e": "Variabel Global (For all sprites) memungkinkan data tersebut diakses, dimodifikasi, dan dievaluasi lintas karakter/sprite di seluruh proyek program."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Apa fungsi matematis dari blok 'x position' dan 'y position' yang membulat (oval) berwarna biru?",
+    "o": [
+      "Mengeset koordinat secara manual.",
+      "Menggerakkan sprite 10 langkah.",
+      "Mengambil (get) nilai koordinat posisi karakter saat ini untuk dievaluasi oleh rumus lain.",
+      "Membuat sprite berputar.",
+      "Menyembunyikan sprite dari layar."
+    ],
+    "a": 2,
+    "e": "Blok berbentuk oval/membulat di Scratch bertindak sebagai 'Reporter' (pengambil nilai). Blok ini menyimpan angka posisi riil objek dan dapat dimasukkan ke blok operator untuk hitungan matematis."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Dalam logika bersyarat, =IF (score > 100) AND (timer < 60) THEN WIN. Pemain memiliki skor 150 dan waktu sudah 65 detik. Apakah pemain menang?",
+    "o": [
+      "Menang, karena skor sudah cukup.",
+      "Kalah, karena waktu sudah melebihi batas (kondisi AND mewajibkan KEDUANYA bernilai Benar/True).",
+      "Game akan error.",
+      "Game tidak mengeksekusi apapun.",
+      "Pemain mendapat tambahan waktu otomatis."
+    ],
+    "a": 1,
+    "e": "Gerbang logika AND (Dan) bersifat ketat. Seluruh input kondisinya wajib terpenuhi (True). Jika salah satu saja False (waktu 65 bukan kurang dari 60), maka hasil akhirnya False."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Blok 'point in direction 90' artinya...",
+    "o": [
+      "Menggerakkan ke atas 90 langkah.",
+      "Menghadap ke arah Kanan (Timur).",
+      "Menghadap ke arah Bawah (Selatan).",
+      "Berputar 90 kali secara terus menerus.",
+      "Bersembunyi 90 persen."
+    ],
+    "a": 1,
+    "e": "Sistem kompas derajat di Scratch: 0 adalah Atas, 90 adalah Kanan, 180 adalah Bawah, dan -90 adalah Kiri."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Apa yang terjadi jika Anda memasang blok 'pen down' di atas loop 'forever' yang berisi 'move 10 steps' dan 'turn 15 degrees'?",
+    "o": [
+      "Karakter akan menghapus gambar lama.",
+      "Karakter akan menggambar sebuah lingkaran hitam secara terus-menerus.",
+      "Karakter berhenti bergerak.",
+      "Warna latar belakang akan berubah.",
+      "Tinta pulpen digital akan habis."
+    ],
+    "a": 1,
+    "e": "Fitur Pen Extension meninggalkan jejak tinta pada koordinat yang dilewati sprite. Maju dan berputar secara berulang-ulang akan membentuk poligon atau lingkaran."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Untuk memastikan program/game selalu dimulai dalam keadaan bersih dan rapi setiap kali Bendera Hijau ditekan, kita harus melakukan tahap...",
+    "o": [
+      "Debugging",
+      "Kompilasi (Compiling)",
+      "Inisialisasi awal (menyetel variabel ke 0, posisi karakter ke kordinat awal, dsb).",
+      "Infinite Looping",
+      "Cloning memory"
+    ],
+    "a": 2,
+    "e": "Inisialisasi (Initialization) adalah proses memberi nilai awal variabel dan posisi (reset status) agar sistem tidak meneruskan skor atau posisi akhir dari permainan sebelumnya."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Fungsi operator matematis '(50) mod (10)' akan menghasilkan nilai angka...",
+    "o": [
+      "5",
+      "40",
+      "60",
+      "0",
+      "500"
+    ],
+    "a": 3,
+    "e": "MOD (Modulo) mencari Sisa Hasil Bagi. 50 dibagi 10 sama dengan 5, tanpa sisa sepeserpun. Maka modulo-nya adalah 0. Modulo sangat berguna untuk mendeteksi angka ganjil/genap."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Blok interaksi =ask [Siapa namamu?] and wait= pada Scratch akan otomatis memunculkan kotak input ketikan. Jawaban yang diketik user akan disimpan sementara di...",
+    "o": [
+      "Variabel Global",
+      "Clipboard komputer",
+      "Blok reporter khusus berwarna biru muda bernama 'answer'.",
+      "Database eksternal",
+      "Blok pen"
+    ],
+    "a": 2,
+    "e": "Setiap input dari pengguna menggunakan perintah Ask selalu bermuara ke blok memori internal bawaan bernama 'answer', yang nilainya selalu tertimpa pertanyaan baru."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Anda ingin karakter merespons saat menyentuh tepi layar. Blok sensor apa yang langsung menangani kondisi ini?",
+    "o": [
+      "Touching (mouse-pointer)",
+      "Touching (edge)",
+      "Distance to (edge)",
+      "Key (space) pressed",
+      "Color (black) is touching (white)"
+    ],
+    "a": 1,
+    "e": "Scratch memiliki built-in sensing 'touching (edge)' untuk mempermudah perhitungan collision (tabrakan) layar dibanding menghitung koordinat x>240 secara manual."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Blok =join (apple) (banana)= merupakan contoh manipulasi string (teks). Apa hasilnya di layar?",
+    "o": [
+      "apple banana",
+      "applebanana",
+      "banana apple",
+      "apple, banana",
+      "apple+banana"
+    ],
+    "a": 1,
+    "e": "Fungsi Join menggabungkan dua string tanpa jeda kecuali kita memasukkan spasi secara manual pada akhir teks pertama atau awal teks kedua."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Dalam merancang kecerdasan buatan musuh (AI) sederhana, guru menyarankan blok 'pick random 1 to 10'. Konsep ilmu komputer apa ini?",
+    "o": [
+      "Sequential processing",
+      "RNG (Random Number Generation) untuk elemen ketidakpastian (Unpredictability).",
+      "Cloud computation",
+      "Binary search",
+      "Machine learning"
+    ],
+    "a": 1,
+    "e": "RNG krusial di dunia game untuk menciptakan pola gerakan musuh yang acak agar tidak membosankan dan terlalu mudah ditebak."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Bagaimana cara mendeteksi apakah pemain menggunakan perangkat sentuh (Touchscreen/Smartphone) di web Scratch?",
+    "o": [
+      "Menggunakan kamera web.",
+      "Blok logika: IF (mouse down) THEN... berfungsi baik untuk klik mouse PC maupun sentuhan jari di layar HP.",
+      "Menggunakan mic/suara.",
+      "Menghitung ukuran layar (resolution).",
+      "Scratch tidak bisa dimainkan di HP."
+    ],
+    "a": 1,
+    "e": "Interaksi event sentuhan jari di atas kanvas web secara universal diterjemahkan oleh HTML5 canvas engine sebagai event 'mouse down' (tertekan)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Efek grafis =change (ghost) effect by 25= diulangi 4 kali. Apa yang terjadi pada wujud sprite?",
+    "o": [
+      "Sprite berubah warna menjadi merah.",
+      "Sprite membesar 100%.",
+      "Sprite menjadi 100% transparan (tembus pandang/hilang total) dari layar.",
+      "Sprite pecah menjadi piksel.",
+      "Sprite berjalan lebih cepat."
+    ],
+    "a": 2,
+    "e": "Efek Ghost mengatur tingkat transparansi objek. 4 kali 25 sama dengan 100 (batas maksimal tak terlihat)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Di sebuah script panjang, terjadi error tak kasat mata. Proses mencari, mendiagnosis, dan membetulkan baris logika yang salah disebut proses...",
+    "o": [
+      "Hacking",
+      "Phishing",
+      "Debugging",
+      "Cloning",
+      "Rendering"
+    ],
+    "a": 2,
+    "e": "Debugging berasal dari kata 'Bug' (serangga/kecacatan program) dan 'De' (menyingkirkan). Ini adalah keterampilan paling vital bagi seorang pemrogram."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Menggunakan blok fungsi Custom (My Blocks) memberikan keunggulan berupa Modularitas (C4). Artinya adalah...",
+    "o": [
+      "Program menjadi lebih banyak baris kodenya.",
+      "Memperindah tampilan warna-warni kode.",
+      "Menyederhanakan script dengan mengelompokkan urutan logika rumit menjadi 1 blok pendek yang bisa dipanggil ulang tanpa meng-copy-paste keseluruhan barisnya berkali-kali.",
+      "Menghubungkan Scratch dengan perangkat keras eksternal.",
+      "Memaksa program berjalan online."
+    ],
+    "a": 2,
+    "e": "Fungsi/Modularitas dalam pemrograman dirancang khusus untuk memenuhi prinsip DRY (Don't Repeat Yourself), menghemat ukuran file dan mempermudah pemeliharaan sistem."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Di dalam struktur List (Array), apa kegunaan dari blok =length of [DataSiswa]=?",
+    "o": [
+      "Mengukur panjang nama siswa.",
+      "Menghitung jumlah total urutan baris item (elemen data) yang tersimpan di dalam memori List tersebut saat ini.",
+      "Menghapus elemen terakhir.",
+      "Mengurutkan list sesuai abjad.",
+      "Memperpanjang ukuran kolom list di layar."
+    ],
+    "a": 1,
+    "e": "Fungsi Length/Size mengembalikan nilai integer total dari banyak item yang tersimpan di database array (List) untuk tujuan looping dinamis."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Untuk menghentikan script yang HANYA sedang berjalan pada sprite yang bersangkutan tanpa mematikan sprite musuh, kita memakai blok...",
+    "o": [
+      "stop (all)",
+      "stop (this script) / stop (other scripts in sprite)",
+      "hide",
+      "delete this clone",
+      "wait 9999 seconds"
+    ],
+    "a": 1,
+    "e": "Blok kontrol Stop bersifat fleksibel dan memiliki dropdown. Menghentikan 'other scripts in sprite' sangat berguna untuk menginterupsi animasi jalan ketika karakter mati/terkena serangan."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Backpack di lingkungan kerja web Scratch berguna untuk...",
+    "o": [
+      "Menyimpan koin pemain di dalam game.",
+      "Mentransfer (copy) skrip, suara, karakter (sprite), atau backdrop lintas proyek dari game A ke game B yang berbeda.",
+      "Membuat game menjadi berbayar.",
+      "Menambah memori cloud pengguna.",
+      "Menyembunyikan kode dari peretas."
+    ],
+    "a": 1,
+    "e": "Backpack adalah fitur produktivitas cloud bagi Scratchers untuk mendaur-ulang aset dan blok pemrograman antar *tab* proyek tanpa harus mengunduh berkas ke komputer lokal."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Anda ingin background (Backdrop) di panggung berubah secara otomatis ketika variabel skor mencapai 50. Loop pengecekan IF ini paling ideal ditaruh di mana?",
+    "o": [
+      "Di dalam blok khusus pada Sprite Koin.",
+      "Di dalam salah satu Clone musuh.",
+      "Di Sprite pemain utama.",
+      "Secara arsitektural (Best Practice), sebaiknya diletakkan di lembar kerja khusus Backdrop/Stage agar kode rapi dan terpusat (Controller logic).",
+      "Di luar loop."
+    ],
+    "a": 3,
+    "e": "Dalam Game Design yang baik, script yang mengatur kondisi global lingkungan/level (seperti pergantian stage) sebaiknya dikendalikan dari lingkungan itu sendiri (Backdrop) agar tidak memberatkan sprite."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Sebuah permainan tidak bisa dikendalikan dan selalu melambat (Lag/Drop FPS). Setelah dianalisis (C4), ternyata penggunaan efek blok Graphic 'Color effect' dipakai puluhan kali per detik di dalam loop. Solusi optimasinya adalah...",
+    "o": [
+      "Menutup aplikasi browser.",
+      "Mengganti efek blok pengubah warna dengan metode perpindahan Kostum (Costumes/Spritesheet) pra-desain yang jauh lebih ringan untuk diproses prosesor grafis peramban.",
+      "Mengurangi resolusi monitor komputer.",
+      "Mengubah blok kontrol ke My Block.",
+      "Menambah variabel baru."
+    ],
+    "a": 1,
+    "e": "Memproses filter warna vektor puluhan kali per detik sangat boros kalkulasi CPU/GPU komputer (Expensive operation). Animasi sprite 2D tradisional (ganti kostum frame-by-frame) jauh lebih ringan untuk mesin web."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Era digital memicu fenomena 'Fear of Missing Out' (FOMO). Dari kacamata psikologi dan informatika, FOMO di kalangan remaja sebagian besar direkayasa oleh...",
+    "o": [
+      "Aplikasi antivirus yang meminta pembaruan data.",
+      "Kurangnya kuota internet seluler dari provider telekomunikasi.",
+      "Desain antarmuka (UI/UX) dan notifikasi konstan dari aplikasi media sosial yang memanipulasi hormon dopamin agar pengguna merasa tertinggal tren jika *offline*.",
+      "Terlalu banyak membaca buku fisik di perpustakaan.",
+      "Koneksi sinyal Wifi yang selalu stabil di kota."
+    ],
+    "a": 2,
+    "e": "Perusahaan teknologi menggunakan trik psikologis (Dark Patterns) lewat notifikasi beruntun dan fitur algoritma *feed* tanpa batas (Infinite Scroll) untuk menciptakan ketergantungan (FOMO) secara tidak sadar."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jika kita menemukan situs e-commerce dengan URL 'http://' (tanpa s), mengapa kita dilarang keras memasukkan rincian kartu kredit di sana?",
+    "o": [
+      "Karena tampilannya kurang menarik.",
+      "Karena protokol HTTP mengirimkan data mentah (Plain Text) sehingga sangat rentan diendus (Sniffing) oleh peretas di jaringan wifi publik, tidak seperti HTTPS yang terenkripsi SSL.",
+      "Situs tersebut pasti milik pemerintah.",
+      "Karena akan memakan kuota sangat besar.",
+      "Karena harganya barangnya pasti palsu."
+    ],
+    "a": 1,
+    "e": "Huruf 'S' pada HTTPS adalah Secure (Aman). Protokol ini men-scramble (mengacak) data sensitif (seperti sandi atau kartu ATM) saat melintas dari browser kita ke server internet."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kejahatan rekayasa suara dan video menggunakan teknologi Kecerdasan Buatan (AI) Generatif yang meniru wajah presiden untuk mengumumkan berita palsu disebut sebagai...",
+    "o": [
+      "Ransomware",
+      "Skimming ATM",
+      "Virtual Reality",
+      "Deepfake Audio & Video",
+      "Cryptomining"
+    ],
+    "a": 3,
+    "e": "Deepfake mengancam keamanan sipil karena menggunakan Machine Learning (Deep Learning) untuk menciptakan manipulasi visual realistis yang nyaris tak bisa dibedakan dengan manusia asli oleh mata telanjang."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Istilah Cyberbullying merujuk pada kekerasan psikologis di dunia maya. Secara analitik hukum dan sosial, mengapa dampaknya lebih fatal dibandingkan perundungan fisik di lingkungan sekolah tradisional?",
+    "o": [
+      "Karena pelakunya kebanyakan robot/bot bukan manusia.",
+      "Karena jejak digital sangat sulit terhapus sempurna, terjadi 24 jam nonstop tanpa mengenal ruang privat (bahkan di kamar tidur), serta menjangkau ratusan penonton (Audience) tak dikenal dalam waktu instan.",
+      "Karena internet membuat pelajar pintar meretas kode.",
+      "Karena hukum tidak mengatur masalah pertengkaran kata-kata di internet.",
+      "Karena cyberbullying hanya terjadi melalui permainan game online."
+    ],
+    "a": 1,
+    "e": "Korban siber mengalami trauma yang jauh lebih kronis karena absennya zona aman (Safe Zone). Kapan pun gawai menyala, teror terus berlangsung dengan penonton skala masif (Viral)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Terdapat konsep 'Digital Divide' (Kesenjangan Digital). Faktor apakah yang paling mendominasi hambatan kemajuan teknologi di daerah 3T (Terdepan, Terluar, Tertinggal) di Indonesia?",
+    "o": [
+      "Minat baca anak daerah 3T terhadap berita digital sangat tinggi.",
+      "Penduduk desa lebih memilih berinteraksi sosial secara langsung.",
+      "Infrastruktur tulang punggung serat optik, kurangnya pemerataan BTS seluler, serta keterbatasan daya beli perangkat keras komputasi ekonomi warga.",
+      "Banyaknya aplikasi lokal yang dikembangkan negara.",
+      "Kurangnya ahli bahasa Inggris di pelosok Nusantara."
+    ],
+    "a": 2,
+    "e": "Kesenjangan digital bukan sekadar masalah kemauan belajar, melainkan ketimpangan ketersediaan infrastruktur fisik dasar seperti listrik, menara sinyal (BTS), dan harga perangkat gawai yang mahal."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Saat Anda menggunakan WiFi Publik di kafe yang tidak di-*password*, teknik kejahatan siber (Cybercrime) apa yang paling rentan mengintai peramban Anda?",
+    "o": [
+      "Men in the Middle (MitM) Attack (Penyadapan Sesi Jaringan).",
+      "Pencurian perangkat keras laptop fisik.",
+      "Doxing identitas kartu keluarga.",
+      "Kerusakan hardware monitor.",
+      "Cyberbullying komentar postingan."
+    ],
+    "a": 0,
+    "e": "Jaringan terbuka memudahkan peretas menggunakan *Packet Sniffer* untuk mencegat lalu lintas data antara komputer Anda dengan router. Ini dinamakan 'Man in the Middle'."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Algoritma bias (Algorithmic Bias) adalah ancaman AI. Apa contoh konkret dampak sosial negatif dari kecerdasan buatan rekrutmen perusahaan yang algoritmanya dilatih secara bias?",
+    "o": [
+      "Sistem memproses lamaran kerja terlalu cepat dari manusia.",
+      "Sistem secara diskriminatif langsung menolak pelamar perempuan/ras tertentu karena data sejarah pelatihan lampaunya bersumber dari dominasi keputusan manusia yang tidak adil (seksis/rasialis).",
+      "AI meminta pelamar membelikan server baru.",
+      "AI selalu menerima semua kandidat tanpa pandang bulu membuat kuota meledak.",
+      "Perusahaan menghemat biaya perekrutan bulanan staf SDM."
+    ],
+    "a": 1,
+    "e": "Kecerdasan buatan ibarat anak kecil yang meniru data belajarnya (Training Data). Jika data lampau dari SDM perusahaan terindikasi bias, AI akan mewarisi dan mereplikasi rasisme/seksisme secara otomatis."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Gawai modern menyumbang krisis E-Waste (Limbah Elektronik). Masalah kesehatan/lingkungan utama yang ditimbulkan jika baterai litium atau cip sirkuit gawai dibuang sembarangan ke tanah adalah...",
+    "o": [
+      "Sinyal internet dari komponen sisa mengganggu radar.",
+      "Zat beracun logam berat mikroskopis seperti Merkuri, Timbal, dan Kadmium merembes mencemari mata air tanah yang vital bagi masyarakat sekitar.",
+      "Membuat harga elektronik baru menjadi semakin murah.",
+      "Aplikasi di HP bekas masih bisa diretas oleh alien.",
+      "Mengurangi emisi gas rumah kaca di udara bebas."
+    ],
+    "a": 1,
+    "e": "Papan sirkuit komputasi dipenuhi logam konduktor berat yang tidak bisa terurai (Non-biodegradable) oleh tanah, dan sifatnya sangat karsinogenik (pemicu kanker parah) jika mencemari sumber air."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Pasal 27 UU ITE melarang penyebaran konten bermuatan perjudian online (Judi Slot). Dari sisi analisis dampak kemiskinan masyarakat, mengapa judi jenis digital jauh lebih menghancurkan daripada kasino fisik?",
+    "o": [
+      "Grafis gamenya kurang realistis dibandingkan kartu kasino fisik.",
+      "Hanya dapat diakses pada jam kantor bank tertentu di siang hari.",
+      "Aksesibilitas absolut di ujung jari HP selama 24 jam dengan nominal deposit receh via e-wallet mempercepat spiral candu ekonomi tanpa batasan kontrol sosial orang lain.",
+      "Pemain judi online harus berpakaian resmi kemeja.",
+      "Pemerintah melegalkan pajaknya secara langsung."
+    ],
+    "a": 2,
+    "e": "Internet menghapus batas fisik dan sensor sosial (friksi). Kemudahan mentransfer uang digital hitungan detik mematikan nalar rasional, memicu kebangkrutan instan, pencurian pinjol ilegal, dan bunuh diri massal di tingkat keluarga menengah ke bawah."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dalam era Big Data, rekam medik pasien (Telemedicine) di aplikasi rumah sakit menjadi incaran mahal *hacker*. Mengapa nilai finansial sepotong data medis dianggap lebih berharga daripada nomor kartu kredit (CC) di pasar gelap Internet (Dark Web)?",
+    "o": [
+      "Data rekam medis ukurannya bergiga-giga bait sehingga memakan memori internet.",
+      "Kartu kredit bisa diblokir instan dengan satu kali telepon ke bank, sedangkan riwayat penyakit masa lalu, golongan darah, dan rahasia DNA biologis seseorang bersifat absolut tak dapat dirubah selamanya untuk diperas.",
+      "Aplikasi medis menggunakan antarmuka grafis yang ramah pengguna.",
+      "Hacker ingin belajar menjadi dokter bedah spesialis.",
+      "Polisi tidak peduli dengan privasi rumah sakit swasta."
+    ],
+    "a": 1,
+    "e": "Biometrik dan data kesehatan tidak memiliki tombol 'Reset'. Rahasia medis (seperti mengidap virus mematikan) dapat digunakan untuk pemerasan (*blackmail*), penipuan asuransi jiwa, atau eksploitasi karir pasien selama sisa hidup mereka."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Untuk meningkatkan ergonomi (kesehatan dan postur) dalam mengetik tugas informatika jangka panjang di PC, sudut mata ideal menghadap monitor seharusnya...",
+    "o": [
+      "Mendongak sekitar 30 derajat ke atas memandang tepi atas.",
+      "Menunduk tajam melihat papan tik terus menerus.",
+      "Sejajar / lurus menghadap sepertiga tepi paling atas monitor dengan jarak minimal 50-70 cm.",
+      "Sangat dekat di bawah 20 cm dari panel layar radiasi.",
+      "Bebas, yang penting menyandar rileks di lantai empuk."
+    ],
+    "a": 2,
+    "e": "Aturan ergonomi visual meminimalkan tegangan otot leher bagian belakang (Cervical). Mata lurus ke arah paling atas layar mencegah pengguna terus membungkuk (Text Neck Syndrome)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Hak atas Kekayaan Intelektual (HAKI) membedakan antara 'Hak Cipta' (Copyright) dan 'Paten' (Patent). Jika seorang *programmer* SMA merancang arsitektur mesin penyiram otomatis pintar, dan ia juga menggambar logo aplikasinya, maka perlindungan hukum yang berlaku adalah...",
+    "o": [
+      "Hanya Merek Dagang yang berlaku.",
+      "Paten untuk teknologi fungsional penemuan mesinnya, Hak Cipta untuk desain logo dan baris kode aplikasinya.",
+      "Lisensi Open Source untuk mesin dan lisensi Publik untuk logonya.",
+      "Rahasia Dagang internal di dalam sekolah.",
+      "Creative Commons untuk keduanya mutlak diakui PBB."
+    ],
+    "a": 1,
+    "e": "Paten melindungi gagasan invensi teknis/fungsional (bagaimana barang itu bekerja). Hak Cipta (Copyright) melindungi ekspresi seni visual (logo) dan susunan literatur teks komputasi program (Source Code)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Istilah IoT (Internet of Things) artinya barang rumah tangga dapat saling terhubung. Analisis risiko ranah privasi terburuk dari kamera CCTV IoT atau Smart Speaker di ruang tamu yang pengamanannya lemah adalah...",
+    "o": [
+      "Tagihan token listrik meledak drastis tak terkendali.",
+      "Menambah radiasi 5G di sekeliling suhu perumahan warga.",
+      "Peretas (Voyeur) jarak jauh menyusup (Hack) dan merekam aktivitas privat visual maupun audio di dalam rumah korbannya tanpa terdeteksi, berujung intimidasi (Blackmail).",
+      "Kamera tiba-tiba meledak jika server rusak.",
+      "Perusahaan ISP akan mengurangi kecepatan bandwidth rumahan."
+    ],
+    "a": 2,
+    "e": "Perangkat IoT murahan rentan (Default admin password). Jika dibobol botnet (seperti insiden Mirai), privasi dalam rumah (zona paling intim) hancur seketika."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Apa maksud dari pernyataan paradoks ini: 'Jika kamu tidak membayar produk/layanan di internet (Gratis), maka KAMU lah produknya'?",
+    "o": [
+      "Pengguna diwajibkan membeli baju merchandise perusahaan.",
+      "Situs gratis adalah kedok yayasan donasi filantropi amal.",
+      "Perusahaan tidak memiliki sistem transaksi transfer bank.",
+      "Perusahaan media sosial dan search engine gratis meraup triliunan dengan cara mengekstraksi, merekam profil kebiasaan pribadi, dan menjual atensi (data setensi diri pengguna) ke biro pengiklan raksasa (Ad-Tech).",
+      "Pengguna suatu hari akan dikirim secara fisik keluar kota."
+    ],
+    "a": 3,
+    "e": "Model bisnis ekonomi digital gratis (seperti Google/FB) bukan panti sosial. Mereka menambang (*Data Mining*) komoditas paling mahal di abad ke-21: Identitas dan Jejak Perhatian manusia."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang konten kreator game meremix/menggunakan klip pendek 5 detik adegan film komedi terkenal hanya sebagai bahan lawakan (*meme*) selingan pada ulasannya. Di beberapa negara, hukum membolehkannya tanpa royalti karena berlindung di bawah payung aturan...",
+    "o": [
+      "Plagiarisme Terselubung",
+      "Cyber Law Pelanggaran Media",
+      "Fair Use (Penggunaan Wajar) / Transformative Work",
+      "Copyleft Open Source Bebas Pakai",
+      "Peraturan Publik Domain tanpa syarat"
+    ],
+    "a": 2,
+    "e": "Doktrin Hak Cipta Fair Use mengizinkan cuplikan karya terlindungi dipakai terbatas (tidak merusak pasar asli pembuatnya) untuk edukasi, kritik, liputan berita, atau komedi/parodi satir transformasi."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Dalam etika korespondensi (Kirim Email), fitur BCC (Blind Carbon Copy) digunakan sebagai norma perlindungan sosial privasi terhadap penerima berantai massal, karena fungsinya untuk...",
+    "o": [
+      "Menyembunyikan konten gambar/video dalam email anak-anak.",
+      "Mencegah sistem antivirus di komputer tujuan menghapus lampiran.",
+      "Menyembunyikan alamat surel masing-masing pihak agar tidak saling terlihat oleh ratusan penerima grup lainnya, mencegah aksi panen data *spam/phishing* yang berujung kebocoran database email klien.",
+      "Memastikan surel dapat terkirim secara otomatis tiap hari.",
+      "Mengubah font surat menjadi lebih formal dan kapital seluruhnya."
+    ],
+    "a": 2,
+    "e": "Berbeda dengan CC biasa, menggunakan BCC adalah etiket kesopanan privasi profesional. Penerima hanya akan melihat alamat pengirim, menjaga privasi audiens lainnya secara masif."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Apa itu 'Captcha' (tulisan bengkok/gambar lampu lalu lintas) di dalam proses sistem pendaftaran formulir internet?",
+    "o": [
+      "Sensor canggih untuk mengukur resolusi kamera monitor.",
+      "Filter otomatis pemerintah penyaring situs negatif judi online.",
+      "Tes uji keamanan publik metode Uji Turing untuk membedakan apakah interaksi dilakukan oleh Manusia biologis riil atau dilakukan serbuan Mesin Robot (Bot Spam/DDoS automatik).",
+      "Memastikan pengguna memiliki mata yang sehat tanpa minus.",
+      "Aplikasi untuk mempercepat jalannya jaringan server peramban lambat."
+    ],
+    "a": 2,
+    "e": "Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA) melindungi server basis data web agar tidak kewalahan menampung jutaan pembuatan akun palsu sampah per detik dari skrip mesin (Botnet)."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Jika kita mengubah pengaturan format file dari (.xlsx) menjadi teks dasar (.CSV / Comma Separated Values), apa dampaknya terhadap rumus rumit VLOOKUP yang ada di dalam berkas tersebut?",
+    "o": [
+      "Rumus bekerja semakin cepat puluhan kali lipat dan ringan.",
+      "Semua rumus VLOOKUP akan hilang/dihapus tak bersisa (musnah), hanya hasil teks nilai terakhirnya saja (Values) yang tersimpan statis sebagai teks kaku, sebab CSV tidak mendukung engine rumus dan formula.",
+      "Seluruh sel berubah berwarna hijau muda.",
+      "File CSV akan terkunci oleh algoritma proteksi privasi Windows.",
+      "Rumus otomatis terkonversi menjadi format C++ di belakang layar."
+    ],
+    "a": 1,
+    "e": "Format CSV adalah baris angka data mentah. Ini hanya teks biasa murni untuk perpindahan antar sistem beda bahasa (interoperability). Excel Macro, rumus formula dinamis, hingga format warna sel tidak akan tersimpan di dalam CSV."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Dalam logika Scratch 'Aplikasi Kalkulator Sederhana', jika *Sprite_Kucing* diisi blok [say (Variabel_Angka) for 2 seconds], tetapi Variabel tersebut belum pernah di-Set nilainya oleh siapapun. Apa nilai default (bawaan) yang akan disebutkan oleh kucing tersebut di layar?",
+    "o": [
+      "Error #NULL!",
+      "Nol (0)",
+      "False/Salah",
+      "Satu (1)",
+      "Teks 'Kosong'"
+    ],
+    "a": 1,
+    "e": "Scratch adalah bahasa ramah pemula (Beginner-friendly). Variabel numerik yang tidak pernah diinisialisasi akan secara otomatis dianggap memiliki nilai 0 (Nol) agar tidak membuat program Crash (Freeze/Error Runtime)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Ancaman nyata kejahatan perbankan modern yang dilakukan oknum pelayan restoran yang diam-diam menyalin data *Magnetic Stripe* atau *Chip* di belakang kartu debit pelanggan ke dalam alat penyalin saku kecil dinamakan aksi kriminal...",
+    "o": [
+      "Pharming Online",
+      "DDoS (Denial Service)",
+      "Trojan Perangkat",
+      "Skimming / Skimmer",
+      "Carding Manipulatif Teks"
+    ],
+    "a": 3,
+    "e": "Skimming adalah kejahatan hibrida (gabungan fisik dan siber) di mana data strip kartu fisik direkam alat pembaca portabel (Skimmer) lalu dikloning (duplikat) untuk menguras saldo tabungan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jika diamati dari persfektif UU Informasi dan Transaksi Elektronik (UU ITE), mengapa mendistribusikan gambar sensitif dan tidak pantas di grup percakapan tertutup (seperti Grup WA) tetap dianggap kejahatan siber (Cybercrime), padahal grup itu privat?",
+    "o": [
+      "Karena tidak ada administrator hukum terpusat di dalam grup percakapan privat tersebut.",
+      "Karena rekam jejak grup dapat disalin bebas. Ruang 'grup digital', meski disetel privat, merupakan medium transmisi ganda. Begitu diunggah, materi itu disebarkan dan dapat disaksikan (diunduh) lebih dari 1 orang perangkat berbeda, memenuhi kualifikasi pidana 'mentransmisikan' di ruang siber.",
+      "Karena server aplikasi berada di yurisdiksi luar negeri sehingga tidak bisa dituntut di dalam negeri.",
+      "Karena tidak ada perlindungan paten terhadap resolusi materi gambar yang dikirim.",
+      "Karena mengganggu keharmonisan obrolan keluarga atau kantor pada jam sibuk."
+    ],
+    "a": 1,
+    "e": "Dalam interpretasi hukum kejahatan siber Indonesia, mentransmisikan dan mendistribusikan berkas bermuatan melanggar norma kesusilaan, tidak mengenal sekat privat dan ruang riil tertutup, sebab esensi siber itu sendirilah adalah duplikasi, penyebaran (*broadcasting*), dan rekaman abadi pelayan (*server-side footprint*)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman (Scratch)",
+    "q": "Kombinasi algoritma logika tingkat lanjut untuk mensimulasikan hukum Gravitasi Nyata (Akselerasi percepatan) yang paling responsif dan efisien digunakan dalam game jenis Scratch *Platformer* adalah...",
+    "o": [
+      "Mengurangi ordinat Sumbu Y secara terus-menerus dan teratur dengan angka yang sama besar di setiap siklus (loop).",
+      "Menggunakan satu variabel mandiri misal 'Kecepatan Sumbu Y'. Berikan nilai pengurangan berangsur-angsur (-1) pada variabel di tiap putarannya, kemudian aplikasikan nilai desimal berakumulasi tersebut menjadi pendorong ke blok parameter 'Change Y By...'.",
+      "Menekan tombol *Move Steps* menghadap ke arah bawah secara membabi buta.",
+      "Mengonfigurasi blok peluncur efek visual 'Glide' agar menyesuaikan kursor gerak pemain (*Mouse Pointer*).",
+      "Mengeset X menjadi bilangan minus agar objek condong miring ke tepi bawah kanvas panggung."
+    ],
+    "a": 1,
+    "e": "Tarikan gaya berat di muka bumi merepresentasikan akselerasi/percepatan (fisika kuantum mekanika dasar). Apabila perancang gim hanya mengurangi Y sejumlah (angka statis -5), objek akan terjun lambat konstan tak alami layaknya di angkasa. Modulasi Variabel Velocity memberikan sensasi kecepatan jatuh yang semakin berlipat dan memperkuat visualisasi massa dan daya fisika objek."
+  },
+  {
+    "c": "Pencarian Data (Sumif)",
+    "q": "Dalam menganalisis data, apa perbedaan mendasar antara fungsi SUMIF dan SUMIFS?",
+    "o": [
+      "SUMIF untuk teks, SUMIFS untuk angka.",
+      "SUMIF menjumlahkan dengan 1 kriteria, SUMIFS dapat mengevaluasi 2 kriteria atau lebih.",
+      "SUMIF digunakan beda sheet, SUMIFS dalam satu sheet.",
+      "SUMIFS tidak membutuhkan argumen range yang dijumlahkan.",
+      "Tidak ada perbedaan, hanya versi rilisnya saja."
+    ],
+    "a": 1,
+    "e": "Keluarga fungsi dengan akhiran 'S' (SUMIFS, COUNTIFS, AVERAGEIFS) dirancang khusus untuk Multi-Criteria (lebih dari 1 syarat kondisi)."
+  },
+  {
+    "c": "Pencarian Data (Countif)",
+    "q": "Rumus =COUNTIF(A1:A50; \"<>*batal*\") bermaksud untuk menghitung...",
+    "o": [
+      "Semua sel yang berisi teks 'batal'.",
+      "Sel yang diawali kata batal.",
+      "Seluruh transaksi yang tidak mengandung kata 'batal' di dalamnya.",
+      "Sel kosong.",
+      "Sel yang error nilainya."
+    ],
+    "a": 2,
+    "e": "Operator <> berarti 'tidak sama dengan', dan wildcard asterisk (*) mengapit 'batal' berarti kata tersebut bisa di posisi mana saja. Ini mengecualikan semua entri yang batal."
+  },
+  {
+    "c": "Pencarian Data (Vlookup)",
+    "q": "Jika kita menggabungkan =IFERROR(VLOOKUP(...); \"Tidak Terdaftar\"), apa fungsi dari IFERROR tersebut?",
+    "o": [
+      "Memperbaiki otomatis ejaan kata yang salah.",
+      "Mengganti error bawaan Excel (seperti #N/A) menjadi teks peringatan yang ramah bagi pengguna.",
+      "Menghapus baris yang datanya kosong.",
+      "Mencegah file Excel terkena virus.",
+      "Menjadikan VLOOKUP mencari data ke arah kiri."
+    ],
+    "a": 1,
+    "e": "IFERROR menangkap segala jenis error matematika/pencarian dan menggantinya dengan nilai alternatif (seperti teks khusus atau angka 0) agar tabel tetap terlihat rapi."
+  }
+]

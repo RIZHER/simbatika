@@ -1,0 +1,639 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Pusat vulkanologi mencatat rentetan angka getaran seismik sebesar '3.4, 4.2, 3.8, 5.1'. Angka-angka mentah ini belum memiliki makna bagi warga desa. Namun, ketika algoritma komputer mengubahnya menjadi alarm peringatan 'Waspada Erupsi dalam 2 Jam', angka tersebut telah bertransformasi menjadi...",
+    "o": ["Data Primer", "Informasi Preskriptif", "Basis Data (Database)", "Sistem Operasi"],
+    "a": 1,
+    "e": "Data adalah fakta mentah (angka seismik). Ketika data telah diproses, dianalisis, dan memberikan makna serta rekomendasi tindakan spesifik (alarm erupsi), ia berubah menjadi Informasi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang analis e-commerce memilah dataset pelanggan: (1) Durasi klik di aplikasi: 45 detik, (2) Metode pembayaran: E-Wallet, (3) Ulasan produk: 'Sangat Puas, bahannya lembut', (4) Total belanja: Rp 150.000. Jika ia ingin melatih Artificial Intelligence (AI) untuk memahami sentimen/emosi manusia, data mana yang paling relevan untuk dianalisis?",
+    "o": ["Data 1", "Data 2", "Data 3", "Data 4"],
+    "a": 2,
+    "e": "Analisis sentimen berbasis AI (Natural Language Processing) berfokus pada pengolahan data kualitatif yang berbentuk teks deskriptif (ulasan pelanggan) untuk mendeteksi emosi (puas/kecewa)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah survei di internet menyimpulkan bahwa '100% siswa SMP menyukai game online'. Namun, setelah ditelusuri, survei tersebut ternyata hanya disebarkan di dalam grup komunitas atlet E-Sports. Kesalahan fatal dalam analisis data ini disebut sebagai...",
+    "o": ["Data Cleansing", "Sampling Bias (Bias Sampel)", "Overfitting", "Data Encryption"],
+    "a": 1,
+    "e": "Sampling Bias terjadi ketika sampel data yang diambil tidak mewakili populasi secara keseluruhan. Mensurvei komunitas gamer untuk menggeneralisasi semua siswa akan menghasilkan kesimpulan yang cacat logika."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam membaca grafik data cuaca harian, ditemukan bahwa 'Setiap kali penjualan es krim meningkat, kasus kulit terbakar matahari (sunburn) juga meningkat'. Jika seseorang menyimpulkan bahwa 'Makan es krim menyebabkan kulit terbakar', ia telah melakukan kesalahan analisis yang mengabaikan prinsip...",
+    "o": ["Korelasi bukanlah Kausalitas (Correlation does not imply Causation)", "Visualisasi Data (Data Visualization)", "Pengumpulan Data Primer", "Kompresi Data"],
+    "a": 0,
+    "e": "Dua kejadian yang grafiknya bergerak bersamaan (korelasi) belum tentu memiliki hubungan sebab-akibat (kausalitas). Keduanya meningkat secara bersamaan karena faktor ketiga, yaitu cuaca panas (musim panas)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang peneliti mengumpulkan data dari sensor suhu IoT di 50 titik kota. Sebelum data-data tersebut dimasukkan ke dalam rumus perhitungan rata-rata, ia harus menghapus data dari 2 sensor yang rusak dan menghasilkan angka tidak masuk akal (misal: -999°C). Proses kurasi wajib ini disebut...",
+    "o": ["Data Visualization", "Data Cleansing (Pembersihan Data)", "Data Encryption", "Data Retrieval"],
+    "a": 1,
+    "e": "Data Cleansing adalah langkah krusial untuk mengidentifikasi dan membuang anomali, data yang tidak lengkap, atau *outlier* (seperti -999°C) agar tidak merusak hasil perhitungan algoritma."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam arsitektur *Data Science*, urutan eksekusi rasional yang harus dilakukan oleh seorang analis untuk mengubah kekacauan menjadi keputusan strategis adalah...",
+    "o": ["Collect (Kumpulkan) -> Cleanse (Bersihkan) -> Analyze (Analisis) -> Visualize (Sajikan)", "Visualize -> Analyze -> Collect -> Cleanse", "Analyze -> Visualize -> Cleanse -> Collect", "Cleanse -> Collect -> Visualize -> Analyze"],
+    "a": 0,
+    "e": "Siklus hidup data yang benar: Kumpulkan data mentah, bersihkan dari cacat, temukan polanya melalui analisis matematis, lalu visualisasikan agar mudah dipahami oleh pengambil kebijakan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Data kecepatan lari 5 siswa adalah: 12, 14, 15, 18, 90 km/jam. Jika kita menggunakan nilai 'Rata-rata' (Mean), hasilnya akan sangat tinggi dan tidak mencerminkan kecepatan asli mayoritas siswa akibat adanya satu data rusak (90 km/jam). Metode pengukuran statistik apa yang kebal terhadap angka ekstrem (*outlier*) ini?",
+    "o": ["Modus (Mode)", "Nilai Maksimum", "Median (Nilai Tengah)", "Nilai Minimum"],
+    "a": 2,
+    "e": "Median (nilai tengah dari data yang diurutkan: 12, 14, 15, 18, 90 adalah 15) jauh lebih stabil dan tahan (robust) terhadap tarikan angka ekstrem dibandingkan nilai rata-rata (mean)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Siswa A ingin mengirim tugas video 4K berukuran 1 Terabyte (TB) ke server sekolah. Jika internet sekolah memiliki kecepatan *upload* maksimal 1 Gigabyte (GB) per detik. Berapa estimasi waktu matematis tercepat yang dibutuhkan hingga video terkirim sempurna?",
+    "o": ["10 detik", "100 detik", "Sekitar 1.024 detik (17 menit)", "1 jam penuh"],
+    "a": 2,
+    "e": "1 Terabyte (TB) setara dengan 1.024 Gigabyte (GB). Dengan kecepatan transfer 1 GB/detik, dibutuhkan waktu kurang lebih 1.024 detik."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Penyimpanan *Cloud* gratis memberikan kuota 15 GB. Jika rata-rata satu buah foto beresolusi tinggi (HD) berukuran 5 Megabyte (MB). Kira-kira berapa banyak batas foto maksimal yang bisa diunggah ke dalam sistem *cloud* tersebut?",
+    "o": ["3.000 foto", "30.000 foto", "300 foto", "15.000 foto"],
+    "a": 0,
+    "e": "Ubah 15 GB menjadi MB: 15 GB x 1.024 = 15.360 MB. Kemudian bagi dengan ukuran foto: 15.360 MB / 5 MB per foto = 3.072 foto (Dibulatkan menjadi sekitar 3.000 foto)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Algoritma sistem rekomendasi musik Spotify mencatat genre lagu yang diputar Andi dalam seminggu: Pop, Jazz, Rock, Pop, RnB, Pop, Jazz. Parameter statistik apa yang paling tepat mendeskripsikan genre 'Pop' dalam kumpulan data tersebut?",
+    "o": ["Mean", "Median", "Modus", "Range"],
+    "a": 2,
+    "e": "Modus adalah nilai data kualitatif atau kuantitatif yang frekuensi kemunculannya paling tinggi. 'Pop' diputar 3 kali, menjadikannya Modus data preferensi Andi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang epidemiolog ingin memetakan penyebaran zona merah virus di wilayah provinsi Bali berdasarkan letak geografis kabupatennya. Jenis visualisasi *dashboard* data apa yang secara spasial paling efektif menyampaikan informasi ini?",
+    "o": ["Diagram Lingkaran (Pie Chart)", "Diagram Pencar (Scatter Plot)", "Peta Panas (Heatmap / Choropleth Map)", "Diagram Garis (Line Chart)"],
+    "a": 2,
+    "e": "Heatmap atau peta spasial geografis memberikan indikator visual yang kuat melalui gradasi warna intensitas berdasarkan wilayah batas geografis nyata."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah perusahaan merilis grafik batang performa produk. Batang tahun 2023 tampak dua kali lipat lebih tinggi dari batang tahun 2022. Namun, saat dibaca angkanya, peningkatannya hanya dari 90 unit ke 92 unit. Trik manipulasi visual apa yang disembunyikan dalam grafik tersebut?",
+    "o": ["Mengubah warna batang menjadi merah", "Sumbu Y (vertikal) grafik tidak dimulai dari titik Nol (Baseline nol dipotong)", "Menggunakan font ukuran besar", "Menambahkan data palsu"],
+    "a": 1,
+    "e": "Memotong titik awal sumbu Y (misal dimulai dari angka 88) adalah manipulasi skala (Misleading Graph) yang akan mendistorsi perbedaan sekecil apapun menjadi tampak sangat dramatis."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam *Computational Thinking*, Budi diberikan tugas merancang AI Mobil Otonom (Self-Driving Car). Langkah pertama Budi adalah memecah sistem mobil tersebut menjadi modul sensor kamera jarak, modul kendali setir, dan modul pengereman darurat. Teknik analitis ini adalah implementasi dari...",
+    "o": ["Abstraksi", "Dekomposisi", "Pengenalan Pola", "Evaluasi Output"],
+    "a": 1,
+    "e": "Dekomposisi adalah strategi memecah sebuah arsitektur yang masif dan rumit (Mobil Otonom) menjadi modul-modul sub-sistem yang spesifik dan independen agar lebih mudah diprogram."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Aplikasi pendeteksi wajah di HP Anda dapat mengenali wajah Anda meskipun Anda sedang memakai kacamata, topi, atau berada di tempat gelap. Algoritma ini tidak menghafal satu foto, melainkan mencari geometri jarak mata, hidung, dan rahang. Metode ini merupakan bagian dari...",
+    "o": ["Pattern Recognition (Pengenalan Pola)", "Data Cleansing", "Infinite Looping", "Hardware Maintenance"],
+    "a": 0,
+    "e": "Pengenalan Pola memampukan mesin/AI untuk menemukan karakteristik utama (vektor geometris wajah) yang berulang pada berbagai kondisi yang berbeda, sehingga sistem bisa menggeneralisasi objek."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Saat Anda memprogram Simulasi Fisika Jatuhnya Buah Apel di Scratch, Anda mengatur gravitasi dan massa, namun Anda mengabaikan warna apel, rasa apel, dan jenis ulat di dalamnya. Konsep menyaring detail yang tidak relevan agar logika program lebih ringan disebut...",
+    "o": ["Debugging", "Enkripsi", "Abstraksi (Abstraction)", "Dekomposisi"],
+    "a": 2,
+    "e": "Abstraksi adalah inti efisiensi pemodelan komputasi. Hanya parameter yang memengaruhi logika komputasi utama (gravitasi/massa) yang dipertahankan, sisanya (rasa/warna) dieliminasi."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Mengapa sebuah algoritma sistem kalkulator dinilai mengalami kegagalan (cacat logika) meskipun ia berhasil menghitung <code>10 + 5</code> dengan benar, tetapi justru mati/crash ketika pengguna mencoba menghitung <code>10 / 0</code>?",
+    "o": ["Karena kalkulator kehabisan baterai", "Karena algoritma tersebut gagal menangani *Edge Case* (Kondisi Batas Ekstrem) yang mengakibatkan error tak terdefinisi", "Karena pembagian tidak diizinkan di komputer", "Karena bahasa pemrograman yang digunakan terlalu kuno"],
+    "a": 1,
+    "e": "Algoritma yang kuat harus *robust* dan antisipatif. Ia harus memiliki aturan pencegahan terhadap input yang dapat menyebabkan kehancuran sistem (seperti *divide-by-zero*)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sebuah sistem diartikan sebagai 'Algoritma' jika memenuhi syarat deterministik. Makna dari 'Deterministik' adalah...",
+    "o": ["Bisa ditulis dalam bahasa Inggris saja", "Jika diberikan input yang sama persis, ia harus selalu memproses dan menghasilkan output akhir yang sama persis setiap saat", "Ia harus memproses data menggunakan kecerdasan buatan", "Harus bisa diakses lewat internet"],
+    "a": 1,
+    "e": "Karakteristik utama algoritma adalah kepastian (Definiteness/Deterministic). 2+2 dengan urutan langkah yang sama harus selalu 4, tanpa kejutan atau hasil acak yang berbeda."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Manakah dari aktivitas berikut yang merupakan murni eksekusi 'Algoritma' heuristik (prediksi cerdas), bukan sekadar eksekusi mekanis?",
+    "o": ["Mengocok kartu remi secara acak", "Sistem navigasi Waze merekomendasikan rute jalan berliku untuk menghindari kemacetan kecelakaan di jalan utama", "Mesin pemanggang roti mati otomatis setelah 3 menit", "Kipas angin berputar lambat saat tombol 1 ditekan"],
+    "a": 1,
+    "e": "Heuristik Waze adalah algoritma cerdas yang menganalisis variabel dinamis (kecepatan jutaan pengguna lain) untuk mencari solusi rute optimal, bukan sekadar *timer* atau mekanisme mesin statis."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Seorang programmer menulis kode selama 3 jam, menjalankannya, namun karakternya justru menembus dinding. Ia lalu menghabiskan 5 jam berikutnya untuk membaca ulang baris demi baris demi menemukan penyebab anomali tersebut. Tahapan 5 jam ini secara profesional dikenal dengan istilah...",
+    "o": ["Compiling", "Hacking", "Debugging", "Encrypting"],
+    "a": 2,
+    "e": "Debugging adalah seni investigatif dalam pemrograman. Mencari letak cacat logika (*bug*) tersembunyi yang membuat eksekusi program menyimpang dari desain awalnya."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Bahasa C++ merupakan bahasa tingkat tinggi. Ketika Anda menekan tombol 'Run', kode tersebut diubah menjadi file biner `.exe` yang terdiri dari angka 0 dan 1 agar mesin prosesor bisa memahaminya secara langsung. Perangkat lunak arsitektural yang bertugas menerjemahkan hal ini disebut...",
+    "o": ["Web Browser", "Compiler (Kompilator)", "Database Server", "Firewall"],
+    "a": 1,
+    "e": "Compiler bertugas 'menerjemahkan' (compile) seluruh blok kode bahasa manusia tingkat tinggi ke dalam bahasa rakitan/mesin biner sebelum instruksi tersebut diserahkan ke CPU untuk dieksekusi."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Di Scratch, Sprite Peluru memiliki blok kontrol: <code>When I start as a clone</code> -> <code>Repeat Until [Touching Edge?]</code> -> <code>Move 10 steps</code>. Namun, setelah peluru ke-300 ditembakkan, game seketika macet (*freeze*). Cacat memori apa yang dilupakan pembuat game?",
+    "o": ["Peluru seharusnya berwarna hitam", "Pemrogram lupa menutup rantai dengan blok <code>Delete this clone</code> setelah peluru menyentuh pinggir layar, sehingga memori RAM habis (*Memory Leak*)", "Blok <code>Move</code> memakan banyak CPU", "Peluru menabrak peluru lainnya"],
+    "a": 1,
+    "e": "Dalam pemrograman berbasis objek dinamis, instansiasi sementara (Clone) yang tidak dihancurkan (*Garbage Collection*) setelah tugasnya selesai akan terus membebani ruang alokasi memori hingga sistem meledak (*crash*)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siswa A ingin menghubungkan sistem nyawa antar 2 sprite musuh yang berbeda. Ia menggunakan opsi <i>'For this sprite only'</i> saat membuat Variabel 'Nyawa'. Dampak logis yang terjadi ketika Sprite Musuh B mencoba mengurangi 'Nyawa' milik Sprite Musuh A adalah...",
+    "o": ["Nyawa akan berkurang dua kali lipat", "Game berjalan normal", "Sprite B sama sekali tidak dapat melihat, memanggil, atau memanipulasi variabel tersebut karena variabel itu bersifat Lokal (Terisolasi hanya untuk Sprite A)", "Sprite A dan B akan bertukar posisi"],
+    "a": 2,
+    "e": "Variabel 'For this sprite only' memiliki enkapsulasi privasi lokal. Ia dilindungi secara arsitektur agar tidak bisa diintervensi oleh entitas/skrip luar, sangat berbeda dengan Variabel Global ('For all sprites')."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Apa yang akan terjadi secara spesifik jika kita menaruh blok sensor <code>Wait until [Key Space pressed?]</code> di tengah-tengah alur program pada Scratch?",
+    "o": ["Program akan otomatis keluar dari aplikasi", "Alur eksekusi (pembacaan skrip) akan tertahan, membeku, dan berhenti di blok tersebut tanpa melanjutkan ke baris bawahnya, sampai kondisi tombol Space dipenuhi", "Latar belakang panggung akan menjadi hitam", "Sprite akan berkedip-kedip"],
+    "a": 1,
+    "e": "Blok *Wait Until* adalah mekanisme bloking sinkron (Synchronous Blocker). Ia mencegah proses *thread* melanjutkan tugasnya sampai operator *boolean* di dalamnya bernilai TRUE."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Logika matematika dalam koordinat Scratch: Sprite Anda berada di X: -100. Anda menginstruksikan <code>Change X by 50</code>, lalu disusul <code>Change X by -150</code>. Di manakah titik perhentian absolut terakhir (Sumbu X) dari Sprite Anda?",
+    "o": ["X: 100", "X: 0", "X: -200", "X: -50"],
+    "a": 2,
+    "e": "Dimulai dari -100. Ditambah 50 (bergeser ke kanan) menjadi -50. Lalu ditambah -150 (bergeser jauh ke kiri), sehingga -50 - 150 = -200."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam merancang kecerdasan buatan musuh bos, skripnya dirancang sebagai berikut: <code>If (Nyawa Bos < 50) Then [Ganti Kostum Menjadi Merah] Else [Ganti Kostum Menjadi Hijau]</code>. Jika nyawa bos saat ini adalah persis angka 50, kostum apa yang akan dirender oleh sistem?",
+    "o": ["Merah", "Hijau", "Bos akan menghilang", "Berubah menjadi biru"],
+    "a": 1,
+    "e": "Operator <code>< 50</code> berarti secara ketat harus di bawah 50 (maksimal 49). Karena nilainya 50 (tidak kurang dari 50), kondisi IF bernilai FALSE, sehingga sistem mengeksekusi jalur ELSE (Hijau)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Banyak ahli menyatakan bahwa mempelajari algoritma melalui balok visual (Visual Block-based) seperti Scratch adalah *stepping stone* (batu loncatan) terbaik sebelum masuk ke sintaks murni berbasis teks (Python/Java). Alasan pedagogis utamanya adalah...",
+    "o": ["Scratch bisa meretas sistem perbankan", "Karena balok visual mencegah terjadinya 'Syntax Error' (salah ketik koma/titik), sehingga otak siswa tidak stres dan murni difokuskan untuk melatih 'Computational Logic' dan struktur *flow* data", "Karena Python tidak memiliki warna di layarnya", "Scratch lebih disukai di dunia industri kerja"],
+    "a": 1,
+    "e": "Pemrograman visual mengeliminasi hambatan kognitif berupa kesalahan tanda baca sintaksis, memungkinkan pembelajar pemula untuk membangun abstraksi dan kerangka berpikir logis algoritmik secara murni."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siswa merancang program kasir. Jika Total Belanja > Rp 100.000, diskon 10%. Jika tidak, cek lagi Jika Pembeli adalah Member, diskon 5%. Di bawah ini, struktur percabangan apa yang paling ideal menampung logika bercabang ganda tersebut?",
+    "o": ["Looping menggunakan Repeat Until", "Nested IF-ELSE (Percabangan If-Else bersarang di dalam Else)", "Menambahkan 2 sprite yang berbeda", "Menggunakan blok Broadcast and Wait"],
+    "a": 1,
+    "e": "Struktur *Nested If-Else* menangani evaluasi hierarki bertingkat. Jika kondisi pertama gagal (Else), ia tidak langsung berakhir, melainkan membuka pintu logika IF sekunder untuk dievaluasi."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Perhatikan algoritma pencarian ini: 'Anda ingin mencari angka 70 dalam daftar urut dari 1 hingga 100. Anda menebak angka 50. Karena 70 lebih besar, Anda mencoret setengah bagian bawah (1-50), lalu menebak angka 75. Karena 70 lebih kecil, Anda mencoret bagian atas (76-100)'. Algoritma pembelahan ruang pencarian efisien ini disebut...",
+    "o": ["Linear Search (Pencarian Linier)", "Binary Search (Pencarian Biner)", "Bubble Sort", "Brute Force Search"],
+    "a": 1,
+    "e": "Binary Search (*Divide and Conquer*) membelah rentang data yang sudah terurut menjadi dua secara terus-menerus. Ia melipatgandakan kecepatan pencarian secara eksponensial (Logaritma O(log n)) dibanding mencari satu persatu."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Saat Anda menggunakan blok <code>Set Rotation Style [Left-Right]</code> pada Sprite karakter yang menghadap ke arah -90 (kiri), bagaimana *engine* Scratch akan me-render grafis karakter tersebut?",
+    "o": ["Karakter berputar jungkir balik (terbalik secara Y/Vertikal)", "Karakter membalik arah secara cermin horizontal layaknya orang berbalik badan, menjaga kepalanya tetap di atas", "Karakter menjadi datar / pipih", "Karakter hilang dari panggung"],
+    "a": 1,
+    "e": "Atribut orientasi rotasi 'Left-Right' mencegah Sprite berputar secara radial 360 derajat (jungkir balik). Ia memaksa *engine* melakukan *mirroring* sumbu X untuk animasi jalan yang stabil."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sebuah sistem permainan labirin diprogram sebagai berikut: <code>Forever -> If (Touching Color Black) Then (Stop All)</code>. Jika labirin tersebut sangat rumit, analisis mengapa skrip ini bisa memakan *frame rate* (membuat komputer lambat)?",
+    "o": ["Warna hitam sangat menyilaukan layar", "Blok *Forever* tidak pernah ditutup", "Deteksi tabrakan berbasis piksel warna (Color Sensing) membutuhkan komputasi berat dari prosesor karena ia memindai jutaan piksel RGB di layar pada setiap detiknya", "Memori RAM kurang besar"],
+    "a": 2,
+    "e": "Sensor warna berbasis piksel (*Pixel-Perfect Collision*) di dalam kalang tak terhingga (*Infinite Loop*) menuntut CPU/GPU bekerja secara intensif memetakan palet warna layar puluhan kali per detik."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Untuk mensimulasikan hukum probabilitas atau kecerdasan acak musuh yang sulit ditebak pergerakannya, fungsi matematika vital apa yang wajib ditanamkan dalam blok pergerakan musuh?",
+    "o": ["Cos dan Sin", "Logaritma (Log)", "Random Number Generator (Pick Random)", "Absolute Value (Abs)"],
+    "a": 2,
+    "e": "Fungsi pseudo-random (angka acak) memecah determinisme absolut dari kode komputer, memberikan ilusi dinamika asimetris dan ketidakpastian (probabilitas) pada pergerakan *Artificial Intelligence* (AI)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam konvensi *Flowchart* internasional, ketika seorang *System Analyst* ingin menggambarkan proses memasukkan kata sandi (Input Data) dan menampilkan notifikasi keberhasilan di layar (Output Data), simbol geometris yang harus digunakannya adalah...",
+    "o": ["Persegi Panjang", "Lingkaran", "Jajar Genjang (Parallelogram)", "Belah Ketupat (Diamond)"],
+    "a": 2,
+    "e": "Bagan jajar genjang secara spesifik difungsikan untuk mendeskripsikan setiap proses interaksi dua arah antara sistem dengan dunia luar (I/O), seperti input keyboard atau *display* layar."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Seorang programmer menulis 100 baris kode untuk menggambar 10 buah persegi panjang berturut-turut. Rekannya datang dan merombak kode tersebut menjadi hanya 5 baris menggunakan blok *Repeat*. Proses perombakan kode agar lebih ringkas, elegan, namun tidak mengubah hasil akhirnya disebut sebagai proses...",
+    "o": ["Hacking", "Refactoring (Pemfaktoran Ulang)", "Reverse Engineering", "Brute Force"],
+    "a": 1,
+    "e": "Refactoring adalah prinsip rekayasa perangkat lunak (*Software Engineering*) di mana struktur internal logika kode ditata ulang untuk optimasi efisiensi memori (Prinsip DRY: *Don't Repeat Yourself*), tanpa mengubah observasi sistem dari luar."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Variabel 'B' diset dengan nilai 20. Di bawahnya terdapat struktur loop: <code>Repeat (5) -> [Change B by -3]</code>. Jika dirunut secara *tracing* komputasional, berapa nilai persis variabel 'B' saat perulangan loop tersebut selesai secara penuh?",
+    "o": ["20", "15", "5", "-15"],
+    "a": 2,
+    "e": "Variabel awalnya 20. Perulangan berjalan 5 kali. Setiap perulangan mengurangi nilai sebanyak 3. Total pengurangan = 5 x 3 = 15. Nilai akhir: 20 - 15 = 5."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Budi ingin membuat animasi hari berganti siang dan malam menggunakan variabel waktu (0-23). Untuk memastikan sistem kembali ke angka 0 setelah mencapai jam 23 (tidak berlanjut ke 24, 25, dst.), fungsi aritmatika apa yang paling efisien digunakan?",
+    "o": ["Modulo / Mod (Sisa Hasil Bagi)", "Round (Pembulatan Bulat)", "Ceiling (Pembulatan ke Atas)", "Square Root (Akar Kuadrat)"],
+    "a": 0,
+    "e": "Operator Modulo (Misal: X Mod 24) membatasi nilai variabel agar kembali memutar (*wrap-around*). Ketika angka menyentuh 24, 24 Mod 24 = 0, mengamankan limitasi indeks angka secara matematis putar."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pada penggunaan ekstensi Pen (Pena) di Scratch, apabila siswa memindahkan (*Move*) sprite tanpa meletakkan blok <code>Pen Down</code> (Pena Turun) terlebih dahulu, maka secara logika visual...",
+    "o": ["Sprite akan berjalan lambat", "Sprite bergerak melintas namun tidak akan meninggalkan garis gambar jejak apapun di panggung", "Panggung akan menjadi hitam total", "Program akan Error (Berhenti)"],
+    "a": 1,
+    "e": "Logika ekstensi Pen meniru mekanika pulpen nyata di atas kertas Cartesian. Pulpen yang melayang (*Pen Up*) tidak menorehkan piksel pewarna (vektor/raster) saat *engine* merender perpindahan X/Y sprite."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam teori ilmu komputer, efisiensi algoritma dievaluasi dengan Notasi Big O (Asimtotik). Secara fundamental, metrik apa yang sedang diukur oleh Notasi O untuk menentukan algoritma A lebih baik dari algoritma B?",
+    "o": ["Berapa lama waktu yang dihabiskan programmer untuk mengetik kodenya", "Jumlah pertumbuhan langkah instruksi yang harus dijalankan mesin seiring dengan bertambah besarnya jumlah data (*Time Complexity*)", "Berapa banyak kuota internet yang terkuras", "Suhu suhu komputer saat dijalankan"],
+    "a": 1,
+    "e": "Efisiensi sejati tidak diukur oleh *stopwatch* manusia, melainkan seberapa cepat laju eksekusi loop komputasi (*Time Complexity*) akan melambat ketika ia dijejali jutaan atau miliaran baris data input."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang penipu (*Scammer*) mencuri ribuan sampel suara dari *Voice Note* grup WhatsApp Anda. Menggunakan mesin *Artificial Intelligence* Generatif, ia membuat rekaman suara sintesis yang meniru persis suara Anda sedang meminta uang darurat. Kejahatan manipulasi identitas biologis tingkat tinggi ini merupakan adaptasi ancaman dari teknologi...",
+    "o": ["Deepfake Audio / Voice Cloning", "Ransomware Attack", "DDoS (Distributed Denial of Service)", "Cryptojacking"],
+    "a": 0,
+    "e": "Teknologi *Deep Learning* modern (*Deepfake*) mampu mengurai gelombang frekuensi vokal biomateris (*Voice Print*) dan mengkloningnya secara instan untuk melancarkan serangan rekayasa sosial mutakhir."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Aplikasi transportasi dan pesan-antar makanan online telah mendisrupsi dunia ketenagakerjaan, menciptakan pekerjaan paruh waktu lepas berbasis aplikasi tanpa kontrak karyawan tetap. Sistem ekonomi modern ini secara kritis disebut sebagai fenomena...",
+    "o": ["Monopoli Korporat", "Gig Economy (Ekonomi Pekerja Lepas)", "Sistem Barter", "Black Market (Pasar Gelap)"],
+    "a": 1,
+    "e": "*Gig Economy* merestrukturisasi sistem buruh dunia menjadi pekerjaan *freelance* berumur pendek yang dikendalikan oleh algoritma pengalokasian pesanan (Algorithmic Management), menghilangkan tunjangan hari tua demi fleksibilitas."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Mengapa fenomena *Filter Bubble* (Gelembung Filter) yang diterapkan oleh algoritma platform seperti Instagram dan TikTok dianggap sangat mengancam kohesi masyarakat dalam sebuah negara demokrasi?",
+    "o": ["Membuat harga paket data internet menjadi sangat mahal", "Algoritma tersebut mengurung pengguna dalam realitas alternatifnya sendiri, menyembunyikan kebenaran oposisi, mengamplifikasi bias konfirmasi, dan memicu fanatisme kebencian politik antar kelompok", "Ia akan menghapus foto-foto penting dari galeri perangkat", "Algoritma tersebut mencuri uang di rekening bank"],
+    "a": 1,
+    "e": "Dalam demokrasi, masyarakat butuh kebenaran absolut yang disepakati (*Shared Reality*). Algoritma rekomendasi mengelompokkan pengguna ke dalam faksi radikal ekstrem (*Echo Chambers*) demi retensi waktu tonton, membunuh diskusi ruang tengah yang sehat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang siswa di kelas Anda mengerjakan seluruh esai sejarahnya murni dengan *copy-paste* jawaban hasil *generate* dari ChatGPT tanpa melakukan parafrasa, analisis nalar kritis, atau mencantumkan referensi kutipan *prompt*-nya. Analisis etika pedagogis menyatakan bahwa tindakan tersebut secara mendasar adalah...",
+    "o": ["Optimalisasi inovasi kurikulum berbasis industri 4.0", "Plagiarisme siber tingkat tinggi yang merugikan plastisitas otak sendiri, merusak integritas kejujuran akademik (*Academic Integrity*), dan mendevaluasi sistem penilaian sekolah", "Aktivitas *vibe coding* yang harus dicontoh", "Sah dan legal karena AI bukan manusia"],
+    "a": 1,
+    "e": "Penggunaan LLM (*Large Language Models*) generatif tanpa atribusi dan sintesis pemikiran orisinal merupakan pencurian hak intelektual (Pelanggaran Integritas Akademik), yang dalam jangka panjang memusnahkan kompetensi *problem solving* siswa itu sendiri."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Di balik warna-warni layarnya, desain grafis (UI/UX) aplikasi sosial media menggunakan trik '*Infinite Scroll*' (layar diusap ke atas tanpa batas akhir) yang diadopsi dari mekanika mesin kasino judi. Tujuan psikologis industri teknologi merancang fitur candu tersebut untuk mengeksploitasi pelepasan hormon...",
+    "o": ["Adrenalin dan Melatonin", "Dopamin (Reward System / Antisipasi Kepuasan)", "Kortisol", "Insulin"],
+    "a": 1,
+    "e": "Notifikasi instan dan variabilitas hadiah (*Variable Reward Schedule*) memanipulasi pelepasan Dopamin sistem limbik otak manusia, memicu respons adiksi patologis yang menjerat layar mata pengguna (*Attention Economy*)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Perusahaan besar seperti Google dan Bank Nasional tidak lagi menyimpan *password* Anda dalam bentuk teks asli (misal: *'AndiKeren123'*). Mereka menggunakan algoritma kriptografi satu arah yang mengubah *password* itu menjadi acakan digit panjang (misal: *'8a2c...'*). Teknik pengamanan data internal mutlak ini dikenal dengan istilah komputasi...",
+    "o": ["Firewalling", "Hashing (Fungsi Hash Kriptografis)", "Cloud Storage Backup", "Ad-blocking"],
+    "a": 1,
+    "e": "*Hashing* (seperti SHA-256) mendistorsi *string password* menjadi sidik jari *hash* heksadesimal asimetris. Bahkan jika database server bank dicuri *hacker*, *hacker* hanya melihat teks *hash* abstrak yang mustahil dikembalikan ke teks aslinya secara rekayasa balik."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kumpulan jejak digital pasif yang ditinggalkan seseorang, dari foto yang diunggah, *tag* lokasi di bandara, ulasan makanan, hingga riwayat akun *game*, dapat dirangkai dan ditarik kesimpulan komprehensif (*Profiling*) oleh oknum luar untuk mengetahui di mana rumah, kapan jam kosong, dan siapa keluarganya. Praktik analisis penelusuran digital publik ini disebut...",
+    "o": ["OSINT (Open Source Intelligence)", "Distributed Denial of Service", "A/B Testing", "Agile Development"],
+    "a": 0,
+    "e": "OSINT adalah metodologi intelijen militer yang kini dieksploitasi sipil. Mengumpulkan remah-remah titik jejak jejak informasi tak berujung (Digital Footprint) di domain publik (internet terbuka) untuk merekonstruksi profil korban secara akurat tanpa peretasan sistem."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Jika seseorang merasa dirugikan karena dikritik kinerja lambatnya di kolom komentar YouTube, apakah kritikus tersebut otomatis melanggar Pasal Pencemaran Nama Baik di dalam Undang-Undang ITE Indonesia?",
+    "o": ["Ya, karena UU ITE melarang segala bentuk komentar negatif di internet", "Tidak mutlak, UU ITE (khususnya revisi SKB Menteri) memberikan pembatasan bahwa kritik faktual atas pelayanan publik/profesional bukan tindak pidana asalkan berbasis kebenaran dan bukan fitnah yang menyerang personal", "Ya, setiap ucapan di internet harus selalu memuji", "Tidak, karena internet adalah wilayah tanpa hukum (*Lawless Zone*)"],
+    "a": 1,
+    "e": "Yurisprudensi dan revisi UU ITE memisahkan secara analitis antara delik aduan pencemaran nama baik berbasis fitnah subjektif dengan kebebasan berpendapat demokratis yang berupa kritik kinerja pelayanan publik yang rasional/konstruktif."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Aplikasi pesan instan rahasia menggunakan arsitektur keamanan *End-to-End Encryption* (E2EE). Secara teknis analitis, apa maksud dari klaim 'Bahkan perusahaan pembuat aplikasi tersebut tidak bisa membaca *chat* Anda'?",
+    "o": ["Aplikasi tersebut tidak terkoneksi ke *router* dan satelit", "Kunci dekripsi unik (Private Key) tidak pernah dikirim ke server pusat; ia hanya disimpan secara fisik di memori perangkat penerima lokal, membuat intersepsi di tengah jalan hanya akan membaca kode biner abstrak", "Aplikasi menggunakan internet generasi 6G", "Perusahaan selalu menghapus *chat* di server dalam waktu 2 detik"],
+    "a": 1,
+    "e": "Arsitektur E2EE mengunci paket data sebelum meninggalkan *smartphone* pengirim (*Public Key*), dan paket itu hanya bisa dibongkar oleh *smartphone* penerima eksklusif (*Private Key*), menciptakan terowongan privasi yang tak tertembus *Man-in-the-Middle*."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Euforia rilis *smartphone* baru setiap tahun mendorong budaya pemborosan elektronik. Mengapa tumpukan HP, laptop rusak, dan *cartridge printer* (disebut E-Waste/Limbah Elektronik) tidak boleh dibuang bersamaan dengan tumpukan sampah dapur rumah tangga biasa di TPA?",
+    "o": ["Karena mereka bisa meledak secara langsung saat disentuh", "Karena limbah E-Waste sangat bernilai miliaran rupiah jika dijual", "Papan sirkuit dan baterainya (*Lithium/Lead*) mengandung lelehan logam berat korosif beracun (merkuri, timbal) yang akan meresap dan mengontaminasi genetik air tanah serta rantai makanan ekosistem sekitar secara persisten", "Karena sampah dapur akan merusak sinyal HP"],
+    "a": 2,
+    "e": "Dampak destruktif digitalisasi yang tak terlihat adalah toksisitas rantai pasok. Polutan logam berat dari PCB elektronik (E-Waste) menyebar dan tidak terurai (*Non-biodegradable*), meracuni air artesis, flora, dan janin makhluk hidup yang mengonsumsinya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang penjahat terekam CCTV mencuri uang nenek di jalan. Netizen sangat marah lalu menemukan akun Facebook penjahat itu, membocorkan alamat rumahnya, nomor telepon anak istrinya, dan memprovokasi orang untuk menyerang rumahnya (Praktik *Doxing*). Secara etika dan payung hukum digital universal, mengapa tindakan membela kebenaran secara *Doxing Vigilante* (Main Hakim Sendiri) ini salah?",
+    "o": ["Karena netizen tidak mendapat bayaran dari penegak hukum", "Hak privasi individu (meskipun ia kriminal) dan peradilan asas praduga tak bersalah tetap dilindungi undang-undang; *Doxing* hanya melahirkan eskalasi kekerasan tanpa batas (Hukum Rimba) yang melanggar Hak Asasi Manusia", "Karena informasi alamat tersebut bisa jadi palsu", "Karena internet menjadi lambat saat banyak yang marah"],
+    "a": 1,
+    "e": "*Doxing* merobohkan supremasi hukum menjadi peradilan jalanan *virtual*. Kejahatan (*Scammer/Thief*) harus dilawan melalui struktur pidana (*Due Process of Law*), bukan membatalkan hak konstitusional privasi (*Human Rights*) siber warga negara."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Inovasi *Telemedicine* (seperti bedah robotik jarak jauh berbasis 5G atau konsultasi dokter via aplikasi) dirancang untuk memangkas angka kematian di pedesaan terpencil. Namun, inovasi ini bisa berbalik secara paradoksal menjadi instrumen pelebaran stratifikasi sosial jika kita mengabaikan isu...",
+    "o": ["Kecepatan produksi alat pelindung diri", "Digital Divide (Kesenjangan Digital), di mana penduduk di bawah garis kemiskinan dan pelosok (*Blank Spot*) tidak memiliki infrastruktur fiber optik dan *literasi* dasar untuk mengoperasikan platform kesehatan modern tersebut", "Berkurangnya dokter yang mau praktek", "Virus komputer menular ke manusia"],
+    "a": 1,
+    "e": "Sistem determinasi teknologi tidak pernah netral. Canggihnya aplikasi kesehatan akan eksklusif menguntungkan kelompok urban ber-WiFi, sementara kelompok akar rumput semakin terisolasi tanpa faskes konvensional. (*Digital Inequality*)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Prinsip *'The Right to be Forgotten'* (Hak untuk Dilupakan) di Uni Eropa (GDPR) mengamanatkan bahwa netizen memiliki kuasa memaksa Google/Platform menghapus tautan usang yang memalukan atau tidak lagi relevan mengenai masa lalu privasi mereka. Apa dilema moral paling berat dari penerapan klausul absolut ini bagi sebuah peradaban informasi?",
+    "o": ["Mengurangi pendapatan pajak negara", "Hak privasi individu berbenturan keras dengan kepentingan publik atas pelestarian catatan sejarah jurnalistik, transparansi kebebasan informasi, dan hak warga untuk mengetahui rekam jejak kriminal masa lalu oknum pejabat", "Menghapus data memakan banyak memori server", "Meningkatkan penjualan *smartphone*"],
+    "a": 1,
+    "e": "Amandemen pemusnahan jejak data menciptakan ketegangan yurisprudensi: Di mana batas perlindungan privasi rehabilitasi warga berakhir, dan di mana hak arsip transparansi pers/publik atas integritas sejarah dimulai? (*Privacy vs Censorship*)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang guru memvisualisasikan data ekstrakurikuler 400 siswa menggunakan Diagram Lingkaran (Pie Chart). Namun, karena ada 20 jenis ekstrakurikuler yang berbeda, diagram tersebut menjadi pecah dengan potongan yang sangat kecil dan warna yang hampir mirip. Analisis kesalahan desain visualisasi apa yang terjadi di sini?",
+    "o": ["Guru tersebut tidak menggunakan warna hitam putih", "Diagram lingkaran sangat buruk untuk menampilkan data dengan jumlah kategori yang terlalu banyak (lebih dari 5-7 kategori), seharusnya ia menggunakan Diagram Batang (Bar Chart) yang diurutkan", "Diagram lingkaran hanya bisa digunakan untuk persentase di bawah 100%", "Guru tersebut lupa menambahkan animasi grafik"],
+    "a": 1,
+    "e": "Diagram lingkaran (Pie Chart) kehilangan efektivitas analitisnya ketika harus membagi lingkaran ke dalam terlalu banyak irisan tipis. Otak manusia kesulitan membedakan sudut yang mirip, sehingga Diagram Batang (Bar Chart) mendatar adalah solusi yang jauh lebih presisi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam membaca laporan rata-rata (Mean) penghasilan warga sebuah desa, tercatat angkanya adalah Rp 15.000.000 per bulan. Namun faktanya, mayoritas warga adalah petani miskin. Setelah diselidiki, ternyata ada satu orang miliarder yang tinggal di desa tersebut. Mengapa penggunaan metrik 'Rata-rata' dalam kasus ini dianggap menyesatkan (Misleading)?",
+    "o": ["Karena angka tidak bisa dihitung jika ada orang kaya", "Karena miliarder tidak mau membayar pajak", "Nilai rata-rata (Mean) sangat rentan dan akan tertarik drastis oleh angka ekstrem/pencilan (Outlier), sehingga nilai Median (Nilai Tengah) seharusnya digunakan untuk melihat realitas mayoritas warga", "Karena data tersebut dienkripsi dengan buruk"],
+    "a": 2,
+    "e": "Mean (Rata-rata) tidak tahan terhadap angka ekstrem ekstrem (Outlier). Satu miliarder dengan gaji miliaran akan mendistorsi statistik seolah seluruh desa kaya. Median memotong angka ekstrem dan menunjukkan realitas di titik tengah."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah aplikasi medis mengumpulkan data pasien. Untuk mematuhi etika privasi, aplikasi tersebut menghapus nama dan alamat pasien, lalu menggantinya dengan ID Angka acak (misal: Pasien-9902). Teknik analitis perlindungan privasi data ini disebut sebagai...",
+    "o": ["Data Cleansing", "Data Pseudonimisasi / Anonimisasi", "Data Backup", "Data Corruption"],
+    "a": 1,
+    "e": "Anonimisasi (atau Pseudonimisasi) adalah proses memisahkan data analitik (seperti rekam medis) dari PII (Personally Identifiable Information) agar data tetap bisa diteliti secara statistik tanpa membahayakan identitas asli pemiliknya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Data mentah berupa foto struk belanja, rekaman CCTV, dan ribuan komentar acak netizen di Instagram tidak memiliki format baris dan kolom yang rapi. Dalam arsitektur basis data, jenis kumpulan data seperti ini diklasifikasikan sebagai...",
+    "o": ["Structured Data (Data Terstruktur)", "Unstructured Data (Data Tidak Terstruktur)", "Relational Database", "Spreadsheet Data"],
+    "a": 1,
+    "e": "Data Tidak Terstruktur (Unstructured Data) adalah data yang tidak memiliki model data atau skema kolom yang baku, seperti teks bebas, audio, dan video. Data ini memerlukan AI (seperti NLP atau Computer Vision) untuk bisa diekstrak maknanya."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Siswa menganalisis rumus di Excel: <code>=A1/B1</code> dan sistem mengembalikan pesan *error* <code>#DIV/0!</code>. Secara matematis dan komputasional, apa makna fundamental dari error tersebut?",
+    "o": ["Teks tidak bisa dibagi dengan teks", "Sistem mendeteksi adanya virus di sel B1", "Terjadi upaya pembagian sebuah angka dengan nilai 0 (Nol) atau sel kosong, yang mana secara hukum aritmatika adalah operasi yang tidak terdefinisi (Undefined)", "Kurangnya tanda kutip pada rumus"],
+    "a": 2,
+    "e": "Error #DIV/0! terjadi secara absolut ketika pembilang (angka atas) dibagi dengan penyebut (angka bawah) yang bernilai nol atau merujuk pada sel kosong."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Algoritma Netflix tidak hanya melihat film apa yang Anda tonton masa lalu (Analisis Deskriptif), tetapi ia mulai merekomendasikan film yang *kemungkinan besar* akan Anda sukai minggu depan. Pergeseran kapabilitas kecerdasan sistem ini masuk ke dalam ranah...",
+    "o": ["Predictive Analytics (Analisis Prediktif)", "Data Cleansing", "Data Visualization", "Cloud Computing"],
+    "a": 0,
+    "e": "Analisis Prediktif menggunakan pemodelan statistik dan Machine Learning pada data historis untuk memprediksi probabilitas kejadian (atau preferensi) di masa depan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang ilmuwan ingin mengurutkan tabel data populasi negara yang sangat besar. Ia mengklik fitur *Sort* dengan aturan: Level 1 (Benua: Ascending/A-Z), lalu Level 2 (Populasi: Descending/Besar-Kecil). Analisis apa bentuk hasil urutan tabel tersebut?",
+    "o": ["Tabel akan berantakan karena menggunakan dua aturan yang berlawanan", "Negara akan dikelompokkan per benua secara alfabetis (Afrika, Asia, dst). Di dalam kelompok benua Asia misalnya, negara dengan populasi terbesar akan berada paling atas", "Populasi akan diabaikan dan hanya Benua yang diurutkan", "Data akan terhapus otomatis"],
+    "a": 1,
+    "e": "Pengurutan bertingkat (Multi-level Sorting) akan mengeksekusi prioritas pertama (Benua A-Z) dahulu sebagai kelompok hierarki utama, lalu membedah data di dalam setiap kelompok tersebut berdasarkan prioritas kedua (Populasi Besar ke Kecil)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sistem AI pengenalan wajah pada sebuah perusahaan gagal mengenali karyawan dengan warna kulit gelap karena saat masa uji coba, *programmer* hanya memasukkan ribuan foto wajah orang berkulit terang ke dalam *database* belajarnya. Cacat logika AI akibat data ini disebut...",
+    "o": ["Algorithmic Bias (Bias Algoritma) akibat data latih yang tidak representatif", "Hardware Failure", "Cyber-attack", "Data Cleansing"],
+    "a": 0,
+    "e": "Kecerdasan Buatan (AI) hanya sebijak data yang disuapkan kepadanya. Jika data pelatihannya (Training Data) cacat atau diskriminatif, algoritma akan mereplikasi dan memperkuat bias diskriminasi tersebut (*Algorithmic Bias*)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Saat Anda menggunakan filter <code>(Kategori = \"Laptop\") AND (Harga < 5.000.000)</code> pada basis data toko *online*, logika komputasional apa yang diterapkan sistem terhadap ratusan barang di layar Anda?",
+    "o": ["Sistem akan menampilkan semua barang elektronik tanpa terkecuali", "Sistem akan menampilkan semua Laptop, termasuk yang harganya 10 juta", "Sistem secara ketat HANYA akan menampilkan produk yang memenuhi KEDUA syarat sekaligus: barangnya harus Laptop, dan harganya juga harus di bawah 5 juta", "Sistem akan error karena menggunakan kata AND"],
+    "a": 2,
+    "e": "Operator logika AND (*Konjungsi*) bersifat eksklusif mutlak. Ia mengharuskan seluruh pernyataan kondisi bernilai TRUE agar data lolos filter. Jika salah satu kondisi gagal, data disembunyikan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam pengumpulan data cuaca otomatis dari stasiun pemantau, ada satu hari di mana sensor rusak dan datanya tercatat 'KOSONG/NULL'. Jika *Data Scientist* mengisi kekosongan tersebut dengan angka rata-rata dari hari kemarin dan besoknya, teknik perbaikan data ini dikenal dengan istilah...",
+    "o": ["Data Deletion (Penghapusan)", "Data Imputation (Imputasi / Penambalan Data)", "Data Mining", "Data Harvesting"],
+    "a": 1,
+    "e": "Imputasi adalah proses matematis cerdas mengganti nilai yang hilang (Missing Values) dengan nilai estimasi statistik yang paling masuk akal (seperti mean/median) agar baris data tersebut tetap bisa dianalisis tanpa dibuang."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sebuah aplikasi navigasi membagi perjalanan Anda menjadi tiga bagian: Jarak menuju pintu tol, Perjalanan di jalan tol, dan Jarak dari pintu keluar tol ke rumah. Praktik memecah belah kerumitan perjalanan ini dalam *Computational Thinking* disebut...",
+    "o": ["Abstraksi (Abstraction)", "Pengenalan Pola (Pattern Recognition)", "Dekomposisi (Decomposition)", "Visualisasi Data"],
+    "a": 2,
+    "e": "Dekomposisi memecah masalah makro (rute kota ke kota) menjadi sub-masalah mikro yang independen (segmen tol) agar algoritma ETA (Estimasi Waktu Tiba) dapat dihitung per segmen dengan akurat."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Ketika programer menganalisis bahwa metode login bank, email, dan sosial media selalu menggunakan logika dasar yang sama (Cek Username -> Cek Password -> Berikan Akses), ia menghemat waktu dengan tidak menulis kode dari nol, melainkan menggunakan pola yang sudah ada. Ini adalah implementasi dari...",
+    "o": ["Data Cleansing", "Debugging", "Pengenalan Pola (Pattern Recognition)", "Hacking"],
+    "a": 2,
+    "e": "Mengenali kesamaan arsitektur masalah (Pattern Recognition) memungkinkan programmer menggunakan kembali logika solusi atau modul kerangka kerja (*Framework*) yang sudah teruji aman untuk masalah serupa."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Di Scratch, Anda merancang dua Sprite (Kucing dan Tikus) yang bergerak mengejar satu sama lain. Tiba-tiba permainan macet/freeze tanpa pesan error. Kucing menunggu Tikus bergerak, tapi Tikus juga menunggu Kucing bergerak. Cacat algoritma saling menunggu ini dalam ilmu komputer disebut...",
+    "o": ["Infinite Loop", "Deadlock (Kuncian Mati)", "Syntax Error", "Buffer Overflow"],
+    "a": 1,
+    "e": "Deadlock terjadi pada sistem pemrosesan paralel (*multi-threading*) ketika dua atau lebih entitas saling menunggu *resource* atau sinyal dari satu sama lain tanpa batas waktu, menyebabkan sistem membeku."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sebuah variabel *Timer* di Scratch diisi logika: <code>Forever -> [Wait 1 secs] -> [Change Timer by -1]</code>. Jika awal Timer adalah 10, apa yang secara logis TERLUPAKAN dalam skrip tersebut yang bisa merusak game?",
+    "o": ["Suara detik jam tidak ditambahkan", "Tidak ada kondisi pembatas/penghenti. Timer akan terus berkurang melewati angka 0 menjadi angka negatif tak terhingga (-1, -2, -100) karena tidak ada blok pengecekan <code>If Timer < 1 Then [Stop Game]</code>", "Warna Timer tidak diubah menjadi merah", "Variabel Timer harus disembunyikan"],
+    "a": 1,
+    "e": "Sebuah *counter* hitung mundur harus selalu memiliki *Exit Condition* (Kondisi Keluar/Berhenti). Tanpanya, logika mesin yang buta akan membiarkan nilai terjun ke angka negatif (Underflow)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Anda menggunakan blok percabangan boolean ganda: <code>If (Touching Lava) OR (Timer = 0) Then [Broadcast GAME OVER]</code>. Berdasarkan hukum aljabar logika, kapan sinyal Game Over TIDAK akan disiarkan?",
+    "o": ["Hanya jika karakter menyentuh Lava", "Hanya jika Timer menjadi 0", "Hanya jika karakter TIDAK menyentuh Lava DAN Timer BUKAN 0 (Kedua sisi bernilai False)", "Sinyal akan selalu disiarkan"],
+    "a": 2,
+    "e": "Operator logika OR (Disjungsi) hanya akan bernilai FALSE (Gagal) jika dan hanya jika semua kondisi di dalamnya bernilai FALSE secara serentak."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Untuk mengoptimalkan game balap agar mobil terasa 'meluncur' dan melambat perlahan layaknya fisika dunia nyata saat tombol gas dilepas, konsep matematis apa yang harus ditambahkan pada variabel Kecepatan?",
+    "o": ["Kecepatan dikalikan dengan angka negatif", "Mengalikan Kecepatan dengan nilai pecahan Friksi/Gesekan (misal: <code>Set Kecepatan to Kecepatan * 0.95</code>) di dalam loop, sehingga nilainya meluruh secara asimtotik mendekati nol", "Kecepatan disetel langsung ke angka 0", "Menggunakan blok Point in Direction"],
+    "a": 1,
+    "e": "Mengalikan variabel gerak dengan konstanta desimal (0.95) di dalam siklus *looping* adalah trik klasik algoritma fisika inersia (*damping/friction*) untuk menciptakan efek deselerasi gerak yang halus."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Budi memprogram sistem lampu otomatis. Sensor mendeteksi cuaca. Jika kode aslinya: <code>If (Mendung) Then Lampu Menyala, Else If (Malam) Then Lampu Menyala</code>. Secara prinsip *Refactoring* kode (meringkas tanpa mengubah fungsi), baris ini bisa diubah menjadi satu blok menggunakan operator...",
+    "o": ["AND", "NOT", "OR (<code>If Mendung OR Malam Then Lampu Menyala</code>)", "MODULO"],
+    "a": 2,
+    "e": "Daripada menulis dua *If* terpisah yang menghasilkan aksi/output yang sama persis (Lampu Menyala), penggunaan gerbang logika OR menyatukan dua syarat (atau lebih) ke dalam satu pintu evaluasi yang jauh lebih elegan."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Anda memiliki 10 Sprite Koin yang sama persis di layar. Daripada membuat 10 Sprite dengan 10 blok skrip yang sama berjejer di bawah layar, teknik pemrograman canggih berbasis objek apa di Scratch yang memungkinkan Anda hanya butuh 1 Sprite Master dan membiarkan mesin menggandakannya?",
+    "o": ["Broadcast Message", "Cloning (<code>Create clone of myself</code>)", "Pen Stamp", "Backdrop Switch"],
+    "a": 1,
+    "e": "Cloning (Instansiasi Objek) adalah fondasi Pemrograman Berorientasi Objek (OOP). Ia memungkinkan 1 kode sumber (*Blueprint*) melahirkan puluhan 'anak' dinamis di memori yang patuh pada logika sang induk."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Jika Anda menggunakan blok ekstensi *Pen* untuk menggambar lintasan mobil, fungsi dari blok <code>Clear</code> atau <code>Erase All</code> harus diletakkan tepat di bawah pemicu Bendera Hijau. Analisis apa tujuannya secara komputasional?",
+    "o": ["Agar komputer tidak terserang virus", "Untuk inisialisasi layar: Memastikan panggung bersih dari jejak tinta (garis) dari sesi permainan sebelumnya (membersihkan buffer cache layar) sebelum menggambar ulang lintasan baru", "Agar mobil bergerak lebih cepat", "Menghapus kode-kode yang salah"],
+    "a": 1,
+    "e": "Jejak ekstensi Pen di Scratch bersifat permanen (menempel di *layer bitmap* layar). Tanpa inisialisasi (Erase All), tinta dari *run* sebelumnya akan terus bertumpuk, menciptakan visual yang kacau."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam menyusun algoritma sistem kasir toko, kasir menginput total belanja Rp 100.000 dan uang pembeli Rp 150.000. Algoritma harus menghitung kembalian. Jika ditulis dalam Flowchart, operasi hitung kembalian ini harus dibungkus dalam simbol berbentuk...",
+    "o": ["Jajar Genjang (Input/Output)", "Belah Ketupat (Decision)", "Lingkaran (Connector)", "Persegi Panjang (Proses Komputasi Matematika)"],
+    "a": 3,
+    "e": "Bagan Persegi Panjang (Rectangle) didedikasikan mutlak untuk aktivitas pemrosesan aritmatika internal (seperti rumus Pengurangan Kembalian = Uang - Total) yang terjadi di dalam CPU."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Apa bedanya secara konseptual antara *Syntax Error* dengan *Logical Error* saat Anda membuat program?",
+    "o": ["Syntax Error terjadi karena komputer panas, Logical Error karena mati listrik", "Syntax Error terjadi jika Anda salah tata bahasa komputer (misal: kurang titik koma) sehingga program menolak berjalan. Logical Error terjadi saat kode berjalan lancar tanpa macet, tetapi menghasilkan *output* yang salah (misal: 1+1=3)", "Keduanya adalah hal yang identik", "Logical error selalu merusak hardware fisik"],
+    "a": 1,
+    "e": "*Logical error* (Cacat Logika) jauh lebih berbahaya dan sulit dicari. Mesin *Compiler* tidak bisa mendeteksi kesalahan logika pemikiran manusia, ia hanya memastikan grammar/sintaksnya benar."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siswa membuat fungsi blok kustom di Scratch (<i>My Blocks</i>). Ia mencentang opsi <code>Run without screen refresh</code>. Jika di dalam fungsi kustom tersebut ternyata siswa tidak sengaja memasukkan siklus <code>Forever</code> yang salah, dampak teknis apa yang akan terjadi?",
+    "o": ["Layar monitor akan berkedip-kedip", "Tab Scratch (Web Browser) akan terkunci penuh (Freeze/Hang) seketika karena *engine* dipaksa menyelesaikan *looping* tanpa batas dalam satu frame waktu (0 detik)", "Tidak terjadi apa-apa, fungsi berjalan normal", "Karakter akan bergerak sangat lambat"],
+    "a": 1,
+    "e": "Opsi *Run without screen refresh* menginstruksikan CPU mengeksekusi blok memori tanpa jeda rendering layar. Memasukkan *Infinite Loop* ke dalamnya akan merampas seluruh *thread* CPU, membuat web *browser hang* total."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Anda ingin menghitung jarak dinamis antara Sprite Peluru dengan Sprite Musuh menggunakan rumus Pythagoras (Teorema Geometri). Secara lebih praktis, blok sensor bawaan apa di Scratch yang secara otomatis menghitung matriks ini tanpa perlu rumus panjang?",
+    "o": ["Touching color?", "Distance to [Sprite Musuh]", "Direction of [Sprite Musuh]", "X position of [Sprite Musuh]"],
+    "a": 1,
+    "e": "Sensor 'Distance to' secara di balik layar menjalankan perhitungan vektor Pythagoras antara titik (X1,Y1) dan (X2,Y2) pusat *bounding box* kedua sprite, menghasilkan nilai skalar jarak dalam piksel."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pusat Koordinat (0,0) di sistem Scratch berada di tepat di tengah panggung (Center). Berapa ukuran resolusi piksel absolut yang membatasi luas dimensi panggung Scratch tersebut?",
+    "o": ["1024 x 768 piksel", "Lebar 480 piksel (X: -240 ke 240) dan Tinggi 360 piksel (Y: -180 ke 180)", "1920 x 1080 piksel (Full HD)", "Tak terbatas (Infinite)"],
+    "a": 1,
+    "e": "Mengetahui batasan *Viewport* sangat krusial dalam algoritma game untuk menghapus objek (*Garbage Collection*) saat mereka keluar dari kanvas rasio 4:3 bawaan Scratch (480x360)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Seorang programer menemukan kode program yang kotor, boros memori, dan sulit dibaca milik rekannya. Ia menulis ulang susunan kode tersebut agar lebih rapi dan optimal kinerjanya, TANPA mengubah hasil akhir visual di layarnya. Praktik rekayasa arsitektur ini disebut...",
+    "o": ["Refactoring Code (Pemfaktoran Ulang)", "Reverse Engineering", "Brute Force Hacking", "Compiling"],
+    "a": 0,
+    "e": "Refactoring adalah restrukturisasi internal sebuah *source code* demi skalabilitas dan kemudahan perawatan (Maintainability) di masa depan, bukan untuk mengubah fungsi/fitur luarnya."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Program Python terbuka (Open Source) memiliki keunggulan inovasi yang masif karena komunitas global bisa berpartisipasi. Secara etika dan teknis, apa definisi sejati dari perangkat lunak *Open Source*?",
+    "o": ["Perangkat lunak yang selalu gratis dan tidak boleh dijual sama sekali", "Perangkat lunak yang kode sumbernya (Source Code) dipublikasikan transparan, sehingga siapa saja yang memiliki lisensi yang tepat bisa membaca, memodifikasi, dan mendistribusikan ulang kode tersebut untuk diaudit/disempurnakan", "Perangkat lunak yang tidak memiliki keamanan", "Perangkat lunak buatan Microsoft saja"],
+    "a": 1,
+    "e": "Esensi *Open Source* (Sumber Terbuka) bukan semata-mata 'Gratis', melainkan 'Kebebasan' (*Free as in Freedom*) akses terhadap kerangka bangunan (*blueprint/source code*) algoritma itu sendiri."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam ekosistem teknologi internet, kapan sebaiknya penggunaan *Heuristik* (Tebakan Pendekatan AI) diutamakan dibandingkan penggunaan *Algoritma Pasti* (Rumus Eksak)?",
+    "o": ["Saat menghitung total saldo rekening di bank (Akurasi absolut wajib)", "Saat Google Maps mencari rute tercepat menghindari kemacetan di antara jutaan kombinasi jalan, di mana perhitungan matematis presisi akan memakan waktu berjam-jam (Heuristik memberikan solusi 'cukup baik' dalam hitungan detik)", "Saat sistem menimbang takaran obat di apotek", "Saat menghitung persentase baterai HP"],
+    "a": 1,
+    "e": "Pendekatan Heuristik mengorbankan akurasi sempurna demi kecepatan komputasi. Ini mutlak digunakan pada masalah pencarian graf berskala raksasa (seperti NP-Hard/Navigasi) yang tidak mungkin diselesaikan secara *brute-force* eksak seketika."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Anda meletakkan dua blok <code>When Green Flag Clicked</code> secara paralel dalam satu Sprite yang sama. Blok A berisi pergerakan maju, Blok B berisi suara musik. Secara ilmu arsitektur komputasi, mesin Scratch akan menjalankan kedua skrip ini secara...",
+    "o": ["Bergantian, menunggu satu selesai baru yang lain mulai", "Bersamaan secara serentak dalam memori (Asynchronous / Multithreading parallelism)", "Sistem akan error menolak dualitas", "Hanya blok yang di sebelah kiri yang dijalankan"],
+    "a": 1,
+    "e": "Scratch meniru paradigma multithreading event-driven. Beberapa *thread* *listener* (*Topi Bendera Hijau*) yang terpisah akan di-trigger dan dieksekusi oleh mesin secara paralel/independen satu sama lain."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Mengapa pengkodean grafis berbasis balok (Block-based) seperti Scratch tidak digunakan oleh industri *programmer* profesional (seperti Google atau Bank) untuk membuat aplikasi *mobile* perbankan?",
+    "o": ["Karena warnanya terlalu kekanak-kanakan", "Karena Scratch terlalu lambat dan memiliki limitasi absolut pada fleksibilitas arsitektur sistem kompleks, manajemen basis data jarak jauh, dan protokol enkripsi yang hanya bisa ditulis oleh bahasa berbasis teks (*Text-based*) seperti Java/C++", "Karena Scratch dilarang oleh pemerintah", "Karena memori yang dibutuhkan Scratch mencapai ukuran Terabyte"],
+    "a": 1,
+    "e": "Block-based didesain sebagai alat pedagogis (belajar logika). Ia menyembunyikan lapisan kompleksitas mesin (*low-level API, memory management*), sehingga ia tidak memiliki kuasa fleksibilitas yang dibutuhkan untuk membangun arsitektur *enterprise* sejati."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Budi menemukan foto digital lama di laptop ayahnya. Ketika ia memeriksa properti *file* gambar tersebut, ia bisa melihat secara detail menggunakan kamera merk apa, koordinat GPS bujur/lintang lokasi foto diambil, dan jam pengambilannya. Data rahasia tersembunyi yang melekat pada *file* ini secara teknis dinamakan...",
+    "o": ["Macro Virus", "Metadata (Data EXIF)", "Blockchain", "Watermark"],
+    "a": 1,
+    "e": "Metadata (Data tentang data) atau EXIF (*Exchangeable Image File Format*) adalah jejak digital pasif yang ditanam otomatis oleh sensor perangkat keras kamera ke dalam *file* media, seringkali mengungkap lokasi presisi membahayakan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang pengguna internet membaca tulisan berbunyi 'Wah, kamu pintar sekali ya, tes termudah di dunia saja dapat nilai 10!'. Jika pengguna tersebut mengira itu pujian padahal penulisnya sedang menyindir keras (Sarkasme), fenomena bias komunikasi tulisan tanpa intonasi suara ini dijelaskan dalam sosiologi siber sebagai...",
+    "o": ["Hukum Moore", "Hukum Poe (Poe's Law)", "Digital Divide", "Echo Chamber"],
+    "a": 1,
+    "e": "Hukum Poe (Poe's Law) menyatakan bahwa tanpa indikator jelas (*emoticon* atau /s), sangat mustahil membedakan secara pasti antara ekstremisme/kebodohan yang tulus dengan parodi/sarkasme di internet."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sistem enkripsi virus *Ransomware* tidak serta-merta mencuri data Anda ke *server* peretas. Secara arsitektur, apa yang sebenarnya dilakukan oleh *Ransomware* saat berhasil menjebol komputer perusahaan korban?",
+    "o": ["Menghapus akun sosial media korban", "Menggunakan kunci algoritma kriptografi rumit (contoh: RSA) untuk mengunci (mengacak) *file-file* penting milik korban di *hardisk* lokal itu sendiri secara absolut, dan menahan sandi pelepasnya (Decryption Key) sampai korban mengirim uang kripto (Bitcoin)", "Mengganti nama *file* menjadi bahasa asing", "Merekam suara *keyboard* pengguna"],
+    "a": 1,
+    "e": "Anatomi *Ransomware* adalah pemerasan berbasis penyanderaan kriptografi. Data tidak dipindahkan, melainkan dimodifikasi dengan matriks *hash* yang mustahil dipecahkan oleh komputer *super* sekalipun tanpa kunci spesifik dari sang *hacker*."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Saat Anda menggunakan lisensi *Creative Commons* pada karya foto Anda, Anda menyertakan logo bergambar uang dicoret atau berhuruf 'NC'. Analisis yuridis dari atribusi spesifik ini berarti...",
+    "o": ["Karya foto tersebut terlarang untuk siapa saja", "Siapa pun boleh membagikan karya Anda asalkan TIDAK untuk mencari keuntungan/komersial (Non-Commercial)", "Anda tidak akan dibayar oleh hak cipta", "Foto harus dijual mahal"],
+    "a": 1,
+    "e": "Modul Lisensi 'NC' (Non-Commercial) pada spektrum CC (*Creative Commons*) mengizinkan demokrasi penyebaran karya untuk ranah edukasi/publik, namun menutup celah monetisasi sepihak oleh korporat/individu pencari untung finansial."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Meskipun Autentikasi Dua Langkah (2FA) menggunakan verifikasi kode SMS terasa aman, para ahli *Cyber Security* dunia mulai melarang perusahaan menggunakannya dan menyarankan beralih ke *Authenticator Apps* (misal: Google Authenticator). Celah kelemahan fatal pada sistem SMS yang tidak dimiliki aplikasi adalah...",
+    "o": ["SMS memerlukan biaya pulsa", "Sinyal seluler rentan terhadap serangan penipuan *SIM Swap* (penjahat mengkloning atau mengambil alih kepemilikan nomor kartu SIM korban di gerai provider), sedangkan aplikasi *Authenticator* terkunci mati pada *hardware* perangkat fisik korban", "Aplikasi lebih menarik secara visual", "SMS mudah dihapus oleh sistem"],
+    "a": 1,
+    "e": "Serangan *SIM Swapping* (mengelabui *customer service provider* jaringan) adalah mimpi buruk perbankan modern. Saat nomor HP berpindah tangan, seluruh kode SMS OTP bank/email akan masuk ke HP peretas. Token kriptografis aplikasi lokal tahan terhadap ini."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Algoritma sistem *Gig Economy* (seperti aplikasi Ojek Online) menghitung performa, jam kerja, denda, dan lokasi pekerja secara otomatis. Manajemen berbasis AI tanpa campur tangan mandor manusia ini memunculkan kritik etika pekerjaan global karena...",
+    "o": ["Membuat harga ojek terlalu murah", "Algoritma Manajemen (Algorithmic Management) seringkali mengabaikan batasan lelah manusiawi, bertindak tidak transparan/zalim dalam penangguhan akun (Suspend), dan tidak memberikan jaring pengaman asuransi ketenagakerjaan permanen", "Sistem ini menggunakan bahasa pemrograman kuno", "Membuat jalanan menjadi padat kendaraan"],
+    "a": 1,
+    "e": "Dilema disrupsi *Gig Economy*: AI berlaku sebagai atasan yang tak memiliki empati (*Faceless Boss*). Pekerja menjadi budak skor bintang dan metrik efisiensi algoritma tanpa struktur perlindungan serikat pekerja hukum konvensional."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kemunculan video *Deepfake* yang merekayasa pidato presiden sebuah negara secara hiper-realistis menggunakan Generative AI merupakan ancaman non-fisik terbesar pada abad ini dalam hal...",
+    "o": ["Ketahanan Pangan", "Integritas proses demokrasi Pemilihan Umum dan stabilitas geopolitik karena disinformasi absolut menghancurkan fondasi kepercayaan publik terhadap kebenaran faktual audiovisual", "Pelanggaran hak cipta perfilman", "Penurunan penjualan saham perangkat keras komputer"],
+    "a": 1,
+    "e": "Saat mata tidak bisa lagi mempercayai video rekaman akibat manipulasi Jaringan Saraf Tiruan (*Deepfake*), realitas jurnalistik menjadi nisbi. Ini adalah senjata perang asimetris paling mematikan untuk memanipulasi pemilih pemilu (Disinformasi Sintetis)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Siswa A meretas *database* pendaftaran sekolah secara iseng, namun tidak merusak atau mencuri apa pun, hanya untuk menunjukkan kehebatannya di forum internet. Walaupun motifnya kebanggaan (*Ego-Driven*), secara taksonomi peretas siber, tindakan ilegal yang mengeksploitasi sistem tanpa izin ini masuk dalam klasifikasi...",
+    "o": ["White Hat Hacker", "Gray Hat Hacker / Black Hat Hacker", "Data Scientist", "Quality Assurance (QA)"],
+    "a": 1,
+    "e": "Meretas keamanan sistem orang lain tanpa izin (Otorisasi Legal) adalah tindak pidana, terlepas dari motifnya. Berbeda dengan peretas etis (*White Hat/Penetration Tester*) yang dibayar sah secara kontrak untuk mencari kelemahan."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sebuah unggahan viral di *Twitter* berbunyi: 'Saya tidak suka warna hijau, menurut saya sangat jelek'. Ratusan netizen tiba-tiba menyerang kolom balasan dan mencaci maki pembuat *tweet* dengan tuduhan diskriminasi. Fenomena lompatan konklusi tak berdasar dan penghukuman sosial kolektif berbasis amarah instan ini dikaji secara sosiologis sebagai fenomena...",
+    "o": ["Cancel Culture dan Online Mob/Outrage", "Phishing Sosial", "Digital Divide", "Analisis Big Data"],
+    "a": 0,
+    "e": "Akar toksisitas *Sosmed*: *Cancel Culture* diperparah oleh algoritma amarah (*Outrage Algorithm*). Netizen merasa benar menghukum secara anonim (Main Hakim Bersama) tanpa konteks objektif, membunuh ruang diskusi rasional moderat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Hukum pidana kejahatan siber (Cyber Law) dihadapkan pada satu kesulitan fundamental yang tidak dimiliki oleh hukum kejahatan fisik konvensional. Kesulitan yurisdiksi spasial yang paling membuat pusing penegak hukum interpol adalah...",
+    "o": ["Polisi tidak mengerti cara menggunakan komputer", "Kejahatan Siber bersifat lintas batas batas negara (Borderless). Korban ada di Indonesia, pelaku ada di Rusia, menggunakan server di Swiss. Hukum negara mana yang harus diterapkan secara kedaulatan?", "Penjahat siber tidak memiliki sidik jari", "Kabel fiber optik tersembunyi di bawah laut"],
+    "a": 1,
+    "e": "Asas teritorial (Batas kedaulatan geografis negara) lumpuh oleh arsitektur internet yang *stateless*. Tanpa perjanjian ekstradisi internasional khusus siber, penegakan delik hukum akan bertabrakan dengan yurisdiksi negara lain."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sebuah pesan email darurat yang seakan-akan dari 'Admin Bank XYZ' mendesak nasabah mengeklik tautan agar rekeningnya tidak diblokir. Selain jebakan urgensi panik, indikator forensik terkuat bahwa email tersebut adalah upaya rekayasa sosial *Phishing* adalah...",
+    "o": ["Adanya logo bank berwarna tajam di email tersebut", "Nama domain email pengirim yang digunakan adalah nama acak publik seperti 'admin.bank@yahoo.com' atau *typosquatting* seperti '@b4nk-xyz.com', bukan domain korporasi internal resmi yang sah", "Pesan dikirim pada malam hari", "Menggunakan bahasa Inggris"],
+    "a": 1,
+    "e": "Anatomi dasar OSINT pada *Phishing*: Pelaku bisa memalsukan logo (*Front-end*), namun protokol *Domain Name System* (DNS) pengirim sulit dipalsukan tanpa biaya. Membaca detail *header* email asal (Domain) adalah vaksin utama *anti-phishing*."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Menjelang pemilu yang memanas, grup-grup sosial media menjadi kubu-kubu ekstrem. Fenomena isolasi ideologi (*Echo Chamber*) yang membunuh nalar kritis masyarakat ini sejatinya dipelihara dan diperparah oleh desain industri kapitalisme teknologi. Siapa 'arsitek' teknis tak kasat mata dari polarisasi ini?",
+    "o": ["Kabel jaringan fiber optik yang lambat", "Algoritma mesin rekomendasi komersial perusahaan yang didesain memprioritaskan kurasi konten sensasional/afirmasi bias demi memperpanjang waktu tonton layar (Attention Economy/Ad-Revenue) ketimbang mempromosikan persatuan moderat", "Kerusakan pada chip memori Handphone", "Virus Trojan dari hacker"],
+    "a": 1,
+    "e": "Disrupsi peradaban terdalam internet: Otomatisasi bisnis kapitalisme periklanan (Engagement=Uang) di mana algoritma menyadari bahwa amarah dan fanatisme jauh lebih kuat menahan mata manusia di depan layar dibandingkan fakta yang seimbang dan membosankan."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "c": "Analisis Data",
+    "q": "Seorang peneliti mengumpulkan ribuan catatan suhu harian selama satu tahun, namun angka-angka tersebut belum memberikan makna apa pun bagi masyarakat. Proses apa yang harus dilakukan agar kumpulan angka mentah tersebut dapat digunakan untuk memprediksi musim kemarau?",
+    "o": ["Visualisasi Data", "Analisis Data", "Pengumpulan Data", "Penyimpanan Data"],
+    "a": 1,
+    "e": "Analisis data adalah proses mengevaluasi data mentah menggunakan penalaran analitis atau statistik untuk menemukan pola, tren, atau informasi bermakna yang dapat digunakan untuk mengambil keputusan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Budi mendata teman sekelasnya dan menghasilkan catatan berikut: (1) Tinggi badan rata-rata 150 cm, (2) Mayoritas menyukai warna biru, (3) Berat badan Andi 45 kg, (4) Tingkat kepuasan belajar 'Sangat Baik'. Manakah dari catatan tersebut yang termasuk kategori data kualitatif?",
+    "o": ["1 dan 3", "2 dan 4", "1 dan 2", "3 dan 4"],
+    "a": 1,
+    "e": "Data kualitatif adalah data deskriptif yang tidak dapat diukur dengan angka secara matematis, melainkan berbentuk kategori atau kualitas (seperti warna favorit dan tingkat kepuasan)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam memproses data nilai ujian siswa satu sekolah, tahapan mana yang harus dilakukan paling awal agar hasil analisis tidak menyesatkan?",
+    "o": ["Mempresentasikan hasil di depan guru", "Membuat grafik lingkaran dari nilai-nilai tersebut", "Membersihkan data (Data Cleansing) dari entri ganda atau salah ketik", "Mencari rata-rata keseluruhan kelas"],
+    "a": 2,
+    "e": "Sebelum data diolah (dihitung atau divisualisasikan), data harus melalui proses pembersihan (Data Cleansing) untuk memastikan validitas dan akurasi informasi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Pernyataan mana di bawah ini yang menunjukkan pemahaman analisis data yang paling tepat dalam konteks bisnis e-commerce modern?",
+    "o": ["Semakin banyak data yang disimpan, perusahaan akan otomatis semakin sukses.", "Data hanya berguna untuk perusahaan yang menjual produk digital.", "Analisis rekam jejak belanja pelanggan membantu perusahaan merekomendasikan produk yang tepat secara personal.", "Analisis data dilakukan secara manual tanpa bantuan komputer."],
+    "a": 2,
+    "e": "Dalam e-commerce, analisis data pelanggan digunakan secara spesifik untuk memprediksi perilaku konsumen dan memberikan rekomendasi produk yang relevan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Jika Anda menemukan dua sumber data yang saling bertentangan mengenai jumlah penduduk desa X, langkah analitis apa yang paling ilmiah untuk diambil?",
+    "o": ["Memilih data yang angkanya paling besar", "Mencari sumber referensi ketiga yang lebih otoritatif (seperti BPS) untuk validasi silang (cross-check)", "Menjumlahkan kedua data tersebut lalu dibagi dua", "Mengabaikan kedua data tersebut dan mengarang angka baru"],
+    "a": 1,
+    "e": "Validasi silang (cross-check) dengan sumber resmi atau data primer adalah prinsip utama dalam menjaga integritas dan validitas analisis data."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Urutan langkah-langkah yang paling logis dan standar dalam siklus analisis data sederhana adalah...",
+    "o": ["Pengolahan -> Pengumpulan -> Penyajian -> Kesimpulan", "Pengumpulan -> Penyajian -> Pengolahan -> Kesimpulan", "Pengumpulan -> Pembersihan -> Pengolahan -> Visualisasi", "Visualisasi -> Pengumpulan -> Pembersihan -> Keputusan"],
+    "a": 2,
+    "e": "Siklus analisis data dimulai dari pengumpulan (collect), pembersihan (clean), pengolahan/analisis (process/analyze), dan diakhiri dengan penyajian/visualisasi (visualize) untuk diambil keputusan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sekelompok siswa mendapat nilai ulangan: 80, 75, 90, 85, 70. Jika guru ingin mencari nilai Median (nilai tengah) dari data tersebut, langkah krusial pertama yang wajib dilakukan adalah...",
+    "o": ["Menjumlahkan semua nilai tersebut", "Membagi total nilai dengan angka 5", "Mengurutkan nilai dari yang terkecil ke terbesar, atau sebaliknya", "Mencari nilai yang paling sering muncul"],
+    "a": 2,
+    "e": "Median adalah nilai tengah dari suatu kumpulan data. Syarat mutlak untuk menemukan median adalah mengurutkan data (sorting) terlebih dahulu."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Andi memiliki file laporan berbentuk teks sebesar 2 Megabyte (MB). Jika ia ingin menyimpannya di flashdisk dengan kapasitas sisa 2 Gigabyte (GB), secara teoritis, informasi ruang yang tersisa adalah...",
+    "o": ["Flashdisk tidak cukup untuk menyimpan file tersebut", "Sangat cukup, karena 2 GB setara dengan sekitar 2000 MB", "Cukup, karena 2 GB setara dengan 2 MB", "Kapasitas menjadi berlebihan dan file akan rusak"],
+    "a": 1,
+    "e": "1 Gigabyte (GB) kira-kira sama dengan 1.024 Megabyte (MB). Jadi ruang sisa 2 GB jauh lebih besar dari ukuran file 2 MB."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Manakah di bawah ini urutan satuan penyimpanan data dari yang kapasitasnya Paling Kecil hingga Paling Besar secara berurutan?",
+    "o": ["Byte, Kilobyte, Megabyte, Gigabyte, Terabyte", "Bit, Megabyte, Kilobyte, Gigabyte, Terabyte", "Terabyte, Gigabyte, Megabyte, Kilobyte, Byte", "Kilobyte, Byte, Gigabyte, Megabyte, Bit"],
+    "a": 0,
+    "e": "Urutan satuan dari terkecil adalah Byte (B), Kilobyte (KB), Megabyte (MB), Gigabyte (GB), dan Terabyte (TB)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam pemilihan ketua kelas, tercatat suara sebagai berikut: Andi (15 suara), Budi (15 suara), Citra (10 suara). Berdasarkan data ini, analisis secara statistik (Modus) menunjukkan bahwa...",
+    "o": ["Andi memenangkan pemilihan", "Budi memenangkan pemilihan", "Terdapat modus ganda (bimodal), yang berarti seri antara Andi dan Budi", "Citra adalah nilai median"],
+    "a": 2,
+    "e": "Modus adalah nilai atau data yang paling sering muncul. Jika ada dua data dengan frekuensi tertinggi yang sama, data tersebut disebut bimodal (memiliki dua modus)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang guru ingin menampilkan persentase siswa yang menggunakan sepeda, motor, dan angkutan umum ke sekolah dari total 100% siswa. Jenis penyajian data (visualisasi) mana yang paling ideal digunakan?",
+    "o": ["Diagram Garis (Line Chart)", "Diagram Lingkaran (Pie Chart)", "Tabel Data Mentah", "Grafik Sebaran (Scatter Plot)"],
+    "a": 1,
+    "e": "Diagram lingkaran (Pie Chart) sangat ideal untuk menunjukkan proporsi atau persentase dari sebuah kesatuan penuh (100%)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Grafik penjualan kantin sekolah menunjukkan garis yang terus menanjak tajam dari bulan Januari hingga April, lalu menurun perlahan di bulan Mei. Kesimpulan analitis yang dapat diambil adalah...",
+    "o": ["Penjualan di bulan Mei adalah yang terburuk sepanjang tahun", "Kantin selalu mengalami kerugian", "Terdapat tren peningkatan minat belanja di empat bulan pertama sebelum akhirnya mengalami penurunan di bulan kelima", "Kantin ditutup pada bulan Mei"],
+    "a": 2,
+    "e": "Analisis visualisasi dari grafik garis (Line Chart) membantu kita membaca tren (kecenderungan arah data) naik turunnya suatu kondisi seiring berjalannya waktu."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sebelum mulai menyusun algoritma untuk sebuah game labirin, hal krusial yang harus dianalisis dari data masalah tersebut adalah...",
+    "o": ["Warna tombol pada keyboard yang akan digunakan", "Menentukan rintangan, titik awal (start), dan titik akhir (finish) dari labirin tersebut", "Menjual game tersebut secepatnya", "Memilih jenis huruf (font) untuk judul game"],
+    "a": 1,
+    "e": "Fase analisis masalah dalam Computational Thinking menuntut pemrogram untuk mengidentifikasi komponen inti masalah (aturan, input, target) sebelum merancang solusi langkah demi langkah."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam proses Computational Thinking, tujuan utama menganalisis data atau informasi dari sebuah masalah besar adalah untuk...",
+    "o": ["Mempersulit pekerjaan pemrogram", "Memecah belah masalah besar menjadi bagian-bagian kecil yang lebih mudah diselesaikan secara logis", "Menghapus semua data yang ada", "Mengubah komputer menjadi lebih cepat"],
+    "a": 1,
+    "e": "Tujuan analisis awal (Dekomposisi) adalah mengurai kompleksitas sistem/masalah yang besar menjadi modul-modul kecil yang solusinya lebih mudah dikelola."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Seorang siswa dihadapkan pada tugas merancang robot pemilah sampah. Langkah abstraksi (menyaring informasi) yang tepat dalam menganalisis kasus ini adalah...",
+    "o": ["Fokus pada jenis sensor warna untuk membedakan kaleng dan plastik, serta mengabaikan warna cat luar robot itu sendiri.", "Membongkar seluruh komponen robot.", "Fokus pada nama merk robot tersebut.", "Membuang semua sampah tanpa dipilah."],
+    "a": 0,
+    "e": "Abstraksi adalah langkah analitis untuk mengabaikan detail yang tidak relevan (warna cat robot) dan hanya berfokus pada detail krusial yang menyelesaikan masalah (sensor pemilah)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pernyataan yang BENAR mengenai kaitan antara analisis data dan algoritma di bawah ini adalah...",
+    "o": ["Algoritma tidak membutuhkan data apa pun untuk berjalan.", "Analisis data yang salah akan tetap menghasilkan algoritma yang sempurna.", "Algoritma adalah solusi langkah demi langkah yang dirancang berdasarkan hasil analisis data dan identifikasi masalah.", "Keduanya adalah hal yang identik dan tidak bisa dipisahkan bentuknya."],
+    "a": 2,
+    "e": "Algoritma dirancang sebagai instruksi pemecahan masalah berdasarkan data, aturan, dan batasan masalah yang telah dianalisis sebelumnya."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Jika ditinjau dari ilmu Komputer (Informatika), pengertian paling akurat dari Algoritma adalah...",
+    "o": ["Bahasa pemrograman yang digunakan untuk meretas komputer", "Hardware yang menyimpan memori", "Urutan langkah-langkah logis, terstruktur, dan sistematis yang dirancang untuk menyelesaikan suatu masalah tertentu", "Aplikasi pengolah angka"],
+    "a": 2,
+    "e": "Algoritma tidak harus berupa kode komputer; ia adalah urutan instruksi logis dan pasti (terdefinisi dengan baik) untuk mencapai suatu tujuan atau solusi."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Manakah dari aktivitas kehidupan sehari-hari berikut ini yang paling menyerupai pelaksanaan sebuah algoritma terstruktur?",
+    "o": ["Melamun di kelas", "Membaca novel secara acak", "Mengikuti panduan resep secara berurutan untuk memasak nasi goreng", "Berjalan-jalan tanpa arah tujuan"],
+    "a": 2,
+    "e": "Resep makanan adalah contoh klasik algoritma dalam kehidupan sehari-hari, karena memiliki input (bahan), urutan instruksi yang logis (proses memasak), dan output (makanan matang)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siklus tahapan pembuatan sebuah program komputer (software) yang paling tepat secara berurutan adalah...",
+    "o": ["Coding -> Testing -> Analisis Masalah -> Algoritma", "Analisis Masalah -> Merancang Algoritma -> Coding -> Testing/Debugging", "Testing -> Coding -> Algoritma -> Analisis Masalah", "Merancang Algoritma -> Testing -> Analisis Masalah -> Coding"],
+    "a": 1,
+    "e": "Pengembangan perangkat lunak dimulai dari memahami masalah (analisis), merancang solusi (algoritma), menulis kode (coding), lalu mengujinya (testing/debugging)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pemrograman (Programming) berbeda dengan Algoritma. Pengertian spesifik dari pemrograman adalah...",
+    "o": ["Proses menerjemahkan algoritma abstrak ke dalam bahasa (sintaks) yang bisa dipahami dan dieksekusi oleh mesin/komputer", "Proses memperbaiki perangkat keras komputer yang rusak", "Kegiatan menggambar flowchart di kertas", "Proses menghapus virus dari sistem"],
+    "a": 0,
+    "e": "Algoritma adalah konsep logikanya, sedangkan pemrograman adalah tindakan implementasi logika tersebut menggunakan bahasa pemrograman agar mesin dapat bekerja."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Di dalam aplikasi Scratch, fungsi dari blok event <code>When Green Flag Clicked</code> adalah untuk...",
+    "o": ["Menghentikan semua permainan", "Menyembunyikan sprite karakter utama", "Berfungsi sebagai pemicu utama (trigger) untuk memulai menjalankan semua script yang terhubung di bawahnya", "Membesarkan ukuran layar game"],
+    "a": 2,
+    "e": "Bendera hijau di Scratch bertindak sebagai inisialisasi awal. Blok ini memberi tahu mesin untuk mulai membaca dan menjalankan baris kode yang berada di bawahnya secara berurutan."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pada Scratch, perbedaan logika gerak antara blok <code>Move 10 Steps</code> dengan <code>Go to X: 0, Y: 0</code> adalah...",
+    "o": ["Move menggeser karakter relatif ke arah hadapannya, sedangkan Go To melempar/memindahkan karakter langsung ke koordinat absolut tertentu", "Keduanya memiliki fungsi yang sama persis", "Move digunakan untuk berputar, Go To digunakan untuk berjalan maju", "Move memakan memori lebih besar daripada Go To"],
+    "a": 0,
+    "e": "Blok Move bersifat relatif (bergantung pada direction sprite), sementara blok Go To bersifat absolut ke titik Kartesius di atas stage, tidak peduli menghadap ke mana."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Penggunaan blok <code>Say [Hello!] for 2 seconds</code> pada kategori Looks di Scratch berfungsi untuk...",
+    "o": ["Memutar file suara mp3 bertuliskan Hello", "Memunculkan gelembung teks (speech bubble) berisi kata Hello di atas karakter yang akan hilang secara otomatis setelah 2 detik", "Mengubah nama sprite menjadi Hello", "Mengubah warna panggung (stage)"],
+    "a": 1,
+    "e": "Blok 'Say ... for ... secs' adalah blok visual untuk menampilkan teks dialog yang memiliki jeda waktu tertahan sebelum program melanjutkan/menutup dialog."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Untuk mengarahkan sudut pandang sprite Kucing di Scratch agar menghadap ke bawah (ke arah bawah layar panggung), blok rotasi yang tepat adalah...",
+    "o": ["Point in direction 90", "Point in direction 0", "Point in direction 180", "Point in direction -90"],
+    "a": 2,
+    "e": "Sistem kompas derajat di Scratch: 90 adalah kanan, -90 adalah kiri, 0 adalah atas, dan 180 adalah bawah."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Jika sprite awal dirasa terlalu besar menutupi panggung, fitur/blok apa di Scratch yang harus dimodifikasi untuk mengecilkan skalanya menjadi separuh ukuran aslinya?",
+    "o": ["Set size to 50%", "Change x by -50", "Change volume by -50", "Next backdrop"],
+    "a": 0,
+    "e": "Blok 'Set size to %' dalam kategori Looks mengubah proporsi ukuran sprite relatif terhadap ukuran piksel aslinya."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam merancang animasi karakter orang berjalan di Scratch, pemrogram menggunakan blok <code>Next Costume</code> secara berulang. Logika di balik fungsi tersebut adalah...",
+    "o": ["Karakter akan membeli baju baru", "Secara berurutan mengganti gambar (frame) karakter satu ke gambar berikutnya di tab Costume untuk menciptakan ilusi gerakan/animasi", "Karakter akan bergerak maju 10 langkah", "Karakter akan berubah menjadi sprite musuh"],
+    "a": 1,
+    "e": "Animasi 2D bekerja dengan mengganti frame gambar secara cepat. Blok 'Next Costume' menggeser tampilan visual sprite ke kostum urutan berikutnya secara berulang."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Berdasarkan cara penulisannya, Scratch diklasifikasikan sebagai bahasa pemrograman jenis...",
+    "o": ["Text-based Programming (Berbasis baris teks)", "Machine Language (Bahasa Mesin Biner)", "Block-based Visual Programming (Berbasis balok visual)", "Assembly Language"],
+    "a": 2,
+    "e": "Scratch menggunakan sistem 'drag-and-drop' blok visual yang saling mengunci bagai kepingan puzzle, menghindari kesalahan sintaks ketik teks."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Perhatikan urutan logika robot ini: (1) Jalan maju 5 langkah, (2) Deteksi dinding, (3) Berhenti, (4) Jika ada dinding di depan. Urutan algoritma yang paling logis dan tidak membahayakan robot adalah...",
+    "o": ["1 - 2 - 3 - 4", "4 - 2 - 1 - 3", "1 - 4 - 2 - 3", "2 - 4 - 3 - 1"],
+    "a": 3,
+    "e": "Algoritma yang benar: Deteksi dinding dahulu (2), evaluasi apakah ada dinding (4), jika ya maka Berhenti (3), jika aman baru jalan maju (1)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pernyataan <code>If (Nyawa = 0) Then [Game Over]</code> merupakan contoh dari implementasi fungsi apa dalam ilmu komputer?",
+    "o": ["Perulangan (Looping)", "Percabangan Kondisional (Branching)", "Penyimpanan Memori", "Kompresi Data"],
+    "a": 1,
+    "e": "Blok If-Then adalah struktur kontrol percabangan. Program akan mengambil rute aksi ('Game Over') hanya jika kondisi pra-syaratnya ('Nyawa=0') bernilai benar/terpenuhi."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Untuk mendeteksi apakah Sprite Pesawat menyentuh garis batas lintasan berwarna biru, blok sensor mana di Scratch yang paling tepat dipasangkan dengan blok kontrol IF?",
+    "o": ["Touching (mouse-pointer)?", "Key (space) pressed?", "Distance to (blue)", "Touching color (blue)?"],
+    "a": 3,
+    "e": "Sensor 'Touching color?' dalam kategori Sensing digunakan mendeteksi tabrakan (collision) berbasis piksel warna pada panggung (stage)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siswa memasukkan blok <code>Play sound [Pop]</code> di dalam blok loop <code>Forever</code> tanpa batas jeda waktu. Dampak logis yang akan terjadi pada program adalah...",
+    "o": ["Suara Pop akan dimainkan satu kali lalu selesai", "Program akan mengalami error seketika", "Suara Pop akan bertumpuk-tumpuk dimainkan tanpa henti (infinite loop) sepanjang program berjalan", "Komputer akan mati otomatis"],
+    "a": 2,
+    "e": "Blok 'Forever' mengeksekusi instruksi di dalamnya berulang-ulang tanpa batas waktu. Jika tidak ada blok penunda (Wait), aksi akan dilakukan ribuan kali per detik secara simultan."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam penyajian algoritma berbentuk Flowchart (Bagan Alir), simbol grafis berbentuk 'Belah Ketupat' (Diamond) merepresentasikan fungsi...",
+    "o": ["Mulai dan Selesai (Terminator)", "Pengambilan Keputusan Kondisional / Pilihan (Decision)", "Proses Perhitungan Matematis (Process)", "Input / Output Data"],
+    "a": 1,
+    "e": "Simbol belah ketupat dalam flowchart melambangkan titik percabangan di mana sebuah pertanyaan logika (Ya/Tidak) diajukan untuk membelah alur program."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Menggambar sebuah bujur sangkar memerlukan instruksi: Maju, Belok Kanan, Maju, Belok Kanan, Maju, Belok Kanan, Maju, Belok Kanan. Cara paling efisien untuk menyederhanakan algoritma ini di Scratch adalah menggunakan blok...",
+    "o": ["If - Then sebanyak 4 kali", "Repeat (4) yang membungkus blok [Maju] dan [Belok Kanan]", "Forever yang membungkus blok [Maju]", "Broadcast message"],
+    "a": 1,
+    "e": "Blok 'Repeat' (Perulangan iteratif dengan batas pasti) digunakan untuk meringkas instruksi identik yang dilakukan berulang kali (4 sisi bujur sangkar)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sebuah variabel 'X' diberi nilai awal 5. Kemudian ada algoritma instruksi berurutan: X = X + 2, lalu X = X - 1. Berapakah nilai akhir dari variabel 'X' setelah algoritma selesai dieksekusi?",
+    "o": ["5", "6", "7", "8"],
+    "a": 1,
+    "e": "Variabel memegang nilai terbaru. Mulai: X=5. Langkah 1: X menjadi 5+2=7. Langkah 2: X menjadi 7-1=6. Nilai akhirnya adalah 6."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Di dalam game tembak-tembakan Scratch, fungsi dari komponen 'Variabel' (Variable) sangat krusial digunakan untuk...",
+    "o": ["Mewarnai latar belakang panggung", "Menyimpan dan mencatat perubahan nilai data sementara, seperti Skor (Score) pemain atau jumlah Nyawa (Health)", "Membuat sprite musuh baru", "Mengecilkan file game"],
+    "a": 1,
+    "e": "Variabel bertindak sebagai wadah di memori komputer untuk menyimpan data nilai yang dapat terus berubah dan diperbarui sepanjang program berjalan."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Saat musuh mati, pintu menuju level selanjutnya harus terbuka secara otomatis. Bagaimana cara yang paling efektif agar Sprite Musuh dapat 'berkomunikasi' memberi tahu Sprite Pintu di Scratch?",
+    "o": ["Sprite Musuh menggunakan blok 'Broadcast [PintuBuka]' lalu Sprite Pintu menggunakan event 'When I receive [PintuBuka]'", "Menggabungkan kedua sprite menjadi satu gambar", "Menulis pesan di layar menggunakan blok 'Say'", "Menarik garis dari musuh ke pintu"],
+    "a": 0,
+    "e": "Fitur Broadcast (Siar Pesan) adalah mekanisme sinyal internal di Scratch yang memungkinkan pemicuan kejadian silang antar sprite yang berbeda."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Mengapa sebuah algoritma yang memiliki 5 baris kode namun menghasilkan output yang sama persis dianggap lebih baik/efisien daripada algoritma dengan 50 baris kode?",
+    "o": ["Karena programer yang malas lebih disukai perusahaan", "Karena baris kode yang sedikit meminimalisir potensi terjadinya error (bug) dan mempercepat waktu komputasi mesin", "Karena kode panjang akan menghancurkan layar monitor", "Tidak ada bedanya sama sekali"],
+    "a": 1,
+    "e": "Efisiensi algoritma diukur dari kecepatan proses dan keringkasan logika. Semakin ringkas baris kode untuk menyelesaikan satu masalah, semakin optimal kinerja CPU dan memudahkan pencarian bug (debugging)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Budi menerima pesan berantai dari grup keluarga yang berisi tautan untuk mendapatkan kuota internet 100GB gratis. Sikap Literasi Digital yang paling tepat ditunjukkan Budi adalah...",
+    "o": ["Segera mengeklik tautan tersebut agar tidak kehabisan", "Meneruskan pesan ke semua temannya di sekolah", "Mengecek kebenaran informasi tersebut melalui sumber berita resmi penyedia layanan internet sebelum mempercayainya atau membagikannya (Saring sebelum Sharing)", "Memarahi orang yang mengirim pesan di grup"],
+    "a": 2,
+    "e": "Literasi digital mengajarkan kemampuan berpikir kritis dan validasi informasi secara mandiri sebelum bertindak, untuk menghindari penipuan (phishing/hoax)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Munculnya ojek online dan platform belanja online (e-commerce) merupakan salah satu dampak positif perkembangan informatika bagi masyarakat dalam bidang...",
+    "o": ["Pendidikan", "Kesehatan dan Biologi", "Hukum dan Peradilan", "Ekonomi dan Mobilitas Transportasi"],
+    "a": 3,
+    "e": "Digitalisasi menciptakan model bisnis baru seperti layanan ride-hailing dan e-commerce yang berdampak langsung pada kelancaran ekonomi dan mobilitas masyarakat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Penggunaan perangkat teknologi seperti handphone atau laptop yang terus-menerus tanpa istirahat dapat membawa dampak negatif bagi kesehatan biologis, yang paling sering berupa...",
+    "o": ["Sindrom kelelahan mata (Computer Vision Syndrome), sakit leher, dan postur tubuh membungkuk", "Meningkatnya daya ingat secara tiba-tiba", "Penyakit menular akibat virus dari internet", "Kerusakan pada organ jantung secara langsung"],
+    "a": 0,
+    "e": "Menatap layar dalam posisi yang salah secara intens menyebabkan gangguan muskuloskeletal (leher/punggung) dan kelelahan saraf mata (ergonomi yang buruk)."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sikap bijak dalam menggunakan fasilitas internet di perpustakaan sekolah adalah...",
+    "o": ["Menggunakan internet untuk mengunduh film bajakan ukuran besar", "Menggunakan komputer untuk bermain game online seharian", "Menggunakan jaringan internet secara proporsional untuk mencari literatur referensi tugas pelajaran", "Meretas jaringan WiFi sekolah untuk diakses tanpa batas"],
+    "a": 2,
+    "e": "Kebijaksanaan akses di fasilitas publik mencakup penggunaan teknologi secara beretika untuk tujuan yang membangun dan bertanggung jawab."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Tindakan perundungan, cacian, atau intimidasi yang dilakukan secara anonim kepada teman sekolah melalui kolom komentar di Instagram atau WhatsApp masuk ke dalam dampak negatif media sosial yang disebut...",
+    "o": ["Cyber-security", "Cyber-bullying (Perundungan Siber)", "E-learning", "Social Networking"],
+    "a": 1,
+    "e": "Cyber-bullying adalah bentuk agresi dan kekerasan psikologis yang dilakukan dengan sengaja menggunakan media komunikasi digital dan internet."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Untuk menjaga Keamanan Digital (Cyber Security) pada akun media sosial, kriteria pembuatan 'Kata Sandi' (Password) yang paling kuat dan susah diretas adalah...",
+    "o": ["Menggunakan tanggal lahir agar mudah diingat (misal: 12102008)", "Menggunakan nama hewan peliharaan", "Menggunakan kombinasi unik antara huruf besar, huruf kecil, angka, dan karakter simbol khusus (seperti @, #, $)", "Menggunakan kata 'password123'"],
+    "a": 2,
+    "e": "Password yang kuat (Strong Password) menggabungkan variasi karakter kompleks dan tidak mengandung informasi tebakan personal yang mudah dilacak oleh algoritma peretas."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Semua rekam aktivitas yang kita lakukan di internet, seperti foto yang kita unggah, komentar yang kita tulis, atau website yang kita kunjungi akan meninggalkan jejak yang permanen. Konsep ini dikenal luas dengan istilah...",
+    "o": ["Digital Divide", "Digital Footprint (Jejak Digital)", "Cloud Storage", "Internet of Things"],
+    "a": 1,
+    "e": "Jejak Digital (Digital Footprint) adalah bayangan data permanen profil pengguna yang ditinggalkan setelah berselancar dan berinteraksi di dunia maya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Di Indonesia, peraturan perundang-undangan khusus yang mengatur perlindungan hukum terkait transaksi elektronik, pencemaran nama baik di media sosial, dan penanganan kejahatan siber (cybercrime) tertuang dalam...",
+    "o": ["UU Hak Cipta", "UU Konsumen", "UU ITE (Informasi dan Transaksi Elektronik)", "UU Kehutanan"],
+    "a": 2,
+    "e": "Undang-Undang Informasi dan Transaksi Elektronik (UU ITE) merupakan landasan yuridis utama yang mengatur tata krama dan pelanggaran hukum di ranah internet (siber) di Indonesia."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sebuah situs web yang terlihat mirip situs bank meminta Anda memasukkan Nama, Nomor Rekening, dan PIN Anda. Jika Anda tidak waspada, Anda bisa menjadi korban pencurian data (kejahatan siber) yang dikenal dengan teknik...",
+    "o": ["Malware", "Phishing (Pengelabuan)", "Hardware Failure", "Spam"],
+    "a": 1,
+    "e": "Phishing adalah taktik rekayasa sosial di mana pelaku menyamar menjadi entitas terpercaya (institusi/bank) untuk memancing korban menyerahkan data privasi kredensialnya."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Salah satu dampak negatif dari perkembangan teknologi informasi secara makro di suatu negara adalah fenomena *Digital Divide* (Kesenjangan Digital). Arti dari istilah tersebut adalah...",
+    "o": ["Terpecahnya layar handphone saat terjatuh", "Meningkatnya jumlah transaksi jual beli online", "Ketimpangan yang sangat jauh antara masyarakat di kota yang memiliki akses internet super cepat, dengan masyarakat pedalaman yang tidak memiliki sinyal atau perangkat komputasi dasar", "Aplikasi pengolah grafis"],
+    "a": 2,
+    "e": "Kesenjangan digital menciptakan polarisasi peluang ekonomi dan pendidikan antara kelompok masyarakat yang memiliki privilese infrastruktur teknologi dan yang tidak memiliki."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sama seperti di dunia nyata, interaksi sosial di dunia maya juga memiliki tata krama kesopanan, seperti tidak menggunakan HURUF KAPITAL SEMUA saat chatting karena terkesan marah (berteriak). Etika berinternet ini dinamakan...",
+    "o": ["Netiquette (Network Etiquette)", "Cyber Law", "Digital Marketing", "Artificial Intelligence"],
+    "a": 0,
+    "e": "Netiquette (Netiket) adalah seperangkat aturan konvensi tentang bagaimana kita harus berperilaku, berbicara, dan menghargai orang lain secara sopan di jaringan siber."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Munculnya portal belajar seperti Rumah Belajar, Ruangguru, hingga berbagai ensiklopedia terbuka seperti Wikipedia adalah wujud nyata dari pengaruh positif internet di bidang...",
+    "o": ["Hiburan Game Online", "Pendidikan dan Keterbukaan Sumber Literasi Pembelajaran", "Politik Internasional", "Bisnis Makanan"],
+    "a": 1,
+    "e": "Internet mendemokratisasi akses edukasi. Siapapun dari wilayah manapun dapat mempelajari ribuan jurnal ilmu pengetahuan secara terbuka kapan saja tanpa dibatasi dinding sekolah."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Sita sangat gembira setelah memiliki Kartu Tanda Penduduk (KTP) pertamanya. Ia lalu memfoto KTP tersebut secara jelas dan mengunggahnya sebagai status di Facebook publik. Evaluasi analitis dari tindakan Sita terkait Pelanggaran Privasi Data Pribadi adalah...",
+    "o": ["Sangat baik karena ia menunjukkan rasa bangga sebagai warga negara", "Aman saja, selama ia tidak membagikannya ke orang luar negeri", "Sangat berbahaya karena KTP mengandung data krusial (NIK, TTL, Alamat, Nama Ibu) yang bisa disalahgunakan oleh peretas (hacker) untuk melakukan penipuan pinjaman online atas nama Sita", "Tindakan biasa yang tidak memberikan efek apa pun"],
+    "a": 2,
+    "e": "Kartu identitas menyimpan PII (Personally Identifiable Information). Mengunggahnya secara publik berpotensi fatal karena memicu peretasan identitas (Identity Theft) untuk kejahatan finansial."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah aplikasi kasir merekam ribuan angka transaksi setiap harinya. Angka-angka tersebut secara mentah disebut sebagai 'Data'. Ketika sistem aplikasi tersebut mengolahnya menjadi grafik 'Menu Terlaris Bulan Ini', maka output tersebut berubah statusnya menjadi...",
+    "o": ["Informasi", "Database", "Algoritma", "Sistem Operasi"],
+    "a": 0,
+    "e": "Data adalah fakta mentah. Ketika data telah dikumpulkan, diolah, dan dianalisis sehingga memiliki makna atau konteks yang berguna untuk pengambilan keputusan, ia disebut Informasi."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Seorang peneliti mencatat hasil survei kondisi siswa dengan format: (A) Jarak rumah 5,2 km, (B) Suhu tubuh 36,5°C, (C) Golongan darah O, (D) Berat tas 3 kg. Manakah dari data tersebut yang merupakan contoh data kualitatif?",
+    "o": ["Data A", "Data B", "Data C", "Data D"],
+    "a": 2,
+    "e": "Data kualitatif menunjukkan sifat atau kategori yang tidak bisa diukur dengan angka matematis, seperti Golongan Darah, Warna Kulit, atau Jenis Kelamin."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Di perusahaan rintisan (startup), seorang <i>Data Scientist</i> menemukan banyak baris data pelanggan yang tanggal lahirnya kosong atau format nomor teleponnya salah. Jika ia langsung membuat laporan dari data tersebut, dampak paling fatal yang akan terjadi adalah...",
+    "o": ["Komputer akan rusak", "Laporan menghasilkan kesimpulan yang bias, tidak akurat, dan merugikan strategi perusahaan", "Ukuran file data akan menjadi lebih kecil", "Data akan terhapus otomatis"],
+    "a": 1,
+    "e": "Data mentah yang cacat (tidak melalui proses Data Cleansing) akan menghasilkan analisis yang salah kaprah (Prinsip 'Garbage In, Garbage Out')."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Dalam dunia modern, istilah 'Big Data' merujuk pada kumpulan data yang sangat besar. Karakteristik utama dari Big Data tidak hanya tentang ukurannya (Volume), tetapi juga tentang...",
+    "o": ["Kecepatan data baru dihasilkan (Velocity) dan keberagaman jenis datanya (Variety)", "Mahalnya harga data tersebut untuk dijual", "Hanya berisi data angka dan teks saja", "Disimpan menggunakan kertas dan rak arsip"],
+    "a": 0,
+    "e": "Karakteristik Big Data dikenal dengan 3V: Volume (Kapasitas raksasa), Velocity (Kecepatan transfer/update), dan Variety (Beragam jenis seperti teks, video, suara)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Siswa mencari data angka kemiskinan dari dua situs: Blog pribadi anonim dan Situs resmi Badan Pusat Statistik (BPS). Evaluasi analitis paling tepat terkait penggunaan kedua data ini untuk tugas sekolah adalah...",
+    "o": ["Blog anonim lebih baik karena bahasanya mudah dipahami", "Situs BPS memiliki otoritas, metodologi pengumpulan yang jelas, dan tingkat keabsahan yang jauh lebih valid dibandingkan blog anonim", "Kedua sumber data sama-sama valid karena ada di internet", "Tidak perlu menggunakan data apa pun"],
+    "a": 1,
+    "e": "Kredibilitas (keabsahan) sumber data adalah syarat mutlak. Data dari institusi resmi (BPS, Jurnal Ilmiah) dijamin oleh metodologi ilmiah yang dapat dipertanggungjawabkan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Setelah melakukan penyebaran kuesioner ke 100 orang (Pengumpulan Data), langkah analitis krusial apa yang harus dilakukan sebelum data tersebut divisualisasikan dalam bentuk grafik?",
+    "o": ["Langsung mengambil kesimpulan", "Pembersihan Data (Cleansing) dan Pengolahan/Agregasi Data", "Menghapus data responden yang tidak dikenal", "Mencetak kuesioner tersebut"],
+    "a": 1,
+    "e": "Siklus wajib setelah mengumpulkan data adalah membersihkannya (mencari error/data kosong) dan mengolahnya (menghitung total/rata-rata) agar siap divisualisasikan."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Siswa mencatat tinggi tanaman selama 6 hari (dalam cm): 10, 15, 12, 18, 14, 20. Berbeda dengan data berjumlah ganjil, cara paling tepat menemukan nilai Median dari susunan data berjumlah genap ini adalah...",
+    "o": ["Mengambil nilai 12 dan 18", "Mengurutkan data dari kecil ke besar, lalu menjumlahkan dua nilai yang berada paling tengah dan membaginya dua", "Mencari angka yang paling sering muncul", "Membagi total keseluruhan dengan 6"],
+    "a": 1,
+    "e": "Jika jumlah data genap (n=6), median diperoleh dengan mengurutkan data terlebih dahulu (10, 12, 14, 15, 18, 20), lalu mencari rata-rata dari dua nilai tengah (14 dan 15) = 14,5."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Siswa mengunduh video materi sebesar 1,5 GB menggunakan kuota internet berbasis MB (Megabyte). Secara kalkulasi komputasi, berapa MB kuota yang kira-kira terkuras untuk unduhan tersebut?",
+    "o": ["15 MB", "150 MB", "1.536 MB (sekitar 1.500 MB)", "15.000 MB"],
+    "a": 2,
+    "e": "1 Gigabyte (GB) = 1.024 Megabyte (MB). Maka 1,5 GB = 1,5 x 1.024 = 1.536 MB."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Saat merekam video presentasi menggunakan <i>smartphone</i>, tiba-tiba muncul notifikasi 'Memori Penuh'. Jika sisa memori adalah 500 KB, mengapa sistem menolak merekam video berdurasi 1 menit?",
+    "o": ["Karena video 1 menit membutuhkan ruang setidaknya dalam skala Megabyte (MB) yang mana jauh lebih besar dari Kilobyte (KB)", "Karena 500 KB terlalu besar untuk sebuah video", "Karena sistem operasi error", "Karena file video hanya bisa disimpan dalam bentuk Byte"],
+    "a": 0,
+    "e": "Satuan Kilobyte (KB) sangat kecil dan biasanya hanya cukup untuk dokumen teks atau foto resolusi rendah. Video modern membutuhkan ruang dalam skala MB atau GB."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Penjualan rasa es krim di koperasi sekolah tercatat: Coklat (30 cup), Vanilla (30 cup), Strawberry (15 cup), Matcha (5 cup). Analisis statistik dasar menyimpulkan bahwa data penjualan ini bersifat...",
+    "o": ["Bimodal (memiliki dua modus/nilai puncak yaitu Coklat dan Vanilla)", "Hanya memiliki satu modus", "Tidak memiliki nilai rata-rata", "Menunjukkan Strawberry sebagai median"],
+    "a": 0,
+    "e": "Modus adalah frekuensi kemunculan tertinggi. Karena Coklat dan Vanilla sama-sama laku 30 cup (tertinggi), maka data ini memiliki dua modus (Bimodal)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Untuk memantau fluktuasi (naik-turunnya) suhu udara di dalam ruang server komputer dari jam 08.00 pagi hingga 17.00 sore, jenis visualisasi data apa yang paling logis dan mudah dibaca?",
+    "o": ["Diagram Lingkaran (Pie Chart)", "Diagram Garis (Line Chart)", "Tabel Data Berjajar", "Bagan Struktur Organisasi"],
+    "a": 1,
+    "e": "Diagram garis (Line Chart) sangat ideal untuk melacak perubahan, tren, atau anomali data yang terjadi secara berkelanjutan seiring berjalannya waktu (Time Series)."
+  },
+  {
+    "c": "Analisis Data",
+    "q": "Sebuah iklan menampilkan grafik batang di mana produk A terlihat batangnya 3 kali lebih tinggi dari produk B. Namun saat diamati, sumbu Y (angka) tidak dimulai dari angka 0, melainkan dari angka 90. Fenomena ini disebut sebagai...",
+    "o": ["Data Science tingkat lanjut", "Visualisasi yang menipu (Misleading Graph) untuk melebih-lebihkan sebuah perbedaan kecil", "Error pada Microsoft Excel", "Agregasi data normal"],
+    "a": 1,
+    "e": "Memanipulasi titik awal (baseline) sumbu Y adalah trik umum dalam visualisasi data (Misleading Graph) untuk mendistorsi persepsi audiens agar perbedaan kecil terlihat sangat dramatis."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam kerangka berpikir komputasional (Computational Thinking), guru meminta siswa menguraikan tugas 'Membuat Nasi Tumpeng' menjadi: (1) Menanak Nasi, (2) Membuat Lauk, (3) Merias Tumpeng. Proses memecah masalah besar menjadi modul kecil ini dinamakan...",
+    "o": ["Abstraksi (Abstraction)", "Dekomposisi (Decomposition)", "Pengenalan Pola (Pattern Recognition)", "Perancangan Algoritma (Algorithm Design)"],
+    "a": 1,
+    "e": "Dekomposisi adalah teknik memecah belah suatu sistem atau masalah yang rumit dan besar menjadi bagian-bagian yang lebih kecil, mandiri, dan mudah dikelola."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Apa tujuan utama dari tahapan <i>Pattern Recognition</i> (Pengenalan Pola) saat menganalisis sebuah masalah?",
+    "o": ["Menghapus data yang tidak perlu", "Menemukan kesamaan, tren, atau karakteristik berulang dari masalah sebelumnya agar kita bisa menggunakan kembali solusi yang pernah berhasil (Reusable Solution)", "Menulis kode program secara acak", "Membuat masalah menjadi lebih rumit"],
+    "a": 1,
+    "e": "Mengenali pola memungkinkan kita tidak perlu 'menemukan roda kembali'. Jika kita melihat kesamaan masalah, kita bisa mengaplikasikan formula solusi yang sudah terbukti."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Saat Anda menggunakan aplikasi peta navigasi (seperti Google Maps), aplikasi tersebut tidak menampilkan gambar rumah, pepohonan, atau tiang listrik secara nyata, melainkan hanya garis jalan dan nama tempat. Proses menyembunyikan detail fisik demi fokus pada rute ini disebut...",
+    "o": ["Abstraksi (Abstraction)", "Dekomposisi (Decomposition)", "Debugging", "Simulasi Data"],
+    "a": 0,
+    "e": "Abstraksi dalam komputasi adalah proses penyederhanaan realitas. Menghilangkan elemen-elemen kompleks yang tidak relevan (pohon/rumah) agar pengguna bisa fokus pada informasi inti (rute jalan)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Pernyataan yang paling akurat membedakan antara 'Algoritma' dan 'Heuristik' dalam penyelesaian masalah adalah...",
+    "o": ["Keduanya adalah hal yang sama persis", "Algoritma memberikan jaminan pasti untuk menemukan solusi yang tepat asal diikuti dengan benar, sedangkan Heuristik adalah 'jalan pintas' (rule of thumb) yang cepat namun tidak menjamin hasil 100% sempurna", "Algoritma digunakan oleh manusia, Heuristik digunakan oleh komputer", "Heuristik tidak menggunakan logika"],
+    "a": 1,
+    "e": "Algoritma bersifat deterministik (pasti). Heuristik bersifat pendekatan/pengalaman (seperti menebak rute tercepat berdasarkan kemacetan harian tanpa menghitung jarak matematis pasti)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Salah satu syarat mutlak sebuah algoritma yang baik (menurut Donald Knuth) adalah <i>Finiteness</i>. Apa makna teknis dari istilah tersebut?",
+    "o": ["Algoritma harus bisa dipahami oleh semua bahasa", "Algoritma tidak boleh menggunakan angka", "Algoritma harus memiliki titik henti (berhenti setelah mengerjakan sejumlah langkah yang terbatas), tidak boleh terjebak dalam loop tanpa akhir (infinite loop)", "Algoritma harus selalu menghasilkan grafik visual"],
+    "a": 2,
+    "e": "Finiteness menjamin bahwa suatu program akan selesai mengeksekusi instruksi dan memberikan output, mencegah komputer hang akibat memproses data tanpa garis akhir."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Seorang pustakawan mengurutkan buku dengan cara membandingkan buku pertama dan kedua, lalu menukar posisinya jika salah urutan. Proses perbandingan ini diulang ke buku ketiga, keempat, dst. Logika aktivitas ini adalah representasi dari algoritma...",
+    "o": ["Searching (Pencarian)", "Sorting (Pengurutan)", "Broadcasting", "Compression (Kompresi)"],
+    "a": 1,
+    "e": "Membandingkan dan menukar posisi objek berdasarkan suatu nilai (alfabet/angka) adalah implementasi mendasar dari algoritma pengurutan (khususnya Bubble Sort)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Setelah siswa mengetik baris kode program dan menjalankannya, ternyata karakter di layar bergerak ke arah yang salah. Langkah investigasi mencari dan memperbaiki kesalahan logika ini disebut...",
+    "o": ["Coding", "Testing", "Debugging", "Compiling"],
+    "a": 2,
+    "e": "Debugging adalah proses esensial pasca-coding untuk menelusuri, mengidentifikasi akar masalah (bug), dan menambal/memperbaiki cacat kode pada program."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Mesin komputer (Hardware) secara fisik hanya memahami bahasa biner (0 dan 1). Peran <i>Compiler</i> atau <i>Interpreter</i> dalam dunia pemrograman adalah...",
+    "o": ["Menghapus virus dari bahasa biner", "Berfungsi sebagai penerjemah yang mengubah bahasa pemrograman tingkat tinggi (yang mudah dibaca manusia) menjadi bahasa mesin agar bisa dieksekusi prosesor", "Mendinginkan suhu komputer saat program berjalan", "Meningkatkan kecepatan internet pengguna"],
+    "a": 1,
+    "e": "Manusia tidak mungkin menulis kode murni dengan 0 dan 1. Compiler bertugas mengonversi (compile) logika bahasa tingkat tinggi ke dalam instruksi elektronika/mesin."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Di Scratch, siswa membuat Variabel 'Skor'. Apa perbedaan fundamental antara blok <code>Set [Skor] to 10</code> dengan blok <code>Change [Skor] by 10</code>?",
+    "o": ["Set hanya bisa mengubah warna variabel, Change mengubah nilai.", "Set mengunci nilai mutlak Skor menjadi angka 10 terlepas dari nilai sebelumnya, sedangkan Change akan menjumlahkan angka 10 ke nilai Skor yang saat ini sedang berlaku.", "Keduanya memiliki fungsi yang sama.", "Change menghentikan permainan, Set memulainya."],
+    "a": 1,
+    "e": "Set (Inisialisasi) menimpa nilai lama dengan nilai absolut baru. Change (Increment/Decrement) bersifat relatif, menambah atau mengurangi nilai yang sudah ada di memori."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Untuk memindahkan Sprite Kucing dari tengah panggung ke ujung kanan, siswa bisa menggunakan blok <code>Go to X: 200, Y: 0</code> atau <code>Glide 1 secs to X: 200, Y: 0</code>. Perbedaan efek visualnya adalah...",
+    "o": ["Go To membuat sprite hilang, Glide membuatnya transparan.", "Go To membuat sprite berpindah seketika dalam sepersekian detik (teleportasi), sedangkan Glide menciptakan animasi pergeseran meluncur yang mulus selama durasi waktu yang ditentukan.", "Go To memakan baterai komputer lebih besar.", "Glide hanya bisa bergerak ke atas dan bawah."],
+    "a": 1,
+    "e": "Glide adalah fungsi interpolasi internal dari engine Scratch untuk menciptakan animasi gerak transisi linear antar dua titik koordinat."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Saat mendesain game rintangan, sensor <code>Touching [Sprite Rintangan]?</code> sering direkomendasikan daripada <code>Touching color [Hitam]?</code>. Alasan paling logis dari segi keamanan arsitektur game adalah...",
+    "o": ["Sensor warna sulit dibaca di monitor gelap.", "Jika kelak kita ingin mengubah warna rintangan (misal dari Hitam ke Merah), kita tidak perlu merombak seluruh kode sensor, karena sistem mengikat pada objek (Sprite) bukan pada atribut visual (Warna).", "Warna hitam memakan banyak RAM.", "Sensor Sprite hanya bekerja pada siang hari."],
+    "a": 1,
+    "e": "Mendeteksi Bounding Box/Sprite lebih modular. Perubahan estetika (kostum warna) tidak akan merusak logika benturan fisika game."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Sprite A mengirim sinyal menggunakan <code>Broadcast [Mulai]</code>. Agar Sprite B bereaksi terhadap sinyal tersebut, blok topi (Hat Block) apa yang wajib diletakkan di paling atas skrip Sprite B?",
+    "o": ["When [Space] key pressed", "When Green Flag clicked", "When I receive [Mulai]", "When this sprite clicked"],
+    "a": 2,
+    "e": "Event Listener 'When I receive [pesan]' adalah pasangan mutlak dari blok Broadcast untuk menangkap frekuensi sinyal tersembunyi dari sprite pengirim."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siswa menggunakan ekstensi Pen. Terdapat blok <code>Stamp</code> dan blok bawaan kontrol <code>Create clone of (myself)</code>. Perbedaan signifikan di antara keduanya adalah...",
+    "o": ["Stamp menyalin kode, Clone menyalin gambar", "Stamp hanya mencetak jejak gambar mati (cat) di panggung latar yang tidak bisa diprogram, sedangkan Clone menciptakan entitas objek hidup baru yang masing-masing bisa bergerak dan memiliki logikanya sendiri.", "Clone menghapus jejak, Stamp membuatnya permanen", "Keduanya memiliki fungsi yang identik"],
+    "a": 1,
+    "e": "Stamp (stempel) hanyalah modifikasi piksel pada layer background. Clone adalah instansiasi objek berorientasi (OOP) di mana salinan sprite tersebut memiliki otak/script independen sementara."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Bidang panggung (Stage) Scratch menggunakan koordinat Kartesius. Jika sebuah Sprite berada di wilayah Kuadran III (Pojok Kiri Bawah), maka nilai koordinatnya dipastikan bernilai...",
+    "o": ["X positif dan Y positif", "X negatif dan Y positif", "X positif dan Y negatif", "X negatif dan Y negatif"],
+    "a": 3,
+    "e": "Titik pusat (0,0) di tengah. Kiri pusat berarti X negatif (-), dan bawah pusat berarti Y negatif (-). Pojok kiri bawah adalah perpotongan keduanya."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Perbedaan utama antara belajar memprogram menggunakan Scratch (Visual Block-based) dibandingkan menggunakan bahasa Python/C++ (Text-based) adalah...",
+    "o": ["Scratch tidak bisa digunakan membuat game, Python bisa", "Scratch membebaskan siswa dari mengingat aturan sintaks pengetikan (tanda baca/kurung) sehingga bisa murni berfokus melatih logika algoritmanya", "Python memiliki gambar kucing", "Scratch memerlukan koneksi internet super cepat"],
+    "a": 1,
+    "e": "Bahasa visual meminimalisir frustrasi akibat 'Syntax Error' (lupa titik koma) yang sering dialami pemula, memungkinkan mereka fokus penuh pada 'Logical Error' dan alur berpikir."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Saat merancang Flowchart untuk sistem Login, algoritma harus mengecek apakah <i>Password</i> benar. Jika Benar masuk ke Beranda, jika Salah kembali ke halaman Login. Struktur logika ini direpresentasikan oleh simbol...",
+    "o": ["Lingkaran (Connector)", "Persegi Panjang (Proses)", "Belah Ketupat (Decision / Kondisional)", "Jajar Genjang (Input/Output)"],
+    "a": 2,
+    "e": "Setiap kali algoritma menghadapi persimpangan pilihan berbasis pengecekan syarat (If-Else), simbol Decision (Belah Ketupat) digunakan dalam bagan alir."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Seorang guru membuat program predikat: Jika Nilai > 85 (A), selain itu Jika Nilai > 70 (B), selain itu (C). Struktur pemrograman yang mengevaluasi banyak kondisi berjenjang ini disebut...",
+    "o": ["Infinite Loop", "Nested IF (Percabangan Bersarang)", "Broadcast Message", "Randomizer"],
+    "a": 1,
+    "e": "Nested IF atau percabangan bersarang adalah kondisi IF-Else yang diletakkan di dalam jalur Else pada IF sebelumnya, menciptakan hierarki pengecekan majemuk."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Kombinasi blok <code>Ask [Siapa namamu?] and wait</code> akan memunculkan kotak input teks di layar Scratch. Dimanakah teks yang diketikkan oleh pengguna akan disimpan sementara oleh sistem?",
+    "o": ["Di dalam ekstensi Pen", "Di dalam variabel internal khusus berwarna biru muda bernama <code>Answer</code>", "Di dalam blok Green Flag", "Langsung dikirim ke printer"],
+    "a": 1,
+    "e": "Blok Ask selalu berpasangan dengan variabel bawaan sistem 'Answer' (Jawaban) yang bertindak sebagai buffer memori untuk menampung input keyboard terakhir dari pengguna."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam merancang AI (Artificial Intelligence) musuh mengejar pemain, kapan pemrogram harus menggunakan <code>Repeat Until [Touching Player]</code> dibandingkan menggunakan <code>Forever</code>?",
+    "o": ["Saat musuh tidak memiliki kecepatan", "Saat musuh dirancang untuk berhenti bergerak seketika setelah berhasil menangkap/menabrak pemain (Kondisi henti terpenuhi)", "Saat musuh dituntut bergerak menembus dinding", "Saat game sudah berakhir"],
+    "a": 1,
+    "e": "Forever adalah perulangan mutlak tanpa rem. Repeat Until adalah perulangan bersyarat, di mana siklus loop akan patah/berhenti ketika target logika (menabrak pemain) tercapai."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Di dalam konvensi pembuatan Flowchart internasional, simbol geometris <i>Jajar Genjang</i> (Parallelogram) memiliki arti spesifik untuk aktivitas...",
+    "o": ["Memulai dan mengakhiri program (Start/End)", "Memproses perhitungan matematika rumus (Process)", "Menerima Data Input dari pengguna atau menampilkan Data Output ke layar (Input/Output)", "Menghubungkan beda halaman kertas"],
+    "a": 2,
+    "e": "Aktivitas seperti 'Baca Nilai X' (Input) atau 'Tampilkan Hasil' (Output) selalu dibungkus dalam bentuk Jajar Genjang untuk membedakannya dari proses komputasi tertutup (Persegi)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Siswa membuat fungsi kustom menggunakan fitur <code>Make a Block</code> (My Blocks) bernama 'Lompat' yang berisi 15 baris animasi gerak. Keuntungan logis terbesar dari abstraksi ini adalah...",
+    "o": ["Ukuran warna sprite berubah menjadi merah", "Modularitas: Jika sprite harus melompat di 10 level berbeda, siswa cukup memanggil blok 'Lompat' tersebut tanpa perlu mengetik ulang 150 baris kode yang sama berulang-ulang", "Game akan bisa dimainkan secara multiplayer online", "Blok tersebut kebal terhadap virus"],
+    "a": 1,
+    "e": "Pembuatan fungsi kustom (Sub-rutin / Procedure) mencegah repetisi kode (Prinsip DRY: Don't Repeat Yourself), membuat pembacaan alur utama program lebih bersih, dan mempermudah perbaikan bug di satu tempat."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Algoritma menyeberang jalan: (1) Tengok Kanan-Kiri, (2) Berjalan ke seberang, (3) Jika jalanan kosong. Analisis urutan logika yang BENAR dan AMAN adalah...",
+    "o": ["1 - 2 - 3", "2 - 1 - 3", "3 - 1 - 2", "1 - 3 - 2"],
+    "a": 3,
+    "e": "Algoritma kehidupan nyata membutuhkan sensor/input dahulu (1. Tengok), lalu pengecekan kondisi (3. Jika Kosong), baru pengambilan eksekusi akhir (2. Jalan)."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Dalam logika mesin, tipe variabel khusus yang memegang peran sentral dalam blok Decision (Percabangan) karena hanya dapat menampung dua nilai absolut mutlak, yaitu <i>True</i> (Benar) atau <i>False</i> (Salah), dinamakan tipe data...",
+    "o": ["String (Teks)", "Integer (Angka Bulat)", "Boolean", "Float (Desimal)"],
+    "a": 2,
+    "e": "Tipe data Boolean (dinamai dari George Boole) adalah fondasi aljabar logika komputer. Semua sensor berbentuk segi enam di Scratch ('Touching edge?') menghasilkan output nilai Boolean."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Untuk mensimulasikan lemparan dadu dalam game Monopoli virtual, operator matematika apa di Scratch yang dapat menghasilkan angka tidak terduga di antara batas nilai yang kita berikan (misal: 1 hingga 6)?",
+    "o": ["[1] mod [6]", "Round (Pembulatan)", "Pick random [1] to [6]", "Abs (Nilai Mutlak)"],
+    "a": 2,
+    "e": "Fungsi Randomizer (Pseudo-Random Number Generator) menginstruksikan CPU untuk mengambil angka acak secara dinamis di dalam rentang batas atas dan batas bawah tertentu."
+  },
+  {
+    "c": "Algoritma dan Pemrograman",
+    "q": "Terdapat 100 buku yang sudah diurutkan sesuai abjad di lemari. Untuk mencari buku huruf 'M', membagi lemari tepat di tengah dan mengecek apakah 'M' ada di kiri atau kanan adalah contoh efisiensi dari algoritma...",
+    "o": ["Linear Search (Pencarian Linier)", "Binary Search (Pencarian Biner)", "Bubble Sort", "Encryption"],
+    "a": 1,
+    "e": "Binary Search membelah ruang pencarian menjadi dua bagian setiap iterasi (Divide and Conquer). Jauh lebih cepat dan efisien dibanding mengecek buku satu per satu dari awal (Linear Search) pada data yang sudah terurut."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Budi menerima pesan WhatsApp dengan ciri-ciri: Judul menggunakan HURUF BESAR SEMUA, diakhiri peringatan 'Sebarkan ke 10 grup atau akun Anda akan diblokir', dan tidak mencantumkan sumber resmi. Berdasarkan analisis literasi digital, pesan tersebut sangat diindikasi sebagai...",
+    "o": ["Pengumuman Resmi Pemerintah", "Jurnal Ilmiah Komunikasi", "Pesan Hoax (Berita Bohong) / Spam Berantai", "Panduan Keselamatan Darurat"],
+    "a": 2,
+    "e": "Karakteristik anatomi pesan Hoax sering memanipulasi emosi (huruf kapital provokatif), menggunakan taktik ancaman/urgensi palsu, dan ketiadaan tautan konfirmasi otoritatif."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Algoritma YouTube selalu merekomendasikan video yang mirip dengan tontonan kita sebelumnya. Dampak sosial negatif dari algoritma <i>Filter Bubble</i> (Gelembung Filter) ini adalah...",
+    "o": ["Membuat memori handphone cepat penuh", "Menciptakan wawasan pengguna yang sempit dan fanatik karena mereka terus-menerus disuapi opini yang sejalan tanpa pernah terpapar sudut pandang atau fakta yang berlawanan", "Mempercepat koneksi internet", "Menghemat penggunaan kuota video"],
+    "a": 1,
+    "e": "Algoritma 'Recommendation Engine' mengoptimalkan keterlibatan (Engagement) dengan menyajikan apa yang disukai pengguna, mengisolasi mereka dalam ruang gema (Echo Chamber) yang memperparah polarisasi opini publik."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Transformasi transaksi jual beli dari uang kertas fisik menjadi pemindaian <i>barcode</i> (seperti QRIS) atau dompet digital (E-Wallet) mendorong masyarakat menuju fenomena modern ekonomi yang disebut...",
+    "o": ["Barter Society", "Cashless Society (Masyarakat Tanpa Uang Tunai)", "Agrarian Society", "Feodal Society"],
+    "a": 1,
+    "e": "Digitalisasi finansial menciptakan ekosistem Cashless Society, di mana transaksi ekonomi ditandai oleh pergeseran nilai moneter melalui enkripsi digital jaringan perbankan ketimbang perpindahan uang fisik."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Siswa A mulai sering begadang, nilai sekolahnya menurun drastis, dan marah secara emosional jika <i>smartphone</i>-nya disita. Fenomena psikologis akibat kegagalan manajemen waktu dan kontrol diri ini disebut...",
+    "o": ["Literasi Digital", "Adiksi (Kecanduan) Internet dan Gawai", "Digital Detox", "Multitasking"],
+    "a": 1,
+    "e": "Desain platform modern mengeksploitasi sistem dopamin otak. Penggunaan tanpa kontrol (Screen Time berlebih) berujung pada adiksi patologis yang merusak ritme sirkadian (tidur) dan regulasi emosi."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Banyak remaja merasa cemas, rendah diri, atau takut tertinggal tren saat melihat unggahan kehidupan liburan mewah teman-temannya di media sosial. Sindrom kecemasan psikologis sosial ini dikenal dengan istilah...",
+    "o": ["Phishing", "FOMO (Fear Of Missing Out)", "Cyber-stalking", "Digital Divide"],
+    "a": 1,
+    "e": "FOMO adalah kecemasan eksistensial komparatif yang dipicu oleh paparan kurasi realitas buatan orang lain di media sosial, merasa orang lain memiliki pengalaman hidup yang lebih menghargai/baik."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Meskipun seorang *hacker* mengetahui *password* akun email Anda, ia tetap akan gagal masuk karena sistem meminta kode unik 6 angka yang dikirimkan langsung ke nomor SMS HP fisik Anda. Fitur lapisan pelindung keamanan siber ini bernama...",
+    "o": ["Incognito Mode", "VPN (Virtual Private Network)", "2FA (Two-Factor Authentication)", "Antivirus Firewall"],
+    "a": 2,
+    "e": "2FA (Verifikasi Dua Langkah) mencegah peretasan dengan mewajibkan kepemilikan token fisik sekunder (HP/Authenticator App) setelah lapisan pertama (Password) tertembus."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Riwayat pencarian *browser*, alamat IP komputer, dan data waktu durasi kunjungan *website* yang diam-diam direkam oleh server internet tanpa Anda sadari penuh diklasifikasikan sebagai...",
+    "o": ["Jejak Digital Aktif", "Jejak Digital Pasif", "Malware", "Open Source Data"],
+    "a": 1,
+    "e": "Jejak digital pasif tercipta sebagai produk sampingan teknis (logs/cookies) saat mesin berinteraksi. Berbeda dengan jejak aktif (foto sosmed) yang diunggah secara sadar oleh manusia."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Seorang pengguna memaki dan memfitnah reputasi bisnis sebuah restoran di kolom ulasan publik secara kasar tanpa bukti. Tindakan tidak etis tersebut dapat dijerat oleh hukum positif di Indonesia melalui...",
+    "o": ["Pasal Pencemaran Nama Baik di dalam UU ITE (Informasi dan Transaksi Elektronik)", "Undang-Undang Perlindungan Anak", "Hukum Adat Daerah", "UU Hak Cipta Musik"],
+    "a": 0,
+    "e": "UU ITE mengatur lalu lintas yurisdiksi siber. Distribusi konten elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik adalah tindak pidana yang memiliki sanksi hukum mengikat."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Saat berkunjung ke cafe, Andi menyambungkan HP-nya ke jaringan WiFi gratis tanpa <i>password</i> lalu melakukan transfer <i>M-Banking</i>. Mengapa secara teknis keamanan siber tindakan Andi ini sangat berisiko fatal?",
+    "o": ["Karena WiFi cafe biasanya lambat", "Data enkripsi M-Banking terlalu besar untuk router cafe", "Jaringan publik Terbuka (Open Network) sangat rentan diendus oleh peretas dalam satu jaringan yang sama menggunakan teknik pencegatan lalu-lintas data (Man-in-the-Middle Attack)", "Akan menghabiskan baterai HP"],
+    "a": 2,
+    "e": "Jaringan nirkabel tanpa enkripsi otentikasi WPA (Open WiFi) mengirimkan paket data radio secara telanjang. Peretas ('Sniffer') di meja sebelah dapat menyadap paket sandi/login finansial di udara."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Kehadiran aplikasi seperti Halodoc atau Alodokter merevolusi cara masyarakat pedesaan mengakses diagnosis tenaga medis spesialis di perkotaan tanpa harus bepergian jauh. Inovasi digital ini merupakan penerapan dari sistem...",
+    "o": ["Telemedicine (Kesehatan Jarak Jauh / E-Health)", "E-Commerce", "E-Learning", "Digital Banking"],
+    "a": 0,
+    "e": "Telemedicine menjembatani demografi geografis dengan infrastruktur klinis melalui teknologi telekomunikasi, menyediakan konsultasi dan resep dokter secara real-time jarak jauh."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Saat melihat teman sekelas di-<i>bully</i> habis-habisan di sebuah grup <i>chat</i>, Budi memilih diam saja dan tidak melaporkannya ke guru karena takut ikut diserang. Secara kajian sosiologi siber, sikap pasif (Bystander) yang dilakukan Budi ini secara tidak langsung...",
+    "o": ["Akan menghentikan aksi bullying tersebut dengan sendirinya", "Memvalidasi dominasi pelaku dan membuat trauma korban semakin dalam karena merasa tidak ada satu pun yang membelanya secara moral", "Merupakan tindakan yang paling etis di internet", "Mencegah peretasan akun grup"],
+    "a": 1,
+    "e": "Dalam Cyberbullying, kebungkaman audiens (Bystander Effect) diinterpretasikan oleh pelaku sebagai persetujuan tak langsung (Implicit Approval), mengipasi ego mereka untuk terus menyiksa korban."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Pemerintah meluncurkan portal 'Satu Data' dan aplikasi pendaftaran paspor *online* untuk memangkas birokrasi, calo, dan antrean panjang di kantor imigrasi fisik. Pergeseran layanan publik berbasis teknologi ini dikenal sebagai penerapan...",
+    "o": ["Smart City dan E-Government (Pemerintahan Elektronik)", "E-Business", "Cyber-warfare", "Social Networking"],
+    "a": 0,
+    "e": "E-Government adalah adopsi instrumen Teknologi Informasi dan Komunikasi (TIK) oleh instansi pemerintahan untuk mentransformasi efisiensi, transparansi, dan aksesibilitas pelayanan publik."
+  },
+  {
+    "c": "Dampak Sosial Informatika",
+    "q": "Menggali data privat orang lain (seperti KTP, alamat rumah, identitas keluarga) dari berbagai platform secara paksa lalu menyebarkannya secara masif di Twitter untuk memicu persekusi atau tindakan main hakim sendiri secara massa disebut tindakan kejahatan...",
+    "o": ["Phishing", "Carding", "Doxing (Dropping Dox)", "Spamming"],
+    "a": 2,
+    "e": "Doxing (pengungkapan dokumen/identitas rahasia) adalah pelucutan privasi yang bertujuan untuk intimidasi atau penghukuman sosial brutal di ruang digital publik, melanggar hak privasi personal secara absolut."
+  }
+]

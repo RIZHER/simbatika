@@ -1,7 +1,7 @@
 [
   {
     "id": "sma-12-us-2026-pkt1",
-    "title": "Simulasi Ujian Sekolah - Kuis 1",
+    "title": "12 SMA Simulasi Ujian Sekolah - Kuis 1",
     "level": "SMA",
     "class": "12 SMA",
     "subject": "Informatika",
@@ -11,7 +11,7 @@
   },
   {
     "id": "sma-12-us-2026-pkt2",
-    "title": "Simulasi Ujian Sekolah - Kuis 2",
+    "title": "12 SMA Simulasi Ujian Sekolah - Kuis 2",
     "level": "SMA",
     "class": "12 SMA",
     "subject": "Informatika",
@@ -21,7 +21,7 @@
   },
   {
     "id": "sma-11-us-2026-pkt1",
-    "title": "Persiapan PAT / US Semester Genap - Paket 1",
+    "title": "11 SMA Persiapan PAT / US Semester Genap - Paket 1",
     "level": "SMA",
     "class": "11 SMA",
     "subject": "Informatika",
@@ -31,7 +31,7 @@
   },
   {
     "id": "sma-11-us-2026-pkt2",
-    "title": "Persiapan PAT / US Semester Genap - Paket 2",
+    "title": "11 SMA Persiapan PAT / US Semester Genap - Paket 2",
     "level": "SMA",
     "class": "11 SMA",
     "subject": "Informatika",
@@ -41,7 +41,7 @@
   },
   {
     "id": "sma-10-us-2026-pkt1",
-    "title": "Persiapan PAT / US Semester Genap - Paket 1",
+    "title": "10 SMA Persiapan PAT / US Semester Genap - Paket 1",
     "level": "SMA",
     "class": "10 SMA",
     "subject": "Informatika",
@@ -51,7 +51,7 @@
   },
   {
     "id": "sma-10-us-2026-pkt2",
-    "title": "Persiapan PAT / US Semester Genap - Paket 2",
+    "title": "10 SMA Persiapan PAT / US Semester Genap - Paket 2",
     "level": "SMA",
     "class": "10 SMA",
     "subject": "Informatika",
@@ -61,7 +61,7 @@
   },
   {
     "id": "smp-09-uas-sem2-2026-pkt1",
-    "title": "Simulasi ASAS Semester Genap - Paket 1",
+    "title": "9 SMP Simulasi ASAS Semester Genap - Paket 1",
     "level": "SMP",
     "class": "9 SMP",
     "subject": "Informatika",
@@ -71,7 +71,7 @@
   },
   {
     "id": "smp-09-uas-sem2-2026-pkt2",
-    "title": "Simulasi ASAS Semester Genap - Paket 2",
+    "title": "9 SMP Simulasi ASAS Semester Genap - Paket 2",
     "level": "SMP",
     "class": "9 SMP",
     "subject": "Informatika",
@@ -81,7 +81,7 @@
   },
   {
     "id": "smp-08-uas-sem2-2026-pkt1",
-    "title": "Simulasi ASAS Semester Genap - Paket 1",
+    "title": "8 SMP Simulasi ASAS Semester Genap - Paket 1",
     "level": "SMP",
     "class": "8 SMP",
     "subject": "Informatika",
@@ -91,7 +91,7 @@
   },
   {
     "id": "smp-08-uas-sem2-2026-pkt2",
-    "title": "Simulasi ASAS Semester Genap - Paket 2",
+    "title": "8 SMP Simulasi ASAS Semester Genap - Paket 2",
     "level": "SMP",
     "class": "8 SMP",
     "subject": "Informatika",
@@ -100,8 +100,28 @@
     "description": "Latihan Paket 2 Kelas 8 mematangkan pemahaman Pivot Table, Fungsi VLOOKUP/IF, Logika Perulangan Bersarang Scratch, dan Literasi Keamanan Digital."
   },
   {
+    "id": "smp-08-uas-sem2-2026-pkt3",
+    "title": "8 SMP Simulasi ASAS Semester Genap - Paket 3",
+    "level": "SMP",
+    "class": "8 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_08_uas_sem2_2026_pkt3.json",
+    "questionCount": 100,
+    "description": "Latihan Paket 3 Kelas 8 mematangkan pemahaman Pivot Table, Fungsi VLOOKUP/IF, Logika Perulangan Bersarang Scratch, dan Literasi Keamanan Digital."
+  },
+  {
+    "id": "smp-08-uas-sem2-2026-pkt4",
+    "title": "8 SMP Simulasi ASAS Semester Genap - Paket 4",
+    "level": "SMP",
+    "class": "8 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_08_uas_sem2_2026_pkt4.json",
+    "questionCount": 100,
+    "description": "Latihan Paket 4 Kelas 8 mematangkan pemahaman Pivot Table, Fungsi VLOOKUP/IF, Logika Perulangan Bersarang Scratch, dan Literasi Keamanan Digital."
+  },
+  {
     "id": "smp-07-uas-sem2-2026-pkt1",
-    "title": "Persiapan UAS / ASAS Semester Genap - Paket 1",
+    "title": "7 SMP Simulasi ASAS Semester Genap - Paket 1",
     "level": "SMP",
     "class": "7 SMP",
     "subject": "Informatika",
@@ -111,7 +131,7 @@
   },
   {
     "id": "smp-07-uas-sem2-2026-pkt2",
-    "title": "Persiapan UAS / ASAS Semester Genap - Paket 2",
+    "title": "7 SMP Simulasi ASAS Semester Genap - Paket 2",
     "level": "SMP",
     "class": "7 SMP",
     "subject": "Informatika",
@@ -120,8 +140,28 @@
     "description": "Paket simulasi pengayaan kedua kelas 7 SMP untuk mematangkan logika pemrograman visual Scratch dan literasi digital."
   },
   {
+    "id": "smp-07-uas-sem2-2026-pkt3",
+    "title": "7 SMP Simulasi ASAS Semester Genap - Paket 3",
+    "level": "SMP",
+    "class": "7 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_07_uas_sem2_2026_pkt3.json",
+    "questionCount": 100,
+    "description": "Paket simulasi pengayaan ketiga kelas 7 SMP untuk mematangkan logika pemrograman visual Scratch dan literasi digital."
+  },
+  {
+    "id": "smp-07-uas-sem2-2026-pkt4",
+    "title": "7 SMP Simulasi ASAS Semester Genap - Paket 4",
+    "level": "SMP",
+    "class": "7 SMP",
+    "subject": "Informatika",
+    "file": "data/smp_07_uas_sem2_2026_pkt4.json",
+    "questionCount": 100,
+    "description": "Paket simulasi pengayaan keempat kelas 7 SMP untuk mematangkan logika pemrograman visual Scratch dan literasi digital."
+  },
+  {
     "id": "sd-06-uas-sem2-2026-pkt1",
-    "title": "Latihan Ujian Semester Genap - Paket 1",
+    "title": "6 SD Latihan Ujian Semester Genap - Paket 1",
     "level": "SD",
     "class": "6 SD",
     "subject": "Informatika",
@@ -131,7 +171,7 @@
   },
   {
     "id": "sd-06-uas-sem2-2026-pkt2",
-    "title": "Latihan Ujian Semester Genap - Paket 2",
+    "title": "6 SD Latihan Ujian Semester Genap - Paket 2",
     "level": "SD",
     "class": "6 SD",
     "subject": "Informatika",
@@ -141,7 +181,7 @@
   },
   {
     "id": "sd-05-uas-sem2-2026-pkt1",
-    "title": "Latihan Ujian Semester Genap - Paket 1",
+    "title": "5 SD Latihan Ujian Semester Genap - Paket 1",
     "level": "SD",
     "class": "5 SD",
     "subject": "Informatika",
@@ -151,7 +191,7 @@
   },
   {
     "id": "sd-05-uas-sem2-2026-pkt2",
-    "title": "Latihan Ujian Semester Genap - Paket 2",
+    "title": "5 SD Latihan Ujian Semester Genap - Paket 2",
     "level": "SD",
     "class": "5 SD",
     "subject": "Informatika",
@@ -161,7 +201,7 @@
   },
   {
     "id": "sd-04-uas-sem2-2026-pkt1",
-    "title": "Latihan Ujian Semester Genap - Paket 1",
+    "title": "4 SD Latihan Ujian Semester Genap - Paket 1",
     "level": "SD",
     "class": "4 SD",
     "subject": "Informatika",
@@ -171,7 +211,7 @@
   },
   {
     "id": "sd-04-uas-sem2-2026-pkt2",
-    "title": "Latihan Ujian Semester Genap - Paket 2",
+    "title": "4 SD Latihan Ujian Semester Genap - Paket 2",
     "level": "SD",
     "class": "4 SD",
     "subject": "Informatika",
